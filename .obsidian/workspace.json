@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "1c682a7494a61cc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "f75fd07ccda3a2e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e250c0af9af733ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72a40fe72a7656c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fdf28cf5eafde08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb48029b599315ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cdbc4b80ddce9efa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#cálculo",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "737047463c794092",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fdbdc5556081ecb9",
+    "type": "split",
+    "children": [
+      {
+        "id": "3dd405cb7cc59041",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f5e6bb5298563d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c5293f66bea8ca0f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e361c2edb5f51498",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "29eee0b7d72d6842",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e250c0af9af733ba",
+  "lastOpenFiles": [
+    "Computação/Natureza da Informação",
+    "Computação/Programação Estruturada",
+    "Computação/Otimização Linear",
+    "Humanas/Ciência, Tecnologia e Sociedade.md",
+    "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
+    "Humanas/Ciência, Tecnologia e Sociedade",
+    "Humanas/Estrutura Dinâmica e Social.md",
+    "Humanas/Estrutura Dinâmica e Social",
+    "Matemática/Cálculo/Limite.md",
+    "Humanas",
+    "Matemática/Cálculo/Integral.md",
+    "Matemática/Cálculo/Derivada.md",
+    "Matemática/Cálculo/Teorema do confronto.md",
+    "Matemática/Untitled.md",
+    "Matemática/Probabilidade e estatística",
+    "2024-10-13.md",
+    "Matemática/Geometria Analítica/Vetores.md",
+    "Assets/Vetor.png",
+    "Assets",
+    "Naturais/Química/Bioquímica.md",
+    "Matemática",
+    "Naturais/Untitled.md",
+    "Naturais/Biologia",
+    "Naturais/Química",
+    "Naturais/Química.md",
+    "Welcome.md"
+  ]
+}

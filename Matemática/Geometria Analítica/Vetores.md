@@ -49,16 +49,13 @@ O produto escalar é a projeção do vetor $\vec{a}$ sob a direção $\hat{b}$ ,
 
 $$\Large \vec{a} \cdot \vec{b} = ||\vec{a}|| \ ||\vec{b}|| \ cos\ \theta$$
 
-![[Dot_Product.png]]
-<p style="font-size: 10px"><a href="https://commons.wikimedia.org/wiki/File:Dot_Product.svg">Imagem: Produto Escalar</a> / Domínio Público<br>Imagem alterada para ter melhor visibilidade</p>
-
 O produto escalar pode ser usado para calcular o ângulo entre 2 vetores, sejam $\vec{a}$ e $\vec{b}$ vetores e $\theta$ o ângulo entre $\vec{a}$ e $\vec{b}$ :
 
 $$\cos(\theta) = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| . ||\vec{b}||}$$
 
 Logo,
 
-$$\theta = \arccos (\frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| . ||\vec{b}||})$$
+$$\theta = \arccos \bigg(\frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| . ||\vec{b}||}\bigg)$$
 
 Assim, pode-se concluir que se $\vec{a} \cdot \vec{b} = 0 \iff |\theta| = \frac{\pi}{2}$ , ou seja, o ângulo entre eles é um ângulo reto.
 ### Produto vetorial

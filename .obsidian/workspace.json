@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "fdbdc5556081ecb9",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md"
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md"
               }
             }
           }
@@ -148,30 +148,33 @@
   },
   "active": "e250c0af9af733ba",
   "lastOpenFiles": [
+    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Discretas.md",
+    "Matemática/Geometria Analítica/Vetores.md",
+    "Matemática/Cálculo/Integral.md",
+    "Matemática/Cálculo/Derivada.md",
+    "Funções de primeiro grau.md",
+    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
+    "Matemática/Probabilidade e estatística/Análise Combinatória.md",
+    "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
     "Computação/Natureza da Informação",
     "Computação/Programação Estruturada",
     "Computação/Otimização Linear",
     "Humanas/Ciência, Tecnologia e Sociedade.md",
-    "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
     "Humanas/Ciência, Tecnologia e Sociedade",
     "Humanas/Estrutura Dinâmica e Social.md",
     "Humanas/Estrutura Dinâmica e Social",
     "Matemática/Cálculo/Limite.md",
     "Humanas",
-    "Matemática/Cálculo/Integral.md",
-    "Matemática/Cálculo/Derivada.md",
     "Matemática/Cálculo/Teorema do confronto.md",
     "Matemática/Untitled.md",
     "Matemática/Probabilidade e estatística",
     "2024-10-13.md",
-    "Matemática/Geometria Analítica/Vetores.md",
     "Assets/Vetor.png",
     "Assets",
     "Naturais/Química/Bioquímica.md",
     "Matemática",
     "Naturais/Untitled.md",
     "Naturais/Biologia",
-    "Naturais/Química",
     "Naturais/Química.md",
     "Welcome.md"
   ]

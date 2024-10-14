@@ -14,7 +14,7 @@ $$\Large P(a<x<b) = \int_a^bf(x)dx$$
 
 $$\large E(X) =\int_{-\infty}^\infty x\ f(x)\ dx$$
 
-$$\large \text{Var}(x)=E(X^2) - [E(X)]^2$$
+$$\large \text{Var}(X)=E(X^2) - [E(X)]^2$$
 
 $$\large\sigma(X) = \sqrt{\text{Var}(X)}$$
 

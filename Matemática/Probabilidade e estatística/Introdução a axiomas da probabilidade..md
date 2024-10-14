@@ -20,6 +20,7 @@ Aditividade: $P(A\cup B)$ = $P(A) + P(B) - P(A\cap B)$
 
 Normalização: $P(\Omega) = 1$
 ## Propriedades
+
 Sejam A e B eventos **independentes**:
 $$P(\varnothing) = 0$$
 $$P(E^C) = 1 - (P(E))$$

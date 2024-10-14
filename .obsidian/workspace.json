@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Discretas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Discretas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Discretas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md"
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Discretas.md"
               }
             }
           }
@@ -148,14 +148,16 @@
   },
   "active": "e250c0af9af733ba",
   "lastOpenFiles": [
-    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Discretas.md",
+    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
+    "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
+    "Matemática/Probabilidade e estatística/Análise Combinatória.md",
     "Matemática/Geometria Analítica/Vetores.md",
+    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Discretas.md",
+    "Naturais/Química/Bioquímica.md",
+    "LICENSE",
     "Matemática/Cálculo/Integral.md",
     "Matemática/Cálculo/Derivada.md",
     "Funções de primeiro grau.md",
-    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
-    "Matemática/Probabilidade e estatística/Análise Combinatória.md",
-    "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
     "Computação/Natureza da Informação",
     "Computação/Programação Estruturada",
     "Computação/Otimização Linear",
@@ -171,10 +173,8 @@
     "2024-10-13.md",
     "Assets/Vetor.png",
     "Assets",
-    "Naturais/Química/Bioquímica.md",
     "Matemática",
     "Naturais/Untitled.md",
-    "Naturais/Biologia",
     "Naturais/Química.md",
     "Welcome.md"
   ]

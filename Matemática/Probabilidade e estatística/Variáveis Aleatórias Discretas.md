@@ -7,7 +7,7 @@ tags:
 
 ## Definição
 
-Quando o espaço amostral é um conjunto discreto de números reais, podemos fazer uma análise discreta do espaço e de um evento $X \in \Omega$.
+Quando o espaço amostral é um conjunto discreto de números reais, podemos fazer uma análise discreta do espaço e de uma variável $X \in \mathbb{Z}$.
 
 ## Função de probabilidade / Média ponderada:
 
@@ -17,6 +17,13 @@ $$\large E(X) = \sum_i x_i\ p(x_i)$$
 $$\large F(a) = P(x\le a) = \sum_{x_i\le a} P(x_i)$$
 ## Variância:
 $$\large \text{Var}(X) = E(X^2) - (E(X))^2$$
+## Covariância:
 
+$$\large \text{Cov}(X,Y) = E(XY) - E(X)E(Y)$$
 ## Desvio padrão
-$$\text{Var}(X) = \sqrt{E(X)}$$
+$$\large \sigma(X) = \sqrt{\text{Var}{(X)}}$$
+TODO: verifica isso mais tarde
+
+### Coeficiente de correlação de Pearson:
+$$\large\rho(X,Y) = \frac{\text{Cov(X,Y)}}{\sigma(X)\sigma(Y)}$$
+$$\text{dom}(\rho) = [-1,1]$$

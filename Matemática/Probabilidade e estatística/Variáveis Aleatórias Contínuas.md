@@ -12,11 +12,15 @@ $$\Large P(a<x<b) = \int_a^bf(x)dx$$
 
 ## Valor Esperado e Variância
 
+Seja $X \in \mathbb{R}$ qualquer variável aleatória:
+
 $$\large E(X) =\int_{-\infty}^\infty x\ f(x)\ dx$$
 
 $$\large \text{Var}(X)=E(X^2) - [E(X)]^2$$
 
 $$\large\sigma(X) = \sqrt{\text{Var}(X)}$$
+
+## 
 
 ### Função de distribuição acumulada:
 
@@ -25,13 +29,37 @@ $$\large F(a) = P(X\le a) = \int_{-\infty}^a f(x)\ dx$$
 
 #### Variável Uniforme
 $$\large {f(x) = \begin{cases} C & \ a \le x \le b\\0\ &\text{caso contrário} \end{cases}}$$
+
+$$
+\begin{align}
+E(X) = \frac{a+b}{2}&&
+\text{Var}(X) = \frac{(a-b)^2}{12} &&
+\sigma(X) = \frac{b-a}{\sqrt{12}}
+\end{align}
+$$
 #### Variável Exponencial
 $$\large {f(x) = \begin{cases} \lambda e ^{-\lambda x} & \ x \ge 0\\0\ &\text{caso contrário} \end{cases}}$$
+$$
+\begin{align}
+E(X) =  \frac{1}{\lambda}&&
+\text{Var}(X) = \frac{1}{\lambda^2} &&
+\sigma(X) = \frac{1}{\lambda}
+\end{align}
+$$
 #### Variável Normal Gaussiana
 $$\large f(x) = \frac{1}{\sqrt{2\pi}\sigma}e^{-{(x-\micro )^2}/2\sigma^2}$$
-Onde:
+Onde:  
 - $\sigma$ é o desvio padrão
 - $\micro$ o centro da função
+
+$$
+\begin{align}
+E(X) = \micro &&
+\text{Var}(X) = \frac{1}{\lambda^2} &&
+\sigma(X) = \sigma
+\end{align}
+$$
+
 [Exemplo](https://www.desmos.com/calculator/vopqrpcmmz?lang=pt-BR)
 
 A função normal gaussiana existe $\forall \ x\in\mathbb{R}$, ou seja, $\int_{-\infty}^{\infty}f(x)dx = 1$

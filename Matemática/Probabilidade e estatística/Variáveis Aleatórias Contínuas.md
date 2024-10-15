@@ -19,7 +19,7 @@ $$\Large P(a<x<b) = \int_a^bf(x)dx$$
 
 ## Valor Esperado e Variância
 
-Seja $X \in \mathbb{R}$ qualquer variável aleatória:
+Seja $X \in \mathbb{R}$ uma variável aleatória:
 
 $$\large E(X) =\int_{-\infty}^\infty x\ f(x)\ dx$$
 

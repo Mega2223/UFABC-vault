@@ -7,20 +7,21 @@ tags:
 
 ## Definição
 
-Quando o espaço amostral é um conjunto discreto de números reais, podemos fazer uma análise discreta do espaço e de uma variável evento $X \in \mathbb{Z}$.
+Quando o espaço amostral é um conjunto discreto de números reais, podemos fazer uma análise discreta do espaço e de uma variável aleatória qualquer $X \in \mathbb{Z}$.
 
-## Função de probabilidade / Média ponderada:
+## Funções e axiomas
+### Função de probabilidade / Média ponderada:
 
 $$\large E(X) = \sum_i x_i\ p(x_i)$$
-## Função de probabilidade acumulada:
+### Função de probabilidade acumulada:
 
 $$\large F(a) = P(x\le a) = \sum_{x_i\le a} P(x_i)$$
-## Variância:
+### Variância:
 $$\large \text{Var}(X) = E(X^2) - (E(X))^2$$
-## Covariância:
+### Covariância:
 
 $$\large \text{Cov}(X,Y) = E(XY) - E(X)E(Y)$$
-## Desvio padrão
+### Desvio padrão
 $$\large \sigma(X) = \sqrt{\text{Var}{(X)}}$$
 TODO: verifica isso mais tarde
 

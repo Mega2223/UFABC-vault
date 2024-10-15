@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Análise Combinatória.md",
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Análise Combinatória.md",
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Análise Combinatória.md",
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Análise Combinatória.md"
+                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md"
               }
             }
           }
@@ -144,22 +144,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": false,
       "random-note:Open random note": false
     }
   },
   "active": "a95dc5d14c6ce3c0",
   "lastOpenFiles": [
-    "Matemática/Geometria Analítica/Vetores.md",
-    "Matemática/Cálculo/Teorema do confronto.md",
-    "Matemática/Cálculo/Limite.md",
-    "Matemática/Cálculo/Integral.md",
-    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
-    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Multidimensionais.md",
     "Matemática/Probabilidade e estatística/Variáveis Aleatórias Discretas.md",
+    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
     "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
-    "Matemática/Probabilidade e estatística/Análise Combinatória.md",
     "Untitled.canvas",
+    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Multidimensionais.md",
+    "Matemática/Cálculo/Limite.md",
+    "Matemática/Cálculo/Teorema do confronto.md",
+    "Matemática/Geometria Analítica/Vetores.md",
+    "Matemática/Probabilidade e estatística/Análise Combinatória.md",
+    "Matemática/Cálculo/Integral.md",
     "2024-10-14.md",
     "Matemática/Probabilidade e estatística/Untitled",
     "Naturais/Química/Bioquímica",

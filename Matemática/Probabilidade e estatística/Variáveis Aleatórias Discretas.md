@@ -7,7 +7,7 @@ tags:
 
 ## Definição
 
-Quando o espaço amostral é um conjunto discreto de números reais, podemos fazer uma análise discreta do espaço e de uma variável $X \in \mathbb{Z}$.
+Quando o espaço amostral é um conjunto discreto de números reais, podemos fazer uma análise discreta do espaço e de uma variável evento $X \in \mathbb{Z}$.
 
 ## Função de probabilidade / Média ponderada:
 

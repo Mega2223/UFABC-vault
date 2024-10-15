@@ -1,3 +1,10 @@
+---
+tags:
+  - estatística
+  - cálculo
+  - matemática
+authors: Júlio César
+---
 
 ## Definição
 

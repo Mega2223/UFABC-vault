@@ -5,8 +5,30 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Computação  ",
+      "color": {
+        "a": 1,
+        "rgb": 5412832
+      }
+    },
+    {
+      "query": "path:Matemática  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Humanas  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,

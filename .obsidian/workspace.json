@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
+                "file": "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fdbdc5556081ecb9",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
+                "file": "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
+                "file": "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md"
+                "file": "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md"
               }
             }
           }
@@ -149,16 +150,18 @@
   },
   "active": "a95dc5d14c6ce3c0",
   "lastOpenFiles": [
-    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Discretas.md",
-    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Contínuas.md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
+    "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
+    "Humanas/Estrutura Dinâmica e Social/Weber.md",
+    "Humanas/Estrutura Dinâmica e Social/Marx.md",
+    "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Discretas.md",
     "Untitled",
     "Pesquisa",
-    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Multidimensionais.md",
-    "Matemática/Probabilidade e estatística/Análise Combinatória.md",
-    "Matemática/Probabilidade e estatística/Introdução a axiomas da probabilidade..md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
+    "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
+    "Matemática/Probabilidade e Estatística/Introdução a axiomas da probabilidade..md",
     "Assets/Vetor.png",
-    "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
-    "Humanas/Estrutura Dinâmica e Social/Marx.md",
     "Matemática/Geometria Analítica/Vetores.md",
     "Matemática/Cálculo/Derivada.md",
     "Untitled.canvas",

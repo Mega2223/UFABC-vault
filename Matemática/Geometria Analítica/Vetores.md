@@ -88,7 +88,7 @@ $\vec{a} \times \vec{b} = - (\vec{b} \times \vec{a})$
 ## Operações cartesianas
 
 Geometricamente, um vetor é um conjunto de todos os segmentos de mesmo tamanho, direção e sentido em um plano cartesiano. O conjunto de possíveis vetores é chamado de espaço vetorial.
-$$\large \vec{v} \in \mathbb V$$
+$$\large \vec{v} \in \mathbb V^n$$
 Um vetor pode ser representado pelo diferencial de dois pontos cartesianos, sejam $A$ e $B \in \mathbb{R}^n$ , $n \in \mathbb{N}$ dois pontos, o vetor $\vec{AB}$ é diferença entre os pontos $A$ e $B$:
 
 $$\overset{\longrightarrow}{AB} = B - A$$ 

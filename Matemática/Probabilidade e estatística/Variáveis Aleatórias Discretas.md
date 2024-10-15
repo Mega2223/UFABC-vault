@@ -16,15 +16,13 @@ $$\large E(X) = \sum_i x_i\ p(x_i)$$
 ### Função de probabilidade acumulada:
 
 $$\large F(a) = P(x\le a) = \sum_{x_i\le a} P(x_i)$$
-### Variância:
+### Variância
 $$\large \text{Var}(X) = E(X^2) - (E(X))^2$$
-### Covariância:
-
-$$\large \text{Cov}(X,Y) = E(XY) - E(X)E(Y)$$
 ### Desvio padrão
 $$\large \sigma(X) = \sqrt{\text{Var}{(X)}}$$
-TODO: verifica isso mais tarde
+### Covariância
 
-### Coeficiente de correlação de Pearson:
+$$\large \text{Cov}(X,Y) = E(XY) - E(X)E(Y)$$
+### Coeficiente de correlação de Pearson
 $$\large\rho(X,Y) = \frac{\text{Cov(X,Y)}}{\sigma(X)\sigma(Y)}$$
 $$\text{dom}(\rho) = [-1,1]$$

@@ -49,9 +49,14 @@ Onde $\lambda \in \mathbb{R}$ é o número esperado de ocorrências num determin
 ## Teorema de Bayes
 
 $$\large P(A | B) = \frac{P(B | A) P (A)}{P(B)}$$
+($A$ e $B$ independentes)
+## Regra de produto
+$$P(B|A)=\frac{P(B\cap A)}{P(A)}$$
+($A$ e $B$ independentes)
 ## Principio fundamental da contagem
 
 $$\large Q = \prod_i q_i$$
 Onde:
 - $q_i$ é o modo distinto de cada ação
 - $Q$ é o número de modos distintos
+

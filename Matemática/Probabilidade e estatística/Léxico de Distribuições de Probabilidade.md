@@ -3,6 +3,7 @@ tags:
   - estatística
   - matemática
   - matemática-discreta
+  - incompleto
 authors: Júlio César
 ---
 
@@ -31,3 +32,5 @@ Similar à distribuição de Poisson, a [[Variáveis Aleatórias Contínuas#Vari
 ## Distribuição Normal
 
 A [[Variáveis Aleatórias Contínuas#Variável Normal Gaussiana|distribuição normal]] é a mais comum para boa parte dos dados reais, que tendem a replicar sua curva, então é uma das funções mais utilizadas da estatística. Ela é definida em torno do valor esperado $\micro$, que é o centro da função, e um desvio padrão $\sigma$, que define o quão dispersa é a função.
+
+//todo realocar esses textos

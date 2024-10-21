@@ -19,7 +19,15 @@ Não negatividade: $1 \geq P(E) \geq 0$
 Aditividade: $P(A\cup B)$ = $P(A) + P(B) - P(A\cap B)$
 
 Normalização: $P(\Omega) = 1$
-## Propriedades
+
+## Teorema de Bayes
+
+$$\large P(A | B) = \frac{P(B | A) P (A)}{P(B)}$$
+($A$ e $B$ independentes)
+## Regra de produto
+$$\large P(B|A)=\frac{P(B\cap A)}{P(A)}$$
+($A$ e $B$ independentes)
+## Propriedades e definições
 
 Sejam A e B eventos **independentes**:
 $$P(\varnothing) = 0$$

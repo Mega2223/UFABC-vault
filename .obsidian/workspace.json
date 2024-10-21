@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
+                "file": "Matemática/Geometria Analítica/Vetores.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
+                "file": "Matemática/Geometria Analítica/Vetores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
+                "file": "Matemática/Geometria Analítica/Vetores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md"
+                "file": "Matemática/Geometria Analítica/Vetores.md"
               }
             }
           }
@@ -149,14 +149,14 @@
   },
   "active": "c34394b6fb0e0c3b",
   "lastOpenFiles": [
+    "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
     "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Discretas.md",
     "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
     "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
     "Matemática/Probabilidade e Estatística/Léxico de Distribuições de Probabilidade.md",
-    "Matemática/Probabilidade e Estatística/Introdução a axiomas da probabilidade..md",
-    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
+    "Matemática/Probabilidade e Estatística/Axiomas da probabilidade..md",
     "Matemática/Geometria Analítica/Vetores.md",
-    "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
     "funções elementares.md",
     "Humanas/Estrutura Dinâmica e Social/Weber.md",
     "Humanas/Estrutura Dinâmica e Social/Marx.md",
@@ -185,7 +185,6 @@
     "Matemática/Untitled.md",
     "2024-10-13.md",
     "Naturais/Untitled.md",
-    "Naturais/Química.md",
-    "Welcome.md"
+    "Naturais/Química.md"
   ]
 }

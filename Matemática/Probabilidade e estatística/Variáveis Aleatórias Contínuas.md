@@ -13,13 +13,13 @@ Em certos casos, estamos estudando probabilidades em espaços contínuos, onde a
 $$\Large P(a<x<b) = \int_a^bf(x)dx$$
 
 É necessário que:
+-  $f(x)\ge0 \ \ \forall x \in \mathbb{R}$ [[Axiomas da probabilidade.#Propriedades||(não negatividade)]]
+- $\int_{-\infty}^{\infty }f(x)dx = 1$ [[Axiomas da probabilidade.#Propriedades||(normalização)]]
 
--  $f(x)\ge0 \ \ \forall x \in \mathbb{R}$ [[Introdução a axiomas da probabilidade.#Propriedades||(não negatividade)]]
-- $\int_{-\infty}^{\infty }f(x)dx = 1$ [[Introdução a axiomas da probabilidade.#Propriedades||(normalização)]]
-
+Como resultado dessa função, a probabilidade em um único ponto $p \in \mathbb{R}$ é $\int_p^pf(x) dx = 0$, logo qualquer único valor têm probabilidade 0 e somente intervalos com algum comprimento têm probabilidades positivas.
 ## Valor Esperado e Variância
 
-Seja $X \in \mathbb{R}$ uma variável aleatória:
+Seja $X \in \mathbb{R}$ uma variável aleatória [[contínua]]:
 
 $$\large E(X) =\int_{-\infty}^\infty x\ f(x)\ dx$$
 

@@ -2,6 +2,7 @@
 tags:
   - matemática
   - geometria-analitica
+  - incompleto
 authors: Júlio César
 ---
 ## O que são Vetores

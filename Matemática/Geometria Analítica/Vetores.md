@@ -14,14 +14,7 @@ Vetores podem ser representados por setas, observe:
 
 O vetor é utilizado para quantificar quantidades que não podem ser expressadas por um número real, ele é considerado um tensor de primeira ordem.
 
-A [[derivada]] de um vetor também é um vetor, no cálculo vetorial pode ser notada de várias formas:
-
-| $\frac{\text{Ordem}}{\text{Notação}}$ |          0          |               1               |                 2                 |
-| :-----------------------------------: | :-----------------: | :---------------------------: | :-------------------------------: |
-|            $$\text{d/dx}$$            |  $$\Large\vec{v}$$  | $$\Large\frac{d}{dt}\vec{v}$$ | $$\Large\frac{d}{dt^2}\vec{v}^2$$ |
-|             $$\text{x'}$$             |  $$\Large\vec{v}$$  |      $$\Large\vec{v'}$$       |        $$\Large\vec{v''}$$        |
-|             $$\Delta x$$              |  $$\Large\vec{v}$$  |   $$\Large \nabla \vec{v}$$   | $$\Large \nabla \nabla \vec{v}$$  |
-|          $$\Large \dot{x}$$           | $$\Large{\vec{v}}$$ |  $$\Large {\dot{\vec{v}}}$$   |    $$\Large {\ddot{\vec{v}}}$$    |
+A [[derivada]] de um vetor também é um vetor, no cálculo vetorial pode ser notada de várias formas.
 
 No #cálculo e na #geometria-analitica, as notações $d/dx$ e $x"$ tendem a ser mais comuns, enquanto na #física a notação convencional da derivada de um vetor é $\dot{x}$ ou até mesmo $\nabla x$.
 ## Operações vetoriais
@@ -56,7 +49,7 @@ $$\cos(\theta) = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| . ||\vec{b}||}$$
 
 Logo,
 
-$$\theta = \arccos \bigg(\frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| . ||\vec{b}||}\bigg)$$
+$$\theta_{\vec{a}\vec{b}} = \arccos \bigg(\frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| . ||\vec{b}||}\bigg)$$
 
 Assim, pode-se concluir que se $\vec{a} \cdot \vec{b} = 0 \iff |\theta| = \frac{\pi}{2}$ , ou seja, o ângulo entre eles é um ângulo reto.
 ### Produto vetorial
@@ -90,6 +83,5 @@ $\vec{a} \times \vec{b} = - (\vec{b} \times \vec{a})$
 
 Geometricamente, um vetor é um conjunto de todos os segmentos de mesmo tamanho, direção e sentido em um plano cartesiano. O conjunto de possíveis vetores é chamado de espaço vetorial.
 $$\large \vec{v} \in \mathbb V^n$$
-Um vetor pode ser representado pelo diferencial de dois pontos cartesianos, sejam $A$ e $B \in \mathbb{R}^n$ , $n \in \mathbb{N}$ dois pontos, o vetor $\vec{AB}$ é diferença entre os pontos $A$ e $B$:
-
+Um vetor pode ser representado pelo diferencial de dois pontos cartesianos, sejam $A$ e $B \in \mathbb{R}^n$ , $n \in \mathbb{N}$ dois pontos, o vetor $\vec{AB}$ é diferença entre os pontos $A$ e $B$
 $$\overset{\longrightarrow}{AB} = B - A$$ 

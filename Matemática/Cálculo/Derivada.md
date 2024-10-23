@@ -27,8 +27,7 @@ Como $h \to 0$, é necessário entender a função para descobrir este limite. O
 
 
 A derivada pode ser descrita de diversas formas, além de $f'(x)$  outra forma bem comum de descrever a derivada de uma função é $\frac{d}{dx}f(x)$, ou $\frac{df}{dx}x$, na #física é mais comum a notação $\dot{x}$ para a derivada de $x$.
-
-## Propriedades
+## Derivadas comuns
 Seja $c \in \mathbb{R}$ uma constante, $f$ e $g$ funções contínuas e diferenciáveis:
 
 $\large \frac{d}{dx} cx = c$
@@ -44,6 +43,14 @@ $\large (f.g)'(x) = f'(x).g(x)+g'(x).f(x)$
 $\large (f/g)'(x) = \frac{f'(x).g(x) - f(x).g'(x)}{g(x)^2}$
 
 $\large (f\circ g)'(x) = f'(g(x)) .g'(x)$
+
+## Propriedades
+### Teorema de Rolle
+Sejam $f$ e $g$ funções contínuas em $[a,b]$, diferenciáveis em $(a,b)$, $f(a) = f(b)$:
+$$\large\exists c \in (a,b)\ \ f'(c) = 0$$
+### Teorema do valor médio
+Sejam $f$ e $g$ funções contínuas em $[a,b]$, diferenciáveis em $(a,b)$, $f(a) = f(b)$:
+$$\large\exists c \in (a,b)\ \ f'(c) = \frac{f(b) - f(a)}{b-a}$$
 
 ## Notações
 $$\frac{d}{dx} f(x) = \frac {dy}{dx} = f'(x) = y' = Df(x) = f^{(1)}(x)$$
@@ -77,3 +84,8 @@ Logo, concluímos que a derivada do círculo unitário é $\frac{-x}{y}$, ou sej
 <div style="display:flex; align-items:center; justify-content: center">
 <iframe src="https://www.desmos.com/calculator/rt8xhe1shj?embed" width="250" height="250" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
+
+## Regra de L'Hospital
+
+Sejam $f$ e $g$ funções diferenciáveis (exceto possivelmente em $c$), $c \in \mathbb{R}$, $g'(c) \ne 0$, se $f(c) = 0$ e $g(c) = 0$
+$$\large \lim_{x\to c}\frac{f(x)}{g(x)} = \frac{f'(x)}{g'(x)}$$

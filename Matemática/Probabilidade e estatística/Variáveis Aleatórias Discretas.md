@@ -17,14 +17,12 @@ Quando o espaço amostral é um conjunto discreto de números reais, podemos faz
 
 $$\large E(X) = \sum_i x_i\ p(x_i)$$
 ### Função de probabilidade acumulada:
-
 $$\large F(a) = P(x\le a) = \sum_{x_i\le a} P(x_i)$$
 ### Variância
 $$\large \text{Var}(X) = E(X^2) - (E(X))^2$$
 ### Desvio padrão
 $$\large \sigma(X) = \sqrt{\text{Var}{(X)}}$$
 
-## 
 ## Distribuição de Poisson
 
 Dado $n$ eventos em um intervalo fixo ou em uma taxa média constante, a probabilidade de que ocorram exatamente $k$ ocorrências é de

@@ -14,9 +14,7 @@ A análise combinatória é o estudo do comportamento de diferentes tipos de con
 
 ## Arranjos simples
 
-Um arranjo simples é um conjunto **ordenado** de elementos.
-#### Possibilidades
-Dado um conjunto de $n$ elementos, todas as possibilidades de subgrupos de tamanho $k$  sem elementos que se repetem se dá por;
+Um arranjo simples é um conjunto **ordenado** de elementos, dado um conjunto de $n$ elementos, todas as possibilidades de subgrupos de tamanho $k$  sem elementos que se repetem se dá por;
 
 $$\large A^n_k = \frac{n!}{(n-k)!}$$
 ## Arranjos com repetição
@@ -27,7 +25,7 @@ $$\large AR_n^k = n^k$$
 
 Uma combinação simples é um conjunto de elementos cuja a ordem é irrelevante, ou seja, uma combinação $EF$ é igual a uma combinação $FE$.
 #### Coeficiente Binomial
-O número de possíveis combinações de $k$ elementos de $n$ objetos é o coeficiente binomial, ele se dá pelo coeficiente binomial:
+O número de possíveis combinações de $k$ elementos de $n$ objetos é o coeficiente binomial, ele se dá pela função:
 
 $$\large C^n_k = \binom{n}{k} = \frac{n!}{k!(n-k)!}$$
 

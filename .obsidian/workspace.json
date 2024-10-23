@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Otimização Linear/Resolução Gráfica.md",
+                "file": "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Resolução Gráfica"
+              "title": "Análise Combinatória"
             }
           },
           {
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computação/Otimização Linear/Resolução Gráfica.md",
+                "file": "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Resolução Gráfica"
+              "title": "Backlinks for Análise Combinatória"
             }
           },
           {
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computação/Otimização Linear/Resolução Gráfica.md",
+                "file": "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Resolução Gráfica"
+              "title": "Outgoing links from Análise Combinatória"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computação/Otimização Linear/Resolução Gráfica.md"
+                "file": "Matemática/Probabilidade e Estatística/Análise Combinatória.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Resolução Gráfica"
+              "title": "Outline of Análise Combinatória"
             }
           }
         ]
@@ -179,17 +179,17 @@
   },
   "active": "bdb7a82cf76e929d",
   "lastOpenFiles": [
-    "Pasted image 20241022235334.png",
-    "Pasted image 20241022235314.png",
-    "Pasted image 20241022234906.png",
-    "Pasted image 20241022234723.png",
-    "Matemática/Cálculo/Derivada.md",
+    "Matemática/Cálculo/Série de Taylor.md",
     "Computação/Otimização Linear/Resolução Gráfica.md",
     "Computação/Otimização Linear/Modelo.md",
+    "Assets/Natureza da Informação/Pasted image 20241022235334.png",
+    "Assets/Natureza da Informação/Pasted image 20241022235314.png",
+    "Pasted image 20241022234723.png",
+    "Pasted image 20241022234906.png",
+    "Matemática/Cálculo/Derivada.md",
     "Matemática/Probabilidade e Estatística/Axiomas da probabilidade.md",
     "Matemática/Cálculo/Limite.md",
     "Matemática/Cálculo/Teorema do confronto.md",
-    "Matemática/Cálculo/Série de Taylor.md",
     "Naturais/Química/Hidrocarbonetos.md",
     "Assets/projetos.html",
     "Assets/Teste.html",

@@ -22,8 +22,7 @@ No #cálculo e na #geometria-analitica, as notações $d/dx$ e $x"$ tendem a ser
 Existem operações entre vetores :o, estas são:
 ### Soma / Subtração
 Dado vetores $\vec{a}$ e $\vec{b}$, $\vec{v} = \vec{a} + \vec{b}$:
-
-$\Large \vec{v}_i = \vec{a}_i + \vec{b}_i$
+$$\Large \vec{v}_i = \vec{a}_i + \vec{b}_i$$
 ### Tamanho / Magnitude
 
 Dado um vetor $\overrightarrow{v}$ que seja $n$ dimensional, sua magnitude é

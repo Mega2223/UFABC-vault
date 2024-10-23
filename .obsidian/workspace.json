@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
+                "file": "Computação/Otimização Linear/Resolução Gráfica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Análise Combinatória"
+              "title": "Resolução Gráfica"
             }
           },
           {
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
+                "file": "Computação/Otimização Linear/Resolução Gráfica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Análise Combinatória"
+              "title": "Backlinks for Resolução Gráfica"
             }
           },
           {
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
+                "file": "Computação/Otimização Linear/Resolução Gráfica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Análise Combinatória"
+              "title": "Outgoing links from Resolução Gráfica"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática/Probabilidade e Estatística/Análise Combinatória.md"
+                "file": "Computação/Otimização Linear/Resolução Gráfica.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Análise Combinatória"
+              "title": "Outline of Resolução Gráfica"
             }
           }
         ]
@@ -179,17 +179,21 @@
   },
   "active": "bdb7a82cf76e929d",
   "lastOpenFiles": [
-    "Matemática/Cálculo/Série de Taylor.md",
-    "Computação/Otimização Linear/Resolução Gráfica.md",
+    "Assets/Pasted image 20241022235314.png",
     "Computação/Otimização Linear/Modelo.md",
-    "Assets/Natureza da Informação/Pasted image 20241022235334.png",
-    "Assets/Natureza da Informação/Pasted image 20241022235314.png",
+    "Assets/Pasted image 20241022235334.png",
+    "Computação/Programação Estruturada/Funções Recursivas.md",
+    "Matemática/Geometria Analítica/Vetores.md",
+    "Matemática/Cálculo/Série de Taylor.md",
+    "Matemática/Cálculo/Teorema do confronto.md",
+    "Matemática/Cálculo/Derivada.md",
+    "Matemática/Cálculo/Integral.md",
+    "Matemática/Cálculo/Limite.md",
+    "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
+    "Computação/Otimização Linear/Resolução Gráfica.md",
     "Pasted image 20241022234723.png",
     "Pasted image 20241022234906.png",
-    "Matemática/Cálculo/Derivada.md",
     "Matemática/Probabilidade e Estatística/Axiomas da probabilidade.md",
-    "Matemática/Cálculo/Limite.md",
-    "Matemática/Cálculo/Teorema do confronto.md",
     "Naturais/Química/Hidrocarbonetos.md",
     "Assets/projetos.html",
     "Assets/Teste.html",
@@ -197,11 +201,8 @@
     "Assets/Untitled.md",
     "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Discretas.md",
     "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
-    "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
     "Naturais/Química/Transformações Químicas",
     "Naturais/Química/Estrutura da Matéria",
-    "Matemática/Geometria Analítica/Vetores.md",
-    "Matemática/Cálculo/Integral.md",
     "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
     "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
     "Matemática/Probabilidade e Estatística/Léxico de Distribuições de Probabilidade.md",
@@ -218,7 +219,6 @@
     "Naturais/Química/Bioquímica",
     "Naturais/Química/Bioquímica.md",
     "LICENSE",
-    "Funções de primeiro grau.md",
-    "Humanas/Ciência, Tecnologia e Sociedade.md"
+    "Funções de primeiro grau.md"
   ]
 }

@@ -18,7 +18,7 @@ flowchart TB
 ```
 #### Variáveis do modelo
 - Variáveis de decisão $x_1,\ x_2,\ ...,\ x_n$ (e seus respectivos pesos) $a_1,\ a_2,\ ...,\ a_n$
-- Função objetivo $f$
+- Função objetivo $(max | min)\ f$
 - Restrições do modelo
 
 #### Condições

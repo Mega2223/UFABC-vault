@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Otimização Linear/Resolução Gráfica.md",
+                "file": "Matemática/Geometria Analítica/Matriz.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Resolução Gráfica"
+              "title": "Matriz"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Otimização Linear/Modelo.md",
+                "file": "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modelo"
+              "title": "Variáveis Aleatórias Contínuas"
             }
           }
         ]
@@ -107,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computação/Otimização Linear/Resolução Gráfica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Resolução Gráfica"
+              "title": "Backlinks"
             }
           },
           {
@@ -126,12 +125,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computação/Otimização Linear/Resolução Gráfica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Resolução Gráfica"
+              "title": "Outgoing links"
             }
           },
           {
@@ -152,11 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Computação/Otimização Linear/Resolução Gráfica.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Resolução Gráfica"
+              "title": "Outline"
             }
           }
         ]
@@ -179,46 +175,47 @@
   },
   "active": "bdb7a82cf76e929d",
   "lastOpenFiles": [
-    "Assets/Pasted image 20241022235314.png",
-    "Computação/Otimização Linear/Modelo.md",
-    "Assets/Pasted image 20241022235334.png",
-    "Computação/Programação Estruturada/Funções Recursivas.md",
-    "Matemática/Geometria Analítica/Vetores.md",
-    "Matemática/Cálculo/Série de Taylor.md",
-    "Matemática/Cálculo/Teorema do confronto.md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
+    "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
     "Matemática/Cálculo/Derivada.md",
+    "Matemática/Cálculo/Derivadas Comuns.md",
     "Matemática/Cálculo/Integral.md",
     "Matemática/Cálculo/Limite.md",
-    "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
+    "Matemática/Cálculo/Teorema do confronto.md",
+    "Matemática/Cálculo/Série de Taylor.md",
+    "Computação/Otimização Linear/Modelo.md",
+    "Matemática/Geometria Analítica/Matriz.md",
+    "Matemática/Geometria Analítica/Combinação Linear.md",
+    "Matemática/Geometria Analítica/Equações da Reta.md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
+    "Naturais/Química/Hidrocarbonetos.md",
+    "Laboratório",
+    "Matemática/Geometria Analítica/Vetores.md",
+    "Matemática/Geometria Analítica/Equações do Plano.md",
+    "Computação/Otimização Linear/Variável de Folga.md",
     "Computação/Otimização Linear/Resolução Gráfica.md",
+    "Computação/Programação Estruturada/Funções Recursivas.md",
+    "Humanas/Estrutura Dinâmica e Social/Weber.md",
+    "Naturais/Química/Transformações Químicas/Experimentos",
+    "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
+    "Humanas/Estrutura Dinâmica e Social/Marx.md",
+    "Assets/Pasted image 20241022235334.png",
+    "Assets/Pasted image 20241022235314.png",
     "Pasted image 20241022234723.png",
     "Pasted image 20241022234906.png",
     "Matemática/Probabilidade e Estatística/Axiomas da probabilidade.md",
-    "Naturais/Química/Hidrocarbonetos.md",
     "Assets/projetos.html",
     "Assets/Teste.html",
     "Assets/Novo Documento de Texto.txt",
     "Assets/Untitled.md",
     "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Discretas.md",
-    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
     "Naturais/Química/Transformações Químicas",
     "Naturais/Química/Estrutura da Matéria",
-    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
     "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
-    "Matemática/Probabilidade e Estatística/Léxico de Distribuições de Probabilidade.md",
-    "funções elementares.md",
-    "Humanas/Estrutura Dinâmica e Social/Weber.md",
-    "Humanas/Estrutura Dinâmica e Social/Marx.md",
-    "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
-    "Untitled",
     "Pesquisa",
     "Assets/Vetor.png",
     "Untitled.canvas",
-    "2024-10-14.md",
     "Matemática/Probabilidade e estatística/Untitled",
-    "Naturais/Química/Bioquímica",
-    "Naturais/Química/Bioquímica.md",
-    "LICENSE",
-    "Funções de primeiro grau.md"
+    "Naturais/Química/Bioquímica"
   ]
 }

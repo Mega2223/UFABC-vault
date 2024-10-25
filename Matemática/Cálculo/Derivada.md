@@ -9,7 +9,7 @@ aliases:
 
 A derivada é a taxa de mudança instantânea de uma variável dependente em relação à uma variável independente. A derivada é comumente usada em sistemas de função, onde $x$ é a variável independente e $f(x)$ ou $y$ é a variável dependente de $x$.
 
-A derivada é definida por um [limite]], onde:
+A derivada é definida por um [[limite]], onde:
 $$f'(x) = \lim_{h\to 0}{\frac{f(x+h)-f(x)}{h}}$$
 Como $h \to 0$, é necessário entender a função para descobrir este limite. O número resultante do limite é o coeficiente angular da reta paralela ao ponto $x$ na função $f$.
 
@@ -27,24 +27,8 @@ Como $h \to 0$, é necessário entender a função para descobrir este limite. O
 
 
 A derivada pode ser descrita de diversas formas, além de $f'(x)$  outra forma bem comum de descrever a derivada de uma função é $\frac{d}{dx}f(x)$, ou $\frac{df}{dx}x$, na #física é mais comum a notação $\dot{x}$ para a derivada de $x$.
-## Derivadas comuns
-Seja $c \in \mathbb{R}$ uma constante, $f$ e $g$ funções contínuas e diferenciáveis:
-
-$\large \frac{d}{dx} cx = c$
-
-$\large \frac{d}{dx} x^c = cx^{c-1}$
-
-$\large \frac{d}{dx} e^x = e^x$ 
-
-$\large(f+g)'(x) = f'(x) + g'(x)$
-
-$\large (f.g)'(x) = f'(x).g(x)+g'(x).f(x)$
-
-$\large (f/g)'(x) = \frac{f'(x).g(x) - f(x).g'(x)}{g(x)^2}$
-
-$\large (f\circ g)'(x) = f'(g(x)) .g'(x)$
-
 ## Propriedades
+(Para derivadas comuns, veja [[Derivadas Comuns]])
 ### Teorema de Rolle
 Sejam $f$ e $g$ funções contínuas em $[a,b]$, diferenciáveis em $(a,b)$, $f(a) = f(b)$:
 $$\large\exists c \in (a,b)\ \ f'(c) = 0$$

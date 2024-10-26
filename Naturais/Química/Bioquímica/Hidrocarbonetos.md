@@ -1,0 +1,7 @@
+---
+tags:
+  - incompleto
+---
+
+
+$$\ce{CO2 + C -> 2 CO}$$

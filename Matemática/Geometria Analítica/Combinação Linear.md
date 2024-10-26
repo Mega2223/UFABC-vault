@@ -15,6 +15,15 @@ Um grupo de vetores é considerado linearmente dependente ($\text{LD}$) se somen
 - Quaisquer dois vetores $\vec{a}\ \vec{b}$ em $\mathbb{V}^2$ são $\text{LD} \iff \vec{a}\ ||\ \vec{b}$
 - Quaisquer três vetores em $\mathbb{V}^3$ são $\text{LD}$ se e somente se eles são coplanares
 - 4 ou mais vetores sempre são $\text{LD}$ <sub>para propósitos de GA</sub>
+
+**Axioma:** Dados 2 vetores $(\vec{u}\ \ \vec{v}) \in \mathbb{V}^2$ esses vetores são $\text{LI}$ e se somente se:
+$$\large\begin{align} \hat{v} \ne \hat{u} && \land  &&-\hat{v} \ne \hat{u} \end{align}$$
+**Axioma:** Podemos saber se 3 vetores $(\vec{u}\ \ \vec{v}\ \ \vec{w})  \in \mathbb{V}^3$ são $\text{LI}$ com a [[Matriz#Determinante|determinante]], esses vetores são $\text{LI}$ e se somente se:
+$$\text{det}\large\begin{pmatrix}
+u_{1} & u_{2} & u_{3}  \\
+v_{1} & v_{2} & v_{3}  \\
+w_{1} & w_{2} & w_{3}
+\end{pmatrix}\ne 0 $$
 ## Base
 
 Um conjunto ordenado de vetores $\text{LI}$ gera uma base onde todo e qualquer vetor pode ser descrito como combinação linear dos vetores da base.
@@ -27,4 +36,5 @@ Uma base é ortogonal se e somente se $\vec{a}\perp \vec{b}\ \ \forall (a,b)\in 
 Uma base é ortonormal se e somente se:
 - $\vec{a}\perp \vec{b}\ \ \forall (a,b)\in B$
 - $||\vec{a}|| \ \ \forall (a,b)\in B= 1$
-A base ortonormal é normalmente denotada pelos vetores $\vec{i}\ \vec{j}\ \vec{k}$, que representam os eixos $x$, $y$ e $z$ respectivamente.
+
+A base ortonormal é normalmente denotada pelos vetores $\vec{i}\ \vec{j}\ \vec{k}$, que representam os eixos $x$, $y$ e $z$ positivos respectivamente.

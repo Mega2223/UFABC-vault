@@ -5,7 +5,6 @@ tags:
   - computação
 authors: Júlio César
 ---
-
 ## Definição
 
 Dado um determinado [[modelo]], para encontrar a solução ótima pode-se usar de da resolução gráfica. Para fazer a resolução gráfica do modelo precisamos:

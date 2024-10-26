@@ -2,7 +2,7 @@
   "collapse-filter": false,
   "search": "",
   "showTags": false,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
@@ -25,20 +25,27 @@
       "query": "path:Humanas  ",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 14729554
+      }
+    },
+    {
+      "query": "path:Naturais/Química  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": 0.2,
+  "nodeSizeMultiplier": 1.19739583333333,
+  "lineSizeMultiplier": 1.65677083333333,
   "collapse-forces": false,
-  "centerStrength": 0.760416666666667,
+  "centerStrength": 0.239583333333333,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.36288736930121357,
+  "scale": 0.07058167567046564,
   "close": false
 }

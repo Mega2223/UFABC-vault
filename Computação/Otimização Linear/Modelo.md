@@ -18,7 +18,7 @@ flowchart TB
 ```
 #### Variáveis do modelo
 - Variáveis de decisão $x_1,\ x_2,\ ...,\ x_n$ (e seus respectivos pesos) $a_1,\ a_2,\ ...,\ a_n$
-- Função objetivo $(max | min)\ f$
+- Função objetivo $(max \lor min)\ f$
 - Restrições do modelo
 
 #### Condições
@@ -26,7 +26,6 @@ Para um modelo linear ser válido é necessário:
 - Todas as variáveis $x_1,\ x_2,\ ...,\ x_n\ \in \mathbb{R}$ 
 - $x_n \ge 0\ \ \forall x_n$ (não negatividade)
 - Variáveis devem ser _lineares_ (polinômios de ordem 1)
-- Restrições e
 
 #### Combinação Ótima
 Dada essas condições, o resultado da função objetivo deve ser uma combinação linear de todas as variáveis do problema. A meta do modelo é encontrar a combinação ótima, isso é, combinação onde as variáveis, dentro das restrições, melhor cumprem a função objetivo.

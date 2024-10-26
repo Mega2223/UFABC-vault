@@ -11,7 +11,7 @@ authors: Júlio César
 
 ## Distribuição Binomial
 
-A [[Variáveis Aleatórias Discretas#Coeficiente Binomial|distribuição binomial]] descreve uma situação onde a variável binomial $k$ percorre um conjunto de valores de $0$ a $n$, e descreve a quantidade de sucessos entre $n$ tentativas, quando sabemos a quantidade $p$ de um único sucesso.
+A [[Análise Combinatória#Coeficiente Binomial|distribuição ]] descreve uma situação onde a variável binomial $k$ percorre um conjunto de valores de $0$ a $n$, e descreve a quantidade de sucessos entre $n$ tentativas, quando sabemos a quantidade $p$ de um único sucesso.
 ## Distribuição de Poisson
 
 A variável de Poisson representa o limite da [[Variáveis Aleatórias Discretas#Coeficiente Binomial|variável binomial]] quando $n \to \infty$ e $p \to 0$. Descreve situações com 'eventos raros', e pode ser qualquer valor natural, onde $\lambda$ descreve o valor esperado da variável.

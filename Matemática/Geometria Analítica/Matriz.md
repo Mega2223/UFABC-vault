@@ -18,7 +18,7 @@ a_{11} & \cdots & a_{1n} \\ \vdots & \ddots & \vdots \\ a_{m1} & \cdots & a_{mn}
 São operações matriciais:
 ### Multiplicação de matrizes
 Sejam $A$, $B$ e $C$ matrizes, $C = AB$, para definir cada elemento de $C$ se usa a fórmula:
-$$\large c_{ij} =\sum_{k=1}^{p}a_{ik}b_{kj}$$
+$$\large C_{ij} =\sum_{k=1}^{p}A_{ik}B_{kj}$$
  É necessário que o número de colunas de $A$ seja igual ao número de linhas em $B$
 ### Multiplicação matriz vetor
 Seja $A$ uma matriz e $\vec{v}$ um vetor, podemos considerar $\vec{v}$ como uma matriz de uma coluna:
@@ -32,18 +32,23 @@ $$\large I_{ij} = \begin{cases}
 \end{cases}$$
 ## Matriz Inversa
 
-A matriz $M^-1$ é inversa de $M$ se e somente se
+A matriz $M^{-1}$ é inversa de $M$ se e somente se
 $$M M^{-1} = I$$
 A matriz inversa não existe caso o [[Matriz#Determinante|determinante]] de $M$ seja 0 ou caso $M$ não seja uma matriz quadrada.
+
+## Transposição
+
+A transposição $M^T$ é uma transposição de $M$ se e somente se:
+$$\large M_{ij} = M^T_{ji}$$
 ## Determinante
 
 O determinante a variável que possibilita verificar se uma matriz possui matriz inversa. Se dá pela notação:
 $$|M| = \text{det}(M)$$
 Se o determinante de uma matriz é 0 ela não possui matriz inversa.
 ### Determinante $M^2$
-O determinante de uma matriz 2x2 se dá por:$$det\begin{pmatrix}a_{11} & a_{12}\\a_{21} & a_{22} \end{pmatrix} = a_{11}a_{22}-a_{12}a_{21}$$
+O determinante de uma matriz 2x2 se dá por:$$\text{det}\begin{pmatrix}a_{11} & a_{12}\\a_{21} & a_{22} \end{pmatrix} = a_{11}a_{22}-a_{12}a_{21}$$
 ### Determinante $M^3$
-O determinante de uma matriz 3x3 se dá por:$$det
+O determinante de uma matriz 3x3 se dá por:$$\text{det}
 \begin{pmatrix}
 a_{11} & a_{12} & a_{13}  \\
 a_{21} & a_{22} & a_{23}  \\

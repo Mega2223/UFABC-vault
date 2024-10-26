@@ -20,4 +20,4 @@ Seja $c \in \mathbb{R}$ uma constante, $f$ e $g$ funções [[Limite#Continuidade
 
 ## Funções Trigonométricas
 
-## Funções logarítimicas
+## Funções logarítmicas

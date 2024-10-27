@@ -32,6 +32,6 @@ Quando a reação ainda está ocorrendo, mas a velocidade de transição de reag
 
 A constante de equilíbrio define a proporção de reagentes e produtos para que a reação se torne [[Reação Química#Equilíbrio Químico|estática]], ela se dá por:
 $$\large K_c=\ce{\frac{[Y]^y [Z]^z}{[A]^a [B]^b}}$$
-<center><sub>Note que a constante de equilíbrio, assim como a maioria das variáveis numa reação, varia de acordo com a temperatura e a pressão da reação.</sub></center>
+<center><sub>Note que a constante de equilíbrio, assim como a maioria das variáveis numa reação, varia de acordo com a temperatura e a pressão no ambiente da reação.</sub></center>
 
 ## Estado físico

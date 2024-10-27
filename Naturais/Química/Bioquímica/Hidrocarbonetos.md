@@ -1,7 +1,9 @@
 ---
 tags:
   - incompleto
+  - química
+authors: Júlio César
 ---
+## Definição
 
-
-$$\ce{CO2 + C -> 2 CO}$$
+O hidrocarboneto é um [[Compostos Orgânicos|composto orgânico]] formado exclusivamente de átomos de carbono ($\ce{C}$) e hidrogênio ($\ce{H}$)

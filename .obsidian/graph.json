@@ -34,18 +34,25 @@
         "a": 1,
         "rgb": 5431378
       }
+    },
+    {
+      "query": "path:Naturais/Física  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0.2,
+  "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.19739583333333,
   "lineSizeMultiplier": 1.65677083333333,
   "collapse-forces": false,
-  "centerStrength": 0.239583333333333,
-  "repelStrength": 20,
+  "centerStrength": 0.0729166666666667,
+  "repelStrength": 18.9583333333333,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.07058167567046564,
+  "linkDistance": 108,
+  "scale": 0.025613198604926935,
   "close": false
 }

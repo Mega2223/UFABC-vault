@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "88de794e08a50ca8",
+        "id": "c375f49377ad69d8",
         "type": "tabs",
         "children": [
           {
-            "id": "3a282214465bc69c",
+            "id": "ca9574b227abb730",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "5877329ae728fa9a",
+            "id": "f81e0bef69b20b6e",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -150,12 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "01b159b868d3e7e1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -170,17 +181,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a282214465bc69c",
+  "active": "ca9574b227abb730",
   "lastOpenFiles": [
+    "Naturais/Química/Bioquímica/Hidrocarbonetos.md",
+    "Naturais/Química/Estrutura da Matéria/Ligação.md",
     "Naturais/Química/Transformações Químicas/Ácidos e Bases.md",
+    "Naturais/Química/Bioquímica/Compostos Orgânicos.md",
+    "Naturais/Física/Eletromagnetismo/Lei de Coulomb.md",
+    "Matemática/Geometria Analítica/Vetores.md",
+    "Naturais/Química/Transformações Químicas/Reação Química.md",
+    "Naturais/Química/Transformações Químicas/Sistemas Tampão.md",
+    "Assets/Pasted image 20241026220157.png",
+    "Naturais/Física/Mecânica/Força.md",
     "Naturais/Física/Mecânica/Cinemática.md",
+    "Matemática/Cálculo/Integral.md",
+    "Matemática/Cálculo/Derivada.md",
+    "Naturais/Sistema Internacional.md",
+    "Naturais/Física/Teoria de Erros.md",
     "Naturais/Física/Eletromagnetismo",
     "Naturais/Física/Termodinâmica",
-    "Naturais/Química/Transformações Químicas/Reação Química.md",
     "Naturais/Física/Mecânica",
-    "Naturais/Química/Transformações Químicas/Sistemas Tampão.md",
-    "Matemática/Geometria Analítica/Vetores.md",
-    "Naturais/Química/Bioquímica/Hidrocarbonetos.md",
     "Naturais/Léxico de unidades.md",
     "Naturais/Química/Bioquímica/Experimentos",
     "Matemática/Cálculo/Teorema do confronto.md",
@@ -192,15 +212,8 @@
     "Computação/Programação Estruturada/Recursão.md",
     "Computação/Otimização Linear/Método Simplex.md",
     "Matemática/Cálculo/Derivação Implícita.md",
-    "Matemática/Cálculo/Derivada.md",
-    "Matemática/Cálculo/Integral.md",
     "Matemática/Cálculo/Derivadas Comuns.md",
     "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
-    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Discretas.md",
-    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
-    "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
-    "Matemática/Probabilidade e Estatística/Léxico de Distribuições de Probabilidade.md",
-    "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
     "Computação/Línguas",
     "Laboratório",
     "Naturais/Química/Transformações Químicas/Experimentos",

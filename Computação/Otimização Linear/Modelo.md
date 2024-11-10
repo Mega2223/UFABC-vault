@@ -24,7 +24,7 @@ flowchart TB
 #### Condições
 Para um modelo linear ser válido é necessário:
 - Todas as variáveis $x_1,\ x_2,\ ...,\ x_n\ \in \mathbb{R}$ 
-- $x_n \ge 0\ \ \forall x_n$ (não negatividade)
+- $x_i \ge 0\ \ \forall i \le n$ (não negatividade)
 - Variáveis devem ser _lineares_ (polinômios de ordem 1)
 
 #### Combinação Ótima

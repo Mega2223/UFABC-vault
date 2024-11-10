@@ -1,6 +1,10 @@
 ---
 tags:
+  - cálculo
+  - matemática
   - incompleto
-  - humanas
 authors: Júlio César
 ---
+## Preposição
+
+Para

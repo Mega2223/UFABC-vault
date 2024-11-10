@@ -35,6 +35,6 @@ Uma base é ortogonal se e somente se $\vec{a}\perp \vec{b}\ \ \forall (a,b)\in 
 ### Base ortonormal
 Uma base é ortonormal se e somente se:
 - $\vec{a}\perp \vec{b}\ \ \forall (a,b)\in B$
-- $||\vec{a}|| \ \ \forall (a,b)\in B= 1$
+- $||\vec{a}||\ B= 1$
 
 A base ortonormal é normalmente denotada pelos vetores $\vec{i}\ \vec{j}\ \vec{k}$, que representam os eixos $x$, $y$ e $z$ positivos respectivamente.

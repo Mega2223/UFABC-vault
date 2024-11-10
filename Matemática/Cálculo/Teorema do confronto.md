@@ -13,6 +13,7 @@ $$a(x) \geq f(x) \geq b(x)$$
 se em $c \in \mathbb{R}$, $a(x) = b(x)$, concluímos que:
 
 $$\lim_{x\to c}a(x) = \lim_{x \to c} f(x) = \lim_{x \to c} b(x)$$
+
 Mesmo se $f$ não é definido em $x$
 
 Por exemplo, seja $f(x) = x sin(\frac{1}{x})$, sabemos que $f$ não existe em $x$, mas pelo domínio da função seno sabemos que $1 \geq sin(x) \geq -1$, logo:

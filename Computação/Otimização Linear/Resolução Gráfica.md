@@ -11,7 +11,7 @@ Dado um determinado [[modelo]], para encontrar a solução ótima pode-se usar d
 
 - Criar o modelo completo.
 - [[Derivada|Derivar]] a função objetivo em um vetor.
-- Colocar a área de soluções válidas em um gráfico.
+- Colocar a área de soluções válidas em [[Desenho de Gráficos|um gráfico]].
 - Procurar o hiperplano perpendicular à derivada com o maior/menor coeficiente linear (dependendo se é um problema de maximização ou minimização)
 - Encontrar o ponto ou linha de soluções ótimas dentro desta linha.
 

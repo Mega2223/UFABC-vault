@@ -4,34 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "c375f49377ad69d8",
+        "id": "a628bbbcee78c359",
         "type": "tabs",
         "children": [
           {
-            "id": "ca9574b227abb730",
+            "id": "04f13e5457dc3cb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Naturais/Química/Transformações Químicas/Reação Química.md",
+                "file": "Computação/Otimização Linear/Modelo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reação Química"
+              "title": "Modelo"
             }
           },
           {
-            "id": "f81e0bef69b20b6e",
+            "id": "fa112b674be0b73b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Otimização Linear/Método Simplex.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Método Simplex"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,39 +186,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ca9574b227abb730",
+  "active": "fa112b674be0b73b",
   "lastOpenFiles": [
-    "Naturais/Química/Bioquímica/Hidrocarbonetos.md",
-    "Naturais/Química/Estrutura da Matéria/Ligação.md",
-    "Naturais/Química/Transformações Químicas/Ácidos e Bases.md",
-    "Naturais/Química/Bioquímica/Compostos Orgânicos.md",
-    "Naturais/Física/Eletromagnetismo/Lei de Coulomb.md",
+    "Computação/Otimização Linear/Modelo.md",
+    "Computação/Otimização Linear/Método Simplex.md",
+    "Computação/Otimização Linear/Variável de Folga.md",
+    "Computação/Otimização Linear/Resolução Gráfica.md",
     "Matemática/Geometria Analítica/Vetores.md",
-    "Naturais/Química/Transformações Químicas/Reação Química.md",
-    "Naturais/Química/Transformações Químicas/Sistemas Tampão.md",
-    "Assets/Pasted image 20241026220157.png",
-    "Naturais/Física/Mecânica/Força.md",
-    "Naturais/Física/Mecânica/Cinemática.md",
-    "Matemática/Cálculo/Integral.md",
+    "Matemática/Geometria Analítica/Matriz.md",
+    "Matemática/Geometria Analítica/Áreas.md",
+    "Matemática/Cálculo/Derivação Implícita.md",
+    "Matemática/Cálculo/Derivadas Comuns.md",
+    "Matemática/Cálculo/Desenho de Gráficos.md",
+    "Matemática/Cálculo/Teorema do confronto.md",
     "Matemática/Cálculo/Derivada.md",
-    "Naturais/Sistema Internacional.md",
+    "Naturais/Física/Mecânica/Força.md",
+    "Naturais/Física/Mecânica/Forças",
+    "Naturais/Física/Mecânica/Cinemática.md",
     "Naturais/Física/Teoria de Erros.md",
+    "Naturais/Física/Eletromagnetismo/Lei de Coulomb.md",
+    "README.md",
+    "Matemática/Geometria Analítica/Equações da Reta.md",
+    "Matemática/Geometria Analítica/Combinação Linear.md",
+    "Matemática/Geometria Analítica/Equações do Plano.md",
+    "Matemática/Cálculo/Série de Taylor.md",
+    "Matemática/Cálculo/Limite.md",
+    "Matemática/Cálculo/Integral.md",
+    "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
+    "Humanas/Estrutura Dinâmica e Social/Weber.md",
+    "Humanas/Estrutura Dinâmica e Social/Marx.md",
+    "Naturais/Biologia/Interação entre Organismos e Ambiente",
+    "Naturais/Biologia/Evolução e Diversificação da Vida Na Terra",
+    "Assets/Pasted image 20241026220157.png",
     "Naturais/Física/Eletromagnetismo",
     "Naturais/Física/Termodinâmica",
     "Naturais/Física/Mecânica",
-    "Naturais/Léxico de unidades.md",
     "Naturais/Química/Bioquímica/Experimentos",
-    "Matemática/Cálculo/Teorema do confronto.md",
-    "Matemática/Cálculo/Série de Taylor.md",
-    "Matemática/Geometria Analítica/Matriz.md",
-    "Matemática/Cálculo/Limite.md",
-    "Matemática/Geometria Analítica/Áreas.md",
-    "Matemática/Geometria Analítica/Combinação Linear.md",
-    "Computação/Programação Estruturada/Recursão.md",
-    "Computação/Otimização Linear/Método Simplex.md",
-    "Matemática/Cálculo/Derivação Implícita.md",
-    "Matemática/Cálculo/Derivadas Comuns.md",
-    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
     "Computação/Línguas",
     "Laboratório",
     "Naturais/Química/Transformações Químicas/Experimentos",
@@ -221,9 +229,6 @@
     "Assets/Pasted image 20241022235314.png",
     "Pasted image 20241022234723.png",
     "Pasted image 20241022234906.png",
-    "Assets/projetos.html",
-    "Assets/Teste.html",
-    "Assets/Novo Documento de Texto.txt",
     "Assets/Vetor.png",
     "Untitled.canvas"
   ]

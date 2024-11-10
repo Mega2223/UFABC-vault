@@ -38,37 +38,6 @@ $$\large\exists c \in (a,b)\ \ f'(c) = \frac{f(b) - f(a)}{b-a}$$
 
 ## Notações
 $$\frac{d}{dx} f(x) = \frac {dy}{dx} = f'(x) = y' = Df(x) = f^{(1)}(x)$$
-## Derivação Implícita
-
-Certas equações não podem ser diretamente para funções pois não cumprem com a propriedade de só haver um dependente para cada número de seu domínio, por exemplo a equação do coeficiente angular:
-$$\large x^2+y^2=1$$
-<div style="display:flex; align-items:center; justify-content: center">
-<iframe src="https://www.desmos.com/calculator/uft7mi290o?embed" width="250" height="250" style="border: 1px solid #ccc" frameborder=0></iframe>
-</div>
-
-Podemos ver claramente que há múltiplos valores $y$ para uma determinada coordenada $x$, assim não há como definir $y$ em função de $x$.
-
-Precisamos primeiramente levar em conta que $x$ é dependente de $y$, e, em seguida, derivar ambos os lados da equação:
-
-$$\frac{d}{dx} (x^2 + y^2) = \frac{d}{dx}1$$
-$\frac{d}{dx} 1$ é obviamente 0, então só precisamos saber a derivada do lado esquerdo
-$$\frac{d}{dx}(x^2)+\frac{d}{dx}(y^2)=0$$
-Pelas [[Derivada#Propriedades|propriedades da derivada]] sabemos que $[x^2]' = 2x$; Ficamos com:
-$$2x+\frac{d}{dx}(y^2)=0$$
-Aqui as coisas complicam, pois $y$ é dependente de $x$:
-
-$$\frac{d}{dx}y^2 = \frac{d}{dy} y^2 \frac{dy}{dx} = 2y \frac{dy}{dx}$$
-
-$$-2x =  2y \frac{dy}{dx}$$
-
-Dividindo ambos os lados por $2y$ e simplificando, temos:
-$$\frac{-x}{y} = \frac{dy}{dx}$$
-Logo, concluímos que a derivada do círculo unitário é $\frac{-x}{y}$, ou seja, em determinado ponto $(x,y)$ a reta tangente ao ponto terá o coeficiente angular de $\large \frac{-x}{y}$
-
-<div style="display:flex; align-items:center; justify-content: center">
-<iframe src="https://www.desmos.com/calculator/rt8xhe1shj?embed" width="250" height="250" style="border: 1px solid #ccc" frameborder=0></iframe>
-</div>
-
 ## Regra de L'Hospital
 
 Sejam $f$ e $g$ funções diferenciáveis (exceto possivelmente em $c$), $c \in \mathbb{R}$, $g'(c) \ne 0$, se $f(c) = 0$ e $g(c) = 0$

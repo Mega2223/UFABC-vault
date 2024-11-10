@@ -1,6 +1,8 @@
 ---
 tags:
   - incompleto
+  - matemática
+  - cálculo
 ---
 ## Preposição
 

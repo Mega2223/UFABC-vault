@@ -2,6 +2,7 @@
 tags:
   - incompleto
   - química
+  - bioquímica
 authors: Júlio César
 ---
 ## Definição

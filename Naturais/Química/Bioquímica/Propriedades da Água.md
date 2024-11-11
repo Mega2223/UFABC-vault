@@ -30,7 +30,7 @@ Na água, esta ligação tende a ser fraca e instável, em temperatura ambiente 
 \large
 \chemfig[bond offset=4pt, bond style={line width=1pt}]{
 
-H([-1]-O)([-3]-O >: H([-1]-O)([-3]-O))
+H([-1]-O)([-3]-O <: H([-1]-O)([-3]-O))
 }
 \end{document}
 ```
@@ -53,3 +53,5 @@ O-[1]S(-[-1]O^{-}Na^{+})([2.75]=O)([1.25]=O)
 <center><sup>Estrutura molecular do SDS</sup></center>
 
 Quando inseridas em meio aquoso, estas moléculas tendem a ir para a superfície do líquido, afim de minimizar contato com a parte hidrofóbica, quando a superfície da água já não possui mais espaço para todas essas moléculas, estas vão tender a formar estruturas esféricas onde a parte hidrofóbica é isolada da água pela parte hidrofílica, essas estruturas são denominadas micelas e a concentração necessária para sua formação é denominada de concentração micelar crítica.
+### Interação com ácidos
+Ácidos fortes tendem a se desassociar totalmente em meio aquoso

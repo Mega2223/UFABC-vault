@@ -12,6 +12,7 @@ Compostos orgânicos são compostos constituídos estruturalmente por [[Ligaçã
 ```tikz
 \usepackage{chemfig}
 \begin{document}
+\Large
 \chemfig{C(-[5]H_3C)(-[7]CH_3)(=[2]O)}
 \end{document}
 ```
@@ -28,7 +29,8 @@ $\ce{C2H6O}$
 ## Funções Orgânicas
 
 ```tikz
-\usepackage{chemfig} \begin{document} \chemfig{[:-90]HN(-[::-45](-[::-45]R)=[::+45]O)>[::+45]*4(-(=O)-N*5(-(<:(=[::-60]O)-[::+60]OH)-(<[::+0])(<:[::-108])-S>)--)} \end{document} ```
+\usepackage{chemfig} \begin{document} \chemfig{[:-90]HN(-[::-45](-[::-45]R)=[::+45]O)>[::+45]*4(-(=O)-N*5(-(<:(=[::-60]O)-[::+60]OH)-(<[::+0])(<:[::-108])-S>)--)} \end{document}
+```
 
 ## Nomenclatura
 

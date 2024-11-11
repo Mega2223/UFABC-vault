@@ -6,7 +6,7 @@ authors: Júlio César
 ---
 ## $\ce{pH}$ e $\ce{pOH}$
 
-O $\ce{pH}$ e o $\ce{pOH}$  são medidas da acidez de determinada [[solução aquosa]], descrevem em escala logarítmica os potenciais hidrogeniônico e hidroxiliônico de uma determinada solução. Estes seguem uma regra de igualdade
+O $\ce{pH}$ e o $\ce{pOH}$  são medidas da acidez de determinada [[Propriedades da Água|solução aquosa]], descrevem em escala logarítmica os potenciais hidrogeniônico e hidroxiliônico de uma determinada solução. Estes seguem uma regra de igualdade
 $$\large\ce{pH}+\ce{pOH} = 14$$
 $$\large \begin{align}
 \ce{pH} = -\log_{10}[\ce{H+}] &&

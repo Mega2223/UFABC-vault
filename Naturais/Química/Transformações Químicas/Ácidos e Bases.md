@@ -6,7 +6,7 @@ authors: Júlio César
 ---
 ## $\ce{pH}$ e $\ce{pOH}$
 
-O $\ce{pH}$ e o $\ce{pOH}$  são medidas da acidez de determinada [[Propriedades da Água|solução aquosa]], descrevem em escala logarítmica os potenciais hidrogeniônico e hidroxiliônico de uma determinada solução. Estes seguem uma regra de igualdade
+O $\ce{pH}$ e o $\ce{pOH}$  são medidas da acidez de determinada [[Propriedades da Água|solução aquosa]], descrevem em escala logarítmica os potenciais hidrogeniônico e hidroxiliônico de uma determinada solução, que é proporcional à presença do íon $\ce{H+}$. Estes seguem uma regra de igualdade
 $$\large\ce{pH}+\ce{pOH} = 14$$
 $$\large \begin{align}
 \ce{pH} = -\log_{10}[\ce{H+}] &&
@@ -21,6 +21,6 @@ Uma solução é considerada ácida se seu $\ce{pH}$ é menor que 7 e básica se
 
 A constante de dissociação / constante de ionização ( $\text{pKa}$ ) 
 $$\large \begin{align} \text{pH} = \text{pKa} + \log \frac{[BC]}{[AC]} \end{align}$$
-Onde $BC$ é uma base conjugada e $AC$ é um ácido.
+Onde $BC$ é uma base conjugada e $AC$ é um ácido. De forma inversa ao $\text{pH}$, o $\text{pKa}$ indica a afinidade de uma molécula de doar ou aceitar $\ce{H+}$ 
 
 ## Constante de acidez

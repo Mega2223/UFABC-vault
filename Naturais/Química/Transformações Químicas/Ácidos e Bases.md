@@ -18,6 +18,9 @@ Uma solução é considerada ácida se seu $\ce{pH}$ é menor que 7 e básica se
 ## Reação Ácido-Base
 
 ## Constante de dissociação
+
 A constante de dissociação / constante de ionização ( $\text{pKa}$ ) 
 $$\large \begin{align} \text{pH} = \text{pKa} + \log \frac{[BC]}{[AC]} \end{align}$$
 Onde $BC$ é uma base conjugada e $AC$ é um ácido.
+
+## Constante de acidez

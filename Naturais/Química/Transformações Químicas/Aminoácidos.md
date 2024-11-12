@@ -37,3 +37,10 @@ Os grupamentos ionizáveis dos aminoácidos podem ser protonados ou desprotonado
 $$\begin{cases}\ce{pH < \text{p}Ka} \longrightarrow \text{grupamento protonado} \\
 \ce{pH > \text{p}Ka} \longrightarrow \text{grupamento desprotonado}\\
 \ce{pH = \text{p}Ka} \longrightarrow \text{50\% protonado e 50\% desprotonado}\end{cases}$$
+## Ponto isoelétrico
+
+O ponto isoelétrico de um ácido ou proteína é onde a somatória das cargas é zero, ou seja, a molécula é neutra, TODO
+
+## Ligação peptídica
+
+

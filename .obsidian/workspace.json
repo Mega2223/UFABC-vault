@@ -39,10 +39,14 @@
             "id": "18c8f524836fda6d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Naturais/Química/Transformações Químicas/Metabolismo do Sangue.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Metabolismo do Sangue"
             }
           },
           {
@@ -60,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,13 +214,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43bbd391f0b0162f",
+  "active": "18c8f524836fda6d",
   "lastOpenFiles": [
-    "Naturais/Química/Transformações Químicas/Metabolismo do Sangue.md",
+    "Naturais/Química/Transformações Químicas/Reação Química.md",
     "Naturais/Química/Transformações Químicas/Aminoácidos.md",
+    "Naturais/Química/Transformações Químicas/Metabolismo do Sangue.md",
     "Naturais/Química/Transformações Químicas/Sistemas Tampão.md",
     "Naturais/Química/Transformações Químicas/Ácidos e Bases.md",
-    "Naturais/Química/Transformações Químicas/Reação Química.md",
     "Naturais/Química/Bioquímica/Propriedades da Água.md",
     "Naturais/Química/Bioquímica/Compostos Orgânicos.md",
     "Naturais/Química/Bioquímica/Hidrocarbonetos.md",

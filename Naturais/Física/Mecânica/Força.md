@@ -12,7 +12,7 @@ authors: Júlio César
 Uma força é, de forma geral, uma grandeza [[Vetores|vetorial]] capaz de modificar a aceleração de um determinado objeto. Ela é normalmente medida em [[Newtons]].
 $$\Huge F = m\ .a$$<sup><center>de acordo com a 2ª Lei de Newton</center></sup>
 onde
-- $F$ é o vetor força
+- $F$ é a magnitude da força
 - $m$ é a massa do objeto, normalmente em $\ce{kg}$
 - $a$ é a aceleração resultante, normalmente em $\ce{m/s}$
 

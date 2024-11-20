@@ -4,67 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "339e9da2932c8513",
+        "id": "2bdcb6e0267f8d90",
         "type": "tabs",
         "children": [
           {
-            "id": "1cbed4602013260e",
+            "id": "02c318ebde6c71ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Naturais/Química/Bioquímica/Propriedades da Água.md",
+                "file": "Computação/Otimização Linear/Método Simplex.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Método Simplex"
+            }
+          },
+          {
+            "id": "658aabfb3d4358cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Naturais/Física/Eletromagnetismo/Lei de Coulomb.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Propriedades da Água"
+              "title": "Lei de Coulomb"
             }
           },
           {
-            "id": "43bbd391f0b0162f",
+            "id": "60814b3a7489b8c1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Naturais/Química/Transformações Químicas/Aminoácidos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aminoácidos"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "18c8f524836fda6d",
+            "id": "552c737c4171f52e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Naturais/Química/Transformações Químicas/Ácidos e Bases.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ácidos e Bases"
-            }
-          },
-          {
-            "id": "88181a7c499dd8ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Naturais/Química/Transformações Químicas/Metabolismo do Sangue.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Metabolismo do Sangue"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,15 +206,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18c8f524836fda6d",
+  "active": "658aabfb3d4358cf",
   "lastOpenFiles": [
-    "Naturais/Química/Transformações Químicas/Metabolismo do Sangue.md",
-    "Naturais/Química/Transformações Químicas/Reação Química.md",
-    "Naturais/Química/Transformações Químicas/Aminoácidos.md",
-    "Naturais/Química/Transformações Químicas/Sistemas Tampão.md",
+    "Naturais/Física/Mecânica/Força.md",
+    "Naturais/Física/Eletromagnetismo/Lei de Coulomb.md",
     "Naturais/Química/Transformações Químicas/Ácidos e Bases.md",
+    "Computação/Otimização Linear/Método Simplex.md",
+    "Matemática/Cálculo/Integral.md",
+    "Naturais/Química/Transformações Químicas/Aminoácidos.md",
     "Naturais/Química/Bioquímica/Propriedades da Água.md",
+    "Naturais/Química/Estrutura da Matéria/Geometria Molecular.md",
+    "Naturais/Química/Estrutura da Matéria/Propriedades da Tabela Periódica.md",
+    "Naturais/Química/Estrutura da Matéria/Ligação.md",
     "Naturais/Química/Bioquímica/Compostos Orgânicos.md",
+    "Naturais/Química/Transformações Químicas/Sistemas Tampão.md",
+    "Naturais/Química/Transformações Químicas/Reação Química.md",
+    "Naturais/Química/Transformações Químicas/Metabolismo do Sangue.md",
+    "Computação/Otimização Linear/Resolução Gráfica.md",
+    "Computação/Otimização Linear/Modelo.md",
+    "Computação/Otimização Linear/Variável de Folga.md",
+    "Matemática/Geometria Analítica/Equações do Plano.md",
     "Naturais/Química/Bioquímica/Hidrocarbonetos.md",
     "Naturais/Química/Transformações Químicas/Constante de dissociação.md",
     "Humanas/Estrutura Dinâmica e Social/Marx.md",
@@ -231,17 +234,6 @@
     "Matemática/Geometria Analítica/Áreas.md",
     "Matemática/Geometria Analítica/Vetores.md",
     "Matemática/Geometria Analítica/Matriz.md",
-    "Matemática/Geometria Analítica/Combinação Linear.md",
-    "Humanas/Estrutura Dinâmica e Social/Weber.md",
-    "Computação/Programação Estruturada/Recursão.md",
-    "Matemática/Cálculo/Derivadas Comuns.md",
-    "Matemática/Geometria Analítica/Equações da Reta.md",
-    "Matemática/Geometria Analítica/Equações do Plano.md",
-    "Naturais/Química/Estrutura da Matéria/Propriedades da Tabela Periódica.md",
-    "solução aquosa.md",
-    "constante dielétrica.md",
-    "Naturais/Química/Estrutura da Matéria/Geometria Molecular.md",
-    "Naturais/Física/Mecânica/Força.md",
     "Naturais/Física/Mecânica/Forças",
     "Naturais/Biologia/Interação entre Organismos e Ambiente",
     "Naturais/Biologia/Evolução e Diversificação da Vida Na Terra",

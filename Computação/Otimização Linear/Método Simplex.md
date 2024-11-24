@@ -56,14 +56,63 @@ $$
 O vetor $c$ é o coeficiente linear das variáveis na função objetivo:
 $$\large c =\begin{bmatrix}-3- 5,0,0,0\end{bmatrix}$$
 O vetor $c_j$ é o vetor de custos reduzidos na função objetivo, de tal forma que
-$$among\ \ us$$
+$$among\ \ us$$ //todo
 ### Solução
 Encontrar a solução ótima envolve encontrar uma solução viável e trocar as variáveis básicas e não básicas afim de melhorar esta solução até achar um vértice no polígono de viabilidade que é ótimo ao problema. Deve-se lembrar que todas as variáveis não-básicas são 0, logo
-
 $$\large z = \sum c_B^T x_B$$
 Em qualquer $z$ válido.
 
+Para encontrar a solução ótima, pivoteamos algumas variáveis básicas para as não-básicas por meio de seu $\text{Cr}$, como $B = I$ **sempre**, são necessárias operações normalizadoras para cumprir com esta propriedade, podemos montar o nosso problema da seguinte forma:
 
+$$\Large
+\begin{bmatrix}
+A & b\\ -c
+\end{bmatrix}
+$$
+Como por exemplo
+$$\large
+\begin{gather}
+%\begin{matrix}
+%x_1 & x_2 & x_3 & x_4 & x_5
+%\end{matrix}\\
+\begin{bmatrix}
+1 & 0 & 1 & 0 & 0 & |&4\\
+0 & 1 & 0 & 1 & 0 & |& 6 \\
+3 & 2 & 0 & 0 & 1 & |& 18 \\
+3 & 5 & 0 & 0 & 0 & |& 
+\end{bmatrix}
+\end{gather}
+$$
+É necessário selecionar uma variável de pivoteamento, em problemas de minimização selecionamos a coluna com o maior elemento de $c$, enquanto em maximização selecionamos a coluna com menor elemento de $c$, as variáveis em $c$ então são denominadas como variáveis de custo reduzido.
+Para encontrar a linha de pivoteamento, dividimos todas as variáveis em $b$ pelos seus respectivos elementos na coluna que selecionamos de $A$, selecionamos a coluna com menor resultado.
+
+$$\large
+\begin{flalign}
+%\begin{matrix}
+%x_1 & x_2 & x_3 & x_4 & x_5
+%\end{matrix}\\
+\begin{bmatrix}
+1 & 0 & 1 & 0 & 0 & |&4\\
+0 & 1 & 0 & 1 & 0 & |& 6 \\
+3 & 2 & 0 & 0 & 1 & |& 18 \\
+3 & 5 & 0 & 0 & 0 & |& 
+\end{bmatrix}  &
+\begin{matrix}
+4/0 = \infty \\ 6/1 = 6 \leftarrow \\18/3=9 \\ \ \end{matrix}
+\\ \begin{matrix}\ &\ &\uparrow&\ &\ &\ \ &\ \ &\ \ &\ \ \end{matrix} &
+\end{flalign}
+$$
+
+Para pivotear a variável, precisamos reduzir suas propriedades para as propriedades de uma variável básica, isso é, manter a propriedade de $B = I$, primeiramente, deve-se dividir toda sua linha pelo valor da variável de pivoteamento, afim de normalizar a linha e tornar a variável $1$, como neste caso a variável já é 1, podemos pular esse passo.
+Em seguida, precisamos que todas as demais variáveis na coluna sejam 0, incluindo as variáveis do vetor $c$, podemos subtrair as qualquer linha pela linha sendo pivoteada multiplicada por um escalar, como a linha pivoteada já foi normalizada em torno do nosso pivô, é fácil achar um escalar que se encaixe nessa propriedade.
+Na terceira linha, subtraímos cada elemento por $2A_2$, na quarta linha fazemos a subtração por $5A_2$
+$$\large\begin{bmatrix}
+1 & 0 & 1 & 0 & 0 & |&4\\
+0 & 1 & 0 & 1 & 0 & |& 6 \\
+3 & 0 & 0 & -2 & 1 & |& 6 \\
+3 & 0 & 0 & -5 & 0 & |& 
+\end{bmatrix}$$
+Agora temos uma nova solução válida para o problema, note que as colunas 3, 2, 5 formam uma matriz identidade, logo $x_3, x_2, x_5$ são as variáveis básicas dessa solução, enquanto $x_1,x_4$ são as não-básicas. Como esta solução não confere com o [[Método Simplex#Propriedades#Otimalidade|critério de otimalidade]], precisamos repetir o processo de novo com outra variável.
 ## Resolução por Tableau
 
 Após dada a forma padrão do problema, podemos o plotar em uma tabela as igualdades resultantes e sua relação com as constantes de acordo com os dados das [[Método Simplex#Resolução Matricial#Variáveis|variáveis]], organizando da forma:
@@ -89,6 +138,6 @@ Para a coluna da variável a ser pivoteada, escolhemos a variável com maior $\t
 ## Propriedades
 ### Otimalidade
 A solução é considerada ótima se:
-- $\min$: custos reduzidos não-negativos
-- $\max$: custos reduzidos não-positivos
+- $\min$: todos custos reduzidos são não-negativos
+- $\max$: todos custos reduzidos são não-positivos
 ### Solução degenerada

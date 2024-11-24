@@ -34,43 +34,61 @@ $${\Huge A} \large =\begin{bmatrix}
 3 && 2 && 0 && 0 && 1
 \end{bmatrix}$$
 O vetor $x_B$ é o vetor de todas as variáveis básicas do problema, o número de variáveis básicas é o número de linhas em $A$, por exemplo:
-$$\large x_B = \begin{bmatrix}x_1, x_2 ,x_3\end{bmatrix}$$
+$$\large x_B = \begin{bmatrix}x_3, x_4 ,x_5\end{bmatrix}$$
 O vetor $x_R$ é o vetor de todas as variáveis não-básicas do problema, por exemplo:
-$$\large x_R = \begin{bmatrix}x_4, x_5 \end{bmatrix}$$
+$$\large x_R = \begin{bmatrix}x_1, x_2 \end{bmatrix}$$
 A matriz $B$ é a matriz de somente os coeficientes básicos enquanto a matriz $R$ é a matriz dos coeficientes não-básicos, por exemplo:
 $$\large \begin {align}
-B =\begin{bmatrix}
-1 && 0 && 1 \\ 0 && 1 && 0 \\ 3 && 2 && 0
-\end{bmatrix} &&
 R =\begin{bmatrix}
-0 && 0\\ 1 && 0\\ 0 && 1
+1 && 0 \\ 0 && 1\\ 3 && 2
+\end{bmatrix} &&
+B =\begin{bmatrix}
+1 && 0 && 0\\ 0 && 1 && 0\\0&& 0 && 1
 \end{bmatrix}
 \end{align}$$
+//todo verifica essas matrizes obg <3
 Note como todas as variáveis de folga não tem relações lineares umas com as outras, assim, o lado direito da matriz $A$ *geralmente* tem forma de uma [[Matriz#Matriz Identidade|matriz de identidade.]] Se $x$ cumpre com a condição de não-negatividade, temos então como uma solução básica qualquer
 $$\large \begin{gather}
 Ax = b \\
-B\ x_B + R x_R = b
+B\ x_B + R\ x_R = b
 \end{gather}
 $$
-
+O vetor $c$ é o coeficiente linear das variáveis na função objetivo:
+$$\large c =\begin{bmatrix}-3- 5,0,0,0\end{bmatrix}$$
+O vetor $c_j$ é o vetor de custos reduzidos na função objetivo, de tal forma que
+$$among\ \ us$$
 ### Solução
-Encontrar a solução ótima envolve encontrar uma solução viável e trocar as variáveis básicas e não básicas afim de melhorar esta solução até achar um vértice no polígono de viabilidade que é ótimo ao problema.
+Encontrar a solução ótima envolve encontrar uma solução viável e trocar as variáveis básicas e não básicas afim de melhorar esta solução até achar um vértice no polígono de viabilidade que é ótimo ao problema. Deve-se lembrar que todas as variáveis não-básicas são 0, logo
+
+$$\large z = \sum c_B^T x_B$$
+Em qualquer $z$ válido.
 
 
 ## Resolução por Tableau
-### Tableau Simplex
-Após dada a forma padrão do problema, podemos o plotar em uma tabela as igualdades resultantes e sua relação com as constantes
+
+Após dada a forma padrão do problema, podemos o plotar em uma tabela as igualdades resultantes e sua relação com as constantes de acordo com os dados das [[Método Simplex#Resolução Matricial#Variáveis|variáveis]], organizando da forma:
+$$\begin {gather} \begin{pmatrix} 1 &-c^T &0 \\ 0 & A & b \end{pmatrix} \\
+\\ \begin{pmatrix} A_B & A_N & b \\ c_B^T & c_N^T & -z_0 \end{pmatrix}
+\end{gather}$$
+como por exemplo:
 
 <table align="center">
 <tr><th></th><th>x1</th><th>x2</th><th>x3</th><th>x4</th><th>x5</th><th>b</th>  </tr>
-<tr> <th>x3</th> <th>1</th> <th>0</th> <th>1</th> <th>0</th> <th>0</th>  </tr>
-<tr> <th>x4</th> <th>0</th> <th>1</th> <th>0</th> <th>1</th> <th>0</th>  </tr>
-<tr> <th>x5</th> <th>3</th> <th>2</th> <th>0</th> <th>0</th> <th>1</th>  </tr>
+<tr> <th>x3</th> <th>1</th> <th>0</th> <th>1</th> <th>0</th> <th>0</th> <th>4</th></tr>
+<tr> <th>x4</th> <th>0</th> <th>1</th> <th>0</th> <th>1</th> <th>0</th> <th>6</th> </tr>
+<tr> <th>x5</th> <th>3</th> <th>2</th> <th>0</th> <th>0</th> <th>1</th> <th>18</th>  </tr>
 
+<tr> <th>CR</th> <th>-3</th> <th>-5</th> <th>0</th> <th>0</th> <th>0</th> <th>- f(x) = sla tb </th>  </tr>
 </table>
 
-Onde as variáveis na coluna direita são as [[Modelo#Variáveis básicas e não básicas|variáveis básicas]] do problema.
+//todo verifica se a coluna $b$ tá correta obg <3
+Onde as variáveis na coluna direita são as [[Modelo#Variáveis básicas e não básicas|variáveis básicas]] do problema. Para uma solução inicial $z_0$ é necessário que as variáveis básicas formem uma [[Matriz#Matriz Identidade|matriz identidade]].
 
+### Pivoteamento
+Para a coluna da variável a ser pivoteada, escolhemos a variável com maior $\text{CR}$ em problemas de maximização e maior coeficiente em problemas de minimização, para escolhermos a coluna, calculamos $b / x_i$ onde $x_i$ é a coluna sendo pivoteada, em problemas de maximização eliminamos o XXXXX e em minimização eliminamos o menor coeficiente. Nesse caso sai a variável $x_4$.
 ## Propriedades
-
+### Otimalidade
+A solução é considerada ótima se:
+- $\min$: custos reduzidos não-negativos
+- $\max$: custos reduzidos não-positivos
 ### Solução degenerada

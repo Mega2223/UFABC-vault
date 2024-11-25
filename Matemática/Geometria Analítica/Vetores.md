@@ -5,10 +5,9 @@ tags:
   - incompleto
 authors: Júlio César
 ---
-## O que são Vetores
+## Definição
 
-Vetor é uma representação com módulo, direção e sentido de uma grandeza física vetorial. Analiticamente falando, um vetor é o conjunto de todos os diferencias de 2 pontos de mesma grandeza, tamanho e sentido.
-Vetores podem ser representados por setas, observe:
+Vetor é uma representação com módulo, direção e sentido de uma grandeza física vetorial. Analiticamente falando, um vetor é o conjunto de todos os diferenciais de 2 pontos de mesma grandeza, tamanho e sentido. Vetores podem ser representados por setas, observe:
 
 ![[Vetor.png|center|275]]
 

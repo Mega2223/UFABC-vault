@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Otimização Linear/Modelo.md",
-                "mode": "source",
+                "file": "Computação/Otimização Linear/Dualidade.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modelo"
+              "title": "Dualidade"
             }
           },
           {
@@ -41,15 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Otimização Linear/Modelo.md",
-                "mode": "source",
+                "file": "Matemática/Geometria Analítica/Vetores.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modelo"
+              "title": "Vetores"
+            }
+          },
+          {
+            "id": "5c332102872407a4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 209.0110321044922
   },
   "right": {
     "id": "fdbdc5556081ecb9",
@@ -199,15 +210,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "02c318ebde6c71ee",
+  "active": "fcd462bd667f32e4",
   "lastOpenFiles": [
-    "Computação/Otimização Linear/Modelo.md",
     "Computação/Otimização Linear/Método Simplex.md",
+    "Computação/Otimização Linear/Dualidade.md",
+    "Assets/Pasted image 20241124203949.png",
+    "Matemática/Geometria Analítica/Vetores.md",
+    "Naturais/Física/Eletromagnetismo/Lei de Coulomb.md",
+    "Naturais/Física/Mecânica/Cinemática.md",
+    "Computação/Otimização Linear/Resolução Gráfica.md",
+    "Computação/Otimização Linear/Modelo.md",
+    "Computação/Otimização Linear/Variável de Folga.md",
     "Matemática/Cálculo/Desenho de Gráficos.md",
     "Matemática/Geometria Analítica/Matriz.md",
     "Naturais/Física/Teoria de Erros.md",
     "Naturais/Física/Mecânica/Força.md",
-    "Naturais/Física/Eletromagnetismo/Lei de Coulomb.md",
     "Naturais/Química/Transformações Químicas/Ácidos e Bases.md",
     "Matemática/Cálculo/Integral.md",
     "Naturais/Química/Transformações Químicas/Aminoácidos.md",
@@ -219,14 +236,8 @@
     "Naturais/Química/Transformações Químicas/Sistemas Tampão.md",
     "Naturais/Química/Transformações Químicas/Reação Química.md",
     "Naturais/Química/Transformações Químicas/Metabolismo do Sangue.md",
-    "Computação/Otimização Linear/Resolução Gráfica.md",
-    "Computação/Otimização Linear/Variável de Folga.md",
     "Matemática/Geometria Analítica/Equações do Plano.md",
     "Naturais/Química/Bioquímica/Hidrocarbonetos.md",
-    "Naturais/Química/Transformações Químicas/Constante de dissociação.md",
-    "Humanas/Estrutura Dinâmica e Social/Marx.md",
-    "Naturais/Sistema Internacional.md",
-    "Matemática/Cálculo/Teorema do confronto.md",
     "Naturais/Física/Mecânica/Forças",
     "Naturais/Biologia/Interação entre Organismos e Ambiente",
     "Naturais/Biologia/Evolução e Diversificação da Vida Na Terra",

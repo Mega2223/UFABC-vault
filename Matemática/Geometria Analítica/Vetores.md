@@ -16,6 +16,8 @@ O vetor é utilizado para quantificar quantidades que não podem ser expressadas
 A [[derivada]] de um vetor também é um vetor, no cálculo vetorial pode ser notada de várias formas.
 
 No #cálculo e na #geometria-analitica, as notações $d/dx$ e $x"$ tendem a ser mais comuns, enquanto na #física a notação convencional da derivada de um vetor é $\dot{x}$ ou até mesmo $\nabla x$.
+
+O único vetor que não possui magnitude zero é denominado **vetor nulo** e dado como $\vec{0}$.
 ## Operações vetoriais
 
 Existem operações entre vetores :o, estas são:
@@ -23,13 +25,11 @@ Existem operações entre vetores :o, estas são:
 Dado vetores $\vec{a}$ e $\vec{b}$, $\vec{v} = \vec{a} + \vec{b}$:
 $$\Large \vec{v}_i = \vec{a}_i + \vec{b}_i$$
 ### Tamanho / Magnitude
-
 Dado um vetor $\overrightarrow{v}$ que seja $n$ dimensional, sua magnitude é
 
 $$\Large || \vec{v} || = \sqrt{\displaystyle\sum_{i=1}^{n} v_i^2}$$
 
 E a o versão normalizada de $\overrightarrow{v}$ se dá por
-
 $$\Large {\widehat{v} = \frac{\vec{v}}{||\vec{v}||}}$$
 
 ### Produto escalar
@@ -49,7 +49,7 @@ Logo,
 
 $$\theta_{\vec{a}\vec{b}} = \arccos \bigg(\frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| . ||\vec{b}||}\bigg)$$
 
-Assim, pode-se concluir que se $\vec{a} \cdot \vec{b} = 0 \iff |\theta| = \frac{\pi}{2}$ , ou seja, o ângulo entre eles é um ângulo reto.
+Assim, $\vec{a} \cdot \vec{b} = 0 \iff |\theta| = \frac{\pi}{2}$ , ou seja, o ângulo entre eles é um ângulo reto.
 ### Produto vetorial
 
 O produto vetorial é um produto de 2 vetores tridimensionais que gera outro vetor, ele se dá por:

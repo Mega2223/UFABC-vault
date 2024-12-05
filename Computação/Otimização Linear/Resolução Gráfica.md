@@ -18,9 +18,9 @@ Dado um determinado [[modelo]], para encontrar a solução ótima pode-se usar d
 ### Exemplo
 
 Para resolver um problema de duas variáveis $x_1, x_2$ onde:
-$$\large max (g) = -x_1 + x_2$$
+$$\large \max (g) = -x_1 + x_2$$
 $$
--x_1 + x_2 \le 2 \ \ \ \ \ \ \ 2x_1-x_2 \le 6 \ \ \ \ \ \ \ x_1\ge0 x_2\ge0
+-x_1 + x_2 \le 2 \ \ \ \ \ \ \ 2x_1-x_2 \le 6 \ \ \ \ \ \ \ x_1\ge0, x_2\ge0
 $$
 
 A derivada da função objetivo claramente é o vetor $(-1,1)$

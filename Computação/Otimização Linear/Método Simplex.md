@@ -46,7 +46,6 @@ B =\begin{bmatrix}
 1 && 0 && 0\\ 0 && 1 && 0\\0&& 0 && 1
 \end{bmatrix}
 \end{align}$$
-//todo verifica essas matrizes obg <3
 Note como todas as variáveis de folga não tem relações lineares umas com as outras, assim, o lado direito da matriz $A$ *geralmente* tem forma de uma [[Matriz#Matriz Identidade|matriz de identidade.]] Se $x$ cumpre com a condição de não-negatividade, temos então como uma solução básica qualquer
 $$\large \begin{gather}
 Ax = b \\
@@ -55,8 +54,7 @@ B\ x_B + R\ x_R = b
 $$
 O vetor $c$ é o coeficiente linear das variáveis na função objetivo:
 $$\large c =\begin{bmatrix}-3- 5,0,0,0\end{bmatrix}$$
-O vetor $c_j$ é o vetor de custos reduzidos na função objetivo, de tal forma que
-$$among\ \ us$$ //todo
+O vetor $c_j$ é o vetor de custos reduzidos na função objetivo, inicialmente ele é igual a $c$ mas ele muda conforme operações de pivoteamento são feitas.
 ### Solução
 Encontrar a solução ótima envolve encontrar uma solução viável e trocar as variáveis básicas e não básicas afim de melhorar esta solução até achar um vértice no polígono de viabilidade que é ótimo ao problema. Deve-se lembrar que todas as variáveis não-básicas são 0, logo
 $$\large z = \sum c_B^T x_B$$
@@ -66,7 +64,7 @@ Para encontrar a solução ótima, pivoteamos algumas variáveis básicas para a
 
 $$\Large
 \begin{bmatrix}
-A & b\\ -c^T
+A & b^T\\ -c
 \end{bmatrix}
 $$
 Como por exemplo
@@ -80,7 +78,7 @@ $$\large
 \end{bmatrix}
 \end{gather}
 $$
-É necessário selecionar uma variável de pivoteamento, em problemas de minimização selecionamos a coluna com o maior elemento de $c$, enquanto em maximização selecionamos a coluna com menor elemento de $c$, as variáveis em $c$ então são denominadas como variáveis de custo reduzido.
+É necessário selecionar uma variável de pivoteamento, em problemas de minimização selecionamos a coluna com o maior elemento de $c_j$, enquanto em maximização selecionamos a coluna com menor elemento de $c_j$, as variáveis em $c_j$ então são denominadas como variáveis de custos reduzidos.
 Para encontrar a linha de pivoteamento, dividimos todas as variáveis em $b$ pelos seus respectivos elementos na coluna que selecionamos de $A$, selecionamos a coluna com menor resultado **maior que 0**.
 
 $$\large
@@ -132,4 +130,12 @@ Como ambos os $\text{Cr}$ são negativos, a solução é ótima. Temos então $x
 A solução é considerada ótima se:
 - $\min$: todos custos reduzidos são não-negativos
 - $\max$: todos custos reduzidos são não-positivos
-### Solução degenerada
+### Degeneração
+A solução é considerada degenerada se a troca de uma restrição da base por outra mantém a otimalidade da solução sem mudar o valor das variáveis da solução, ou seja, existe alguma restrição desnecessária no problema.
+### Crescimento Ilimitado
+Caso não haja variável positiva na coluna do ponto de pivoteamento, essa variável têm um crescimento ilimitado, ou seja, não há solução ótima para o problema.
+
+### Variável Artificial
+//todo
+## Simplex Dual
+//todo

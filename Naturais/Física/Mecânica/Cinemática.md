@@ -10,7 +10,7 @@ authors: Júlio César
 
 A cinemática é o estudo do movimento de objetos dentro da física clássica, e envolve modelos de predição com raízes matemáticas para a [[Derivada|derivação]] da posição de objetos ao longo do tempo em um determinado sistema.
 ## Cinemática Unidimensional
-
+//todo sério?
 Prevê o movimento de um determinado objeto em certas condições de [[Força|força]] constante.
 ### Movimento Uniforme
 Conforme diz a 1ª Lei de Newton:

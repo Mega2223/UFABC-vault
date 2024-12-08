@@ -35,14 +35,9 @@ A integral indefinida é um conjunto de funções que informam sobre o comportam
 $$\Large F(x) + C =\int f(x) dx \iff \int_a^b f(x)dx =  F(x) \bigg|^a_b \ \forall (a,b)\in\mathbb{R}$$
 
 onde $C$ é qualquer constante.
-## Relação com a [[derivada]]
-
+### Relação com a [[derivada]]
 A função $F$ é uma anti[[derivada]] de $f$, ou seja, $f' = F$, assim, a melhor forma de descobrir a integral indefinida de uma função é encontrar a sua antiderivada.
 
-$$\Large \frac{d}{dx}\int f(x) = f(x)$$
+$$\Large \frac{d}{dx}\int f(x) = f(x) + C$$
 
 ## Propriedades da integral
-
-## Referências
-
-- O Capital, Karl Marx e Friedrich Engels - 1867

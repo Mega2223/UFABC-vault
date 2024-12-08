@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-
+Uma reta é um conjunto de pontos que satisfazem um sistema de equações lineares com um grau de liberdade, ou seja, uma reta não têm volume ou área.
 ## Equações
 ### Equação Vetorial da Reta
 Uma reta $r$ pode ser descrita em termos de um ponto $p$ e um [[Vetores|vetor]] diretor $\vec{v} \neq \vec{0}$:

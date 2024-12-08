@@ -134,7 +134,6 @@ A solução é considerada ótima se:
 A solução é considerada degenerada se a troca de uma restrição da base por outra mantém a otimalidade da solução sem mudar o valor das variáveis da solução, ou seja, existe alguma restrição desnecessária no problema.
 ### Crescimento Ilimitado
 Caso não haja variável positiva na coluna do ponto de pivoteamento, essa variável têm um crescimento ilimitado, ou seja, não há solução ótima para o problema.
-
 ### Variável Artificial
 //todo
 ## Simplex Dual

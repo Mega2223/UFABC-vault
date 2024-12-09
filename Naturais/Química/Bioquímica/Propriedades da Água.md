@@ -37,7 +37,7 @@ H([-1]-O)([-3]-O <: H([-1]-O)([-3]-O))
 ## Hidrofilia e Hidrofobicidade
 ### Polaridade
 Moléculas apolares tendem a ser hidrofóbicas, isso é, tendem a repelir interação com a água, enquanto moléculas polares tendem a ser hidrofílicas e tendem a interagir com a água, assim, moléculas hidrofílicas tendem a ser solutos em meio aquoso. 
-### Moléculas anfipáticas e formação de micelas
+### Moléculas anfipáticas
 Certas moléculas possuem estrutura parcialmente polar e parcialmente apolar, assim possuem propriedades tanto hidrofílicas quanto hidrofóbicas, seu lado hidrofílico procura maximizar interação com a água enquanto seu lado hidrofóbico tende a minimizar a interação, essas moléculas são então denominadas anfipáticas.
 
 ```tikz
@@ -52,6 +52,12 @@ O-[1]S(-[-1]O^{-}Na^{+})([2.75]=O)([1.25]=O)
 
 <center><sup>Estrutura molecular do SDS</sup></center>
 
-Quando inseridas em meio aquoso, estas moléculas tendem a ir para a superfície do líquido, afim de minimizar contato com a parte hidrofóbica, quando a superfície da água já não possui mais espaço para todas essas moléculas, estas vão tender a formar estruturas esféricas onde a parte hidrofóbica é isolada da água pela parte hidrofílica, essas estruturas são denominadas micelas e a concentração necessária para sua formação é denominada de concentração micelar crítica.
+Quando inseridas em meio aquoso, estas moléculas tendem a ir para a superfície do líquido, afim de minimizar contato com a parte hidrofóbica, quando a superfície da água já não possui mais espaço para todas essas moléculas, estas vão tender a formar estruturas onde a parte hidrofóbica é isolada da água pela parte hidrofílica, estas estruturas variam conforme o formato molecular.
+#### Micelas
+Certas moléculas, como alguns [[Lipídeos#Ácidos Graxos|ácidos graxos soltos]], após uma determinada concentração micelar crítica, formam micelas no líquido, onde são formadas espontaneamente estruturas esféricas com o lado hidrofóbico para dentro.
+#### Bicamada
+Outras moléculas tendem a formar lençóis onde duas camadas moleculares se unem e colocam no seu centro seu lado hidrofóbico a fim de minimizar o contato com a solução.
+#### Lipossomo
+Quando uma [[#Bicamada|bicamada]] se dobra em torno de si mesma, ela tende a formar uma vesícula, esta possui uma cavidade aquosa em seu centro, esta é uma propriedade característica aos [[Lipídeos#Glicerofosfolipídios|glicerofosfolipídios]], que constituem a estrutura da parede celular.
 ### Interação com ácidos
 Ácidos fortes tendem a se desassociar totalmente em meio aquoso

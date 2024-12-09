@@ -17,8 +17,6 @@ onde
 - $a$ é a aceleração resultante, normalmente em $\ce{m/s}$
 
 ## Forças Fundamentais
-
-São 4 as do universo:
 ### Força Gravitacional / Peso
 Gera atração proporcional ao momento e energia de uma determinada partícula, relevante em grandes escalas.
 ### Força Eletromagnética

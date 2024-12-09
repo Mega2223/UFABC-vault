@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Cálculo/Teorema do confronto.md",
+                "file": "Naturais/Química/Transformações Químicas/Reação Química.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Teorema do confronto"
+              "title": "Reação Química"
             }
           },
           {
@@ -55,16 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Geometria Analítica/Plano.md",
+                "file": "Naturais/Química/Bioquímica/Propriedades da Água.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plano"
+              "title": "Propriedades da Água"
+            }
+          },
+          {
+            "id": "6b1ce3f25ee9c3d1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -214,34 +224,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b14e52f2fd634c8",
+  "active": "fe293783816bade6",
   "lastOpenFiles": [
+    "Naturais/Química/Bioquímica/Propriedades da Água.md",
+    "Naturais/Química/Bioquímica/Lipídeos.md",
+    "[Propriedades da Água.md",
+    "Matemática/Geometria Analítica/Plano.md",
+    "Matemática/Geometria Analítica/Vetores.md",
+    "Naturais/Química/Transformações Químicas/Reação Química.md",
+    "Naturais/Química/Transformações Químicas/Sistemas Tampão.md",
+    "Matemática/Cálculo/Teorema do confronto.md",
+    "Naturais/Química/Bioquímica/Hidrocarbonetos.md",
+    "Naturais/Química/Bioquímica/Compostos Orgânicos.md",
+    "Naturais/Física/Mecânica/Cinemática.md",
+    "Naturais/Física/Mecânica/Força.md",
     "Matemática/Geometria Analítica/Combinação Linear.md",
     "Matemática/Cálculo/Integral.md",
     "Matemática/Cálculo/Série de Taylor.md",
     "Matemática/Cálculo/Limite.md",
-    "Matemática/Cálculo/Teorema do confronto.md",
     "Matemática/Cálculo/Derivação Implícita.md",
     "Matemática/Geometria Analítica/Formas.md",
-    "Matemática/Geometria Analítica/Plano.md",
     "Matemática/Geometria Analítica/Reta e Segmento.md",
-    "Naturais/Física/Mecânica/Cinemática.md",
     "Computação/Otimização Linear/Método Simplex.md",
     "Computação/Otimização Linear/Modelo.md",
     "Computação/Otimização Linear/Resolução Gráfica.md",
-    "Matemática/Geometria Analítica/Vetores.md",
     "Matemática/Cálculo/Derivada.md",
     "Matemática/Cálculo/Desenho de Gráficos.md",
     "Computação/Programação Estruturada/Recursão.md",
     "Computação/Otimização Linear/Método dos Elipsoides.md",
-    "Computação/Otimização Linear/Dualidade.md",
-    "Computação/Otimização Linear/Variável de Folga.md",
-    "Computação/Otimização Linear/Análise de Sensibilidade.md",
-    "Naturais/Sistema Internacional.md",
-    "Naturais/Química/Estrutura da Matéria/Ligação.md",
-    "Naturais/Química/Estrutura da Matéria/Geometria Molecular.md",
-    "Naturais/Química/Bioquímica/Compostos Orgânicos.md",
-    "Naturais/Química/Bioquímica/Hidrocarbonetos.md",
     "Assets/Pasted image 20241124203949.png",
     "Naturais/Física/Mecânica/Forças",
     "Naturais/Biologia/Interação entre Organismos e Ambiente",

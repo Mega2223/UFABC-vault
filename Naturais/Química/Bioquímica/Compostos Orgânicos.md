@@ -24,13 +24,11 @@ Compostos orgânicos são compostos constituídos estruturalmente por [[Ligaçã
 Dois elementos são considerados isômeros quando eles possuem mesma forma molecular mas diferentes estruturas espaciais.
 
 // todo coloca uma imagem aqui
-$\ce{C2H6O}$
+$$\Large \ce{C2H6O}$$
 
 ## Funções Orgânicas
 
-```tikz
-\usepackage{chemfig} \begin{document} \chemfig{[:-90]HN(-[::-45](-[::-45]R)=[::+45]O)>[::+45]*4(-(=O)-N*5(-(<:(=[::-60]O)-[::+60]OH)-(<[::+0])(<:[::-108])-S>)--)} \end{document}
-```
+
 
 ## Nomenclatura
 

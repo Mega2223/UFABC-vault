@@ -35,3 +35,5 @@ $$\large \ce{K_c\ =\ \frac{[Y]^y [Z]^z}{[A]^a [B]^b}}$$
 <center><sub>Note que a constante de equilíbrio, assim como a maioria das variáveis numa reação, varia de acordo com a temperatura e a pressão no ambiente da reação.</sub></center>
 
 ## Estado físico
+
+## Catalização

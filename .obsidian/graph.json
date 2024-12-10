@@ -32,7 +32,7 @@
       "query": "path:Naturais/Química  ",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 16753152
       }
     },
     {
@@ -40,6 +40,13 @@
       "color": {
         "a": 1,
         "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Naturais/Biologia  ",
+      "color": {
+        "a": 1,
+        "rgb": 1687098
       }
     }
   ],
@@ -53,6 +60,6 @@
   "repelStrength": 14.5833333333333,
   "linkStrength": 1,
   "linkDistance": 108,
-  "scale": 0.45816773964125296,
+  "scale": 0.03433874236286494,
   "close": false
 }

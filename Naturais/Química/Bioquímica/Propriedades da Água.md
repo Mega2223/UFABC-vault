@@ -58,6 +58,6 @@ Certas moléculas, como alguns [[Lipídeos#Ácidos Graxos|ácidos graxos soltos]
 #### Bicamada
 Outras moléculas tendem a formar lençóis onde duas camadas moleculares se unem e colocam no seu centro seu lado hidrofóbico a fim de minimizar o contato com a solução.
 #### Lipossomo
-Quando uma [[#Bicamada|bicamada]] se dobra em torno de si mesma, ela tende a formar uma vesícula, esta possui uma cavidade aquosa em seu centro, esta é uma propriedade característica aos [[Lipídeos#Glicerofosfolipídios|glicerofosfolipídios]], que constituem a estrutura da parede celular.
+Quando uma [[#Bicamada|bicamada]] se dobra em torno de si mesma, ela tende a formar uma vesícula, esta possui uma cavidade aquosa em seu centro, esta é uma propriedade característica aos [[Lipídeos#Glicerofosfolipídeos|glicerofosfolipídios]], que constituem a estrutura da parede celular.
 ### Interação com ácidos
 Ácidos fortes tendem a se desassociar totalmente em meio aquoso

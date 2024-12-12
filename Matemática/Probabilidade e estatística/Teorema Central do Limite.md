@@ -23,6 +23,6 @@ $Z_n$ representa uma soma ponderada de $n$ variáveis $X_i$ de forma normalizada
 $$\begin{align}E(Z_n) = 0 && \sigma(Z_n) = 1 && \forall n\end{align} $$
 ## Definição
 
-O Teorema Central do Limite afirma que, sejam $X_i$ quaisquer variáveis independentes, quando $n\to \infty$, $Z_n$ têm a [[Variáveis Aleatórias Contínuas#Função distribuição acumulada padrão||distribuição normal padrão]];
+O Teorema Central do Limite afirma que, sejam $X_i$ quaisquer variáveis independentes, quando $n\to \infty$, $Z_n$ têm a [[Variáveis Aleatórias Contínuas#Função distribuição acumulada padrão||distribuição normal padrão]]
 
 $$\Large\lim_{n\to\infty}P(Z_n\le z) = \Phi(z)$$

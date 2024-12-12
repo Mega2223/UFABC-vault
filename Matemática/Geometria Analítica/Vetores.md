@@ -49,12 +49,14 @@ Logo,
 
 $$\theta_{\vec{a}\vec{b}} = \arccos \bigg(\frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| . ||\vec{b}||}\bigg)$$
 
-Assim, $\vec{a} \cdot \vec{b} = 0 \iff |\theta| = \frac{\pi}{2}$ , ou seja, o ângulo entre eles é um ângulo reto.
+Assim, $\vec{a} \cdot \vec{b} = 0 \iff |\theta| = \frac{\pi}{2}$ , ou seja, o ângulo entre eles é um ângulo reto. 
+
+Quando o vetor é expresso como uma matriz de uma coluna é comum denotar o produto escalar como $a^T \cdot b$.
 ### Produto vetorial
 
 O produto vetorial é um produto de 2 vetores tridimensionais que gera outro vetor, ele se dá por:
 
-$\vec{a} \times \vec{b} =  \hat{n}\ ||\vec{a}||\ ||\vec{b}|| \sin\theta$
+$$\large\vec{a} \times \vec{b} =  \hat{n}\ ||\vec{a}||\ ||\vec{b}|| \sin\theta$$
 
 Onde $\theta$ é o ângulo entre os vetores e $\hat{n}$ é um vetor positivamente ortogonal a ambos os vetores. Existem vários meios de chegar no produto vetorial, mas o meu preferido é:
 
@@ -69,10 +71,13 @@ a_1b_2 - a_2b_1
 \end{bmatrix}
 $$
 Propriedades do produto vetorial:
-$\vec{v} \cdot \vec{a} = 0$
-$\vec{v} \cdot \vec{b} = 0$
-$||\vec{v}|| = ||\vec{a}||\ ||\vec{b}|| \sin\theta$
-$\vec{a} \times \vec{b} = - (\vec{b} \times \vec{a})$
+$$ \begin{gather} \vec{v} \cdot \vec{a} = 0 ,\ \
+\vec{v} \cdot \vec{b} = 0 \\
+||\vec{v}|| = ||\vec{a}||\ ||\vec{b}|| \sin\theta\\
+\vec{a} \times \vec{b} = - (\vec{b} \times \vec{a}) \\
+\vec{a}\times(\vec{b} + \vec{c}) = (\vec{a} \times \vec{b}) + (\vec{a} \times \vec{c}) \\
+\lambda(\vec{a} \times \vec{b}) = \lambda \vec{a} \times \vec{b}
+\end{gather}$$
 
 ### Produto misto:
 //TODO :p

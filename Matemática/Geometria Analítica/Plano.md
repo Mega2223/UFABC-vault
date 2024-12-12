@@ -36,4 +36,7 @@ Sejam $\pi_1$ e $\pi_2$ planos, eles são paralelos se e somente se os seus veto
 $$\large \vec{N_1} = \lambda \vec{N_2}$$
 Caso dois planos não sejam paralelos, a intersecção entre eles é uma reta $r$, o [[Reta e Segmento#Equação Vetorial da Reta|vetor direção]] desta reta se dá por 
 $$\large \vec{v} = \vec{N_1} \times \vec{N_2} $$
+### Distância Entre Planos e Retas
+
+
 ### Distância Entre Planos

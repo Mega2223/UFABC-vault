@@ -7,7 +7,6 @@ tags:
   - incompleto
 authors: Júlio César
 ---
-
 ## Definição
 
 A análise combinatória é o estudo do comportamento de diferentes tipos de conjuntos finitos que geram combinações de elementos.

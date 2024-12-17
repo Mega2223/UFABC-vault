@@ -40,19 +40,19 @@ $$\large \begin {gather} \max(f) = \min(-f) \\ \min(f) =\max(-f) \end{gather}$$
 
 É a forma mais intuitiva do modelo, com todas as variáveis e pesos estabelecidos e restrições.
 $$\begin{gather} \large (\max | \min) Z = \sum_i^n x_ia_i
-\\ \text{sujeito a } r \in \mathbb{N} \text{ restrições de forma que}\\
+\\ \text{sujeito a } m \in \mathbb{N} \text{ restrições de forma que}\\
 \\ c_{11} x_1 + \dots + c_{n1} x_n\ (\le | \ge)\ k_1
 \\ \vdots
-\\ c_{1r}\ x_1 + \dots + c_{nr} x_n\ (\le | \ge)\ k_r
+\\ c_{1m}\ x_1 + \dots + c_{nm} x_n\ (\le | \ge)\ k_m
 \end{gather}$$
 ## Forma padrão
 
 Antes da resolução é usual estabelecer o problema pela forma padrão é a forma com todas as desigualdades convertidas para igualdade por meio de [[Variável de Folga|variáveis de folga]]. Também é costumeiro passar $Z$ para o outro lado da igualdade em alguns casos.
 $$\begin{gather} \large (\max | \min) Z = \sum_i^n x_ia_i
-\\ \text{sujeito a } r \in \mathbb{N} \text{ restrições de forma que}\\
-\\ c_{11} x_1 + \dots + c_{m1} x_m = k_1
+\\ \text{sujeito a } m \in \mathbb{N} \text{ restrições de forma que}\\
+\\ c_{11} x_1 + \dots + c_{n1} x_n = k_1
 \\ \vdots
-\\ c_{1r} x_1 + \dots + c_{mr} x_m = k_r
+\\ c_{1m} x_1 + \dots + c_{nm} x_n = k_m
 \end{gather}$$
 
 ## Forma mista

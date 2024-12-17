@@ -38,6 +38,11 @@ $$\large\exists c \in (a,b)\ \ f'(c) = \frac{f(b) - f(a)}{b-a}$$
 
 ## Notações
 $$\frac{d}{dx} f(x) = \frac {dy}{dx} = f'(x) = y' = Df(x) = f^{(1)}(x)$$
+
+## Regra de Cadeia
+
+Sejam $f$ e $g$ funções diferenciáveis,
+$$\large (f\circ g)'(x) = f'(g(x))\ g'(x)$$
 ## Regra de L'Hospital
 
 Sejam $f$ e $g$ funções diferenciáveis (exceto possivelmente em $c$), $c \in \mathbb{R}$, $g'(c) \ne 0$, se $f(c) = 0$ e $g(c) = 0$

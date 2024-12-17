@@ -3,14 +3,16 @@ tags:
   - incompleto
   - computação
   - matemática
+  - algoritmo
 authors: Júlio César
 ---
 ## Definição
 
 O Método Simplex é um método de otimização de um [[modelo]] que visa encontrar os vértices nas extremidades da área viável do problema e gradualmente melhorar a solução até a obtenção da solução $X$.
+A complexidade teórica do método é exponencial pois o número de vértices do politopo se dá pelo [[Análise Combinatória#Combinação simples#Coeficiente Binomial|coeficiente binomial]] $\large \binom{n}{m}$ número de variáveis $n$ e o número de restrições $m$. Todavia o caso o qual o algoritmo deve visitar todos os vértices do politopo é extremamente raro.
 ## Variáveis do problema
 $$\large(\min |\max)\ \ Z =\bigg(\sum_{i=1}^n x_i a_i\bigg)$$
-- $Z$ é resultado da função objetivo.
+- $Z$ é a função objetivo.
 - $(\min |\max)$ minimização ou maximização dos coeficientes.
 - As demais variáveis são variáveis do [[modelo]] linear.
 
@@ -64,7 +66,7 @@ Para encontrar a solução ótima, pivoteamos algumas variáveis básicas para a
 
 $$\Large
 \begin{bmatrix}
-A & b^T\\ -c
+A & b\\ -c^T
 \end{bmatrix}
 $$
 Como por exemplo
@@ -131,7 +133,7 @@ A solução é considerada ótima se:
 - $\min$: todos custos reduzidos são não-negativos
 - $\max$: todos custos reduzidos são não-positivos
 ### Degeneração
-A solução é considerada degenerada se a troca de uma restrição da base por outra mantém a otimalidade da solução sem mudar o valor das variáveis da solução, ou seja, existe alguma restrição desnecessária no problema.
+A solução é considerada degenerada se a troca de uma restrição da base por outra mantém a otimalidade da solução sem mudar o valor das variáveis da solução, ou seja, existe alguma restrição desnecessária no problema. Quando uma variável básica no problema é zero, pode-se dizer que a solução é degenerada.
 ### Crescimento Ilimitado
 Caso não haja variável positiva na coluna do ponto de pivoteamento, essa variável têm um crescimento ilimitado, ou seja, não há solução ótima para o problema.
 ### Variável Artificial

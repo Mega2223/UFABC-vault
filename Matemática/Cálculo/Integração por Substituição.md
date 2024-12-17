@@ -5,11 +5,20 @@ tags:
   - incompleto
 authors: Júlio César
 ---
+
+## Preposição
+
+A propriedade da [[Derivada#Regra de Cadeia|regra de cadeia]] da derivada implica que
+
+$$(F\circ g)'(x) = F'(g(x))\ g'(x)$$Aplicando o [[|#1º TFC]] temos
+$$\int F'(g(x))\ g'(x) dx= F(g(x)) + C$$
 ## Definição
 
 Caso uma integral possa ser descrita na forma de $$\large \int f(g(x))g'(x)dx$$
 pela inversão da [[Derivada#Propriedades|regra de cadeia]] podemos substituir $u = g(x)$ e calcular a integral $\int u\ du$
-## Preposição
+
+$$\int f(g(x))g'(x)dx = F(g(x)) + C$$
+## Exemplo
 
 Certos sistemas de funções não podem ser [[Integral|integrados]] convencionalmente, por exemplo
 $$\large \int 2x \sqrt{1+x^2} dx$$

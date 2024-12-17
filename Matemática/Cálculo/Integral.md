@@ -2,13 +2,13 @@
 tags:
   - cálculo
   - "#matemática"
+  - incompleto
 authors: Júlio César
 ---
-A integral é uma das ferramentas mais essenciais do #cálculo, ela descreve a área de uma função em um determinado intervalo.
-Calcular a área de uma função é uma tarefa difícil, pois funções normalmente são contínuas e não há como calcular sua área com técnicas de geometria analítica básica.
+A integral descreve a área de uma função em um determinado intervalo.
 
-Nós podemos calcular a diferença entre o fim de intervalos de uma função para criar uma aproximação, onde a área é a [[Somatório|somatória]] de vários pontos uniformemente distribuídos divididos pelo número de pontos:
-$$\Large sin(x); x \in [0,\pi]$$
+Nós podemos calcular a diferença entre o fim de intervalos de uma função para criar uma aproximação, onde a área é a somatória de vários pontos uniformemente distribuídos divididos pelo número de pontos:
+$$\Large \sin(x); x \in [0,\pi]$$
 <div style="display:flex; align-items:center; justify-content: center">
 <iframe src="https://www.desmos.com/calculator/znuaibwq6t?embed" width="250" height="250" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
@@ -32,12 +32,12 @@ $$\Large\int_0^\pi \sin x\ dx = 2$$
 
 A integral indefinida é um conjunto de funções que informam sobre o comportamento de uma integral, ela se dá por:
 
-$$\Large F(x) + C =\int f(x) dx \iff \int_a^b f(x)dx =  F(x) \bigg|^a_b \ \forall (a,b)\in\mathbb{R}$$
+$$\Large F(x) + C =\int f(x) dx \iff \int_a^b f(x)dx =  F(x) \bigg|^b_a \ \forall (a,b)\in I \subseteq \mathbb{R}$$
 
 onde $C$ é qualquer constante.
 ### Relação com a [[derivada]]
 A função $F$ é uma anti[[derivada]] de $f$, ou seja, $f' = F$, assim, a melhor forma de descobrir a integral indefinida de uma função é encontrar a sua antiderivada.
 
-$$\Large \frac{d}{dx}\int f(x) = f(x) + C$$
+$$\Large \frac{d}{dx}\int f(x)\ dx= f(x)$$
 
 ## Propriedades da integral

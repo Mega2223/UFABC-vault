@@ -4,7 +4,6 @@ tags:
   - matemática
 authors: Júlio César
 ---
-
 ## Definição
 
 É uma técnica de cálculo da integral de produtos, partindo da [[Derivada#Propriedades|regra do produto]] da [[derivada]], podemos chegar na seguinte propriedade das [[Integral#Integral indefinida|integrais indefinidas]]:

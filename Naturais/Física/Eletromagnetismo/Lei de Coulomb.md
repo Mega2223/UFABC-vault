@@ -10,8 +10,7 @@ aliases:
 ---
 ## Definição
 
-A lei de coulomb define a [[força]] elétrica, que é uma variável na equação da [[força eletromagnética.]] 
-
+A lei de coulomb define a [[força]] elétrica, que é parte da [[força eletromagnética.]]
 ### Equação Escalar
 $$\begin{align}\Large F_e = k \frac{q_1 q_2}{r^2}\end{align}$$
 Onde
@@ -21,9 +20,9 @@ Onde
 - $F_e$ é a [[Vetores#Operações vetoriais#Tamanho / Magnitude|magnitude]] da força resultante
 
 ### Equação Vetorial
-$$\Large \vec{F_e} = k \frac{q_1 q_2}{|r_{12}|} \hat{r}_{12}$$
+$$\Large \vec{F_e} = k \frac{q_1 q_2}{|\vec{r}_{12}|} \hat{r}_{12}$$
 Onde
-- $\large \vec{r}_{12} = \vec{r}_1 - \vec{r}_2$ é a distância entre as cargas
+- $\large \vec{r}_{12} = p_1 - p_2$ é a distância entre as cargas
 - $\vec{F_e}$ é a força resultante
 - $q_1$ e $q_2$ são as cargas elétricas
 - $k$ é a Constante de Coulomb

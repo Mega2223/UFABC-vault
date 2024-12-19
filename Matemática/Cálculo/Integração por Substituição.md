@@ -18,8 +18,6 @@ Caso uma integral possa ser descrita na forma de $$\large \int f(g(x))g'(x)dx$$
 pela inversão da [[Derivada#Propriedades|regra de cadeia]] podemos substituir $u = g(x)$ e calcular a integral $\int u\ du$
 
 $$\int f(g(x))g'(x)dx = F(g(x)) + C$$
-## Exemplo
-
 Certos sistemas de funções não podem ser [[Integral|integrados]] convencionalmente, por exemplo
 $$\large \int 2x \sqrt{1+x^2} dx$$
 Nesse caso, podemos inserir uma nova variável $u = 1 + x^2$ para o problema, de tal forma que $du = 2x\ dx$

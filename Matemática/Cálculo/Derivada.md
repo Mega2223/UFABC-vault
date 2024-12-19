@@ -46,4 +46,4 @@ $$\large (f\circ g)'(x) = f'(g(x))\ g'(x)$$
 ## Regra de L'Hospital
 
 Sejam $f$ e $g$ funções diferenciáveis (exceto possivelmente em $c$), $c \in \mathbb{R}$, $g'(c) \ne 0$, se $f(c) = 0$ e $g(c) = 0$
-$$\large \lim_{x\to c}\frac{f(x)}{g(x)} = \frac{f'(x)}{g'(x)}$$
+$$\large \lim_{x\to c}\frac{f(x)}{g(x)} =\lim_{x\to c} \frac{f'(x)}{g'(x)}$$

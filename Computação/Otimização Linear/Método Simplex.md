@@ -9,7 +9,7 @@ authors: Júlio César
 ## Definição
 
 O Método Simplex é um método de otimização de um [[modelo]] que visa encontrar os vértices nas extremidades da área viável do problema e gradualmente melhorar a solução até a obtenção da solução $X$.
-A complexidade teórica do método é exponencial pois o número de vértices do politopo se dá pelo [[Análise Combinatória#Combinação simples#Coeficiente Binomial|coeficiente binomial]] $\large \binom{n}{m}$ número de variáveis $n$ e o número de restrições $m$. Todavia o caso o qual o algoritmo deve visitar todos os vértices do politopo é extremamente raro.
+A complexidade teórica do método é exponencial pois o número de vértices do politopo se dá pelo [[Análise Combinatória#Combinação simples#Coeficiente Binomial|coeficiente binomial]] $\large \binom{n}{m}$ do número de variáveis $n$ e o número de restrições $m$. Todavia o caso o qual o algoritmo deve visitar todos os vértices do politopo é extremamente raro.
 ## Variáveis do problema
 $$\large(\min |\max)\ \ Z =\bigg(\sum_{i=1}^n x_i a_i\bigg)$$
 - $Z$ é a função objetivo.
@@ -24,7 +24,7 @@ $$\begin{gather} \large \min z = -3x_1 -5x_2 \\\\ x_1 + x_3 = 4 \\ x_2 + x_4 = 6
 
 ### Variáveis
 São as variáveis do problema
-- $n$ : Número de variáveis da função objetivo incluindo variáveis de folga.
+- $n$ : Número de variáveis.
 - $m$: Número de restrições \\ variáveis de folga.
 - $x$: Vetor de todas as variáveis do problema.
 - $C$: Conjunto de todas as soluções viáveis do problema
@@ -55,7 +55,7 @@ B\ x_B + R\ x_R = b
 \end{gather}
 $$
 O vetor $c$ é o coeficiente linear das variáveis na função objetivo:
-$$\large c =\begin{bmatrix}-3- 5,0,0,0\end{bmatrix}$$
+$$\large c =\begin{bmatrix}-3,- 5,0,0,0\end{bmatrix}$$
 O vetor $c_j$ é o vetor de custos reduzidos na função objetivo, inicialmente ele é igual a $c$ mas ele muda conforme operações de pivoteamento são feitas.
 ### Solução
 Encontrar a solução ótima envolve encontrar uma solução viável e trocar as variáveis básicas e não básicas afim de melhorar esta solução até achar um vértice no polígono de viabilidade que é ótimo ao problema. Deve-se lembrar que todas as variáveis não-básicas são 0, logo
@@ -132,6 +132,7 @@ Como ambos os $\text{Cr}$ são negativos, a solução é ótima. Temos então $x
 A solução é considerada ótima se:
 - $\min$: todos custos reduzidos são não-negativos
 - $\max$: todos custos reduzidos são não-positivos
+$$c_j - z_j \le 0$$
 ### Degeneração
 A solução é considerada degenerada se a troca de uma restrição da base por outra mantém a otimalidade da solução sem mudar o valor das variáveis da solução, ou seja, existe alguma restrição desnecessária no problema. Quando uma variável básica no problema é zero, pode-se dizer que a solução é degenerada.
 ### Crescimento Ilimitado
@@ -139,4 +140,5 @@ Caso não haja variável positiva na coluna do ponto de pivoteamento, essa vari�
 ### Variável Artificial
 //todo
 ## Simplex Dual
-//todo
+
+O simplex dual é um método para soluções ótimas mas não viáveis, em vez de pivotear variáveis a fim de alcançar a otimalidade, se pivoteiam elas para alcançar a viabilidade sem perca da otimalidade, no caso são encontradas variáveis com coeficientes negativos em $b_i$ e estas são pivoteadas pra fora, em seu lugar entra a variável cujo o $\text{Cr}/a_p$ é **menor**.

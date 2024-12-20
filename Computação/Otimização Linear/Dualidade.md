@@ -44,5 +44,5 @@ Seja $x$ uma solução do primal e $y$ uma solução do dual, $$c^Tx \le b^Ty$$
 - Se um problema é ilimitado seu dual é inviável.
 
 ### Dualidade forte
-- Se um programa tem solução ótima, o outro também têm, e ambas são iguais.
+- Se um modelo tem solução ótima, o [[Dualidade|seu dual]] também têm, e ambas são iguais.
 

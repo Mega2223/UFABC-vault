@@ -11,6 +11,8 @@ A análise de sensibilidade é o estudo da mudança do comportamento de um [[Mod
 
 ## Mudança de Variável
 
+//todo eu honestamente não entendi essa, e eu tb n entendi a explicação do Goldbarg ou as notas do Jerônimo, deus me ajude
+
 Inserindo uma nova variável em $x_B$, ela não entra imediatamente para a base, sua coluna não reflete os seus coeficientes iniciais mas sim eles depois de suas transformações, assim deve-se inserir uma nova coluna em $A$ entre as variáveis do problema e as de folga
 $$\large a'_{n+1} = A_B^{-1}a_{n+1}$$
 Por exemplo, dado o tableau final
@@ -50,7 +52,7 @@ $$
 Caso esse coeficiente seja positivo, a solução não é mais ótima. Pode-se também tornar o problema ilimitado ou inviável.
 
 ## Mudança de Custos
-
+// todo isso tá errado 
 Uma mudança no vetor de custos $c$ afeta diretamente a condição de otimalidade da solução $x$, ao inserir essa variável no tableau, ela entra como variável básica, são necessárias modificações para cumprir com as  propriedades do tableau antes de avaliar o impacto da restrição, por exemplo, dado um tableau:
 
 $$\begin{gather}

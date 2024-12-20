@@ -56,6 +56,8 @@ A cada iteração o volume do elipsoide diminui, em certos casos não há regiã
 $$\large \text{Vol}(\text{ E}(M^k,X^k)\ )\lt 2^{(-n+1)L}$$
 A fronteira do mínimo de volume diminuído em cada iteração é dado por
 $$\large\frac{-1}{e^{2(n+1)}}$$
+O volume de um elipsoide se dá por 
+$$\large \frac{4}{3} \pi abc$$
 ## Otimalidade
 
 Pode-se encontrar uma solução ótima por meio da [[Dualidade#Dualidade forte|dualidade forte]], uma solução que segue tanto as restrições do primal quanto as do dual é uma solução ótima.

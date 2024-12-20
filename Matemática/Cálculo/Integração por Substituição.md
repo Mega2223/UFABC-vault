@@ -2,7 +2,6 @@
 tags:
   - matemática
   - cálculo
-  - incompleto
 authors: Júlio César
 ---
 
@@ -10,7 +9,7 @@ authors: Júlio César
 
 A propriedade da [[Derivada#Regra de Cadeia|regra de cadeia]] da derivada implica que
 
-$$(F\circ g)'(x) = F'(g(x))\ g'(x)$$Aplicando o [[|#1º TFC]] temos
+$$(F\circ g)'(x) = F'(g(x))\ g'(x)$$Aplicando o [[#1º TFC]] temos
 $$\int F'(g(x))\ g'(x) dx= F(g(x)) + C$$
 ## Definição
 

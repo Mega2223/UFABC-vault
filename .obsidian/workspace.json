@@ -4,77 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "0faa3b407b75489f",
+        "id": "165c894cd849cea1",
         "type": "tabs",
         "children": [
           {
-            "id": "a8fcd036d9993d17",
+            "id": "61143e651891f86b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Naturais/Química/Bioquímica/Lipídeos.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lipídeos"
-            }
-          },
-          {
-            "id": "c7ee63ad67cae173",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Naturais/Química/Bioquímica/Lipídeos.md",
+                "file": "Computação/Otimização Linear/Análise de Sensibilidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lipídeos"
+              "title": "Análise de Sensibilidade"
             }
           },
           {
-            "id": "d06b7c1f4487f18c",
+            "id": "569aa6b8b22c7ebc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Naturais/Química/Bioquímica/Nucleotídeos.md",
+                "file": "Computação/Otimização Linear/Modelo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nucleotídeos"
-            }
-          },
-          {
-            "id": "725b688ff925509b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "86e6fddfb6e47029",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Naturais/Biologia/DNA.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DNA"
+              "title": "Modelo"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.0110321044922
+    "width": 322.0110321044922
   },
   "right": {
     "id": "fdbdc5556081ecb9",
@@ -224,10 +185,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86e6fddfb6e47029",
+  "active": "61143e651891f86b",
   "lastOpenFiles": [
-    "Naturais/Química/Bioquímica/Nucleotídeos.md",
+    "Computação/Otimização Linear/Modelo.md",
+    "Computação/Otimização Linear/Análise de Sensibilidade.md",
+    "Computação/Otimização Linear/Método Simplex.md",
+    "Computação/Otimização Linear/Método dos Pontos Interiores.md",
+    "Computação/Otimização Linear/Método dos Elipsoides.md",
+    "Assets/Análise de Sensibilidade (old).md",
+    "Matemática/Cálculo/Frações Parciais.md",
+    "Matemática/Cálculo/Integração por Partes.md",
+    "Matemática/Cálculo/Integração por Substituição.md",
+    "Matemática/Cálculo/Teorema do confronto.md",
+    "Computação/Otimização Linear/Variável de Folga.md",
+    "Computação/Otimização Linear/Resolução Gráfica.md",
+    "Computação/Otimização Linear/Dualidade.md",
+    "Matemática/Cálculo/Integral.md",
+    "Matemática/Matriz.md",
+    "simplex.md",
     "Naturais/Biologia/DNA.md",
+    "Naturais/Química/Bioquímica/Nucleotídeos.md",
     "Naturais/Química/Bioquímica/Lipídeos.md",
     "Naturais/Química/Bioquímica/Metabolismo do Sangue.md",
     "Naturais/Química/Bioquímica/Lipoproteínas.md",
@@ -236,22 +213,6 @@
     "Naturais/Química/Bioquímica/Compostos Orgânicos.md",
     "Naturais/Química/Bioquímica/Carboidratos.md",
     "Naturais/Química/Bioquímica/Aminoácidos.md",
-    "Matemática/Cálculo/Derivadas Comuns.md",
-    "Matemática/Cálculo/Derivada.md",
-    "Naturais/Biologia/RNA.md",
-    "Naturais/Química/Bioquímica/Propriedades da Água.md",
-    "Naturais/Química/Bioquímica/Proteínas.md",
-    "Computação/Otimização Linear/Método Simplex.md",
-    "Computação/Otimização Linear/Análise de Sensibilidade.md",
-    "Computação/Otimização Linear/Método dos Pontos Interiores.md",
-    "Matemática/Cálculo/Esboço de Gráficos.md",
-    "Matemática/Cálculo/Frações Parciais.md",
-    "Matemática/Cálculo/Integração por Partes.md",
-    "Matemática/Cálculo/Integração por Substituição.md",
-    "Computação/Otimização Linear/Resolução Gráfica.md",
-    "Computação/Otimização Linear/Método dos Elipsoides.md",
-    "Computação/Otimização Linear/Dualidade.md",
-    "Naturais/Física/Eletromagnetismo/Lei de Coulomb.md",
     "Computação/Paradigmas de Computação",
     "Pesquisa/Computação Gráfica",
     "Pesquisa/Mecânica de Robôs",

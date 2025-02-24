@@ -5,12 +5,15 @@ tags:
   - matemática
   - algoritmo
 authors: Júlio César
+aliases:
+  - simplex
 ---
 ## Definição
 
 O Método Simplex é um método de otimização de um [[modelo]] que visa encontrar os vértices nas extremidades da área viável do problema e gradualmente melhorar a solução até a obtenção da solução $X$.
 A complexidade teórica do método é exponencial pois o número de vértices do politopo se dá pelo [[Análise Combinatória#Combinação simples#Coeficiente Binomial|coeficiente binomial]] $\large \binom{n}{m}$ do número de variáveis $n$ e o número de restrições $m$. Todavia o caso o qual o algoritmo deve visitar todos os vértices do politopo é extremamente raro.
 ## Variáveis do problema
+//todo move isso pra [[Modelo]]
 $$\large(\min |\max)\ \ Z =\bigg(\sum_{i=1}^n x_i a_i\bigg)$$
 - $Z$ é a função objetivo.
 - $(\min |\max)$ minimização ou maximização dos coeficientes.
@@ -59,7 +62,7 @@ $$\large c =\begin{bmatrix}-3,- 5,0,0,0\end{bmatrix}$$
 O vetor $c_j$ é o vetor de custos reduzidos na função objetivo, inicialmente ele é igual a $c$ mas ele muda conforme operações de pivoteamento são feitas.
 ### Solução
 Encontrar a solução ótima envolve encontrar uma solução viável e trocar as variáveis básicas e não básicas afim de melhorar esta solução até achar um vértice no polígono de viabilidade que é ótimo ao problema. Deve-se lembrar que todas as variáveis não-básicas são 0, logo
-$$\large z = \sum c_B^T x_B$$
+$$\large z =  c_B^T x_B$$
 Em qualquer $z$ válido.
 
 Para encontrar a solução ótima, pivoteamos algumas variáveis básicas para as não-básicas por meio de seu $\text{Cr}$, como $B = I$ **sempre**, são necessárias operações normalizadoras para cumprir com esta propriedade, podemos montar o nosso problema da seguinte forma:

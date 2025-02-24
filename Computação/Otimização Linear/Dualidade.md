@@ -23,8 +23,6 @@ x_p \ge 0 \rightarrow p(\ge) \\
 x_p \text{ é livre} \rightarrow p(=) \\
 x_p \le 0 \rightarrow p(\le) \\
 \end{gather}$$
-![[Pasted image 20241124203949.png|center]]
-//todo essa imagem não fala absolutamente nada :P:P:PP:P:P:P:P :P:P:P::P:P:P :PP:P:P
 
 Tendo como referência o problema de exemplo em [[Método Simplex#Resolução Matricial#Problema|simplex]], sua forma dual seria
 

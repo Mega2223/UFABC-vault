@@ -48,12 +48,37 @@ $$\begin{gather} \large (\max | \min) Z = \sum_i^n x_ia_i
 ## Forma padrão
 
 Antes da resolução é usual estabelecer o problema pela forma padrão é a forma com todas as desigualdades convertidas para igualdade por meio de [[Variável de Folga|variáveis de folga]]. Também é costumeiro passar $Z$ para o outro lado da igualdade em alguns casos.
-$$\begin{gather} \large (\max | \min) Z = \sum_i^n x_ia_i
+$$\begin{gather} \large (\max | \min) f = \sum_i^n x_ia_i
 \\ \text{sujeito a } m \in \mathbb{N} \text{ restrições de forma que}\\
 \\ c_{11} x_1 + \dots + c_{n1} x_n = k_1
 \\ \vdots
 \\ c_{1m} x_1 + \dots + c_{nm} x_n = k_m
 \end{gather}$$
+## Variáveis do modelo
 
-## Forma mista
-...
+Dado um modelo de $n$ variáveis $m$ restrições, temos
+- $x$ como o vetor das variáveis do problema, $n$ variáveis.
+- $c$ como os coeficientes (ou custos / pesos) de cada variável, $n$ variáveis.
+- $b$ como o vetor das fronteiras de cada restrição, $m$ variáveis.
+- $z$ como $c_B^T A_N$
+- $A$: Para cada elemento de $b$ há um conjunto de constantes associadas aos pesos de cada variável na restrição, construindo esses coeficientes numa matriz temos a matriz $A$, de forma geral, $A_{ij} = a_{ij}$.
+- $R$ ou $N$: Lado de $A$ com as colunas das variáveis iniciais do problema.
+- $B$: Lado de $A$ com as colunas das variáveis de folga do problema.
+- $A_B$: Colunas de $A$ referentes às variáveis básicas do problema ($A_B = I$).
+- $A_R$ ou $A_N$: Colunas de $A$ referentes às variáveis não-básicas do problema.
+
+Essas variáveis formam um tableau inicial pra solução do problema por [[Método Simplex|simplex]]
+$$\large
+\begin {align}
+\begin{bmatrix}
+A & b\\ -c^T
+\end{bmatrix} && \text{ou} &&
+\begin{bmatrix}
+B & R & b\\ -c^T_B & -c^T_R 
+\end{bmatrix}
+\end{align}
+$$
+Assim o problema de forma padrão pode ser interpretado como
+$$\large \begin{gather}
+(\max | \min)\ c^Tx \\ Ax = b \\ x \ge 0
+\end{gather}$$

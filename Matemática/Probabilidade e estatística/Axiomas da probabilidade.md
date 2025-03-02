@@ -4,10 +4,13 @@ tags:
   - estatística
 authors: Júlio César
 ---
-
 ## A função probabilidade
 
 A função probabilidade $P$ é a função que determina a probabilidade de um determinado evento, $dom(P) = [0,1]$, onde $p(x)$ é a probabilidade de $x$ ocorrer.
+
+## Valor esperado
+
+A função $E(x)$ é o valor esperado de um determinado $x$ aleatório, isso é, o valor médio ponderado de $x$ em um determinado espaço amostral. Esta função depende da natureza do espaço amostral (se é discreto ou contínuo).
 ## Espaço amostral
 
 O espaço amostral/universo, normalmente denotado por $\Omega$, é o conjunto de todos os possíveis eventos.

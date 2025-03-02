@@ -9,6 +9,7 @@ authors: Júlio César
 ---
 ## Definição
 
+R é uma língua de programação interpretada multiparadigma focada em programação matemática e estatística.
 ## Formatos
 
 ### Vetor
@@ -65,6 +66,12 @@ plot(x,sin(x))
 ```
 
 ### Geração de vetor aleatório
+A função `runif` gera números em uma distribuição uniforme.
+```R
+r = runif(128)
+r
+```
+A função `rnorm` gera números em uma [[Léxico de Distribuições de Probabilidade#Distribuição Normal|distribuição normal]].
 ```R
 r = rnorm(128)
 r

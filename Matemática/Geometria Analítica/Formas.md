@@ -17,7 +17,7 @@ $$\large A = {\pi r^2}$$
 
 O paralelogramo é um quadrilátero bidimensional onde 2 de seus lados são paralelos e de mesmo tamanho um ao outro, enquanto os outros dois também são paralelos entre si. 
 ### Área
-Dado um paralelogramo $P$, a área deste se pode calcular com o [[Vetores#Produto vetorial|produto vetorial]]:
+Dado um paralelogramo $P$, a área deste se pode calcular com o [[Vetor#Produto vetorial|produto vetorial]]:
 $$\large A(P) = ||\overset{\longrightarrow}{BC}\times \overset{\longrightarrow}{BD}|| = ||\overset{\longrightarrow}{BC}|| \ ||\overset{\longrightarrow}{BD}||\ \sin \theta$$
 
 ## Esfera

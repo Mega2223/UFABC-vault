@@ -24,7 +24,7 @@ $$\large C_{ij} =\sum_{k=1}^{p}A_{ik}B_{kj}$$
 ### Multiplicação matriz vetor
 Seja $A$ uma matriz e $\vec{v}$ um vetor, podemos considerar $\vec{v}$ como uma matriz de uma coluna:
 $$\begin {align}\large \vec{v} \in \mathbb{V}^n = \begin{bmatrix}v_1 \\ \vdots \\ v_n \end{bmatrix} \end{align}$$
-Assim, $M\vec{v}$ é calculável. O [[Vetores#Produto escalar|produto escalar]] de dois vetores é ocasionalmente escrito como $a^Tb$.
+Assim, $M\vec{v}$ é calculável. O [[Vetor#Produto escalar|produto escalar]] de dois vetores é ocasionalmente escrito como $a^Tb$.
 ## Matriz Identidade
 
 Uma matriz identidade $I$ é uma matriz de $m = n$ tal qual $MI = M\ \ \forall M$ válido.

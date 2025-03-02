@@ -17,7 +17,7 @@ Onde
 - $r$ é a distância entre as cargas
 - $q_1$ e $q_2$ são as cargas elétricas
 - $k$ é a Constante de Coulomb
-- $F_e$ é a [[Vetores#Operações vetoriais#Tamanho / Magnitude|magnitude]] da força resultante
+- $F_e$ é a [[Vetor#Operações vetoriais#Tamanho / Magnitude|magnitude]] da força resultante
 
 ### Equação Vetorial
 $$\Large \vec{F_e} = k \frac{q_1 q_2}{|\vec{r}_{12}|} \hat{r}_{12}$$

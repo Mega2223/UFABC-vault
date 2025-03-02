@@ -4,6 +4,9 @@ tags:
   - geometria-analitica
   - incompleto
 authors: Júlio César
+aliases:
+  - Vetores
+  - Vetor
 ---
 ## Definição
 

@@ -9,7 +9,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Uma força é, de forma geral, uma grandeza [[Vetores|vetorial]] capaz de modificar a aceleração de um determinado objeto. Ela é normalmente medida em [[Newtons]].
+Uma força é, de forma geral, uma grandeza [[Vetor|vetorial]] capaz de modificar a aceleração de um determinado objeto. Ela é normalmente medida em [[Newtons]].
 $$\Huge F = m\ .a$$<sup><center>de acordo com a 2ª Lei de Newton</center></sup>
 onde
 - $F$ é a magnitude da força

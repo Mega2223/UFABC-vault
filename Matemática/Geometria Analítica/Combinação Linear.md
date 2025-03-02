@@ -6,7 +6,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Uma combinação linear é um somatório de [[vetores]] ponderados. Seja $\lambda_i \in \mathbb{R}$ qualquer escalar:
+Uma combinação linear é um somatório de [[Vetor]] ponderados. Seja $\lambda_i \in \mathbb{R}$ qualquer escalar:
 $$\Large\vec{\omega} = \sum_{i =1}^{n} \vec{v_i} \lambda_i$$
 Dizemos que $\vec{\omega}$ é combinação linear dos vetores $\{\vec{v_1},\ ...,\ \vec{v_i}\}$.
 ## Dependência Linear

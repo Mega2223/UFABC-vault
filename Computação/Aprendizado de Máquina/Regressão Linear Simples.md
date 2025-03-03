@@ -50,7 +50,7 @@ gen_ln <- function(X, Y) {
 plot_ln <- function(X, Y) {
     f <- gen_ln(X, Y)
     l <- f(X)
-    matplot(X, matrix(c(Y, l), nrow = 128), type = c("p", "l"), pch = "+")
+    matplot(X, matrix(c(Y, l), ncol = 2), type = c("p", "l"), pch = "+")
 }
 
 X <- 1:128

@@ -27,6 +27,4 @@ Onde $E(Y-\hat{Y})^2$ é o quadrado do [[Axiomas da probabilidade#Valor esperado
 
 Para medir a acurácia de um modelo dado um conjunto de treinamento ou um conjunto de testes, pode-se usar o _mean squared error_:
 $$\large \text{MSE} = \frac{1}{n} \sum_{i=1}^n(y_i - \hat{f}(x_i))^2$$
-## Variáveis
-
 ## Overfitting e Underfitting

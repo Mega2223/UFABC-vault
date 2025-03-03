@@ -49,7 +49,6 @@ f(1:128,129:256)
 ```
 ### Modelo Linear
 
-### Multiplicação Matricial
 
 ## Utilidades
 

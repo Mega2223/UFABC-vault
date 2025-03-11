@@ -3,7 +3,6 @@ tags:
   - algoritmo
   - computação
   - estatística
-  - incompleto
   - matemática
 authors: Júlio César
 ---

@@ -73,7 +73,7 @@ $$
 
 [Exemplo](https://www.desmos.com/calculator/vopqrpcmmz?lang=pt-BR)
 
-A função normal gaussiana existe $\forall \ x\in\mathbb{R}$, ou seja, $\int_{-\infty}^{\infty}f(x)dx = 1$
+A função normal gaussiana existe e é maior que zero $\forall \ x\in\mathbb{R}$, ou seja, $\int_{-\infty}^{\infty}f(x)dx = 1$
 
 ### Distribuição Normal Padrão
 

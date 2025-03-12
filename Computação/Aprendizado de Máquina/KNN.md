@@ -24,11 +24,15 @@ Em geral, o KNN têm boa performance para um conjunto de testes com um número e
 
 ## Regressão
 
-
+O KNN também têm uma forma de [[regressão]], de forma geral
+$$\large \hat{f}_k(x) = \frac{1}{k} \sum_{x_i \in N_k(x)}y_i$$
 ## Maldição da dimensionalidade
 
 Conforme aumentam as dimensões de $X$, também se aumenta a distância média entre cada ponto, de forma geral, dado uma N-esfera de dimensão $d$ com $m$ pontos aleatoriamente distribuídos de forma uniforme, a mediana da distância ao ponto mais próximo se dá por
 $$\large \text{dist} = \bigg( 1- \bigg(\frac{1}{2}\bigg)^{1/m} \bigg)^{1/d}$$
+## Escolha do K
+
+Geralmente queremos uma função que minimize a [[Função de Perda#Função de Perda Quadrática|perda quadrática]] no caso de regressão e a [[Função de Perda#Função de Perda 0-1|taxa de erro]] em classificação, vale a pena simplesmente gradualmente aumentar o $k$ até o momento em que o número de erros no conjunto de testes começa a aumentar devido a [[Aprendizado Supervisionado#Tradeoff Variância / Viés|overfitting]] no conjunto de treinamento. 
 ## Classificador de Bayes
 
 O KNN é uma aproximação do classificador de Bayes, este minimiza o risco dado a função penalizadora $\mathbb{1}(y_i = y)$

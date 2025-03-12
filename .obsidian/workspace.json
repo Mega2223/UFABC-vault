@@ -4,35 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "5b4e53c883f81023",
+        "id": "49c3b213e4ac6442",
         "type": "tabs",
         "children": [
           {
-            "id": "de90df311ac906ac",
+            "id": "1673c5e6064b45d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
-                "mode": "source",
+                "file": "Computação/Aprendizado de Máquina/Aprendizado Supervisionado.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Complexidade Assintótica"
+              "title": "Aprendizado Supervisionado"
             }
           },
           {
-            "id": "43ff62e1c24b50e5",
+            "id": "82badd6a911970df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Redes de Computador/Camada Física.md",
+                "file": "Computação/Aprendizado de Máquina/KNN.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "KNN"
+            }
+          },
+          {
+            "id": "9e071e8f54d71c62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Aprendizado de Máquina/Função de Perda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Camada Física"
+              "title": "Função de Perda"
             }
           }
         ]
@@ -186,8 +200,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "de90df311ac906ac",
+  "active": "1673c5e6064b45d5",
   "lastOpenFiles": [
+    "Computação/Aprendizado de Máquina/Regressão Logística.md",
+    "Computação/Aprendizado de Máquina/Aprendizado Supervisionado.md",
+    "Computação/Aprendizado de Máquina/KNN.md",
+    "Computação/Aprendizado de Máquina/Regressão.md",
+    "Computação/Aprendizado de Máquina/Regressão Linear Simples.md",
+    "Computação/Aprendizado de Máquina/Função de Perda.md",
+    "Computação/Aprendizado de Máquina/Classificação.md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
+    "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
+    "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
+    "Matemática/Probabilidade e Estatística/Léxico de Distribuições de Probabilidade.md",
+    "Matemática/Probabilidade e Estatística/Axiomas da probabilidade.md",
+    "Computação/Aprendizado de Máquina/Agrupamento.md",
+    "Computação/Aprendizado de Máquina/R.md",
+    "Computação/Redes de Computador/Arquitetura de Rede.md",
+    "Computação/Redes de Computador/Camada de Enlace.md",
+    "Computação/Redes de Computador/Protocolo UDP.md",
+    "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
     "Computação/Redes de Computador/Camada Física.md",
     "Matemática/Cálculo/Integral.md",
     "Matemática/Cálculo/Integração por Substituição.md",
@@ -196,24 +228,6 @@
     "Matemática/Cálculo/Esboço de Gráficos.md",
     "Matemática/Cálculo/Derivação Implícita.md",
     "Matemática/Cálculo/Derivadas Comuns.md",
-    "Matemática/Cálculo/Derivada.md",
-    "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
-    "Computação/Redes de Computador/Modelo TCP-IP.md",
-    "Computação/Redes de Computador/Camada de Enlace.md",
-    "Computação/Redes de Computador/Arquitetura de Rede.md",
-    "Computação/Redes de Computador/Protocolo TCP.md",
-    "Computação/Redes de Computador/Protocolo UDP.md",
-    "Computação/Redes de Computador/Untitled.md",
-    "Computação/Prática Avançada de Programação/Lista.md",
-    "Computação/Aprendizado de Máquina/KNN.md",
-    "Computação/Aprendizado de Máquina/Regressão Linear Simples.md",
-    "Computação/Aprendizado de Máquina/Regressão Logística.md",
-    "Computação/Comunicação e Redes/Grafo.md",
-    "Computação/Comunicação e Redes/A-Star.md",
-    "Computação/Aprendizado de Máquina/Agrupamento.md",
-    "Computação/Aprendizado de Máquina/Aprendizado Supervisionado.md",
-    "Computação/Redes de Computador/Lab/Laboratório.md",
-    "Computação/Programação Estruturada/Alocação Dinâmica de Memória.md",
     "Computação/Redes de Computador/Lab",
     "Computação/Prática Avançada de Programação",
     "Computação/Aprendizado de Máquina",

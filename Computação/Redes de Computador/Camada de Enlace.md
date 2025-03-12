@@ -28,8 +28,8 @@ Para o controle de erros, a camada de enlace emprega de diversas ferramentas, ap
 - Solicitar o pacote novamente caso o mesmo não tenha sido recebido
 
 ### Distância de Hamming
-
 Em canais ruidosos deve-se
+//todo
 ## Enquadramento
 
 É o processo de codificação de dados em quadros para a [[camada física]].

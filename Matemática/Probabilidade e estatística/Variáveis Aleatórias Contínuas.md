@@ -8,7 +8,7 @@ authors: Júlio César
 
 ## Definição
 
-Em certos casos, estamos estudando probabilidades em espaços contínuos, onde a distribuição se dá em uma função ponderada de $x$ e $P(x)$, para esses casos, cada valor de $x$ tem probabilidade 0, então só se pode calcular intervalos de probabilidade por meio da [[integral]]:
+Em certos casos, estamos estudando probabilidades em espaços contínuos, onde a distribuição se dá em uma função ponderada de $x$ e $P(x)$, para esses casos, cada valor $x$ tem probabilidade 0, então só se pode calcular intervalos de probabilidade por meio da [[integral]]:
 
 $$\Large P(a<x<b) = \int_a^bf(x)dx$$
 
@@ -73,7 +73,7 @@ $$
 
 [Exemplo](https://www.desmos.com/calculator/vopqrpcmmz?lang=pt-BR)
 
-A função normal gaussiana existe e é maior que zero $\forall \ x\in\mathbb{R}$, ou seja, $\int_{-\infty}^{\infty}f(x)dx = 1$
+A função normal gaussiana existe e é maior que zero $\forall \ x\in\mathbb{R}$, ainda sim, $\int_{-\infty}^{\infty}f(x)dx = 1$
 
 ### Distribuição Normal Padrão
 

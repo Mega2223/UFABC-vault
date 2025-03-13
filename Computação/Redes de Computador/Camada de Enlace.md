@@ -28,8 +28,12 @@ Para o controle de erros, a camada de enlace emprega de diversas ferramentas, ap
 - Solicitar o pacote novamente caso o mesmo não tenha sido recebido
 
 ### Distância de Hamming
-Em canais ruidosos deve-se
-//todo
+A distância de Hamming entre duas sentenças binárias é a diferença de bits necessários para que uma sentença se torne a outra.
+$$\large\text{dh }= \sum_i
+\begin{cases}
+0 & A_i = B_i \\
+1 & A_i \ne B_i
+\end{cases}$$
 ## Enquadramento
 
 É o processo de codificação de dados em quadros para a [[camada física]].
@@ -45,15 +49,23 @@ O enquadramento pode optar por inserir um byte de escape no dicionário, que ser
 ## Controle de Fluxo
 
 Envolve o acordo de transmissão e recebimento de dados no canal
+### Intervalo de Disputa
+Para protocolos de [[#Subcamada de Acesso Ao Meio|acesso ao meio]], considerado o intervalo de disputa o tempo entre o início da transmissão de dados e o instante onde o remetente percebe a colisão de sinais, seja $\tau$ o tempo de propagação de um sinal entre as duas estações mais distantes, $t_0$ o instante em que um determinado remetente começa uma transmissão, uma outra determinada estação pode começar transmitir durante um tempo $t_o + \tau - \epsilon$. 
+
+O tempo máximo para essa colisão ser percebida pela primeira estação se dá por $2 \tau - \epsilon$, ou seja, na pior das hipóteses, o intervalo de disputa se dá por $2 \tau$.
+
+É interessante replicar o [[Protocolo ALOHA#Slotted ALOHA|protocolo de alocação de slots]] com slots discretos de duração uniforme $2 \tau$ para a maior eficiência do canal em situações onde o tempo do quadro for muito maior que o de propagação.
+
 ## Protocolos de Enlace de Dados
 
 ### Simplex sem restrição
-
-
 
 ### Simplex / Canal com ruído
 
 ### Protocolos de Janela Deslizante
 
+## Subcamada de Acesso Ao Meio
+//todo importante
+//ALOHA, CSMA, BITMAP etc...
 
 [^1]: OSI não tem camada de rede

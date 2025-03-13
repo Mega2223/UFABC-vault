@@ -16,7 +16,7 @@ Assim, a meta da regressão linear é encontrar coeficientes $\beta$ ótimos par
 $$\large y_i \approx \beta_0 + \beta_1x_i$$
 ## Método dos Mínimos Quadrados
 
-O método dos mínimos quadrados é um método que encontra um $\beta_0$ e um $\beta_1$ que minimizam a soma residual dos quadrados ($\text{RSS}$) do conjunto de testes
+O método dos mínimos quadrados é um método que encontra um $\beta_0$ e um $\beta_1$ que minimizam a soma residual dos quadrados ($\text{RSS}$)[^1] do conjunto de testes
 $$\large
 \begin{align}
 \text{RSS} = \sum^n_i e_i^2 &&
@@ -57,3 +57,5 @@ Y <- X + rnorm(128, sd = 10)
 plot_ln(X, Y)
 ```
 <center><sup>(a função matplot não funciona direto no obsidian por algum motivo mas taca isso num console que roda)</sup></center>
+
+[^1]: Residual Sum of Squares

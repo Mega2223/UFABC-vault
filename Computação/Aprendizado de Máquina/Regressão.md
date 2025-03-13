@@ -8,7 +8,7 @@ authors: Júlio César
 ---
 ## Definição
 
-É qualquer técnica que envolve encontrar a correlação entre um grupo de variáveis individuais $X$ e suas variáveis de resposta $Y$ a fim de inferir o comportamento de uma determinada função $f$, de forma geral:
+É qualquer técnica que envolve encontrar a correlação entre um grupo de variáveis individuais $X$ e suas variáveis de resposta $Y$ a fim de inferir o comportamento de um determinado processo em forma de função $f$, de forma geral:
 $$\large Y = f(X) + \epsilon$$
 Onde $\epsilon$ é o termo de erro, que possui média zero (geralmente em uma [[Léxico de Distribuições de Probabilidade#Distribuição Normal|distribuição normal]]).
 ## Predição
@@ -24,5 +24,5 @@ Onde $E(Y-\hat{Y})^2$ é o quadrado do [[Axiomas da probabilidade#Valor esperado
 
 ## Medindo a acurácia de um modelo
 
-Para medir a acurácia de um modelo dado um conjunto de treinamento ou um conjunto de testes, pode-se usar o _mean squared error_ como [[Função de Perda|função penalizadora]]:
+Para medir a acurácia de um modelo dado um conjunto de treinamento ou um conjunto de testes, normalmente se usa o _mean squared error_ como [[Função de Perda|função penalizadora]]:
 $$\large \text{MSE} = \frac{1}{n} \sum_{i=1}^n(y_i - \hat{f}(x_i))^2$$

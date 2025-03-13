@@ -20,7 +20,7 @@ $$\large\begin{gather}
  x_i \in X \subseteq \mathbb{R}^n \\ \\
 y_i \in Y
 \end{gather}$$
-$Y \in \mathbb{R}$ no caso de regressão, mas no caso de classificação $Y$ é um número finito de categorias.
+$Y \subseteq \mathbb{R}$ no caso de regressão, mas no caso de classificação $Y$ é um número finito de categorias.
 ### Conjunto de treinamento
 Conjunto de variáveis independentes e respostas conhecidas, geralmente com alguma flutuação aleatória.
 $$\large \begin{gather}

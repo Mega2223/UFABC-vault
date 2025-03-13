@@ -9,7 +9,7 @@ authors: Júlio César
 ---
 ## Definição
 
-A regressão logística é um método de [[Classificação|classificação]][^1] que visa encontrar uma relação linear similar a uma [[Regressão Linear Simples|regressão linear simples]], todavia, como a [[Axiomas da probabilidade#A função probabilidade|função p]] deve ser restrita entre 0 e 1, uma regressão linear não cumpriria com os requisitos de uma função probabilidade, para isso usamos a função logística:
+A regressão logística é um método de [[Classificação|classificação]][^1] que visa encontrar uma relação linear similar a uma [[Regressão Linear|regressão linear simples]], todavia, como a [[Axiomas da probabilidade#A função probabilidade|função p]] deve ser restrita entre 0 e 1, uma regressão linear não cumpriria com os requisitos de uma função probabilidade, para isso usamos a função logística:
 $$\large p(X) = \frac{e^{\beta_0+\beta1X}}{1+e^{\beta_0+\beta1X}}$$
 ## Coeficientes de Regressão
 

@@ -4,49 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "49c3b213e4ac6442",
+        "id": "9f6059977466475d",
         "type": "tabs",
         "children": [
           {
-            "id": "1673c5e6064b45d5",
+            "id": "ea0d8afbd9b566b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Aprendizado de Máquina/Aprendizado Supervisionado.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aprendizado Supervisionado"
-            }
-          },
-          {
-            "id": "82badd6a911970df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computação/Aprendizado de Máquina/KNN.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "KNN"
-            }
-          },
-          {
-            "id": "9e071e8f54d71c62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computação/Aprendizado de Máquina/Função de Perda.md",
+                "file": "Matemática/Probabilidade e Estatística/Axiomas da probabilidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Função de Perda"
+              "title": "Axiomas da probabilidade"
             }
           }
         ]
@@ -200,34 +172,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1673c5e6064b45d5",
+  "active": "ea0d8afbd9b566b9",
   "lastOpenFiles": [
     "Computação/Aprendizado de Máquina/Regressão Logística.md",
-    "Computação/Aprendizado de Máquina/Aprendizado Supervisionado.md",
-    "Computação/Aprendizado de Máquina/KNN.md",
-    "Computação/Aprendizado de Máquina/Regressão.md",
-    "Computação/Aprendizado de Máquina/Regressão Linear Simples.md",
+    "Computação/Aprendizado de Máquina/Regressão Linear.md",
+    "Computação/Aprendizado de Máquina/Regressão de Ridge.md",
+    "Computação/Aprendizado de Máquina/Regularização de Modelo.md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Discretas.md",
     "Computação/Aprendizado de Máquina/Função de Perda.md",
-    "Computação/Aprendizado de Máquina/Classificação.md",
-    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
-    "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
-    "Matemática/Probabilidade e Estatística/Análise Combinatória.md",
-    "Matemática/Probabilidade e Estatística/Léxico de Distribuições de Probabilidade.md",
-    "Matemática/Probabilidade e Estatística/Axiomas da probabilidade.md",
-    "Computação/Aprendizado de Máquina/Agrupamento.md",
-    "Computação/Aprendizado de Máquina/R.md",
-    "Computação/Redes de Computador/Arquitetura de Rede.md",
+    "Computação/Aprendizado de Máquina/Regressão.md",
+    "Computação/Aprendizado de Máquina/Regressão em Splines.md",
+    "Computação/Aprendizado de Máquina/Regressão Polinomial.md",
+    "Computação/Redes de Computador/Protocolo ALOHA.md",
     "Computação/Redes de Computador/Camada de Enlace.md",
-    "Computação/Redes de Computador/Protocolo UDP.md",
-    "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
+    "Computação/Redes de Computador/Protocolo CSMA.md",
+    "Computação/Redes de Computador/Protocolo HDLC.md",
     "Computação/Redes de Computador/Camada Física.md",
-    "Matemática/Cálculo/Integral.md",
-    "Matemática/Cálculo/Integração por Substituição.md",
-    "Matemática/Cálculo/Integração por Partes.md",
-    "Matemática/Cálculo/Frações Parciais.md",
-    "Matemática/Cálculo/Esboço de Gráficos.md",
-    "Matemática/Cálculo/Derivação Implícita.md",
-    "Matemática/Cálculo/Derivadas Comuns.md",
+    "Computação/Redes de Computador/Protocolo Bit-Map.md",
+    "Computação/Redes de Computador/Arquitetura de Rede.md",
+    "Computação/Redes de Computador/Protocolo UDP.md",
+    "Computação/Redes de Computador/Modelo TCP-IP.md",
+    "Matemática/Cálculo/Derivada.md",
+    "Computação/Redes de Computador/Protocolos de Enlace",
+    "Naturais/Química/Bioquímica/Nucleotídeos.md",
+    "Naturais/Biologia/DNA.md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
+    "Matemática/Probabilidade e Estatística/Léxico de Distribuições de Probabilidade.md",
+    "Computação/Aprendizado de Máquina/KNN.md",
+    "Computação/Aprendizado de Máquina/Aprendizado Supervisionado.md",
+    "Computação/Aprendizado de Máquina/Classificação.md",
     "Computação/Redes de Computador/Lab",
     "Computação/Prática Avançada de Programação",
     "Computação/Aprendizado de Máquina",
@@ -238,7 +211,6 @@
     "Computação/Comunicação e Redes",
     "Assets/Pasted image 20241124203949.png",
     "Naturais/Física/Mecânica/Forças",
-    "Naturais/Biologia/Interação entre Organismos e Ambiente",
     "Assets/Pasted image 20241026220157.png",
     "Assets/Pasted image 20241022235334.png",
     "Assets/Pasted image 20241022235314.png",

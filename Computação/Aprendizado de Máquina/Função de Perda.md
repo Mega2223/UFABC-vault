@@ -28,5 +28,5 @@ $$\large \ell(y,\hat{f}(x))= \begin{cases}0 & y=\hat{f}(x) \\ 1 & y \ne \hat{f}(
 Dada uma determinada [[função de perda]] procuramos encontrar um $\hat{f}$ tal qual minimiza o risco esperado dentro do nosso domínio $Y \times Y$
 $$\large \mathcal{R}(f) = E_{XY}[\ \ell(Y,\hat{f}(X))\ ] = \int \ell (y,\hat f(x)) P_{XY}\ (dx,dy)$$
 ### Risco Empírico
-A a função de risco empírico usa de uma média aritmética dos rótulos
+A a função de risco empírico usa de uma média aritmética da perda dos rótulos
 $$\large R(\hat{f}) = \frac{1}{m} \sum_{(x_i,y_i)\in D_m} \ell(y_i,\hat{f}(x_i))$$

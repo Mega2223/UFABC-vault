@@ -4,19 +4,20 @@ tags:
   - computação
   - estatística
   - matemática
+  - incompleto
 authors: Júlio César
 ---
 ## Definição
 
 É um método de [[regressão]] que visa fazer uma predição dos valores com base em uma equação linear
-$$\large Y \approx \beta_0 + \beta_1X$$
-Onde $\beta_0$ representa o _intercept_ da equação linear e $\beta_1$ representa a _slope_, ou seja, os coeficientes lineares da equação. Dado um modelo treinado, temos que
-$$\large \hat{y} = \beta_0 + \beta_1x_i$$
+$$\large Y \approx \beta_0  +  \sum_{i=1}^n\beta_i X_i$$
+Onde $\beta_0$ representa o _intercept_ da equação linear, $i$ representa o número de preditores e $\beta_i$ representa a _slope_, ou seja, os coeficientes lineares da equação. Dado um modelo treinado, temos que
+$$\large \hat{y} = \beta_0 + \sum_{i=1}^n \beta_ix_i$$
 Assim, a meta da regressão linear é encontrar coeficientes $\beta$ ótimos para estimar $y$.
-$$\large y_i \approx \beta_0 + \beta_1x_i$$
+$$\large y_i \approx \beta_0 + \sum_{i=1}^n\beta_1x_i$$
 ## Método dos Mínimos Quadrados
 
-O método dos mínimos quadrados é um método que encontra um $\beta_0$ e um $\beta_1$ que minimizam a soma residual dos quadrados ($\text{RSS}$)[^1] do conjunto de testes
+O método dos mínimos quadrados é um método que encontra um $\beta_0$ e um $\beta_1$ que minimizam a soma residual dos quadrados ($\text{RSS}$)[^1] do conjunto de treinamento de um determinado modelo com um único preditor
 $$\large
 \begin{align}
 \text{RSS} = \sum^n_i e_i^2 &&
@@ -59,3 +60,7 @@ plot_ln(X, Y)
 <center><sup>(a função matplot não funciona direto no obsidian por algum motivo mas taca isso num console que roda)</sup></center>
 
 [^1]: Residual Sum of Squares
+
+## Modelo Linear Multivariado
+
+//todo

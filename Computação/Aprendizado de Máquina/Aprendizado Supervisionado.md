@@ -52,7 +52,7 @@ São computadas $V$ iterações (_folds_) onde em cada uma:
 
 Os valores finais são uma média aritmética dos valores encontrados em cada treinamento de modelo.
 ### Erro de Validação Cruzada
-Para casos de regressão, em validação cruzada se como [[função de perda#Risco esperado|risco]] o erro de validação cruzada:
+Para casos de regressão, em validação cruzada se usa como [[função de perda#Risco esperado|risco]] o erro de validação cruzada:
 $$
 \begin{gather}
 \large R_{CV}(\hat{f}) = \frac{1}{V} \sum_{i = 1}^V
@@ -64,3 +64,14 @@ $$
 
 ### Leave-One-Out
 De forma geral, o método Leave-One-Out é a validação cruzada onde $V = m$, ou seja, em cada _fold_ só é utilizado um ponto como conjunto de testes. É considerado computacionalmente caro para datasets muito grandes.
+
+## Avaliação da Acurácia do Modelo
+
+Em geral, queremos um modelo que minimize o [[Função de Perda|erro]] do conjunto de treinamento de forma matemática, mas ainda sim é necessário provar uma correlação significativa entre $\hat{f}$ e $f$. Uma forma comum de avaliar a acurácia do modelo é simplesmente colocar nosso conjunto de testes contra a nossa função de erro, a [[Variáveis Aleatórias Discretas#Variância|variância]], ou [[Variáveis Aleatórias Discretas#Desvio padrão|desvio padrão]].
+## $p$-valor
+
+O $p$-valor é a probabilidade de se obter uma estatística de teste mais extrema[^1] de uma observada sobre a hipótese nula[^2], ou seja, um $p$-valor muito pequeno (normalmente usa-se 5% como corte) indica que a obtenção de um valor de teste observado é muito improvável sob a hipótese nula, logo rejeita-se a mesma. O $p$-valor é um bom jeito de verificar se há correlação entre os rótulos conhecidos e a predição desses mesmos rótulos.
+
+[^1]: Com um desvio do esperado.
+
+[^2]: Presumindo nenhuma correlação entre dois eventos.

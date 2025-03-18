@@ -16,7 +16,5 @@ Um modelo com um alto número de preditores [[KNN#Maldição da dimensionalidade
 ## Seleção de Subconjuntos
 
 Num um modelo de $X_p$ preditores, a seleção de subconjuntos visa remover dos preditores aqueles conjuntos com baixa ou nenhuma correlação a $Y$, para em seguida treinar um modelo encima do conjunto reduzido de preditores.
-### $p$-valor
-
 ### Viés 
 ## Redução de Dimensionalidade

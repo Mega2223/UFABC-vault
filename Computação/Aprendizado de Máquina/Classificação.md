@@ -4,7 +4,6 @@ tags:
   - computação
   - algoritmo
   - estatística
-  - incompleto
 authors: Júlio César
 ---
 ## Definição

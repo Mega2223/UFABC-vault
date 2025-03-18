@@ -40,3 +40,56 @@ $$\large
 \arg \max_y P(Y = y | X = x)
 $$
 É considerado um classificador ideal para a função penalizadora, mas como $P_{XY}$ não é conhecido se usa o [[KNN]] como aproximação.
+
+## Implementação
+
+### Classificação
+//todo
+### Regressão
+```r
+library(tibble)
+library(tidymodels)
+library(ggplot2)
+
+library(data.table)
+library(jtools)
+
+gen_kNN <- function(k) {
+    nearest_neighbor(neighbors = k, dist_power = 2) %>%
+        set_engine("kknn") %>%
+        set_mode("regression")
+}
+
+fun <- function(X) {
+    return(sin(X * 2) - X^2 + rnorm(length(X), 1, .1))
+}
+
+training_set <- tibble(
+    x = runif(100, -1, 1),
+    y = fun(x)
+)
+
+test_set <- tibble(
+    x = runif(300, -1, 1),
+    y = fun(x)
+)
+
+knn.model.1 <- gen_kNN(1)
+knn.model.5 <- gen_kNN(5)
+knn.model.10 <- gen_kNN(10)
+
+# plot(y ~ x, data = training_set)
+
+knn.model.1.fit <- fit(knn.model.1, y ~ x, data = training_set)
+knn.model.5.fit <- fit(knn.model.5, y ~ x, data = training_set)
+knn.model.10.fit <- fit(knn.model.10, y ~ x, data = training_set)
+
+test_set$predict.1 <- predict(knn.model.1.fit, test_set)$.pred
+plot(predict.1 ~ x, data = test_set)
+
+test_set$predict.5 <- predict(knn.model.5.fit, test_set)$.pred
+plot(predict.5 ~ x, data = test_set)
+
+test_set$predict.10 <- predict(knn.model.10.fit, test_set)$.pred
+plot(predict.10 ~ x, data = test_set)
+```

@@ -12,7 +12,7 @@ aliases:
 
 O método KNN é um método simples de [[classificação]] e [[regressão]], onde dado um inteiro positivo $\text{K}$, ao tentar predizer / classificar um determinado $\hat{y}$ de um vetor preditor $x$, utilizamos os $\text{K}$ pontos conhecidos mais próximos para classificar $x$.
 
-Normalmente se usa a [[Vetor#Tamanho / Magnitude|distância aritmética]] entre as coordenadas dos preditores, mas em alguns casos pode-se usar outros métodos. No caso de classificação, se usa a classe mais comum entre os preditores conhecidos.
+Normalmente se usa a [[Vetor#Tamanho / Magnitude|distância aritmética]] entre as coordenadas dos pontos, mas em alguns casos pode-se usar outros métodos. No caso de classificação, se usa a classe mais comum entre os preditores conhecidos.
 
 $$
 \begin{gather}
@@ -50,9 +50,6 @@ $$
 library(tibble)
 library(tidymodels)
 library(ggplot2)
-
-library(data.table)
-library(jtools)
 
 gen_kNN <- function(k) {
     nearest_neighbor(neighbors = k, dist_power = 2) %>%

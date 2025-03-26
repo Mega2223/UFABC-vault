@@ -13,6 +13,10 @@ R é uma língua de programação interpretada multiparadigma focada em programa
 ## Formatos
 
 ### Vetor
+```R
+v <- c(1,2,3)
+v
+```
 ### Matriz
 Representa uma [[Matriz|matriz numérica]], suporta operações matriciais.
 ```R
@@ -37,8 +41,18 @@ A = diag(1:4)
 B = matrix(4:1,4)
 A %*% B
 ```
-### Dict
-
+### Dataframes
+São tabelas de dados constituídas por vetores e são a base para o colecionamento de dados de treinamento de [[Modelo Linear|modelos]].
+```r
+X = 1:64
+D = data.frame(x = X,y = sin(0.3 * X), z = tan(1/X) )
+D
+```
+### Tibble
+São tabelas derivadas do dataframe com funções adicionais[^1]
+```r
+```
+//TODO
 ### Função
 
 ```R
@@ -65,12 +79,14 @@ plot(x,sin(x))
 ```
 
 ### Geração de vetor aleatório
-A função `runif` gera números em uma distribuição uniforme.
+A função `runif` gera números em uma distribuição uniforme
+
 ```R
 r = runif(128)
 r
 ```
-A função `rnorm` gera números em uma [[Léxico de Distribuições de Probabilidade#Distribuição Normal|distribuição normal]].
+
+A função `rnorm` gera números aleatórios em uma [[Léxico de Distribuições de Probabilidade#Distribuição Normal|distribuição normal]]
 ```R
 r = rnorm(128)
 r
@@ -84,3 +100,5 @@ plot(x, x^2, col = "green")
 dev.off()
 ```
 ## Bibliotecas
+
+[^1]: As quais eu desconheço :p

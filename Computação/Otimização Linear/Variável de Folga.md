@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Em um determinado [[modelo]], a variável de folga visa transformar uma desigualdade em uma igualdade por inserção de uma variável adicional no problema.
+Em um determinado [[Modelo Linear]], a variável de folga visa transformar uma desigualdade em uma igualdade por inserção de uma variável adicional no problema.
 
 $$\large \begin{align}x_1 + x_2 + \dots + x_n + \le 10 \\x_1 + x_2 + \dots + x_n + x_{n+1} = 10 \end{align}$$
 

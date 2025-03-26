@@ -26,7 +26,7 @@ $$\large \sigma(X) = \sqrt{\text{Var}{(X)}}$$
 ## Distribuição de Poisson
 
 Dado $n$ eventos em um intervalo fixo ou em uma taxa média constante, a probabilidade de que ocorram exatamente $k$ ocorrências é de
-$$\frac{e^{-\lambda}\lambda^k}{k!}$$
+$$\large \frac{e^{-\lambda}\lambda^k}{k!}$$
 Onde $\lambda \in \mathbb{R}$ é o número esperado de ocorrências num determinado intervalo de tempo, se o evento ocorre $n$ vezes a cada $t$, mas queremos saber quantos eventos ocorrem em $t_1$, $\lambda = \frac{t_1}{t}$. 
 
 ## Principio fundamental da contagem

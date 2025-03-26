@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-A análise de sensibilidade é o estudo da mudança do comportamento de um [[Modelo|modelo de otimização linear]] conforme mudanças no problema.
+A análise de sensibilidade é o estudo da mudança do comportamento de um [[Modelo Linear|modelo de otimização linear]] conforme mudanças no problema.
 
 ## Mudança de Variável
 

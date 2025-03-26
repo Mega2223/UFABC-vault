@@ -10,19 +10,19 @@ aliases:
 ---
 ## Definição
 
-O Método Simplex é um método de otimização de um [[modelo]] que visa encontrar os vértices nas extremidades da área viável do problema e gradualmente melhorar a solução até a obtenção da solução $X$.
+O Método Simplex é um método de otimização de um [[Modelo Linear]] que visa encontrar os vértices nas extremidades da área viável do problema e gradualmente melhorar a solução até a obtenção da solução $X$.
 A complexidade teórica do método é exponencial pois o número de vértices do politopo se dá pelo [[Análise Combinatória#Combinação simples#Coeficiente Binomial|coeficiente binomial]] $\large \binom{n}{m}$ do número de variáveis $n$ e o número de restrições $m$. Todavia o caso o qual o algoritmo deve visitar todos os vértices do politopo é extremamente raro.
 ## Variáveis do problema
-//todo move isso pra [[Modelo]]
+//todo move isso pra [[Modelo Linear]]
 $$\large(\min |\max)\ \ Z =\bigg(\sum_{i=1}^n x_i a_i\bigg)$$
 - $Z$ é a função objetivo.
 - $(\min |\max)$ minimização ou maximização dos coeficientes.
-- As demais variáveis são variáveis do [[modelo]] linear.
+- As demais variáveis são variáveis do [[Modelo Linear]] linear.
 
 ## Resolução Matricial
 
 ### Problema
-Para a resolução em Simplex em geral é utilizada a [[Modelo#Forma padrão|forma padrão do modelo]], por exemplo: 
+Para a resolução em Simplex em geral é utilizada a [[Modelo Linear#Forma padrão|forma padrão do modelo]], por exemplo: 
 $$\begin{gather} \large \min z = -3x_1 -5x_2 \\\\ x_1 + x_3 = 4 \\ x_2 + x_4 = 6 \\ 3x_1 + 2x_2 + x_5 = 18 \end{gather}$$
 
 ### Variáveis

@@ -8,7 +8,7 @@ authors: Júlio César
 ---
 ## Definição
 
-É um algoritmo de solução de [[Modelo|modelos de otimização]] que é aplicado pela progressão gradual de soluções viáveis dentro do polítipo da região viável. O método utiliza de uma função barreira que serve de penalização para que o método não cruze as fronteiras da região viável. Conforme a solução converge com a solução ótima a penalidade é reduzida, o método nunca encontra de fato a solução ótima, em vez disso sua condição de parada é um raio suficientemente perto da otimalidade.
+É um algoritmo de solução de [[Modelo Linear|modelos de otimização]] que é aplicado pela progressão gradual de soluções viáveis dentro do polítipo da região viável. O método utiliza de uma função barreira que serve de penalização para que o método não cruze as fronteiras da região viável. Conforme a solução converge com a solução ótima a penalidade é reduzida, o método nunca encontra de fato a solução ótima, em vez disso sua condição de parada é um raio suficientemente perto da otimalidade.
 ## Algoritmo
 
 ### Função barreira

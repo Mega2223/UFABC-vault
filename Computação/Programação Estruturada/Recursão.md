@@ -4,6 +4,9 @@ tags:
   - incompleto
 authors: Júlio César
 ---
+## Definição
+
+A recursão é a prática de fazer programas com funções de auto-referência, normalmente a fim de resolver problemas via divisão e conquista.
 
 ```c
 int main(){
@@ -11,3 +14,4 @@ int main(){
 }
 ```
 
+## Backtracking

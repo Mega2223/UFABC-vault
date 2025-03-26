@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Dado um determinado [[modelo]], para encontrar a solução ótima pode-se usar de da resolução gráfica. Para fazer a resolução gráfica do modelo precisamos:
+Dado um determinado [[Modelo Linear]], para encontrar a solução ótima pode-se usar de da resolução gráfica. Para fazer a resolução gráfica do modelo precisamos:
 
 - Criar o modelo completo.
 - [[Derivada|Derivar]] a função objetivo em um vetor.

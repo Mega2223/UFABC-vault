@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Dado um [[Modelo|modelo linear]] viável, há um outro problema correspondente, estes são denominados **primal** e **dual** respectivamente. O problema dual é uma 'inversão' das restrições e coeficientes do problema primal de tal forma que ele terá uma mesma solução ótima que o dual. Enquanto o primal começa de uma solução básica viável e procura uma solução ótima, o dual começa de uma solução ótima mas possivelmente inviável e procura a viabilidade sem perder sua propriedade de otimalidade.
+Dado um [[Modelo Linear|modelo linear]] viável, há um outro problema correspondente, estes são denominados **primal** e **dual** respectivamente. O problema dual é uma 'inversão' das restrições e coeficientes do problema primal de tal forma que ele terá uma mesma solução ótima que o dual. Enquanto o primal começa de uma solução básica viável e procura uma solução ótima, o dual começa de uma solução ótima mas possivelmente inviável e procura a viabilidade sem perder sua propriedade de otimalidade.
 ## Elaboração do problema dual
 
 De forma geral, é necessário converter as restrições do primal para coeficientes do dual e vice-versa, tal como:

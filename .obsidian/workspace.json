@@ -13,15 +13,100 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Prática Avançada de Programação/Algoritmos/Quicksort.md",
+                "file": "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quicksort"
+              "title": "Complexidade Assintótica"
+            }
+          },
+          {
+            "id": "44b6d05ba46daf83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Complexidade Assintótica"
+            }
+          },
+          {
+            "id": "a8efd0c476b82e7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Otimização Linear/Método Simplex.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Método Simplex"
+            }
+          },
+          {
+            "id": "6f064cc7e55d2c48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Aprendizado de Máquina/Regressão Polinomial.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Regressão Polinomial"
+            }
+          },
+          {
+            "id": "4ce86ccf79af1bdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Aprendizado de Máquina/Regressão Linear.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Regressão Linear"
+            }
+          },
+          {
+            "id": "dbddf6bec26ac7ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Cálculo/Limite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Limite"
+            }
+          },
+          {
+            "id": "63a66d85aa8bdc2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Complexidade Assintótica"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -53,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "teorema fundamental",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,35 +257,41 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "901e5c5259101dbe",
+  "active": "63a66d85aa8bdc2c",
   "lastOpenFiles": [
-    "Computação/Prática Avançada de Programação/Algoritmos/Merge Sort.md",
-    "Computação/Prática Avançada de Programação/Algoritmos/Quicksort.md",
-    "Computação/Aprendizado de Máquina/Regressão Linear.md",
-    "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
-    "Computação/Aprendizado de Máquina/KNN.md",
-    "Computação/Prática Avançada de Programação/Algoritmos",
-    "Computação/Aprendizado de Máquina/Regressão em Splines.md",
-    "Computação/Aprendizado de Máquina/Regressão de Ridge.md",
-    "Computação/Aprendizado de Máquina/Regressão.md",
-    "Computação/Aprendizado de Máquina/R.md",
-    "Computação/Aprendizado de Máquina/Função de Perda.md",
-    "Computação/Aprendizado de Máquina/Aprendizado Supervisionado.md",
-    "Computação/Aprendizado de Máquina/Classificação.md",
     "Computação/Aprendizado de Máquina/Regressão Polinomial.md",
-    "Computação/Aprendizado de Máquina/Avaliação de Modelos de Aprendizado Supervisionado.md",
-    "Computação/Aprendizado de Máquina/Regularização de Modelo.md",
-    "Computação/Aprendizado de Máquina/Regressão Logística.md",
-    "Computação/Redes de Computador/Lab/Laboratório.md",
-    "Matemática/Probabilidade e Estatística/Axiomas da probabilidade.md",
+    "Computação/Aprendizado de Máquina/Regressão Linear.md",
+    "Matemática/Cálculo/Limite.md",
+    "Matemática/Cálculo/Série de Taylor.md",
+    "Assets/Análise de Sensibilidade (old).md",
+    "Computação/Otimização Linear/Análise de Sensibilidade.md",
+    "Computação/Otimização Linear/Dualidade.md",
+    "Computação/Otimização Linear/Método dos Elipsoides.md",
+    "Computação/Otimização Linear/Método dos Pontos Interiores.md",
+    "Computação/Otimização Linear/Método Simplex.md",
+    "Computação/Otimização Linear/Modelo Linear.md",
+    "Computação/Otimização Linear/Variável de Folga.md",
+    "Computação/Otimização Linear/Resolução Gráfica.md",
+    "Assets/Pasted image 20250325191316.png",
+    "Naturais/Química/Bioquímica/Aminoácidos.md",
+    "Computação/Redes de Computador/Modelo TCP-IP.md",
+    "Naturais/Física/Mecânica/Força.md",
+    "Naturais/Física/Mecânica/Cinemática.md",
+    "Naturais/Biologia/RNA.md",
+    "Naturais/Biologia/DNA.md",
+    "Matemática/Matriz.md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Multidimensionais.md",
     "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Discretas.md",
-    "Computação/Redes de Computador/Protocolo ALOHA.md",
-    "Computação/Redes de Computador/Camada de Enlace.md",
-    "Computação/Redes de Computador/Protocolo CSMA.md",
-    "Computação/Redes de Computador/Protocolo HDLC.md",
-    "Computação/Redes de Computador/Camada Física.md",
-    "Computação/Redes de Computador/Protocolo Bit-Map.md",
-    "Computação/Redes de Computador/Arquitetura de Rede.md",
+    "Matemática/Probabilidade e Estatística/Variáveis Aleatórias Contínuas.md",
+    "Matemática/Probabilidade e Estatística/Teorema Central do Limite.md",
+    "Matemática/Probabilidade e Estatística/Léxico de Distribuições de Probabilidade.md",
+    "Matemática/Probabilidade e Estatística/Axiomas da probabilidade.md",
+    "Assets/Pasted image 20241026220157.png",
+    "Assets/Pasted image 20241124203949.png",
+    "Assets/Pasted image 20241022235314.png",
+    "Assets/Pasted image 20241022235334.png",
+    "Assets/Vetor.png",
+    "Computação/Prática Avançada de Programação/Algoritmos",
     "Computação/Redes de Computador/Protocolos de Enlace",
     "Computação/Redes de Computador/Lab",
     "Computação/Prática Avançada de Programação",
@@ -210,13 +301,8 @@
     "Pesquisa/Computação Gráfica",
     "Pesquisa/Mecânica de Robôs",
     "Computação/Comunicação e Redes",
-    "Assets/Pasted image 20241124203949.png",
-    "Assets/Pasted image 20241026220157.png",
-    "Assets/Pasted image 20241022235334.png",
-    "Assets/Pasted image 20241022235314.png",
     "Pasted image 20241022234723.png",
     "Pasted image 20241022234906.png",
-    "Assets/Vetor.png",
     "Untitled.canvas"
   ]
 }

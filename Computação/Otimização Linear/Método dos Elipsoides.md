@@ -9,7 +9,7 @@ authors: Júlio César
 ---
 ## Definição
 
-É um método de resolução de [[Modelo|modelos lineares]] e modelos não lineares, é um algoritmo com complexidade máxima polinomial $O(n^2L)$, menor que o [[método simplex]], todavia os casos mais complexos do simplex são raros enquanto os deste método são frequentes, assim, embora em tese este método tenha uma complexidade teórica menor que a do simplex, na prática o simplex tende a ser o mais eficiente.
+É um método de resolução de [[Modelo Linear|modelos lineares]] e modelos não lineares, é um algoritmo com complexidade máxima polinomial $O(n^2L)$, menor que o [[método simplex]], todavia os casos mais complexos do simplex são raros enquanto os deste método são frequentes, assim, embora em tese este método tenha uma complexidade teórica menor que a do simplex, na prática o simplex tende a ser o mais eficiente.
 
 ## Elipsoide
 
@@ -41,7 +41,7 @@ O algoritmo inicia com um elipsoide e $\text{E}(M,0)$ que contém toda a região
 - Se não for, deve-se repetir o algoritmo, a não ser que seu volume seja pequeno o suficiente, neste caso, não há solução viável.
 
 ### Avanço de Iteração
-Numa determinada iteração $k$, seja $\alpha$ uma restrição que viola o [[modelo#Forma canônica|sistema linear]] $a^T x \le b$ em $E(M^K,X^K)$:
+Numa determinada iteração $k$, seja $\alpha$ uma restrição que viola o [[Modelo Linear#Forma canônica|sistema linear]] $a^T x \le b$ em $E(M^K,X^K)$:
 $$\large \begin{gather}
 \mu = \frac{M^k a}{\sqrt{a^T M^k a}} && \beta = \frac{b - a^T X^k}{\sqrt{a^T M^k a}} \\ \\ \\
 X^{k+1} = X^k - \frac{1 - \beta}{n + 1} \mu && M^{k+1} = \frac{n^2}{n^2-1}\bigg(M^k - \frac{2}{n+1} \mu \mu^T\bigg)

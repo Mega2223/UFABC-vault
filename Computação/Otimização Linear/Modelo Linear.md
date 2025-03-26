@@ -3,11 +3,10 @@ authors: Júlio César
 tags:
   - matemática
   - "#computação"
-  - incompleto
 ---
 ## Definição
 
-O modelo é toda a informação de um determinado problema de otimização linear e todas as variáveis que possam influenciar o resultado final.
+O modelo linear é toda a informação de um determinado problema de otimização linear e todas as variáveis que possam influenciar o resultado final.
 ## Modelagem
 
 ```mermaid
@@ -32,7 +31,7 @@ Dada essas condições, o resultado da função objetivo deve ser uma combinaç�
 $$X =\large \sum_{i} x_i a_i$$
 ## Propriedades
 ### Variáveis básicas e não básicas
-Na [[Modelo#Forma padrão|forma padrão]] o modelo terá um set de restrições, dependendo da função objetivo essas restrições podem ser básicas ou não básicas, isto é, se elas forem básicas elas são restrições ativas em uma determinada solução, se elas forem não-básicas logo elas não são ativas e seu valor respectivo é 0.
+Na [[Modelo Linear#Forma padrão|forma padrão]] o modelo terá um set de restrições, dependendo da função objetivo essas restrições podem ser básicas ou não básicas, isto é, se elas forem básicas elas são restrições ativas em uma determinada solução, se elas forem não-básicas logo elas não são ativas e seu valor respectivo é 0.
 ### Maximização e Minimização
 $$\large \begin {gather} \max(f) = \min(-f) \\ \min(f) =\max(-f) \end{gather}$$
 

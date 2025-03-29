@@ -27,7 +27,7 @@ Small-$o$ define algum limite estritamente superior da função, de forma geral 
 
 Dadas as funções $\large f: \mathbb{R}^{x\ge0} \to \mathbb{R}^{x\ge0}$ e $\large g: \mathbb{R}^{x\ge0} \to \mathbb{R}^{x\ge0}$,
 $$\large
-f(n)\in o(g(n)) \iff \forall (c \in \mathbb{R}^{x\gt0})\ \exists(n_0\in \mathbb{R}^{x\gt0})\ f(n) \le g(n)\ \forall (n \ge n_0)
+f(n)\in o(g(n)) \iff \forall (c \in \mathbb{R}^{x\gt0})\ \exists(n_0\in \mathbb{R}^{x\ge0})\ f(n) \le c\ \cdot\ g(n)\ \forall (n \ge n_0)
 $$
 Nota-se que a função exige que a condição seja verdade para toda constante positiva $c$, ao contrário da notação [[#Big-$O$|Big-O]], conclui-se que $o(g) \subset O(g)$ para uma determinada função $f$. Presumindo $f$ e $g$ contínuas em $\mathbb{R}^+$, temos que
 $$\large f(n)\in o(g(n)) \iff \lim_{n\to\infty} \frac{f(n)}{g(n)} = 0$$
@@ -45,7 +45,7 @@ A notação Little-$\omega$ representa um limite mais estritamente inferior na f
 
 Dadas as funções $\large f: \mathbb{R}^{x\ge0} \to \mathbb{R}^{x\ge0}$ e $\large g: \mathbb{R}^{x\ge0} \to \mathbb{R}^{x\ge0}$,
 $$\large
-f(n)\in \omega(g(n)) \iff \forall (c \in \mathbb{R}^{x\gt0})\ \exists(n_0\in \mathbb{R}^{x\gt0})\ \ 0 \le c\ \cdot g(n) \le f(n)\ \forall (n \ge n_0)
+f(n)\in \omega(g(n)) \iff \forall (c \in \mathbb{R}^{x\gt0})\ \exists(n_0\in \mathbb{R}^{x\ge0})\ \ 0 \le c\ \cdot g(n) \le f(n)\ \forall (n \ge n_0)
 $$
 ## Big-$\Theta$
 

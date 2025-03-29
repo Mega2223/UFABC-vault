@@ -12,9 +12,11 @@ Paradigma de programação imperativa, é a programação por meio de lógica im
 Nessa categoria enquadram-se o sistema de classes de [[Java]], [[C++]]e [[Python]]. Embora [[Lua]] não tenha implementação direta de classes, sua implementação de dicionários e funções como objetos consegue replicar todos os padrões usuais de línguas OOP.
 
 Nota-se que a mera existência de [[structs]] não implica que a língua seja OOP, pois estes são apenas formas de armazenar dados e não têm padrões funcionais de hierarquia para serem considerados OOP.
-## Objeto
+## Classe
 
-O objeto é um conjunto de dados e [[algoritmo|algoritmos]] que visam representar e abstrair um objeto, este normalmente fica encarregado de sua própria lógica por meio de funções por instância.
+A classe é um conjunto de dados e métodos que visam representar e abstrair um determinado objeto, este normalmente fica encarregado de sua própria lógica por meio de funções por instância. 
+
+Não há consenso do que separa uma classe de um [[structs|struct]], mas em geral classes tendem a implementar estruturas mais avançadas como funções próprias, modificadores de acesso e encapsulação de dados, enquanto em structs todo o gerenciamento funcional dos dados é feito de forma estática.
 
 ```lua
 function Pessoa(idade, nome, id)
@@ -31,7 +33,6 @@ felipe:addIdade()
 print(felipe.idade)
 ```
 
-Tipicamente o acesso às funções que manipulam variáveis do objeto são feitas em funções ligadas à instância em vez de funções de acesso estático.
 ## Herança e Generalização
 
 ```java

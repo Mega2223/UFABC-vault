@@ -9,7 +9,7 @@ authors: Júlio César
 ---
 ## Definição
 
-É um método de resolução de [[Modelo Linear|modelos lineares]] e modelos não lineares, é um algoritmo com complexidade máxima polinomial $O(n^2L)$, menor que o [[método simplex]], todavia os casos mais complexos do simplex são raros enquanto os deste método são frequentes, assim, embora em tese este método tenha uma complexidade teórica menor que a do simplex, na prática o simplex tende a ser o mais eficiente.
+É um método de resolução de [[Modelo Linear|modelos lineares]] e modelos não lineares, é um algoritmo com [[Complexidade Assintótica#Big-$O$|complexidade]] máxima polinomial $O(n^2L)$, menor que o [[Método Simplex]], todavia os casos mais complexos do simplex são raros enquanto os deste método são frequentes, assim, embora em tese este método tenha uma complexidade teórica menor que a do simplex, na prática o simplex tende a ser o mais eficiente.
 
 ## Elipsoide
 

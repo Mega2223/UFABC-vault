@@ -20,6 +20,7 @@ $$\large \text{G} =\{\text{V},\text{E}\}$$
 A ordem de um grafo é o número de vértices do mesmo, o tamanho de um grafo é o número de arestas do mesmo. 
 ### Diâmetro
 Dado todos os caminhos ótimos entre todos os pares de vértices do grafo, o diâmetro do grafo é o menor maior caminhos.
+$$\large \text{diam}(G) = \max_{(u,v)\in V(G)} \text{dist}(u,v)$$
 ### Distância Média
 É uma média aritmética de todos os caminhos ótimos entre todos os pares de vértices do grafo
 $$\Large {\overline{l}} = \frac{\Large \sum_{i,j \in V} l(i,j)}{\binom{|V|}{2}}$$
@@ -38,6 +39,30 @@ O grafo também pode ser direcional ou não direcional, no caso direcional, cert
 ### Árvore
 Uma árvore é um grafo conexo e acíclico. Todo vértice de 1 grau na árvore é chamado de folha. 
 - Pode se afirmar para toda árvore que $|E| = |V| - 1$
+
+## Passeio
+
+Um passeio é uma sequência ordenada de vértices conectados entre si
+$$\large
+\begin{gather}
+W = v_1,v_2,...,v_n &
+\begin{cases} v_i \text{ e } v_{i+1} \text{ adjacentes } \forall i \in \{1,2,\dots,n-1\} \end{cases}
+\end{gather}$$
+- O passeio é dito fechado se $\large v_1 = v_n$
+- Dados $(v,u) \in G$, dizemos que $v$ alcança $u$ em $G$ se existe um passeio que começa em $v$ e termina em $u$.
+
+O conjunto de todos os grupos de vértices que se alcançam entre si são denominadas componente conexas, um grafo é dito conexo quando todos os seus vértices se alcançam entre si.
+## Caminho
+
+Um [[#passeio]] sem repetições de vértice é denominado caminho. O caminho também é considerado uma classe de grafo própria onde
+$$\large  \begin{gather} V = \{1,2,\dots,n\}\\ \\ E = \{\{i,i+1\}: 1 \le i \le k\}\end{gather}$$
+- É denotado $P^n$ um caminho com $n$ vértices.
+- $v_0$ e $v_k$ são ditos extremos do caminho. Os demais são ditos como vértices internos.
+- Se não há um caminho entre os vértices $v$ e $u$ em $G$, dizemos que $\text{dist}_G(v,u) = \infty$.
+
+Algoritmos de busca visam procurar um determinado caminho dentro do grafo, eles podem ser divididos em algoritmos de busca em largura (quando os vértices mais próximos da origem são visitados primeiro) e busca em profundidade (os vértices são visitados por profundidade, do primeiro ao último de cada potencial caminho).
+
+Muitos problemas visam encontrar um caminho com menor custo total, este problema é denominado problema do caminho mais curto.
 ## Representações
 
 ### Lista de Adjacência

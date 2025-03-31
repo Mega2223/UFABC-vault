@@ -51,6 +51,11 @@ $$
 
 //todo
 
-[^1]: Também é usada pra medir a quantidade de memória e alguns outros parâmetros do algoritmo. Em tese você pode usar isso em qualquer função definida em $R^{\ge0}$, mas é mais comum se usar ela em computação para funções discretas.
+## Equivalência Assintótica
+
+Duas funções $f$ e $g$ são ditas assintoticamente equivalentes quando
+$$\large f(x) \sim g(x) \iff \lim_{x\to\infty} \frac{f(x)}{g(x)} = 0$$
+
+[^1]: Também é usada pra medir a quantidade de memória e alguns outros parâmetros do algoritmo. Em tese você pode usar isso em qualquer função definida em $\mathbb{R}^{\ge0}$, mas é mais comum se usar ela em computação para funções discretas.
 
 [^2]: Sim, também é bastante usada em teoria analítica dos números, mas eu sou um estudante de BCC e o personagem principal do mundo.

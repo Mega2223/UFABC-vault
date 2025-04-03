@@ -35,7 +35,7 @@ Dado um sistema **convexo** $Ax \le b$ o método consegue determinar uma soluç�
 
 O algoritmo inicia com um elipsoide e $\text{E}(M,0)$ que contém toda a região viável. Caso o centro não satisfaça a solução viável, deve-se encontrar uma restrição que não é satisfeita pelo elipsoide e o elipsoide deve ser atualizado para um menor que satisfaça tal restrição.
 
-- Dada a restrição sendo violada $\alpha$ deve ser encontrado um ponto $y$ que é simultaneamente parte de um hiperplano qualquer paralelo a $\alpha$ e simultaneamente na superfície de $E$.
+- Dada a restrição sendo violada $\alpha$ deve ser encontrado um ponto $y$ que é simultaneamente parte de um [[hiperplano]] qualquer paralelo a $\alpha$ e simultaneamente na superfície de $E$.
 - Deve se achar um novo ponto $X' = X + \lambda \overset{\longrightarrow}{xy}$ que será o novo centro do elipsoide.
 - É achado uma nova matriz $M'$ e verificado se o centro de $E(M',X')$ é uma solução viável.
 - Se não for, deve-se repetir o algoritmo, a não ser que seu volume seja pequeno o suficiente, neste caso, não há solução viável.

@@ -24,8 +24,10 @@ Onde
 - Temos $+1$ e $-1$ como variáveis representam as classes.
 - $w \in \mathbb{R}^d$ é algum vetor de coeficientes lineares.
 - $b \in \mathbb{R}$ é uma constante.
+
+Temos $w^Tx+b$ linear, a fronteira de decisão será um [[hiperplano]] no espaço dos preditores.
 ### Cálculo de $w$ e $b$
-Para o cálculo dos coeficientes é utilizado o método da máxima verossimilhança, que visa maximizar o a função $L$ dentro do conjunto de treinamento
-$$\large L(w,b) =\prod_{i:y_i=1} p(x_i) \prod_{i':y_i' = 0} 1-p(x_{i'})$$
+Para o cálculo dos hiperparâmetros $w$ e $b$ é utilizado o método da máxima verossimilhança, que visa maximizar o a função $L$ dentro do conjunto de treinamento
+$$\large L(w,b) =\prod_{i:y_i=1} p(x_i) \prod_{i':y_i' = -1} (1-p(x_{i'}))$$
 
 [^1]: Sim, eu sei. Não me pergunte.

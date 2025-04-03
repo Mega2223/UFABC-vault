@@ -41,18 +41,20 @@ A = diag(1:4)
 B = matrix(4:1,4)
 A %*% B
 ```
-### Dataframes
-São tabelas de dados constituídas por vetores e são a base para o colecionamento de dados de treinamento de [[Modelo Linear|modelos]].
+### Dataframe
+Tabela de dados constituídas por vetores e são a base para o colecionamento de dados de treinamento de [[Modelo Linear|modelos]].
 ```r
 X = 1:64
 D = data.frame(x = X,y = sin(0.3 * X), z = tan(1/X) )
 D
 ```
 ### Tibble
-São tabelas derivadas do dataframe com funções adicionais[^1]
+São tabelas derivadas do [[#dataframe]] com funções adicionais[^1]
 ```r
+library(tibble)
+t = tibble(x = 1:128, y = x^2 - x*80 - 500)
+plot(y~x, data = t)
 ```
-//TODO
 ### Função
 
 ```R
@@ -61,9 +63,6 @@ f <- function(x,y){
 }
 f(1:128,129:256)
 ```
-### Modelo Linear
-
-
 ## Utilidades
 
 ### Geração de vetor sequência
@@ -79,7 +78,7 @@ plot(x,sin(x))
 ```
 
 ### Geração de vetor aleatório
-A função `runif` gera números em uma distribuição uniforme
+A função `runif` gera números em uma [[Léxico de Distribuições de Probabilidade#Distribuição Uniforme|distribuição uniforme]]
 
 ```R
 r = runif(128)
@@ -100,5 +99,6 @@ plot(x, x^2, col = "green")
 dev.off()
 ```
 ## Bibliotecas
+
 
 [^1]: As quais eu desconheço :p

@@ -17,8 +17,9 @@ Em geral graus 3-4 são satisfatórios, a equação tende a variar muito para gr
 
 ## Resolução por linearidade
 
-Como os rótulos são termos de $x_i$, pode-se usar o [[Regressão Linear#Método dos Mínimos Quadrados|MMQ]] para encontrar os coeficientes ótimos, rodando o algoritmo em termos de $x_i^{1\dots d}$ (linearização) e encontrando o hiperplano ótimo para o problema.
-### Implementação
+Como os rótulos são termos de $x_i$, pode-se usar o [[Regressão Linear#Método dos Mínimos Quadrados|MMQ]] para encontrar os coeficientes ótimos, rodando o algoritmo em termos de $x_i^{1\dots d}$ (linearização) e encontrando o [[hiperplano]] ótimo para o problema.
+## Implementação
+
 ```R
 library(ggplot2)
 library(tibble)

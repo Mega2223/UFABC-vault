@@ -19,7 +19,7 @@ $$\large \text{G} =\{\text{V},\text{E}\}$$
 ### Ordem e Tamanho
 A ordem de um grafo é o número de vértices do mesmo, o tamanho de um grafo é o número de arestas do mesmo. 
 ### Diâmetro
-Dado todos os caminhos ótimos entre todos os pares de vértices do grafo, o diâmetro do grafo é o menor maior caminhos.
+Dado todos os caminhos ótimos entre todos os pares de vértices do grafo, o diâmetro do grafo é o maior de todos os [[#Caminho|caminhos]] ótimos.
 $$\large \text{diam}(G) = \max_{(u,v)\in V(G)} \text{dist}(u,v)$$
 ### Distância Média
 É uma média aritmética de todos os caminhos ótimos entre todos os pares de vértices do grafo
@@ -63,7 +63,7 @@ $$\large  \begin{gather} V = \{1,2,\dots,n\}\\ \\ E = \{\{i,i+1\}: 1 \le i \le k
 Algoritmos de busca visam procurar um determinado caminho dentro do grafo, eles podem ser divididos em algoritmos de busca em largura (quando os vértices mais próximos da origem são visitados primeiro) e busca em profundidade (os vértices são visitados por profundidade, do primeiro ao último de cada potencial caminho).
 
 Muitos problemas visam encontrar um caminho com menor custo total, este problema é denominado problema do caminho mais curto.
-## Representações
+## Representações Computacionais
 
 ### Lista de Adjacência
 O grafo é armazenado como uma lista de vértices em forma de objetos, e cada vértice têm em si a lista de vértices adjacentes (e pesos no caso [[#Grafo Direcional|direcional]]). É uma implementação comum pois caso os vértices sejam representados em [[structs]] ou [[Programação Orientada a Objetos#Classe|classes]], esta permite que dados adicionais sejam armazenados em cada vértice.

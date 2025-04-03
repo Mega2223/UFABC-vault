@@ -17,7 +17,7 @@ A função de perda é a base para vários algoritmos de aprendizado supervision
 
 Em problemas de [[regressão]] normalmente se usa a função de perda quadrática como função avaliadora
 $$\large \ell(y,\hat{f}(x)) = (y-\hat{f}(x))^2$$
-Ou seja, é medida a [[Variáveis Aleatórias Contínuas#Valor Esperado e Variância|variância]] entre $E(x)$ e $f(x)$
+Ou seja, é medida a [[Variáveis Aleatórias Contínuas#Valor Esperado e Variância|variância]] entre $\hat f(x)$ e $f(x)$
 
 ## Função de Perda 0-1
 

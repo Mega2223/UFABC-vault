@@ -16,9 +16,24 @@ $$\large
 0 & w^Tx + b \lt 0
 \end{cases}
 $$
-Onde $w$ e $b$ os hiperparâmetros do [[hiperplano#Definição|hiperplano]] que forma a fronteira de decisão do algoritmo.
+Onde $w$ e $b$ são os hiperparâmetros do [[hiperplano#Definição|hiperplano]] que forma a fronteira de decisão do algoritmo.
 ## Função de Perda
 
-O perceptron visa minimizar a [[função de perda]]
+O perceptron usa a [[função de perda]]
 $$\large \ell_{\text{pct}}(y,\hat y) = \max \{0,-y \cdot \hat y\}$$
-Que é 0 caso não haja erro de classificação, mas aumenta linearmente caso exista erro de classificação.
+Que é 0 caso não haja erro de classificação, mas aumenta linearmente caso exista erro de classificação. A ideia é reduzir a distância entre cada categoria e sua fronteira de decisão respectiva. Assim, buscamos minimizar
+$$\large 
+J(w,b) = \frac{1}{m} \sum_{i=1}^m \max \{0,-y_i(w^Tx_i+b)\}
+$$
+Se temos algum $(w_*,b_*)$ tal que $J(w_*,b_*) = 0$, dizemos que os dados são linearmente separáveis.
+## Perceptron em Lote / Batch
+
+Algoritmo para encontrar uma barreira de perceptron, se os dados são linearmente separáveis, este eventualmente converte. Ele calcula todo o gradiente antes de iterar encima dos hiperparâmetros.
+## Perceptron Online
+
+Algoritmo que encontra uma barreira caso o conjunto seja linearmente separável, trabalha com uma lista aleatoriamente ordenada de elementos de $C_m$ e atualiza os hiperparâmetros após ver cada variável de treinamento. É chamado de online pois ao contrário do [[#Perceptron em Lote / Batch|algoritmo em lote]] este pode ser usado sob um fluxo contínuo de dados.
+
+## Desempenho
+
+### Classificação
+O perceptron é um separador bem maleável, ao contrário do [[Regressão Logística|outro separador linear bem conhecido]], que têm solução única. Em geral é bom para um conjunto de dados linearmente separável. 

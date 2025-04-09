@@ -81,14 +81,14 @@ plot(x,sin(x))
 A função `runif` gera números em uma [[Léxico de Distribuições de Probabilidade#Distribuição Uniforme|distribuição uniforme]]
 
 ```R
-r = runif(128)
-r
+r.x = runif(128); r.y = runif(128)
+plot(r.x,r.y)
 ```
 
 A função `rnorm` gera números aleatórios em uma [[Léxico de Distribuições de Probabilidade#Distribuição Normal|distribuição normal]]
 ```R
-r = rnorm(128)
-r
+r.x = rnorm(128); r.y = rnorm(128)
+plot(r.x,r.y)
 ```
 ### Salvar figuras geradas
 ```R

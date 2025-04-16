@@ -24,6 +24,18 @@ Ou seja, é medida a [[Variáveis Aleatórias Contínuas#Valor Esperado e Variâ
 Utilizada em problemas de [[classificação]], ela aplica uma perda uniforme ao algoritmo que falha em classificar um determinado preditor corretamente
 $$\large \ell(y,\hat{f}(x))= \begin{cases}0 & y=\hat{f}(x) \\ 1 & y \ne \hat{f}(x)\end{cases}$$
 
+## RSS
+
+O RSS é uma medida de erro empírico
+$$\large
+\begin{align}
+\text{RSS} = \sum^n_i e_i^2 &&
+\begin{cases}
+e_i = y_i-\hat{y_i} \\
+\hat{y_i} = \hat{\beta_0} + \hat{\beta_1}x_i
+\end{cases}
+\end{align}
+$$
 ## Risco Esperado
 
 Dada uma determinada [[função de perda]] procuramos encontrar um $\hat{f}$ tal qual minimiza o risco esperado dentro do nosso domínio $\mathcal{Y} \times \mathcal{Y}$

@@ -17,16 +17,7 @@ Assim, a meta da regressão linear é encontrar coeficientes $\beta$ ótimos par
 $$\large y_i \approx \beta_0 + \sum_{i=1}^n\beta_1x_i$$
 ## Método dos Mínimos Quadrados
 
-O método dos mínimos quadrados é um método que encontra um $\beta_0$ e um $\beta_1$ que minimizam a soma residual dos quadrados ($\text{RSS}$)[^1] do conjunto de treinamento de um determinado modelo com um único preditor
-$$\large
-\begin{align}
-\text{RSS} = \sum^n_i e_i^2 &&
-\begin{cases}
-e_i = y_i-\hat{y_i} \\
-\hat{y_i} = \hat{\beta_0} + \hat{\beta_1}x_i
-\end{cases}
-\end{align}
-$$
+O método dos mínimos quadrados é um método que encontra um $\beta_0$ e um $\beta_1$ que minimizam a o [[Função de Perda#RSS|RSS]][^1] do conjunto de treinamento de um determinado modelo com um único preditor
 ### Cálculo de $\beta_0$ e $\beta_1$
 $$\large 
 \begin{gather}\hat{\beta_0} = \overline{y} - \hat{\beta_1}\overline{x}\\ \\

@@ -33,6 +33,16 @@ Algoritmo para encontrar uma barreira de perceptron, se os dados são linearment
 
 Algoritmo que encontra uma barreira caso o conjunto seja linearmente separável, trabalha com uma lista aleatoriamente ordenada de elementos de $C_m$ e atualiza os hiperparâmetros após ver cada variável de treinamento. É chamado de online pois ao contrário do [[#Perceptron em Lote / Batch|algoritmo em lote]] este pode ser usado sob um fluxo contínuo de dados.
 
+## Classificador de Máxima Margem
+
+O classificador de máxima margem visa maximizar a distância total da fronteira de decisão ao ponto mais próximo da margem, definimos nossa margem $\large\gamma$ pelo teorema da [[Hiperplano#Distância Ponto e Hiperplano|distância de um ponto e um hiperplano]]
+$$\large 
+\gamma = \min_{i = 1, \dots, m} \frac{|w^Tx_i+b|}{||w||} 
+$$
+O classificador então visa maximizar $\large \gamma$ pelos hiperparâmetros $w$ e $b$
+## Multi Layered Perceptron
+
+//todo
 ## Desempenho
 
 ### Classificação

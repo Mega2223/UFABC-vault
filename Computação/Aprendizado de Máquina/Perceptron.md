@@ -43,6 +43,10 @@ O classificador então visa maximizar $\large \gamma$ pelos hiperparâmetros $w$
 ## Multi Layered Perceptron
 
 //todo
+
+## Perceptron em Rede
+
+Podemos organizar um conjunto de perceptrons em uma rede, onde nós de entrada se conectam a determinados perceptrons que se reorganizam entre si e uma determinada camada que se conecta à saída do algoritmo, é a preposição por trás das [[Rede Neural|redes neurais]].
 ## Desempenho
 
 ### Classificação

@@ -1,6 +1,5 @@
 ---
 tags:
-  - incompleto
   - internet
   - computação
   - comunicações

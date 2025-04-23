@@ -2,7 +2,6 @@
 tags:
   - computação
   - algoritmo
-  - incompleto
   - comunicações
 authors: Júlio César
 aliases:

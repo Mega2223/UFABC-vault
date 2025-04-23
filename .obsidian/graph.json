@@ -25,7 +25,7 @@
       "query": "path:Humanas  ",
       "color": {
         "a": 1,
-        "rgb": 14729554
+        "rgb": 9175295
       }
     },
     {
@@ -60,6 +60,6 @@
   "repelStrength": 14.5833333333333,
   "linkStrength": 1,
   "linkDistance": 108,
-  "scale": 0.28599121204226147,
+  "scale": 0.06506663291479256,
   "close": false
 }

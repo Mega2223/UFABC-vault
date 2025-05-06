@@ -22,13 +22,31 @@
             }
           },
           {
-            "id": "d0fbb08009fe1b78",
+            "id": "e58860af9cab49d6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Redes de Computador/Camada de Aplicação/Protocolo RTP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Protocolo RTP"
+            }
+          },
+          {
+            "id": "03ddfc9fba96eac5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Redes de Computador/Camada de Rede/Protocolo UDP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Protocolo UDP"
             }
           }
         ],
@@ -183,35 +201,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d0fbb08009fe1b78",
+  "active": "e58860af9cab49d6",
   "lastOpenFiles": [
+    "Computação/Redes de Computador/Camada de Rede/Protocolo UDP.md",
+    "Computação/Redes de Computador/Camada de Aplicação/Protocolo RTP.md",
+    "Computação/Redes de Computador/Roteamento Por Difusão.md",
     "Computação/Redes de Computador/Controle de Congestionamento.md",
     "Computação/Redes de Computador/Roteamento Multicast.md",
+    "Computação/Redes de Computador/Camada de Aplicação/Protocolo DNS.md",
+    "Computação/Redes de Computador/Camada de Aplicação",
+    "Computação/Redes de Computador/Protocolo CSMA.md",
+    "Computação/Redes de Computador/Camada de Rede/Protocolo TCP.md",
+    "Computação/Redes de Computador/Protocolo HDLC.md",
+    "Computação/Redes de Computador/Camada de Rede",
+    "Computação/Aprendizado de Máquina/Função de Perda.md",
+    "Computação/Aprendizado de Máquina/R.md",
+    "Computação/Aprendizado de Máquina/Máquina de Vetores de Suporte.md",
+    "Computação/Aprendizado de Máquina/Regressão de Ridge.md",
+    "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
     "Humanas/Estrutura Dinâmica e Social/Marx.md",
-    "Computação/Redes de Computador/Roteamento Por Difusão.md",
     "Computação/Redes de Computador/Árvore de Amplitude.md",
     "Computação/Redes de Computador/Arquitetura de Rede.md",
     "Computação/Redes de Computador/Camada de Rede.md",
-    "Computação/Redes de Computador/Protocolo CSMA.md",
     "Computação/Aprendizado de Máquina/Rede Neural.md",
     "Computação/Redes de Computador/Camada de Enlace.md",
-    "Computação/Redes de Computador/Protocolo HDLC.md",
-    "Computação/Redes de Computador/Protocolo UDP.md",
     "Computação/Redes de Computador/Camada de Transporte.md",
     "Naturais/Física/Teoria de Erros.md",
-    "Computação/Aprendizado de Máquina/Função de Perda.md",
     "Computação/Aprendizado de Máquina/Perceptron.md",
     "Computação/Aprendizado de Máquina/Árvore de Decisão.md",
     "Matemática/Otimização Linear/Modelo Linear.md",
     "Computação/Aprendizado de Máquina/Regressão Linear.md",
-    "Computação/Aprendizado de Máquina/Regularização de Modelo.md",
-    "Computação/Aprendizado de Máquina/Regressão Polinomial.md",
-    "Computação/Aprendizado de Máquina/Regressão Logística.md",
     "Assets/Pasted image 20241124203949.png",
-    "Computação/Aprendizado de Máquina/Kernel Suavizante.md",
-    "Computação/Prática Avançada de Programação/Algoritmos/Quicksort.md",
-    "Computação/Aprendizado de Máquina/Aprendizado Supervisionado.md",
-    "Computação/Aprendizado de Máquina/Regressão.md",
     "Computação/Aprendizado de Máquina/Classificação",
     "Computação/Aprendizado de Máquina/Regressão",
     "Matemática/Álgebra Linear",
@@ -225,8 +245,6 @@
     "Computação/Redes de Computador/Lab",
     "Computação/Prática Avançada de Programação",
     "Computação/Aprendizado de Máquina",
-    "Computação/Redes de Computador",
-    "Computação/Paradigmas de Computação",
     "Pasted image 20241022234723.png",
     "Pasted image 20241022234906.png",
     "Untitled.canvas"

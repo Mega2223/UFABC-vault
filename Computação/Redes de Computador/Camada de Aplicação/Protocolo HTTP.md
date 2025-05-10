@@ -1,9 +1,8 @@
 ---
 tags:
-  - internet
   - computação
   - comunicações
+  - internet
   - incompleto
 authors: Júlio César
 ---
-## Definição

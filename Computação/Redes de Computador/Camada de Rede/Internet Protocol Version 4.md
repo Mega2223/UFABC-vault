@@ -1,9 +1,11 @@
 ---
 tags:
   - internet
+  - incompleto
   - computação
   - comunicações
-  - incompleto
 authors: Júlio César
+aliases:
+  - IPv4
 ---
 ## Definição

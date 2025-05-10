@@ -9,7 +9,7 @@ authors: Júlio César
 
 O Protocolo UDP _(User Datagram Protocol)_ é um [[Arquitetura de Rede#Protocolo|protocolo]] de [[Camada de Transporte|transporte]] não confiável e sem conexão no [[Modelo TCP-IP]]. Ao contrário do [[Protocolo TCP]], o UDP não tem acordo de conexão, garantia de recebimento ou proteção contra duplicatas.
 
-É um protocolo bom para aplicações onde um determinado dado é redundante e a velocidade é mais essencial, como serviços de streaming, ou aplicações de transmissões breves e únicas, como requisições [[DNS]].
+É um protocolo bom para aplicações onde um determinado dado é redundante e a velocidade é mais essencial, como serviços de streaming, ou aplicações de transmissões breves e únicas, como requisições [[Protocolo DNS|DNS]].
 ## Cabeçalho
 
 O cabeçalho UDP consiste de 32 bits, é dividido em 4 partes iguais de 8 bits, respectivamente
@@ -17,11 +17,6 @@ O cabeçalho UDP consiste de 32 bits, é dividido em 4 partes iguais de 8 bits, 
 - Porta de destino
 - Comprimento do UDP (em octetos, inclui o cabeçalho e os dados do pacote)
 - Checksum (opcional)
-## Chamada Remota de Procedimento (RPC)
-
-É um procedimento quando um computador (client) manda uma sub-rotina para ser executado em outro computador (host), similar ao fluxo de uma função. Essas chamadas são embrulhadas em _stubs_ que servem para o encapsulamento dessas requisições.
-
-Algumas estruturas de dados complexas (como ponteiros de memória) não podem ser implementadas por RPC. Em linguagens de tipificação fraca, o encapsulamento do pacote pode não ser possível pela dificuldade de predizer o tamanho do pacote. Também existem dificuldades em presumir determinados tipos de variável.
 ## Implementação
 
 ```java

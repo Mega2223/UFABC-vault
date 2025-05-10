@@ -8,7 +8,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Chamamos de difusão o envio de um determinado pacote a todos os membros de uma [[Camada de Rede|rede]]. O roteamento por difusão visa otimizar a transmissão global de pacotes em uma determinada rede. 
+Chamamos de difusão (_broadcasting_) o envio de um determinado pacote a todos os membros de uma [[Camada de Rede|rede]]. O roteamento por difusão visa otimizar a transmissão global de pacotes em uma determinada rede. 
 
 Enviar um pacote diferente para cada membro da rede é computacionalmente exaustivo, e exige que o caminho ótimo entre o roteador remetente e cada membro da rede já seja conhecido. Assim em casos de difusão usamos algoritmos que visam minimizar o uso de banda.
 

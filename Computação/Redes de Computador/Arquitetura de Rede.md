@@ -2,7 +2,6 @@
 tags:
   - computação
   - internet
-  - incompleto
 authors: Júlio César
 aliases:
   - camadas de rede
@@ -24,7 +23,7 @@ Um serviço é um conjunto de operações que uma [[Arquitetura de Rede#camada|c
 
 ## Modelo OSI
 
-O Modelo de Referência ISO OSI é um modelo de [[arquitetura de rede]][^1] desenvolvido pela ISO em 1983 visado à conexões entre sistemas abertos, é um modelo dividido em 7 camadas. Embora ele não seja um _standard_ relevante atualmente, alguns de seus aspectos foram propagados a arquiteturas posteriores. O modelo nunca ganhou tração e eventualmente o [[Modelo TCP-IP|TCP/IP]] virou a _standard_ padrão da internet.
+O Modelo de Referência ISO OSI é um modelo de [[arquitetura de rede]][^1] desenvolvido pela ISO em 1983 visado à conexões entre sistemas abertos, é um modelo dividido em 7 camadas. Embora ele não seja um _standard_ relevante atualmente, alguns de seus aspectos foram propagados a arquiteturas posteriores. O modelo nunca ganhou tração e eventualmente o [[Modelo TCP-IP|TCP/IP]] virou o  padrão da internet.
 
 
 

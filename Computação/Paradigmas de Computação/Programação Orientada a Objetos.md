@@ -2,7 +2,7 @@
 tags:
   - computação
   - incompleto
-  - paradigmas
+  - paradigma
 authors: Júlio César
 ---
 ## Definição

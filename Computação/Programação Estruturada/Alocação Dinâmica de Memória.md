@@ -2,6 +2,7 @@
 tags:
   - computação
 authors: Júlio César
+aliases: []
 ---
 ## Definição
 
@@ -23,10 +24,10 @@ void main(){
 
 Nota-se que em C a distinção entre arrays e endereços de memória é praticamente nula, pois um array é um endereço de memória e cada elemento é uma transposição do endereço inicial, ao contrário de línguas de nível mais alto, onde arrays têm componentes length para evitar um overflow de acesso de memória.
 
-A alocação dinâmica é utilizada principalmente para a distribuição de memória de [[Vetor]] e [[structs|structs.]] [[Classes]] em geral são alocadas por alguma função de maior nível.
+A alocação dinâmica é utilizada principalmente para a distribuição de memória de [[vetor]] e [[structs|structs.]] [[Classes]] em geral são alocadas por alguma função de maior nível.
 ## Representação Matricial
 
-Uma [[matriz]] (ou qualquer outra ordem de tensor) pode ser representada como um conjunto de vetores de mesmo comprimento, em C, esta pode ser representada como um [[Alocação Dinâmica de Memória|pointer]] que aponta para os endereços de cada vetor
+Uma [[matriz]] (ou qualquer outra ordem de tensor) pode ser representada como um conjunto de vetores de mesmo comprimento, em C, esta pode ser representada como um [[Ponteiro & Referência|ponteiro]] que aponta para os endereços de cada vetor
 
 ```c
 #include<stdio.h>

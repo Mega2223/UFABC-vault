@@ -6,7 +6,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Strings são sequências de caracteres que formam sentenças, são armazenadas como [[Lista|listas]] na memória e, em línguas de alto nível, normalmente são tratadas como [[Programação Orientada a Objetos#Classe|classes]].
+Strings são sequências de caracteres que formam sentenças, são armazenadas como [[Lista|listas]] na memória e, em línguas de alto nível, normalmente são tratadas como [[Programação Orientada a Objetos#Classe|classes]] ou [[Alocação Dinâmica de Memória|ponteiros]].
 ## Implementação
 
 ```c

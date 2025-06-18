@@ -35,3 +35,7 @@ public class Main{
 ```scala
 ((x: Int, y: Int) => (x*x + 3*y + ((y: Int) => (y*y*y + y-3))(y)))(3,8)
 ```
+
+## Algoritmos Dinamicamente Iterativos
+
+O loop for tradicional da programação imperativa está em violação com o princípio funcional da imutabilidade. Assim, para fazer qualquer algoritmo dinâmico devemos utilizar de algoritmos [[Recursão|recursivos]] para realizar essas tarefas.

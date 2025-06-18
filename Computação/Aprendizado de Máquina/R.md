@@ -4,7 +4,7 @@ tags:
   - computação
   - estatística
   - matemática
-  - línguas-de-programação
+  - língua-de-programação
 authors: Júlio César
 ---
 ## Definição

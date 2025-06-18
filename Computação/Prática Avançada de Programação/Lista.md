@@ -9,7 +9,7 @@ authors: Júlio César
 É uma estrutura de dados que alinha os dados de forma ordenada sem repetições, cada um tendo um único índice.
 ## Array Dinâmica
 
-É uma lista de ponteiros contínua de acesso aleatório, como arrays têm um valor máximo, caso seja colocada uma variável além do tamanho atual da array, deve-se criar uma nova array com capacidade aumentada. A array dinâmica possui capacidade de acesso.
+É uma lista de bits contínua de acesso aleatório, como arrays têm um valor máximo, caso seja colocada uma variável além do tamanho atual da array, deve-se criar uma nova array com capacidade aumentada. A array dinâmica possui uma boa rapidez de consulta (uma vez que sabendo o tamanho da primitiva e o ponteiro inicial podemos inferir o local da variável sendo consultada) a custo de mais dificuldades de gerenciamento de memória.
 ### Propriedades
 Dado uma array dinâmica com $n$ elementos, temos que seu [[Complexidade Assintótica#Big-$O$|tempo]] é de
 $$\begin{gather}

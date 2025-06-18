@@ -9,8 +9,10 @@ authors: Júlio César
 A recursão é a prática de fazer programas com funções de auto-referência, normalmente a fim de resolver problemas via divisão e conquista.
 
 ```c
-int main(){
-	
+#include <stdio.h>
+
+void main(){
+	printf("the");
 }
 ```
 

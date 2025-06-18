@@ -1,7 +1,9 @@
 ---
 tags:
-  - língua-de-programação
   - computação
+  - matemática
+  - matemática-discreta
   - incompleto
 authors: Júlio César
 ---
+## Definição

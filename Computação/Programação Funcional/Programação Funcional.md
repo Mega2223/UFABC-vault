@@ -7,7 +7,7 @@ tags:
 ---
 ## Definição
 
-É um #paradigma de programação onde os algoritmos são construídos por um sistema de aplicação e composição de funções puras. Não admite a maioria das estruturas comuns em programação sequencial, e tem paradigma puramente declarativo. De forma geral podemos afirmar que a programação funcional gira em torno da evaluação de declarações, e não de uma sequência de instruções.
+É um #paradigma de programação onde os algoritmos são construídos por um sistema de aplicação e composição de funções puras. Não admite a maioria das estruturas comuns em programação sequencial, e tem paradigma puramente declarativo. De forma geral podemos afirmar que a programação funcional gira em torno da evaluação de declarações, e não de uma sequência de instruções. Enquanto a programação imperativa é derivada da máquina de Turing, a programação funcional é derivada do [[cálculo lambda]].
 ## Características
 
 - **Imutabilidade**: Valores não podem ser re-atribuídos de forma que não existem variáveis, só constantes.

@@ -9,7 +9,7 @@ authors: Júlio César
 ---
 ## Definição
 
-R é uma língua de programação interpretada multiparadigma focada em programação matemática e estatística.
+R é uma língua de programação interpretada multiparadigma focada em programação matemática, aprendizado estatístico e visualização. Possui aspectos de [[programação funcional]] e [[programação orientada a objetos]]. Não é muito focada em lógica computacional e sim em manipulação estatística, muitas operações iterativas podem ser omitidas por operações em vetor.
 ## Formatos
 
 ### Vetor

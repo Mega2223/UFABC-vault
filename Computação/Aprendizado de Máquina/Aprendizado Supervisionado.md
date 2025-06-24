@@ -33,7 +33,7 @@ Para encontrar funções que replicam $f$ normalmente se busca matematicamente m
 
 ## Tradeoff Variância / Viés
 
-Curvas de erros conforme parametrizamos certos modelos (como o [[KNN]]) têm um formato de hipérbole para o conjunto de testes conforme a complexidade do algoritmo aumenta, enquanto para o conjunto de treinamento o erro normalmente diminui a medida que a função se torna mais complexa.
+Curvas de erros conforme parametrizamos certos modelos (como o [[kNN]]) têm um formato de hipérbole para o conjunto de testes conforme a complexidade do algoritmo aumenta, enquanto para o conjunto de treinamento o erro normalmente diminui a medida que a função se torna mais complexa.
 $$\large \begin{gather}
 \text{Bias} = \text{E}[\hat{f}(x_0)] - f(x_0) \\ \\
 \text{Var} = \text{E}[\hat f(x) - \text E[\hat f(x)^2]\ ] 

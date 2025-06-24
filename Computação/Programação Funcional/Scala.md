@@ -7,13 +7,13 @@ authors: Júlio César
 ---
 ## Definição
 
-Scala é uma língua de [[programação funcional]] multiparadigma estaticamente tipada, é compilada em [[Java#JVM|bytecode JVM]] com uma ênfase forte em paradigmas funcionais de programação. Possui um esquema de tipagem forte com suporte à inferência implícita de variáveis.
+Scala é uma #língua-de-programação  [[programação funcional|funcional]] multiparadigma estaticamente tipada, é compilada em [[Java#JVM|bytecode JVM]] com uma ênfase forte em paradigmas funcionais de programação. Possui um esquema de tipagem forte com suporte à inferência implícita de variáveis.
 
 Por ser multiparadigma ela têm suporte a esquemas de programação imperativa, como variáveis mutáveis, mas a língua tem enfoque no paradigma funcional
 
 ```scala
 val x: Int = 0; // 'variável' funcional
-var y: Int = 0; // variável imperativa
+var y: Int = 0; // variável imperativa (mutável)
 ```
 ## Funções de Ordem Superior
 
@@ -24,7 +24,12 @@ def getAdder(x: Int) = {
 	(x1: Int) => (x1 + x)
 }
 
+def performFunction(f: Int => Int, x1: Int) = {
+	f(x1)
+}
+
 getAdder(3)(4) // 7
+performFunction(getAdder(3),4) //7
 ```
 
 ```scala
@@ -37,16 +42,63 @@ def applyThenAdd(f: Int => Int, x: Int) = {
 Scala também têm implementação de [[Programação Funcional#Lambdas|funções anônimas / lambdas]] para a manipulação de funções
 
 ```scala
-def getSum(x: Int, y: Int) = {
-	( (x1: Int) => (y + x1) ) (x) // função anônima
+def getSum(x: Int, y: Int): Int = {
+	( (x1: Int) => (y + x1) ) (x) // função anônima e chamada
 }
 ```
 ## Monadas
 
 ## Programação Orientada a Objetos
 
-Scala tem suporte ao paradigma de [[Programação Orientada a Objetos|programação orientada a objetos]], tanto de forma funcional (todas as variáveis da classe são constantes) quanto imperativa. A keyword `object` pode ser usada como atalho para a elaboração de objetos singleton.
+Scala tem suporte ao paradigma de [[Programação Orientada a Objetos|programação orientada a objetos]], tanto de forma funcional (todas as variáveis da classe são constantes) quanto imperativa.
 
+```scala
+class Pessoa(name: String, age: Int){
+	
+}
+
+@main def main(): Unit = {
+	val pessoaA = Pessoa("Marcos",16)
+	val pessoaB = Pessoa("Luciana",32)
+	
+}
+```
+### Objetos
+A keyword `object` pode ser usada como atalho para a elaboração de objetos singleton.
+
+### Classes Internas
+Ao contrário de [[Java]], Scala tem um mecanismo de classes internas diferenciais, onde cada instância de uma classe possui um tipo de classe interna.
+
+```scala
+class City {
+	var buildings: List[this.Building] = List();
+	class Building(val name: String){
+		buildings = this :: buildings;
+	}
+}
+
+@main def main(): Unit = {
+	val cityA = City(); val cityB = City()
+	val buildingA = cityA.Building("cA")
+	val buildingB = cityB.Building("cB")
+
+	println(buildingB :: cityB.buildings)
+	println(buildingA :: cityB.buildings)
+}
+```
+### Programação Genérica
+
+
+### Traits
+
+Traits ocupam o mesmo nicho que [[Java#interfaces|interfaces]] ocupam em Java, isso é, servem como molde para objetos herdeiros.
+
+```scala
+trait Iterator[A]{
+	def hasNext: Boolean
+	def next(): A
+}
+```
 ## Recursão / Tail Call Optimization
 
 A programação funcional não dá suporte para loops de tipo `for` por querer preservar a imutabilidade, assim algoritmos iterativos devem rodar de forma [[Recursão|recursiva]]
@@ -112,6 +164,5 @@ object Hello:
 	}
 ```
 
-## Literais
+## Tipos e Literais
 
-## Tipos

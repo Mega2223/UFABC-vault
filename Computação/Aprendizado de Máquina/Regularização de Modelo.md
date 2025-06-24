@@ -6,12 +6,11 @@ tags:
   - computação
   - incompleto
 authors: Júlio César
-aliases:
-  - Seleção de Características
+aliases: []
 ---
 ## Preposição
 
-Um modelo com um alto número de preditores [[KNN#Maldição da dimensionalidade|tende a ser mais difícil de inferir]], e mais trabalhoso de computar, então em geral é preferível diminuir o número de preditores para um determinado modelo antes do treinamento, isso é, cortar informação redundante sem uma perda muito significativa de informação.
+Um modelo com um alto número de preditores [[kNN#Maldição da dimensionalidade|tende a ser mais difícil de inferir]], e mais trabalhoso de computar, então em geral é preferível diminuir o número de preditores para um determinado modelo antes do treinamento, isso é, cortar informação redundante sem uma perda muito significativa de informação.
 
 ## Seleção de Subconjuntos
 

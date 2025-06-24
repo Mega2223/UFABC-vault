@@ -15,7 +15,7 @@ Ao treinar um modelo de [[aprendizado supervisionado]], em vez de utilizarmos to
 
 ## Regressão Local
 
-Um método de [[regressão]] derivado do [[KNN#Regressão|KNN de regressão]], onde em vez de uma média aritmética, é calculada uma média ponderada sob os valores mais próximos do nosso preditor. Essa média é distribuída de acordo com alguma função da distância entre o nosso preditor e os preditores conhecidos mais próximos.
+Um método de [[regressão]] derivado do [[kNN#Regressão|KNN de regressão]], onde em vez de uma média aritmética, é calculada uma média ponderada sob os valores mais próximos do nosso preditor. Essa média é distribuída de acordo com alguma função da distância entre o nosso preditor e os preditores conhecidos mais próximos.
 
 Em geral, o algoritmo encontra os pontos $s = k/m$ mais próximos do nosso $x$, atribui alguma função de peso em função da distância dos preditores de treinamento e ajusta uma [[regressão linear]] local para minimizar 
 $$\large J(\beta_0, \beta_1) = \sum_{i=1}^m w_{i0}(y_i - \beta_0 - \beta_1x_i)^2 $$

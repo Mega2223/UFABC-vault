@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Computação/Sistemas Digitais/Conversor Digital-Analógico.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -189,6 +189,9 @@
   },
   "active": "3c1aec4f1095cbd1",
   "lastOpenFiles": [
+    "Assets/DAC3.drawio.png",
+    "Assets/DAC2.drawio.png",
+    "Assets/DAC.drawio.png",
     "Computação/Programação Funcional/Scala.md",
     "Computação/Circuitos Digitais/Circuito Combinatório.md",
     "Computação/Circuitos Digitais/Elemento de Memória.md",
@@ -232,7 +235,6 @@
     "Assets/Pasted image 20241022235314.png",
     "Assets/Pasted image 20241022235334.png",
     "Assets/Vetor.png",
-    "Pasted image 20241022234723.png",
     "Untitled.canvas"
   ]
 }

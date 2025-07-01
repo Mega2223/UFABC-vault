@@ -23,8 +23,8 @@ void main(){
 
 main();
 ```
-## C++ (e C puro)
-```cpp
+## C
+```c
 #include<stdio.h>
 #include<stdlib.h>
 

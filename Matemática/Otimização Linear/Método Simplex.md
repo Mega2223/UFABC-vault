@@ -7,6 +7,7 @@ tags:
 authors: Júlio César
 aliases:
   - simplex
+  - método simplex
 ---
 ## Definição
 

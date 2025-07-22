@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Paradigma de programação imperativa, é a programação por meio de lógica implementada por classes de objetos, estes têm padrões funcionais próprios, como funções por instância. Línguas orientadas a objetos tendem a adotar padrões como a herança de funções, a generalização de tipos implementação de lógica por objetos.
+Paradigma de [[programação estruturada]][^1], é a programação por meio de lógica implementada por classes de objetos, estes têm padrões funcionais próprios, como funções por instância. Línguas orientadas a objetos tendem a adotar padrões como a herança de funções, a generalização de tipos implementação de lógica por objetos.
 
 Nessa categoria enquadram-se o sistema de classes de [[Java]], [[C++]]e [[Python]]. Embora [[Lua]] não tenha implementação direta de classes, sua implementação de dicionários e funções como objetos consegue replicar todos os padrões usuais de línguas OOP.
 
@@ -53,3 +53,5 @@ public class Main{
 	}
 }
 ```
+
+[^1]: Também é comumente implementado no [[programação funcional|paradigma funcional]], com o diferencial que os objetos e funções tendem a ser imutáveis.

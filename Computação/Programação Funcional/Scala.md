@@ -46,7 +46,6 @@ def getSum(x: Int, y: Int): Int = {
 	( (x1: Int) => (y + x1) ) (x) // função anônima e chamada
 }
 ```
-## Monadas
 
 ## Programação Orientada a Objetos
 

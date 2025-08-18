@@ -28,7 +28,7 @@ void main(){
 
 ## Desempenho
 
-Em geral algoritmos recursivos são menos ótimos que algoritmos iterativos, por conta do custo de manter as funções na pilha e o fato da mesma ter um tamanho máximo e a possibilidade de atingir um erro stackoverflow. A implementação recursiva tende a ser mais legível que a iterativa, mas isso vem a um custo computacional significante.
+Em geral algoritmos recursivos são menos ótimos que algoritmos iterativos, por conta do custo de manter as funções na pilha e o fato da mesma ter um tamanho máximo e a possibilidade de atingir um erro stackoverflow. Algumas línguas visam amenizar o custo de memória de algoritmos recursivos por meio de [[recursividade na calda]].
 
 ### Implementação da Série de Fibonacci
 
@@ -68,4 +68,4 @@ void main(){
 Temos que, embora o número de operações seja parecido, o uso de memória da nossa implementação recursiva é da ordem de $O(n)$ enquanto a implementação iterativa é da ordem de $O(1)$.
 ## Backtracking
 
-É o ato de retornar a recursão a um estado anterior e tentar outra alternativa a partir daquele estado.
+//TODO

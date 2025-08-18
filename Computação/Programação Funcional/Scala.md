@@ -98,33 +98,6 @@ trait Iterator[A]{
 	def next(): A
 }
 ```
-## Recursão / Tail Call Optimization
-
-A programação funcional não dá suporte para loops de tipo `for` por querer preservar a imutabilidade, assim algoritmos iterativos devem rodar de forma [[Recursão|recursiva]]
-
-```scala
-def getListSum(ls: List[Int], index: Integer = 0): Integer = {
-	if (index == ls.length - 1){
-		ls(index)
-	} else {
-		ls(index) + getListSum(ls, index + 1)
-	}
-}
-```
-
-Todavia esse tipo de recursão é suscetível a erros stack overflow para operações muito intensivas, para podemos reestruturar o código com um acumulador de forma que a função não necessita de manter seu espaço na pilha após a chamada da próxima função, o compilador de Scala vai automaticamente otimizar o uso da pilha.
-
-```scala
-def getListSumB(ls: List[Int], index: Integer = 0, sum: Integer = 0): Integer = {
-	if (index == ls.length - 1){
-		sum + ls(index)
-	} else {
-		getListSumB(ls, index + 1, sum + ls(index))
-		// não há operação pendente após a chamada da função, ela
-		// pode ser descartada da pilha de execução
-	}
-}
-```
 ## Implementação
 
 ### Função Print

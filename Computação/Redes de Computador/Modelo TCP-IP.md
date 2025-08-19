@@ -23,3 +23,6 @@ Similar à [[camada de transporte]] OSI, a camada de transporte do TCP/IP permit
 
 ### Camada de Rede / Camada Internet
 A [[camada de rede]] responsável por lidar os procedimentos de navegação pela Internet, não é confiável. A camada de rede visa o transporte correto e rápido de pacotes entre máquinas. Para protocolos de endereçamento de rede são usados o [[Internet Protocol Version 4|IPv4]] e o [[Internet Protocol Version 6|IPv6]].
+
+### Camada de Enlace
+//TODO

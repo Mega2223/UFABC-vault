@@ -5,6 +5,9 @@ tags:
   - algoritmo
   - incompleto
 authors: Júlio César
+aliases:
+  - Tupla
+  - Trait
 ---
 # Tipo Soma
 
@@ -19,7 +22,9 @@ Se $A, B, \cdots, Z$ são tipos com $n, m, \cdots, z$ possíveis valores, temos 
 
 ## Traits
 
-## Case Classes
+Traits são um [[#Tipo Soma|tipo algébrico soma]], tem um comportamento extremamente análogo a uma [[Classes Abstratas e Interfaces#Interface|interface]], todavia traits estão preocupados em definir estrutura, não comportamento.
+
+//TODO
 # Tipo Produto
 
 Uma agregação de diferentes tipos, onde cada tipo pode ser composto por outros tipos
@@ -38,3 +43,5 @@ Se $A, B, \cdots, Z$ são tipos com $n, m, \cdots, z$ possíveis valores, temos 
 ## Produto Cartesiano
 
 ## Tupla
+
+A tupla é um [[Tipos de Dados Algébricos|tipo algébrico]] [[#Tipo Produto|produto]], que tem uma estrutura definida em um conjunto ordenado de variáveis onde cada uma pertence a um determinado conjunto.

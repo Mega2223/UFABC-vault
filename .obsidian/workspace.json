@@ -8,45 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7fde7d5c7e16fa57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computação/Programação Orientada a Objetos/Encapsulamento.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Encapsulamento"
-            }
-          },
-          {
-            "id": "ea7671b1249327ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computação/Programação Funcional/Computação com Estados Funcional.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Computação com Estados Funcional"
-            }
-          },
-          {
             "id": "3ba7979ad667e3dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Programação Funcional/Scala.md",
+                "file": "Computação/Programação Funcional/Tipos de Dados Algébricos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scala"
+              "title": "Tipos de Dados Algébricos"
+            }
+          },
+          {
+            "id": "cf8241e42a031129",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Programação Orientada a Objetos/Classes Abstratas e Interfaces.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Classes Abstratas e Interfaces"
             }
           }
         ],
@@ -177,8 +163,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -191,6 +177,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -201,12 +188,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ea7671b1249327ad",
+  "active": "cf8241e42a031129",
   "lastOpenFiles": [
-    "Computação/Programação Funcional/Scala.md",
-    "Computação/Programação Funcional/Computação com Estados Funcional.md",
-    "Computação/Programação Funcional/Estruturas Funcionais.md",
     "Computação/Programação Funcional/Tipos de Dados Algébricos.md",
+    "Computação/Programação Funcional/Recursividade na Calda.md",
+    "Computação/Programação Funcional/Computação com Estados Funcional.md",
+    "Computação/Programação Orientada a Objetos/Classes Abstratas e Interfaces.md",
+    "Computação/Programação Funcional/Estruturas Funcionais.md",
+    "Computação/Programação Funcional/Scala.md",
+    "Computação/Programação Orientada a Objetos/Encapsulamento.md",
     "Computação/Redes de Computador/Modelo TCP-IP.md",
     "Computação/Sistemas Distribuídos/Sincronização.md",
     "Computação/Programação Funcional/Programação Funcional.md",
@@ -220,15 +210,12 @@
     "Computação/Redes de Computador/Camada de Aplicação/Protocolo RTP.md",
     "Computação/Redes de Computador/Camada de Aplicação/Protocolo HTTP.md",
     "Computação/Redes de Computador/Camada de Aplicação/Protocolo DNS.md",
-    "Computação/Programação Orientada a Objetos/Encapsulamento.md",
     "Computação/Programação Estruturada/Recursão.md",
-    "Computação/Programação Funcional/Recursividade na Calda.md",
     "Computação/Programação Estruturada/Alocação Dinâmica de Memória.md",
     "Computação/Programação Funcional/Mônadas.md",
     "Computação/Programação Funcional/Haskell.md",
     "Computação/Programação Funcional/Cálculo Lambda.md",
     "Computação/Programação Estruturada/Structs.md",
-    "Matemática/Cálculo/Frações Parciais.md",
     "Assets/Pasted image 20241022235314.png",
     "Assets/Pasted image 20241022235334.png",
     "Assets/Pasted image 20241026220157.png",

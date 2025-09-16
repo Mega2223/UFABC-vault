@@ -1,3 +1,10 @@
+---
+aliases:
+tags:
+  - matemática
+authors: Júlio César
+---
+
 ## Definição
 
 O hiperplano é uma equação linear em um determinado espaço cartesiano $\mathbb{R}^n$, que possui uma dimensão a menos que o espaço. O hiperplano constitui todos os pontos $x \in \mathbb{R}^n$ que satisfazem a equação

@@ -19,6 +19,7 @@ O modelo mais simples de implementação de estados em programação funcional �
 ## Funções de Dobra
 
 ### Fold
+A partir de um estado inicial aplica todas as variáveis de uma lista a um objeto inicial dado uma função acumuladora.
 ```scala
 @main def main = {
 	val l: List[Int] = List(1,2,3,4,5,6)

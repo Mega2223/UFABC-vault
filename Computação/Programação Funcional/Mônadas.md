@@ -5,12 +5,16 @@ tags:
   - computação
 authors: Júlio César
 ---
-## Preposição
+## Preambulo
 
-A Mônada é uma estrutura [[Programação Funcional|funcional]] que visa [[Encapsulamento|encapsular]] valores com o intuito de sequenciar computações em um determinado contexto. É composta de um valor, que é encapsulado, um contexto e as regras de como manipular o valor encapsulado.
+Na [[programação funcional]], a mônada é uma estrutura [[Programação Funcional|funcional]] que visa [[Encapsulamento|encapsular]] valores com o intuito de sequenciar computações em um determinado contexto. É composta de um valor, que é encapsulado, um contexto e as regras de como manipular o valor encapsulado.
 ## Definição
 
+Em [[Conjunto|teoria dos conjuntos]], a mônada é um [[Functor#Endofunctor|endofunctor]] que junto a duas [[transformações naturais]] satisfazem os axiomas
 
+
+
+Pode-se dizer que a mônada é um [[monoide]] dos [[Functor|functores]].
 ## Tipos Monâdicos
 
 ### Tipo Option

@@ -12,7 +12,7 @@ Um conjunto é uma coleção de objetos. Um objeto, de forma geral, ou pertence 
 ## Subconjunto e Superconjunto
 
 Sejam $A$ e $B$ conjuntos, dizemos que $B \subseteq A$ se todos os elementos de $B$ estiverem presentes em $A$, de forma análoga, $A$ é superconjunto de $B$.
-$$\large A \subseteq B \iff (x \in a \implies x \in b)$$
+$$\large A \subseteq B \iff (x \in A \implies x \in B)$$
 ## Igualdade
 
 Temos que dois conjuntos $A$ e $B$ são iguais (por consequência, o mesmo conjunto) se e somente se todos os elementos de $A$ estiverem presentes em $B$ e vice-versa.

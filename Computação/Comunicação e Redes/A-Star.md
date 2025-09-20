@@ -10,7 +10,7 @@ authors: Júlio César
 ---
 ## Definição
 
-É um #algoritmo  de busca de caminho em [[grafo]] que visa conectar dois vértices através de vértices intermediários.
+É um #algoritmo  de busca de caminho em [[Grafo]] que visa conectar dois vértices através de vértices intermediários.
 
 ## Algoritmo
 

@@ -69,5 +69,21 @@ $$\large
 \end{cases}
 $$
 
+## Valoração
+
+A [[função]] de valoração é uma função que mapeia cada expressão proposicional para um valor verdade
+$$\Large
+\begin{gather}
+V: \mathcal L_\text{LP} \to \{0,1\} \\ \\
+V(A) = 1 \iff 
+\begin{cases}
+V(B) = 0 & A = \lnot B \\
+V(B) =1 \land V(C) = 1 & A = B \land C \\
+V(B) =1 \lor V(C) = 1 & A = B \lor C \\
+V(B) =0 \lor V(C) = 1 & A = B \implies C
+\end{cases}
+\end{gather}
+$$
+
 
 [^1]: Eles não são operações mas não sei onde mais colocar os parênteses então deixei aí, a vida dá dessas.

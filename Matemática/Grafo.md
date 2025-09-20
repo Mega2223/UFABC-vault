@@ -10,7 +10,7 @@ aliases:
 ## Definição
 
 O grafo é uma estrutura relacional de dados finitos, consiste de um número de vértices e conexões entre esses vértices, denominados nós ou arestas. O grafo pode servir como uma abstração de um conjunto de conexões. Um determinado grafo é definido por
-$$\large \text{G} =\{\text{V},\text{E}\}$$
+$$\Large \text{G} =\{\text{V},\text{E}\}$$
 - $\text{V}$ é o conjunto de vértices
 - $\text{E}$ é o conjunto de arestas[^1]
 ## Propriedades
@@ -30,6 +30,13 @@ $$\large p = \frac{2 \cdot|E|}{|V|\cdot (|V|-1)}$$
 ### Planaridade
 Um grafo é considerado planar se ele pode ser colocado em um plano de tal forma que nenhuma aresta se intercede com outra aresta.
 
+### Isomorfismo
+Dois grafos, $G$ e $H$ são isomórficos quando há uma [[Função#Injetividade e Sobretividade|bijeção]] entre os vértices de $G$ e $H$ e suas arestas relacionadas:
+$$\large
+\begin{gather}
+f: V(G) \to V(H) \\\\ G \cong H := \forall(v_1,v_2) \in V(G): (v_1\to v_2) \implies (f(v_1) \to f(v_2))
+\end{gather}
+$$
 ## Características
 ### Grafo Ponderado
 Um grafo pode ser ponderado ou não-ponderado, no caso ponderado as arestas todas têm um tamanho variável entre elas, o que influencia algoritmos de navegação em grafos. No caso não-ponderado, todas as arestas têm o mesmo peso.

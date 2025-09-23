@@ -4,77 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0b1230ed1f7d8bab",
+        "id": "cf36e43cdc792e9d",
         "type": "tabs",
         "children": [
           {
-            "id": "1d80f56f9317a05a",
+            "id": "2d197a4f77676b35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Teoria das Categorias/Functor.md",
+                "file": "Matemática/Teoria das Categorias/Categoria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Functor"
-            }
-          },
-          {
-            "id": "a67e9ff3c8d8a034",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Conjunto"
-            }
-          },
-          {
-            "id": "ad1112252da9158f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computação/Programação Funcional/Avaliação Preguiçosa.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Avaliação Preguiçosa"
-            }
-          },
-          {
-            "id": "cf0323c355069da6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática/Teoria das Categorias/Monoide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Monoide"
-            }
-          },
-          {
-            "id": "2ac296bfa7bdcfbc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Categoria"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,34 +173,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ac296bfa7bdcfbc",
+  "active": "2d197a4f77676b35",
   "lastOpenFiles": [
     "Matemática/Teoria das Categorias/Monoide.md",
+    "Matemática/Teoria das Categorias/Functor.md",
+    "Matemática/Grafo.md",
+    "Computação/Sistemas Digitais/Datapath.md",
+    "Computação/Sistemas Digitais/Elemento de Memória.md",
+    "Computação/Sistemas Digitais/Memória de Acesso Aleatório.md",
+    "Computação/Sistemas Digitais/Shifter de Bits.md",
+    "Computação/Sistemas Digitais/Unidade de Controle.md",
+    "Computação/Sistemas Digitais/Unidade Lógica Aritmética.md",
+    "Computação/Sistemas Digitais/Conversor Analógico-Digital.md",
+    "Computação/Sistemas Digitais/VHDL.md",
+    "Computação/Circuitos Digitais/Unidade Lógica Aritmética.md",
+    "Computação/Sistemas Digitais/Conversor Digital-Analógico.md",
+    "Computação/Circuitos Digitais/Circuito Sequencial.md",
+    "Computação/Circuitos Digitais/Circuito Combinatório.md",
+    "Matemática/Cálculo/Teorema do confronto.md",
+    "Matemática/Cálculo/Série de Taylor.md",
+    "Matemática/Cálculo/Derivadas Comuns.md",
+    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
+    "Computação/Programação Funcional/Avaliação Preguiçosa.md",
     "Computação/Programação Funcional/Mônadas.md",
+    "Matemática/Teoria das Categorias/Categoria.md",
     "Computação/Programação Funcional/Estruturas Funcionais.md",
     "Computação/Programação Funcional/Computação com Estados Funcionais.md",
-    "Computação/Programação Funcional/Avaliação Preguiçosa.md",
     "Computação/Programação Funcional/Cálculo Lambda.md",
     "Computação/Programação Funcional/Tipos de Dados Algébricos.md",
-    "Computação/Programação Funcional/Programação Funcional.md",
-    "Computação/Programação Funcional/Scala.md",
-    "Computação/Programação Funcional/Haskell.md",
-    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
-    "Matemática/Teoria das Categorias/Functor.md",
-    "Matemática/Teoria das Categorias/Categoria.md",
-    "Matemática/Álgebra Linear/Espaço Vetorial.md",
-    "Matemática/Álgebra Linear/Estrutura Algébrica.md",
-    "Matemática/Álgebra Linear/Hiperplano.md",
-    "Matemática/Álgebra Linear/Sistema Linear.md",
-    "Matemática/Lógica Básica/Linguagem Proposicional.md",
-    "Matemática/Cálculo/Bases Matemáticas/Função.md",
-    "Matemática/Álgebra Linear/Combinação Linear.md",
-    "Matemática/Cálculo/Integração por Partes.md",
-    "Matemática/Cálculo/Frações Parciais.md",
-    "Matemática/Cálculo/Derivadas Comuns.md",
-    "Matemática/Cálculo/Esboço de Gráficos.md",
-    "Computação/Comunicação e Redes/Algoritmo de Dijkstra.md",
-    "Computação/Comunicação e Redes/A-Star.md",
     "Matemática/Teoria das Categorias",
     "Matemática/Cálculo/Bases Matemáticas",
     "Matemática/Algoritmos em Grafos",

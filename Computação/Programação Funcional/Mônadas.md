@@ -12,7 +12,7 @@ Na [[programação funcional]], a mônada é uma estrutura [[Programação Funci
 
 Em [[Conjunto|teoria dos conjuntos]], a mônada é um [[Functor#Endofunctor|endofunctor]] que junto a duas [[transformações naturais]] satisfazem os axiomas
 
-
+// TODO
 
 Pode-se dizer que a mônada é um [[monoide]] dos [[Functor|functores]].
 ## Tipos Monâdicos

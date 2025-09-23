@@ -40,8 +40,10 @@ $$
 ## Características
 ### Grafo Ponderado
 Um grafo pode ser ponderado ou não-ponderado, no caso ponderado as arestas todas têm um tamanho variável entre elas, o que influencia algoritmos de navegação em grafos. No caso não-ponderado, todas as arestas têm o mesmo peso.
-### Grafo Direcional
-O grafo também pode ser direcional ou não direcional, no caso direcional, certas arestas podem ir de um determinado vértice para outro sem que esta relação seja recíproca, enquanto o caso não direcional exige que se é possível ir de $a$ para $b$ também deve ser possível ir de $b$ para $a$.
+### Digrafo
+O grafo também pode ser direcional ou não direcional, no caso direcional, certas arestas podem ir de um determinado vértice para outro sem que esta relação seja recíproca, enquanto o caso não direcional exige que se é possível ir de $a$ para $b$ também deve ser possível ir de $b$ para $a$. Ao contrário do grafo, o digrafo pode ter uma conexão saindo e entrando no mesmo vértice.
+### Pseudografo
+Um pseudografo é um grafo que algum determinado vértice pode ligar-se assim mesmo, pseudografos não são considerados grafos pois não seguem a [[Grafo#Definição|definição formal de grafo]].
 ### Árvore
 Uma árvore é um grafo conexo e acíclico. Todo vértice de 1 grau na árvore é chamado de folha. 
 - Pode se afirmar para toda árvore que $|E| = |V| - 1$

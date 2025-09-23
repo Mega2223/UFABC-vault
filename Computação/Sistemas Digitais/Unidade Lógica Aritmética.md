@@ -25,7 +25,7 @@ Para $S_1 = 0$ e $S_0 = 0$ temos que, para um sistema de [[complemento de 2]], p
 ### Incremento / Decremento
 Para $(S_1=0, S_0=0, C_\text{in} = 1)$ temos como saída $A+1$, e para $(S_1=1, S_0=1, C_\text{in} = 0)$ temos $A-1$ como saída.
 ### Identidades / Transferências
-Para $(S_1=0, S_0=0, C_\text{in} = 0)$ e $(S_1=1, S_0=1, C_\text{in} = 1)$, o circuito simplesmente dará $A$ como saída.
+Para $(S_1=0, S_0=0, C_\text{in} = 0)$ e $(S_1=1, S_0=1, C_\text{in} = 1)$, o circuito simplesmente dará $A$ como saída. A identidade é importante para levar o valor inalterado até algum outro lugar na memória, por exemplo para registrar o valor na memória de um [[datapath]].
 ## Circuito Lógico
 
 Para operações lógicas, a ULA processa sequências _bitwise_ como valor de resultado. A unidade tem suporte a todas as operações lógicas básicas de circuitos digitais: AND, OR, XOR e seus respectivos complementos (NAND, NOR, XNOR). Essas usam dos seus próprios circuitos lógicos respectivos e portas logicas AND para a seleção de modo.

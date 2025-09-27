@@ -47,7 +47,7 @@ A \implies B &\in \mathcal L_\text{LP}
 
 ## Subfórmulas
 
-As subfórmulas de uma determinada proposição são todas as expressões da proposição, definida de forma [[Recursão|recursiva]], temos que 
+As subfórmulas de uma determinada proposição é um conjunto com todas as expressões da proposição, definida de forma [[Recursão|recursiva]], temos que 
 
 $$\large \text{subf}(A \in \mathcal L_\text{LP}) := 
 \begin{cases}

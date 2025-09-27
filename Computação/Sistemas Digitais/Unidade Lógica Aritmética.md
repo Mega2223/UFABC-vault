@@ -30,9 +30,9 @@ Para $(S_1=0, S_0=0, C_\text{in} = 0)$ e $(S_1=1, S_0=1, C_\text{in} = 1)$, o ci
 
 Para operações lógicas, a ULA processa sequências _bitwise_ como valor de resultado. A unidade tem suporte a todas as operações lógicas básicas de circuitos digitais: AND, OR, XOR e seus respectivos complementos (NAND, NOR, XNOR). Essas usam dos seus próprios circuitos lógicos respectivos e portas logicas AND para a seleção de modo.
 
-## Estágios da ALU
+## Estágios da ULA
 
-A ALU possui em cada operação por bit um circuito combinatório e um circuito lógico, junto com um circuito que avalia qual será a saída dependendo do estado de $C_2$, este pode ser repetido iterativamente $n$ vezes.
+A ULA possui em cada operação por bit um circuito combinatório e um circuito lógico, junto com um circuito que avalia qual será a saída dependendo do estado de $C_2$, este pode ser repetido iterativamente $n$ vezes.
 
 ## Tabela Completa de Operações
 

@@ -15,6 +15,8 @@ $$
 \mathcal L_\text{LP} 
 \end{gather}
 $$
+
+O sistema proposicional é altamente ligado com a [[Álgebra Booleana]], onde pode-se traduzir de forma relativamente trivial valores-verdade em preposições.
 ## Preposições
 
 Preposições são afirmações que são falsas ou verdadeiras, são os operandos da linguagem proposicional.

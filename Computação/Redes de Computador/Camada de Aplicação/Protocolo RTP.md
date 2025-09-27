@@ -8,7 +8,7 @@ authors: Júlio César
 ---
 ## Definição
 
-O _Real-Time Transport Protocol_ (RTP) é um [[Arquitetura de Rede#Protocolo|protocolo]] de [[Camada de aplicação|aplicação]] comumente usado para stream de dados em tempo real, possui alguns aspectos semelhantes a um protocolo de [[camada de transporte|transporte]]. Como o RTP prioriza a velocidade, ele normalmente manda datagramas [[Protocolo UDP|UDP]] pela rede.
+O _Real-Time Transport Protocol_ (RTP) é um [[Arquitetura de Rede#Protocolo|protocolo]] de [[Camada de aplicação|aplicação]] comumente usado para stream de dados em tempo real, possui alguns aspectos semelhantes a um protocolo de [[Camada de Transporte|transporte]]. Como o RTP prioriza a velocidade, ele normalmente manda datagramas [[Protocolo UDP|UDP]] pela rede.
 
 O RTP visa fazer a [[multiplexação]] de vários fluxos de dados em um único fluxo UDP, que pode ter um ou mais destinos. Ele manda um número de sequência junto ao pacote para o destinatário poder avaliar se houve alguma perda de pacotes, mas o serviço provido pelo RTP é sem confirmação, sem controle de fluxo, não confiável e sem re-envio de dados.
 

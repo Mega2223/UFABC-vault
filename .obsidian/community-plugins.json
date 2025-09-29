@@ -2,5 +2,8 @@
   "editing-toolbar",
   "obsidian-git",
   "obsidian-tikzjax",
-  "execute-code"
+  "execute-code",
+  "drawio-obsidian",
+  "obsidian-graphviz",
+  "circuit-sketcher"
 ]

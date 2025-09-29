@@ -9,4 +9,6 @@ authors: Júlio César
 
 O circuito combinatório é um circuito digital sem memória, ou seja, que é completamente determinístico, para cada entrada sempre haverá apenas uma saída não importando o contexto dessa entrada.
 
-Um circuito combinatório pode ser escrito como uma [[expressão lógica]] 
+Um circuito combinatório pode ser escrito como uma [[Untitled.circuit-sketcher|1]] 
+
+![[Computação/Circuitos Digitais/Untitled Diagram.svg]]

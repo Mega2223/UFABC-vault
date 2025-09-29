@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "1c682a7494a61cc3",
+    "id": "a95dcf7e49e94647",
     "type": "split",
     "children": [
       {
-        "id": "8f906cc0be900dd0",
+        "id": "eeec3343759d5760",
         "type": "tabs",
         "children": [
           {
-            "id": "50278c7d14767151",
+            "id": "d1e9cb9ce588047d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Circuitos Digitais/Circuito Combinatório.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Circuito Combinatório"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "72a40fe72a7656c0",
+    "id": "658696bfe43595a1",
     "type": "split",
     "children": [
       {
-        "id": "8fdf28cf5eafde08",
+        "id": "4fe90986e4c47fba",
         "type": "tabs",
         "children": [
           {
-            "id": "bb48029b599315ca",
+            "id": "ebb6f088f2b77cf1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,13 +48,13 @@
             }
           },
           {
-            "id": "cdbc4b80ddce9efa",
+            "id": "381c16a22eff7487",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "RPC",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "737047463c794092",
+            "id": "4ef256db6c9deaac",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,22 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.0110321044922
+    "width": 300
   },
   "right": {
-    "id": "fdbdc5556081ecb9",
+    "id": "0c2cdb790c78953d",
     "type": "split",
     "children": [
       {
-        "id": "3dd405cb7cc59041",
+        "id": "5ea73d311360d535",
         "type": "tabs",
         "children": [
           {
-            "id": "1f5e6bb5298563d0",
+            "id": "5cc4f1e00450dfc4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computação/Circuitos Digitais/Circuito Combinatório.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,66 +104,62 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Circuito Combinatório"
             }
           },
           {
-            "id": "c5293f66bea8ca0f",
+            "id": "6cb4da371826ffab",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computação/Circuitos Digitais/Circuito Combinatório.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Circuito Combinatório"
             }
           },
           {
-            "id": "e361c2edb5f51498",
+            "id": "aed693b42cc99ace",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "29eee0b7d72d6842",
+            "id": "256030a3fab36162",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Computação/Circuitos Digitais/Circuito Combinatório.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "01b159b868d3e7e1",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Circuito Combinatório"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -166,58 +167,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "50278c7d14767151",
-  "lastOpenFiles": [
-    "Assets/Análise de Sensibilidade (old).md",
-    "Matemática/Teoria das Categorias/Categoria.md",
-    "Assets/Quantas Línguas dá pra compilar no Obsidian.md",
-    "Assets/Playground.md",
-    "Assets/TesteGraf.md",
-    "Computação/Sistemas Digitais/Conversor Analógico-Digital.md",
-    "Computação/Sistemas Digitais/Conversor Digital-Analógico.md",
-    "Computação/Sistemas Digitais/Datapath.md",
-    "Matemática/Teoria das Categorias/Functor.md",
-    "Assets/Untitled.circuit-sketcher",
-    "Assets/Vetor.png",
-    "Assets/Untitled Diagram.svg",
-    "Computação/Circuitos Digitais/Circuito Combinatório.md",
-    "Computação/Circuitos Digitais/Untitled Diagram.svg",
-    "Assets/DAC3.drawio.png",
-    "Computação/Circuitos Digitais/Circuito Sequencial.md",
-    "Computação/Sistemas Digitais/Elemento de Memória.md",
-    "Computação/Sistemas Digitais/Unidade de Controle.md",
-    "Computação/Sistemas Digitais/Shifter de Bits.md",
-    "Computação/Sistemas Digitais/Memória de Acesso Aleatório.md",
-    "Matemática/Teoria das Categorias/Monoide.md",
-    "Matemática/Grafo.md",
-    "Computação/Sistemas Digitais/Unidade Lógica Aritmética.md",
-    "Computação/Sistemas Digitais/VHDL.md",
-    "Computação/Circuitos Digitais/Unidade Lógica Aritmética.md",
-    "Matemática/Cálculo/Teorema do confronto.md",
-    "Matemática/Cálculo/Série de Taylor.md",
-    "Matemática/Cálculo/Derivadas Comuns.md",
-    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
-    "Computação/Programação Funcional/Avaliação Preguiçosa.md",
-    "Computação/Programação Funcional/Mônadas.md",
-    "Matemática/Teoria das Categorias",
-    "Matemática/Cálculo/Bases Matemáticas",
-    "Matemática/Algoritmos em Grafos",
-    "Matemática/Álge",
-    "Matemática/Lógica Básica",
-    "Assets/Pasted image 20241022235314.png",
-    "Assets/Pasted image 20241022235334.png",
-    "Assets/Pasted image 20241026220157.png",
-    "Assets/Pasted image 20241124203949.png",
-    "Assets/FF nOR CT.png",
-    "Assets/DAC2.drawio.png",
-    "Computação/Circuitos Digitais",
-    "Pesquisa/CNNs",
-    "Computação/Sistemas Digitais",
-    "Computação/Sistemas Distribuídos",
-    "Untitled.canvas"
-  ]
+  "active": "d1e9cb9ce588047d",
+  "lastOpenFiles": []
 }

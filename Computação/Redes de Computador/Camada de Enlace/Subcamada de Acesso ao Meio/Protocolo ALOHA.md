@@ -25,4 +25,4 @@ A reserva remete somente ao **inicio** da transmissão, caso uma transmissão du
 
 //TODO: coloca as coisas matemáticas, página 166 do Tanenbaum
 
-[^1]: Na verdade é um subprotocolo da [[camada de enlace]], mas tem protocolo no nome
+[^1]: Na verdade é um subprotocolo da [[Camada de Enlace]], mas tem protocolo no nome

@@ -15,6 +15,8 @@ $$
 \mathcal L_\text{LP} 
 \end{gather}
 $$
+
+O sistema proposicional é altamente ligado com a [[Álgebra Booleana]], onde pode-se traduzir de forma relativamente trivial valores-verdade em preposições.
 ## Preposições
 
 Preposições são afirmações que são falsas ou verdadeiras, são os operandos da linguagem proposicional.
@@ -47,7 +49,7 @@ A \implies B &\in \mathcal L_\text{LP}
 
 ## Subfórmulas
 
-As subfórmulas de uma determinada proposição são todas as expressões da proposição, definida de forma [[Recursão|recursiva]], temos que 
+As subfórmulas de uma determinada proposição é um conjunto com todas as expressões da proposição, definida de forma [[Recursão|recursiva]], temos que 
 
 $$\large \text{subf}(A \in \mathcal L_\text{LP}) := 
 \begin{cases}

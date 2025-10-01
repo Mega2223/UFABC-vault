@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Circuitos Digitais/Circuito Combinatório.md",
+                "file": "Matemática/Álgebra Linear/Espaço Vetorial.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Circuito Combinatório"
+              "title": "Espaço Vetorial"
+            }
+          },
+          {
+            "id": "84743d1b1dadc01c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conjunto"
             }
           }
         ]
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computação/Circuitos Digitais/Circuito Combinatório.md",
+                "file": "Computação/Sistemas Digitais/Unidade de Controle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Circuito Combinatório"
+              "title": "Backlinks for Unidade de Controle"
             }
           },
           {
@@ -113,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computação/Circuitos Digitais/Circuito Combinatório.md",
+                "file": "Computação/Sistemas Digitais/Unidade de Controle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Circuito Combinatório"
+              "title": "Outgoing links from Unidade de Controle"
             }
           },
           {
@@ -142,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computação/Circuitos Digitais/Circuito Combinatório.md",
+                "file": "Computação/Sistemas Digitais/Unidade de Controle.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Circuito Combinatório"
+              "title": "Outline of Unidade de Controle"
             }
           }
         ]
@@ -173,5 +187,18 @@
     }
   },
   "active": "d1e9cb9ce588047d",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Matemática/Álgebra Linear/Estrutura Algébrica.md",
+    "Matemática/Álgebra Linear/Espaço Vetorial.md",
+    "Matemática/Álgebra Linear/Combinação Linear.md",
+    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
+    "Computação/Sistemas Digitais/Unidade de Controle.md",
+    "Computação/Sistemas Digitais/Memória de Acesso Aleatório.md",
+    "Computação/Sistemas Digitais/Shifter de Bits.md",
+    "Computação/Sistemas Digitais/Elemento de Memória.md",
+    "Computação/Sistemas Digitais/Datapath.md",
+    "Computação/Sistemas Digitais/Conversor Analógico-Digital.md",
+    "Computação/Circuitos Digitais/Circuito Sequencial.md",
+    "Computação/Circuitos Digitais/Circuito Combinatório.md"
+  ]
 }

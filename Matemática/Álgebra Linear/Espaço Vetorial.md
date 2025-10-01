@@ -57,9 +57,20 @@ Um subespaço vetorial é um determinado subconjunto do espaço vetorial que cum
 - No $\mathbb R^2$, o conjunto $\{(x,y) \in \mathbb R ^2\ |\ x = y\}$ é um subespaço vetorial válido.[^1]
 
 ### Subespaços Triviais
-São determinados subespaços triviais aqueles que pode-se razoavelmente assumir a partir de qualquer espaço vetorial, são os subespaços triviais de um espaço $\mathbb V$:
+São determinados subespaços triviais aqueles que pode-se razoavelmente assumir a partir de qualquer espaço vetorial, são os subespaços triviais de qualquer espaço $\mathbb V$:
 $$\Large \begin{gather}
 \mathbb V &\{o\}
 \end{gather}$$
+
+## Isomorfismo Entre Espaços
+
+Sejam $U$ e $V$ quaisquer espaços vetoriais, um isomorfismo entre eles é uma [[função]] [[função#Injetividade e Sobretividade|bijetora]] $f: U \to V$ que
+- $f(v + w) = f(v) + f(w) \ \forall v,w \in U$
+- $f(cv) = cf(v)\ \forall (v \in U, c \in \mathbb R)$
+
+Caso haja isomorfismo entre $U$ e $V$, dizemos que são isomorfos.
+
+### Propriedades
+- Espaços de [[Matemática/Álgebra Linear/Combinação Linear#Dimensão|dimensões diferentes]] nunca são isomorfos entre si.
 
 [^1]: Isso vale para todas as linhas em $\mathbb R ^2$ que cruzam a origem, de forma mais geral podemos afirmar que vale para a condição $x = ky$ onde $k$ é uma constante real qualquer.

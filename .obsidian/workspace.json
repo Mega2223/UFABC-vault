@@ -34,8 +34,19 @@
               "icon": "lucide-file",
               "title": "Conjunto"
             }
+          },
+          {
+            "id": "5a0dd7007f18287c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,10 +197,10 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "d1e9cb9ce588047d",
+  "active": "5a0dd7007f18287c",
   "lastOpenFiles": [
-    "Matemática/Álgebra Linear/Estrutura Algébrica.md",
     "Matemática/Álgebra Linear/Espaço Vetorial.md",
+    "Matemática/Álgebra Linear/Estrutura Algébrica.md",
     "Matemática/Álgebra Linear/Combinação Linear.md",
     "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
     "Computação/Sistemas Digitais/Unidade de Controle.md",

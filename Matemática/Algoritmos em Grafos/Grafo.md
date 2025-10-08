@@ -41,7 +41,7 @@ f: V(G) \to V(H) \\\\ G \cong H := \forall(v_1,v_2) \in V(G): (v_1\to v_2) \impl
 $$
 
 ### Conectividade
-// TODO
+Um grafo é dito conexo quando para todo par de vértices do grafo existe algum [[#caminho|caminho]] que conecta estes dois vértices.
 ## Passeio
 
 Um passeio é uma sequência ordenada de vértices conectados entre si

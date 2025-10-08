@@ -19,4 +19,6 @@ De forma geral, temos que functors são morfismos que mapeiam morfismos e objeto
 ## Terminologia
 
 ### Endofunctor
-- Um functor que coincidem sua origem e destino é chamado um endofunctor.
+- Um functor que coincidem sua origem[^1] e destino é chamado um endofunctor.
+
+[^1]: Ou seja, ele mapeia para a mesma categoria, não necessariamente é um functor identidade.

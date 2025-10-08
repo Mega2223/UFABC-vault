@@ -31,6 +31,6 @@ Este meio de transmissão otimiza o uso de banda, mas ainda requer que o roteado
 
 Quando um determinado pacote chega a um roteador, ele verifica se o pacote veio pelo nó usado é o nó que é tipicamente ativado para enviar pacotes ao roteador do qual o pacote se originou. Caso positivo, há uma alta chance de que este pacote seja o primeiro de sua instância a chegar no roteador atual. O roteador então manda o pacote para todos os seus nós adjacentes exceto aquele o qual ele recebeu o pacote.
 
-Esse algoritmo também visa otimizar o uso de banda e processamento, um pacote nunca é enviado duas vezes pelo mesmo nó (terá um comportamento de [[Grafo#Árvore|árvore]]). Ele requer que cada roteador na rede conheça rota ótima para todos os demais roteadores, ou seja, exige que já seja calculada uma [[árvore de amplitude]].
+Esse algoritmo também visa otimizar o uso de banda e processamento, um pacote nunca é enviado duas vezes pelo mesmo nó (terá um comportamento de [[árvore]]). Ele requer que cada roteador na rede conheça rota ótima para todos os demais roteadores, ou seja, exige que já seja calculada uma [[árvore de amplitude]].
 
 [^1]: Na primeira vez que o pacote chega ao destinatário :p

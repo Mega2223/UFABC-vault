@@ -8,7 +8,7 @@ authors: Júlio César
 ---
 ## Definição
 
-É uma técnica de [[Aprendizado Supervisionado|aprendizado supervisionado]] que visa dividir o espaço dos preditores em um conjunto finito de $j$ regiões sem intersecção (denominadas $R_j$), e organizar essas em uma [[Grafo#Árvore|árvore]] de $j$ folhas onde cada folha é uma categoria ([[classificação]]) ou uma região do conjunto de treinamento ([[regressão]]).
+É uma técnica de [[Aprendizado Supervisionado|aprendizado supervisionado]] que visa dividir o espaço dos preditores em um conjunto finito de $j$ regiões sem intersecção (denominadas $R_j$), e organizar essas em uma [[Árvore|árvore]] binária de $j$ folhas onde cada folha é uma categoria ([[classificação]]) ou uma região do conjunto de treinamento ([[regressão]]).
 
 A árvore de decisão normalmente é construída por meio da divisão do conjunto em subconjuntos de forma binária ($X_j < S$). Divisões não-binárias são possíveis mas geralmente menos intuitivas e muito mais complexas de lidar.
 

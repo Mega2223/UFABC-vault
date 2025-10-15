@@ -74,7 +74,7 @@ $$
 ## Valoração
 
 A [[função]] de valoração é uma função que mapeia cada expressão proposicional para um valor verdade
-$$\Large
+$$\large
 \begin{gather}
 V: \mathcal L_\text{LP} \to \{0,1\} \\ \\
 V(A) = 1 \iff 
@@ -87,5 +87,10 @@ V(B) =0 \lor V(C) = 1 & A = B \implies C
 \end{gather}
 $$
 
+## Substituição
+
+A substituição é o processo de trocar todas as instâncias de um átomo por uma fórmula proposicional
+
+//TODO
 
 [^1]: Eles não são operações mas não sei onde mais colocar os parênteses então deixei aí, a vida dá dessas.

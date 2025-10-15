@@ -8,6 +8,8 @@ authors: Júlio César
 ## Preambulo
 
 Na [[programação funcional]], a mônada é uma estrutura [[Programação Funcional|funcional]] que visa [[Encapsulamento|encapsular]] valores com o intuito de sequenciar computações em um determinado contexto. É composta de um valor, que é encapsulado, um contexto e as regras de como manipular o valor encapsulado.
+
+O principal propósito da mônada em programação funcional é evitar estruturas de fluxo comuns na programação imperativa, como statements try/catch ou acumulação via loop for, de tal forma que um código puramente funcional ainda possa funcionar de forma similar ao seu correspondente imperativo.
 ## Definição
 
 Em [[Conjunto|teoria dos conjuntos]], a mônada é um [[Functor#Endofunctor|endofunctor]] que junto a duas [[transformações naturais]] satisfazem os axiomas

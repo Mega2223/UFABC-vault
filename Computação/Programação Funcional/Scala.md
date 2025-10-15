@@ -89,7 +89,6 @@ class City {
 
 
 ### Traits
-
 Traits ocupam o mesmo nicho que [[Java#interfaces|interfaces]] ocupam em Java, isso é, servem como molde para objetos herdeiros.
 
 ```scala
@@ -98,6 +97,8 @@ trait Iterator[A]{
 	def next(): A
 }
 ```
+
+Dito isso, traits não são exatamente equivalentes a interfaces, notoriamente eles podem ser [[Tipos de Dados Algébricos#Tipo Soma|tipos soma]].
 ## Implementação
 
 ### Função Print

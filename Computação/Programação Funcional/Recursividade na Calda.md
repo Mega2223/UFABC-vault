@@ -38,6 +38,7 @@ def fibonacci(x: Int): Int = {
 Todavia esse tipo de recursão é suscetível a erros stack overflow para operações muito intensivas, para podemos reestruturar o código com um acumulador de forma que a função não necessita de manter seu espaço na pilha após a chamada da próxima função, o compilador de Scala vai automaticamente otimizar o uso da pilha.
 
 ```scala
+@tailrec
 def fibonacci(x: Int, i: Int = 0, a: Int = 0, b: Int = 1): Int = {
 	if(i < x){
 		fibonacci(x, i + 1, b, a + b)

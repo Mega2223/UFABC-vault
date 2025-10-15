@@ -110,5 +110,4 @@ Para cada digrafo, há um [[pseudografo]] correspondente, mas o inverso não é 
 
 [^1]: Alguns professores, principalmente no Brasil, usam $G = \{V,A\}$
 [^2]: Grafo onde todos os vértices se conectam entre si.
-
 [^3]: Onde $P$ é o mapa de [[Conjunto#conjunto das partes|conjunto das partes]].

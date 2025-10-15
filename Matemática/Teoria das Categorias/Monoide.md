@@ -9,7 +9,7 @@ authors: Júlio César
 Um monoide é um [[conjunto]] $M$ com uma única operação binária $\cdot : M \times M \to M$ e algum determinado elemento 'unitário' $u \in M$ tal que
 
 $$\large\begin{gather}
-\forall [x,y,z] \in M: (x \cdot y) \cdot z \implies x \cdot (y \cdot z) \\ \\
+\forall [x,y,z] \in M: (x \cdot y) \cdot z = x \cdot (y \cdot z) \\ \\
 \forall x \in M : x \cdot u = u \cdot x = x
 \end{gather}$$
 

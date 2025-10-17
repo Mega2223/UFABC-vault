@@ -89,8 +89,10 @@ $$
 
 ## Substituição
 
-A substituição é o processo de trocar todas as instâncias de um átomo por uma fórmula proposicional
+A substituição é o processo de trocar todas as instâncias de um átomo por uma fórmula proposicional.
 
 //TODO
+
+Quando $B$ é resultado de uma ou mais substituições de átomos de $A$, dizemos que $B$ é uma instância de $A$.
 
 [^1]: Eles não são operações mas não sei onde mais colocar os parênteses então deixei aí, a vida dá dessas.

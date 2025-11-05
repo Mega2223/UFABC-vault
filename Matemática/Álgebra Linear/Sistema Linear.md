@@ -26,6 +26,27 @@ $$\begin{gather}\large  Ax = b
 
 ## Operações Elementares Em Matrizes
 
+São um conjunto de operações matriciais de reposição
+
+### Multiplicação Linha e Escalar
+Multiplica todos os elementos da linha da matriz por um número real
+
+$$\large E_{kLi} A:= L_i \leftrightarrow \alpha L_i\ \ \ \alpha \in \mathbb R$$
+
+A determinante da matriz resultante será $\alpha$ vezes a determinante da matriz inicial, uma consequência dessa propriedade é que multiplicar todos os elementos de uma matriz por algum $\alpha$ implica que a matriz terá um determinante que é $\alpha^{m}$ o determinante da matriz original.
+### Permutação de Duas Linhas
+É a troca de elementos entre duas linhas da matriz
+$$\large E_{ij} A:= L_i \leftrightarrow L_j$$
+### Soma com Múltiplo de Outra Linha
+É o ato de somar uma linha com os elementos de outra linha multiplicados por algum escalar real não-nulo
+$$\large E_{i+\alpha Lj} A:= L_i \leftrightarrow L_i+\alpha L_j\ \ \alpha \in \mathbb R \backslash \{0\} $$
 
 ## Resolução do Sistema Linear
+
+## Propriedades
+
+### Consistência
+Um sistema é denominado possível ou consistente quando existe algum conjunto de incógnitas que satisfazem a equação $Ax = b$.
+### Sistema homogêneo
+Um sistema é homogêneo quando todos os elementos de $b$ são 0. Todo sistema homogêneo admite pelo menos uma solução ($x_i = 0$), essa solução é denominada trivial.
 

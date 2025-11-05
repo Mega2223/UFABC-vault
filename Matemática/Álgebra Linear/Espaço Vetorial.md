@@ -28,8 +28,6 @@ $$
 $$\large \begin{gather}
 u = 1 \cdot u && u + (-1) \cdot u = 0
 \end{gather}$$
-
-###
 ## Espaços Vetoriais Válidos
 
 ### $\mathbb R ^d$
@@ -47,12 +45,12 @@ f(x) + g(x) = g(x) + f(x) \\
 k \cdot j \cdot f(x) = k (j \cdot f(x))
 \end{gather}
 $$
-Logo, o conjunto de funções contínuas em $U$ constituem um espaço vetorial válido.
+Logo, o conjunto de funções contínuas em $U$ constituem um espaço vetorial válido. Como não pode ser descrito em uma sequência finita de combinações lineares, este espaço é considerado infinitamente dimensional.
 ### Matrizes
 Sejam $(A,B) \in \mathbb R ^ {d_1 \times d_2}$ [[matriz|matrizes]] de mesma dimensão, temos que a [[Matriz#Operações|a soma matricial e a multiplicação por escalar]] são o suficiente para qualificar o espaço $\mathbb R^{d_1 \times d_2}$ como um espaço vetorial.
 ## Subespaço Vetorial
 
-Um subespaço vetorial é um determinado subconjunto do espaço vetorial que cumpre todos os requisitos necessários para ser um espaço vetorial. Seja $\mathbb V$ um espaço vetorial, $U \subseteq \mathbb V$ um subconjunto, $U$ é um subespaço vetorial se todas as operações que tornam $\mathbb V$ um espaço vetorial válido também servem para $U$, são subespaços vetoriais
+Um subespaço vetorial é um determinado subconjunto do espaço vetorial que cumpre todos os requisitos necessários para ser um espaço vetorial. Seja $\mathbb V$ um espaço vetorial, $U \subseteq \mathbb V$ um subconjunto, $U$ é um subespaço vetorial se todas as operações que tornam $\mathbb V$ um espaço vetorial válido também servem para $U$, são subespaços vetoriais. Uma consequência dessa definição é que $U$ deve ter o vetor nulo para ser considerado subespaço.
 
 - No $\mathbb R^2$, o conjunto $\{(x,y) \in \mathbb R ^2\ |\ x = y\}$ é um subespaço vetorial válido.[^1]
 
@@ -61,14 +59,6 @@ São determinados subespaços triviais aqueles que pode-se razoavelmente assumir
 $$\Large \begin{gather}
 \mathbb V &\{o\}
 \end{gather}$$
-
-## Isomorfismo Entre Espaços
-
-Sejam $U$ e $V$ quaisquer espaços vetoriais, um isomorfismo entre eles é uma [[função]] [[função#Injetividade e Sobretividade|bijetora]] $f: U \to V$ que
-- $f(v + w) = f(v) + f(w) \ \forall v,w \in U$
-- $f(cv) = cf(v)\ \forall (v \in U, c \in \mathbb R)$
-
-Caso haja isomorfismo entre $U$ e $V$, dizemos que são isomorfos.
 
 ### Propriedades
 - Espaços de [[Matemática/Álgebra Linear/Combinação Linear#Dimensão|dimensões diferentes]] nunca são isomorfos entre si.

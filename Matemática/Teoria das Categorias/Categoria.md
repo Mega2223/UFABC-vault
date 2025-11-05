@@ -2,6 +2,9 @@
 tags:
   - matemática
   - incompleto
+aliases:
+  - morfismo
+authors: Júlio César
 ---
 ## Definição
 
@@ -12,7 +15,7 @@ Uma categoria é uma coleção de dois tipos de objetos: os objetos da categoria
 - Para qualquer objeto $A$ existe uma função identidade $1_A: A \to A$ onde para uma determinada $f: A \to B$ temos que $f \circ 1_A = 1_B \circ f = f$ 
 
 São exemplos válidos de categoria:
-- [[Função|Funções]] em algum determinado [[conjunto]]
+- [[Função|Funções]] em [[conjunto|conjuntos]]
 - [[Espaço Vetorial|Espaços vetoriais]]
 - [[Grafo|Grafos]], com seus vértices como objetos e arestas como morfismos
 - Subconjuntos contínuos de $\mathbb R$ e funções reais
@@ -21,7 +24,9 @@ São exemplos válidos de categoria:
 
 - Uma categoria $\mathcal C$ é considerada pequena se $\text{Ob}_{\mathcal C}$ e $\text{Mor}_{\mathcal C}$ são [[Conjunto|conjuntos]]. Caso o contrário ela é dita grande.
 - 
-## Morfismos
+## Morfismo
+
+O morfismo é uma transição de objetos, tem um domínio e um contradomínio.
 
 O conjunto de todos os morfismos entre $A$ e $B$ se dá por
 $$\large

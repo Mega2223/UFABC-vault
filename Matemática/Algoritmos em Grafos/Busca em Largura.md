@@ -21,24 +21,35 @@ A busca em largura presume invariabilidade entre as arestas (grafo não ponderad
 
 typedef struct Vertex {
     int id;
+    Vertex* connections;
+    int nConnections;
 } Vertex;
 
-typedef struct Edge {
-    Vertex a;
-    Vertex b;
-} Edge;
+typedef struct Graph {
+	Vertex* vertices;
+	int n;
+} Graph;
 
 void performBFS(){
     
 }
 
+void printGraph(Graph g){
+	for(int i = 0; i < g.n; i++){
+		Vertex v = g.vertices[i];
+		printf("V[%d] -> ",v.id);
+		for(int j = 0; j < v.nConnections; j++){
+			printf("V[%d] ",v.connections[j].id);
+		}
+		printf("\n");
+	}
+}
+
 int main(){
-    Vertex v1 = {0};
-    Vertex v2 = {1};
-    Vertex v3 = {2};
-    
-    Edge e = {v1,v2};
-    
+    int g;
+    printf("Insira o número de vértices:\n");
+    scanf("%d",&g);
+    printf("\n%d vértices, [G]rafo ou [D]igrafo?\n",g);
 	return 0;
 }
 ```

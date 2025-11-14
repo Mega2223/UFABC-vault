@@ -30,3 +30,6 @@ A intersecção entre $A$ e $B$ é todo elemento de $A$ que também pertence a $
 $$\large A \cap B := \{x \in A\ \land\ x \in B \} $$
 - $A \cap (B \cup C) = (A\cap B) \cup (A\cap C)$
 - $A \cup (B \cap C) = (A\cup B) \cap (A\cup C)$
+
+## Cardinalidade
+//TODO

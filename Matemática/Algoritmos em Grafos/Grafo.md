@@ -33,10 +33,10 @@ $$\large p = \frac{2 \cdot|E|}{|V|\cdot (|V|-1)}$$
 Um grafo é considerado planar se ele pode ser colocado em um plano de tal forma que nenhuma aresta se intercede com outra aresta.
 
 ### Isomorfismo
-Dois grafos, $G$ e $H$ são ditos isomórficos quando há uma [[Função#Injetividade e Sobretividade|bijeção]] entre os vértices de $G$ e $H$ e suas arestas relacionadas:
+Dois grafos, $G$ e $H$ são ditos isomórficos quando há uma [[Função#Injetividade e Sobretividade|bijeção]] entre os vértices de $G$ e $H$ que preserva a conectividade entre os vértices
 $$\large
 \begin{gather}
-f: V(G) \to V(H) \\\\ G \cong H := \forall(v_1,v_2) \in V(G): (v_1\to v_2) \implies (f(v_1) \to f(v_2))
+f: V(G) \to V(H) \\\\ G \cong H := \exists f\ \forall(v_1,v_2) \in V(G): (v_1\to v_2) \implies (f(v_1) \to f(v_2))
 \end{gather}
 $$
 
@@ -47,16 +47,18 @@ Um grafo é dito conexo quando para todo par de vértices do grafo existe algum 
 Um passeio é uma sequência ordenada de vértices conectados entre si
 $$\large
 \begin{gather}
-W = v_1,v_2,...,v_n &&
+W = (v_1,v_2,...,v_n) &&
  v_i \text{ e } v_{i+1} \text{ adjacentes } \forall i \in \{1,2,\dots,n-1\} 
 \end{gather}$$
 - O passeio é dito fechado se $\large v_1 = v_n$
 - Dados $(v,u) \in G$, dizemos que $v$ alcança $u$ em $G$ se existe um passeio que começa em $v$ e termina em $u$.
 
+O passeio também pode ser definido como o [[#subgrafo]] formado pelos vértices da sequência e as arestas que os conectam.
+
 O conjunto de todos os grupos de vértices que se alcançam entre si são denominadas componente conexas, um grafo é dito conexo quando todos os seus vértices se alcançam entre si.
 ## Caminho
 
-Um [[#passeio]] sem repetições de vértice é denominado caminho. O caminho também é considerado uma classe de grafo própria onde
+Um [[#passeio]] sem repetições de vértice é denominado caminho. O caminho alternativamente é considerado uma classe de grafo própria onde
 $$\large  \begin{gather} V = \{1,2,\dots,n\}\\ \\ E = \{\{i,i+1\}: 1 \le i \le k\}\end{gather}$$
 - É denotado $P^n$ um caminho com $n$ vértices.
 - $v_0$ e $v_k$ são ditos extremos do caminho. Os demais são ditos como vértices internos.
@@ -87,6 +89,10 @@ Sobre a [[Complexidade Assintótica#Big-$O$|complexidade]] da implementação, s
 - Em contrapartida possui complexidade de consulta de adjacência entre vértices $O(1)$.
 - Possui complexidade de adição e remoção de aresta de $O(1)$.
 
+## Subgrafo
+
+Um grafo $G'$ é dito subgrafo de $G$ quando todos os elementos de $G'$ também fazem parte de $G$, $G$ é dito o supergrafo de $G'$.
+$$\large G' \subset G \iff E(G') \subseteq E(G) \land V(G') \subseteq V(G)$$
 ## Estruturas Complementares
 ### Grafo Ponderado
 Um grafo pode ser ponderado ou não-ponderado, no caso ponderado as arestas todas têm um tamanho variável entre elas, o que influencia algoritmos de navegação em grafos. No caso não-ponderado, todas as arestas têm o mesmo peso.

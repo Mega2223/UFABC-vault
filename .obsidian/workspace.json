@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Humanas/Ciência, Tecnologia e Sociedade/Primeira Revolução Industrial.md",
+                "file": "Humanas/Estrutura Dinâmica e Social/Marx.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Primeira Revolução Industrial"
+              "title": "Marx"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Lógica Básica/Linguagem Proposicional.md",
+                "file": "Humanas/Ciência, Tecnologia e Sociedade/Primeira Revolução Industrial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linguagem Proposicional"
+              "title": "Primeira Revolução Industrial"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "Grafo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,15 +211,19 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "34869d85a7ebaeb8",
+  "active": "cc013e59839f170e",
   "lastOpenFiles": [
-    "Humanas/Bases Epistemológicas da Ciência Moderna/Descartes.md",
+    "Humanas/Estrutura Dinâmica e Social/Weber.md",
+    "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
+    "Humanas/Estrutura Dinâmica e Social/Marx.md",
+    "Matemática/Lógica Básica/Linguagem Proposicional.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Hume.md",
     "Humanas/Ciência, Tecnologia e Sociedade/Primeira Revolução Industrial.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Descartes.md",
     "Humanas/Ciência, Tecnologia e Sociedade",
     "Matemática/Matriz.md",
     "Humanas/Bases Epistemológicas da Ciência Moderna",
     "Matemática/Álgebra Linear/Espaço Vetorial.md",
-    "Matemática/Lógica Básica/Linguagem Proposicional.md",
     "Matemática/Lógica Básica/Sistema Dedutivo.md",
     "Matemática/Lógica Básica/Sistema Axiomático.md",
     "Matemática/Lógica Básica/Cálculo de Predicados.md",
@@ -236,10 +241,6 @@
     "Matemática/Algoritmos em Grafos/Bipartição.md",
     "Matemática/Álgebra Linear/Sistema Linear.md",
     "Matemática/Álgebra Linear/Hiperplano.md",
-    "Matemática/Álgebra Linear/Transformação Linear.md",
-    "Matemática/Teoria das Categorias/Categoria.md",
-    "Matemática/Teoria das Categorias/Functor.md",
-    "Matemática/Teoria das Categorias/Morfismo.md",
     "Assets/FF NOR S-R.png",
     "Assets/FF nOR CT.png",
     "Assets/Pasted image 20251015193232.png",

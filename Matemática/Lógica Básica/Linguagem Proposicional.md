@@ -90,7 +90,7 @@ $$
 
 ## Substituição
 
-A substituição é o processo de trocar todas as instâncias de um átomo por uma fórmula proposicional.
+A substituição é o processo de trocar todas as ocorrências de um átomo por uma fórmula proposicional.
 
 //TODO
 

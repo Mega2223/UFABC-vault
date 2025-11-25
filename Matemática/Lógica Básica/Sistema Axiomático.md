@@ -7,7 +7,7 @@ aliases:
   - Sistema Axiomático
 authors: Júlio César
 ---
- ## Definição
+## Definição
 
 O sistema axiomático é um [[sistema dedutivo]] que visa inferir conclusões a partir de um determinado grupo de axiomas.
 ### O Axioma

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Lógica Básica/Cálculo de Predicados.md",
+                "file": "Matemática/Lógica Básica/Linguagem Proposicional.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cálculo de Predicados"
+              "title": "Linguagem Proposicional"
             }
           },
           {
@@ -213,14 +213,14 @@
   },
   "active": "cc013e59839f170e",
   "lastOpenFiles": [
-    "Matemática/Lógica Básica/Linguagem Proposicional de 1ª Ordem.md",
+    "Matemática/Lógica Básica/Sistema Dedutivo.md",
+    "Matemática/Lógica Básica/Sistema Axiomático.md",
     "Matemática/Lógica Básica/Cálculo de Predicados.md",
+    "Matemática/Lógica Básica/Linguagem Proposicional de 1ª Ordem.md",
     "Matemática/Algoritmos em Grafos/Digrafo.md",
     "Matemática/Algoritmos em Grafos/Grafo.md",
     "Matemática/Lógica Básica/Consequência Lógica.md",
     "Matemática/Lógica Básica/Linguagem Proposicional.md",
-    "Matemática/Lógica Básica/Sistema Axiomático.md",
-    "Matemática/Lógica Básica/Sistema Dedutivo.md",
     "Matemática/Cálculo/Bases Matemáticas/Demonstração Indutiva.md",
     "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
     "Matemática/Cálculo/Bases Matemáticas/Função.md",

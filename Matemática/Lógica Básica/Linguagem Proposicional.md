@@ -55,7 +55,7 @@ As subfórmulas de uma determinada proposição é um conjunto com todas as expr
 $$\large \text{subf}(A \in \mathcal L_\text{LP}) := 
 \begin{cases}
 \{A\} & A \in \mathcal P \\
-\{\lnot A\} \cup \text{subf}(\lnot A) & A = \lnot B \\
+\{\lnot A\} \cup \text{subf}(B) & A = \lnot B \\
 \{B \land C\} \cup \text{subf(B)} \cup \text{subf(C)} & A = B \land C \\
 \{B \lor C\} \cup \text{subf(B)} \cup \text{subf(C)} & A = B \lor C \\
 \{B \implies C\} \cup \text{subf(B)} \cup \text{subf(C)} & A = (B \implies C)

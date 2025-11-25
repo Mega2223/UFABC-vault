@@ -2,6 +2,7 @@
 tags:
   - matemática
   - incompleto
+  - lógica
 aliases:
 cssclasses:
 authors: Júlio César

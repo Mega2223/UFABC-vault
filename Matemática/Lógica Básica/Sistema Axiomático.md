@@ -2,6 +2,7 @@
 tags:
   - matemática
   - incompleto
+  - lógica
 aliases:
   - Sistema Axiomático
 authors: Júlio César
@@ -26,7 +27,7 @@ A [[Linguagem Proposicional#Substituição|substituição]] é o processo de tro
 - $(\lnot_2)=$ $\lnot \lnot p = p$
 ### Modus Ponens
 Nos diz que, dado $(H,G) \in \mathcal L_\text{LP}$, se temos $H \implies G$ e $H$, logo temos $G$.
-$$\large \text{MP} = \frac{H,(H\implies G)}{G}$$
+$$\large \text{MP} := \frac{H,(H\implies G)}{G}$$
 ### Deduções e Consequência Lógica
 Uma dedução é uma sequência de fórmulas $A_1,\dots,A_n$ onde cada fórmula é ou uma [[Linguagem Proposicional#Substituição|instância]] de um axioma, ou é obtida por fórmulas anteriores via [[#Modus Ponens]].
 ### Teorema

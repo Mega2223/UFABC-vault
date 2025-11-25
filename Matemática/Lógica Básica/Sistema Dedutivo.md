@@ -2,6 +2,7 @@
 tags:
   - matemática
   - incompleto
+  - lógica
 ---
 ## Definição
 

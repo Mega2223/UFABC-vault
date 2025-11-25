@@ -15,7 +15,7 @@ $$\Large \text{G} =\{\text{V},\text{E}\}$$
 - $\text{V}$ é o conjunto de vértices
 - $\text{E}$ é o conjunto de arcos
 
-Onde temos dois mapas $\large s,t: E \to V$ onde $s(e)$ é a fonte de $e$ e $t(e)$ é o alvo de $e$. O digrafo por definição permite um arco começar e acabar no mesmo vértice. Normalmente temos que $e$ é um par ordenado de vértices, $e = (a,b)\ \ a,b \in V(G)$.
+Onde temos dois mapas $\large s,t: E \to V$ onde $s(e)$ é a fonte de $e$ e $t(e)$ é o alvo de $e$. O digrafo por definição permite um arco começar e acabar no mesmo vértice. Normalmente temos que $e$ é um par ordenado de vértices, $\large e = (a,b)\ \ a,b \in V(G)$.
 
 Se $(a,b) \in E(G)$ dizemos que $b$ é um sucessor direto de $a$ e $a$ é um predecessor direto de $b$. Se existe algum [[#caminho]] de $a$ até $b$ dizemos que $b$ é um sucessor de $a$ e $a$ é um predecessor de $b$, em notação:
 
@@ -42,7 +42,10 @@ Um ciclo é um [[#caminho]] onde o ultimo vértice é um predecessor do primeiro
 ## Propriedades
 
 ### Densidade
-Para um grafo direcionado //todo
+Para um digrafo, o número de arcos é duas vezes o número de [[Grafo#densidade|arestas em um grafo não direcionado]], assim temos que a densidade em um digrafo se dá por
+$$\large \frac{|E|}{|V|\cdot (|V|-1)}$$
+
+Um digrafo com uma densidade elevada é dito denso. Um digrafo com densidade igual a 1 é dito completo.
 ### Conectividade Fraca
 Um digrafo é dito fracamente conexo (ou somente conexo) quando o grafo produzido a partir da substituição dos arcos do digrafo por vértices é [[Grafo#Conectividade|conexo]].
 ### Conectividade Forte
@@ -67,6 +70,6 @@ $$\large G' \subset G \iff E(G') \subseteq E(G) \land V(G') \subseteq V(G)$$
 ### Digrafo Acíclico
 É um digrafo que não possui [[#ciclo]] entre quaisquer dois vértices. 
 ### Árvore Enraizada
-É uma [[árvore]] em que todo vértice se existe uma raiz a qual todos os outros vértices são sucessores da raiz. Naturalmente temos que a raiz é um [[#digrafo acíclico]]. Se o grafo é uma árvore mas não é enraizada, então dizemos que ele é um árvore livre.
+É uma [[árvore]] em que todo vértice se existe uma raiz a qual todos os outros vértices são sucessores da raiz. Naturalmente temos que a árvore é um [[#digrafo acíclico]]. Se o grafo é uma árvore mas não é enraizada, então dizemos que ele é um árvore livre.
 ### Ordenação Topológica
-É uma sequência ordenada de vértices $\large v_1, v_2, ..., v_n$ tal que $\forall (i \gt j): v_i \not\rightsquigarrow v_j$. Ou seja, nenhum vértice precede algum outro vértice anterior na sequência. A ordenação topológica só existe quando não há [[#ciclo]] no digrafo, ou seja, é [[#Digrafo Acíclico|acíclico]].
+É uma sequência ordenada de vértices de algum digrafo $\large v_1, v_2, ..., v_n$ tal que $\forall (i \gt j): v_i \not\rightsquigarrow v_j$. Ou seja, nenhum vértice precede algum outro vértice anterior na sequência. A ordenação topológica só existe quando não há [[#ciclo]] no digrafo, ou seja, é [[#Digrafo Acíclico|acíclico]].

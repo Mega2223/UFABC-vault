@@ -1,6 +1,7 @@
 ---
 tags:
   - matemática
+  - lógica
 authors: Júlio César
 ---
 ## Definição

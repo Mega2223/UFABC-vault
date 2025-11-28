@@ -17,6 +17,22 @@ Em [[Conjunto|teoria dos conjuntos]], a mônada é um [[Functor#Endofunctor|endo
 // TODO
 
 Pode-se dizer que a mônada é um [[monoide]] dos [[Functor|functores]].
+
+Suponhamos que tenhamos um espaço algébrico fechado de duas operações básicas nos naturais:
+$$\large
+\begin{gather}
++:\mathbb N \times \mathbb N \to \mathbb N & \cdot: \mathbb N\times \mathbb N \to \mathbb N
+\end{gather}
+$$
+Onde $+$ e $\cdot$ são as operações de adição e multiplicação algébrica.
+
+A implementação de um sistema que implementa essas operações é trivial, todavia se quisermos que para cada operação haja por exemplo algum log informando a operação, poderíamos colocar um statement de print em ambas as funções, o que pode ser difícil em espaços mais complexos.
+
+Como temos um espaço de funções, que são morfismos, e conjuntos, temos que esse espaço algébrico é uma [[categoria]].
+
+Podemos criar, em paralelo a esta categoria, uma outra com as mesmas operações mas que cada objeto carrega um histórico interno e cada função appenda um log a este histórico.
+
+Agora, como há uma função correspondente na nossa nova categoria para cada função na categoria anterior, e um mapeamento bijetor entre cada número de cada categoria, a mônada é então o functor que faz o mapeamento 
 ## Tipos Monâdicos
 
 ### Tipo Option

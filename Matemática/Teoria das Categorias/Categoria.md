@@ -17,7 +17,7 @@ Uma categoria é uma coleção de dois tipos de objetos: os objetos da categoria
 São exemplos válidos de categoria:
 - [[Função|Funções]] em [[conjunto|conjuntos]]
 - [[Espaço Vetorial|Espaços vetoriais]]
-- [[Grafo|Grafos]], com seus vértices como objetos e arestas como morfismos
+- [[Grafo|Grafos]] e [[digrafo|digrafos]], com seus vértices como objetos e arestas como morfismos
 - Subconjuntos contínuos de $\mathbb R$ e funções reais
 
 ## Terminologia

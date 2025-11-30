@@ -23,7 +23,6 @@ São exemplos válidos de categoria:
 ## Terminologia
 
 - Uma categoria $\mathcal C$ é considerada pequena se $\text{Ob}_{\mathcal C}$ e $\text{Mor}_{\mathcal C}$ são [[Conjunto|conjuntos]]. Caso o contrário ela é dita grande.
-- 
 ## Morfismo
 
 O morfismo é uma transição de objetos, tem um domínio e um contradomínio.
@@ -38,7 +37,7 @@ Um morfismo onde $A$ e $B$ coincidem é chamado de endomorfismo.
 Um determinado morfismo $f: A \to B$ pode ser representado por meio de um diagrama:
 $$\large A \xrightarrow{f} B $$
 ### Isomorfismo e Inversão
-Em qualquer categoria $\mathcal C$, um morfismo $f: A \to B$ é dito um isomorfismo quando existe algum morfismo $g: B \to A$ em $\mathcal C$ tal que
+Um morfismo $f: A \to B$ é dito um isomorfismo quando existe algum morfismo $g: B \to A$ em $\mathcal C$ tal que
 $$\large g \circ f = 1_A\ \land f \circ g = 1_B$$
-Dizemos que $g$ é o inverso de $f$, denotado por $f^{-1}$. Caso exista um isomorfismo entre $A$ e $B$, dizemos que $A$ é isomórfico a $B$, notado por
+Dizemos que $g$ é o inverso de $f$, denotado por $f^{-1}$. Caso exista um isomorfismo entre os objetos $A$ e $B$, dizemos que $A$ é isomórfico a $B$, notado por
 $$\huge A \cong B$$

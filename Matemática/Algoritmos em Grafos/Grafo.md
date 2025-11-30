@@ -36,7 +36,7 @@ Um grafo é considerado planar se ele pode ser colocado em um plano de tal forma
 Dois grafos, $G$ e $H$ são ditos isomórficos quando há uma [[Função#Injetividade e Sobretividade|bijeção]] entre os vértices de $G$ e $H$ que preserva a conectividade entre os vértices
 $$\large
 \begin{gather}
-f: V(G) \to V(H) \\\\ G \cong H := \exists f\ \forall(v_1,v_2) \in V(G): (v_1\to v_2) \implies (f(v_1) \to f(v_2))
+f: V(G) \to V(H) \\\\ \{v_1, v_2\} \in E(G) \iff \{f(v_1),f(v_2)\} \in E(H)
 \end{gather}
 $$
 
@@ -103,16 +103,29 @@ Um [[pseudografo]] é um grafo que algum determinado vértice pode ligar-se assi
 ### Árvore
 Uma [[árvore]] é um grafo conexo e acíclico. Todo vértice de 1 grau na árvore é chamado de folha. 
 - Pode se afirmar para toda árvore que $|E| = |V| - 1$
+### Vizinhança
+Para um vértice qualquer, sua vizinhança são os vértices que tem alguma aresta em comum com si.
+$$\large N(v \in V) := \{u\in V|\{u,v\}\in E\}$$
 ### Grau
-No grafo, grau é o número de arestas que convergem em um determinado vértice.
-$$\large \deg (v \in V) = |\{d \in E / v \in d\}|$$
+Grau é o número de arestas que convergem em um determinado vértice, ou seja, o tamanho da [[#vizinhança]] do vértice.
+$$\large \deg (v \in V) := |N(v)|$$
+O maior grau de qualquer vértice do grafo é dito grau máximo
+$$\large \Delta (G) := \max\{\deg(v) |v \in V(G)\}$$
+O menor grau de qualquer vértice do grafo é dito o grau mínimo
+$$\large \delta (G) := \min\{\deg(v) |v \in V(G)\}$$
+
 ## Morfismos em Grafos
 
 ### Grafos e Digrafos
 Não há [[Função#Injetividade e Sobretividade|bijeção]] entre grafos e [[digrafo|digrafos]], pois dois arcos podem coincidir vértices em um digrafo. Pode-se mapear todo grafo para um digrafo, mas o inverso não é necessariamente verdade.
-
 ### Digrafos e Pseudografos
-Para cada digrafo, há um [[pseudografo]] correspondente, mas o inverso não é verdade pois um o digrafo só permite um máximo de duas relações entre qualquer vértice. Pode-se presumir então que o mesmo é verdade para mapeamentos entre grafos e pseudografos.
+Para cada digrafo, há um [[pseudografo]] correspondente, mas o inverso não é verdade pois um o digrafo só permite um máximo de duas relações entre qualquer vértice. Pode-se presumir então que o mesmo é verdade para mapeamentos entre grafos e pseudografos (de forma geral, qualquer grafo já é um pseudografo, o inverso não é necessariamente verdade).
+### Coloração
+Uma função $\large \alpha: V \to K$ é uma coloração de vértices de $\large G$, normalmente temos que $\large K$ é um conjunto finito de rótulos, mas isso não é necessariamente sempre o caso.
+
+Uma função $\large \alpha: E \to K$ é uma coloração de arestas (ou arcos no caso do [[digrafo]]) de $\large G$, se $\large K \subseteq \mathbb R$, $\large \alpha$ é uma função de pesos / função de custos / função de distância. Um mapeamento de cada aresta para um valor real é o processo de definição de um [[#grafo ponderado]].
+### Categorias
+// TODO
 
 [^1]: Alguns professores, principalmente no Brasil, usam $G = \{V,A\}$
 [^2]: Grafo onde todos os vértices se conectam entre si.

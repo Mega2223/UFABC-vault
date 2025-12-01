@@ -10,10 +10,13 @@ authors: Júlio César
 ---
 ## Definição
 
-É um #algoritmo que visa procurar o [[Grafo#caminho|caminho]] ótimo (que minimiza o número de arcos) entre um determinado vértice e todos os outros vértices de um [[digrafo]] (ou um [[grafo]], já que vale o [[Grafo#Morfismos em Grafos|morfismo]] de grafo para digrafo simétrico), pode calcular a distância total entre quaisquer dois vértices, o conjunto de todas as arestas de caminhos ótimos a um determinado vértice (e consequentemente explorados pela busca) é uma [[árvore]] de escoamento onde cada caminho entre o vértice de origem e qualquer outro é o caminho com menos arcos.
+É um #algoritmo que visa procurar o [[Grafo#caminho|caminho]] ótimo (que minimiza o número de arcos) entre um determinado vértice e todos os outros vértices de um [[digrafo]] (ou um [[grafo]], já que vale o [[Grafo#Morfismos entre Estruturas|morfismo]] de grafo para digrafo simétrico), pode calcular a distância total entre quaisquer dois vértices, o conjunto de todas as arestas de caminhos ótimos a um determinado vértice (e consequentemente explorados pela busca) é uma [[árvore]] de escoamento onde cada caminho entre o vértice de origem e qualquer outro é o caminho com menos arcos.
 
-A busca em largura presume invariabilidade entre as arestas (grafo não ponderado), caso o grafo seja ponderado, para achar o caminho de menor custo associado, a análise deve ser feita com o [[Algoritmo de Dijkstra]].
+A busca em largura presume invariabilidade entre as arestas (grafo não ponderado), caso o grafo seja [[Grafo#Grafo Ponderado|ponderado]], para achar o caminho de menor custo associado, a análise deve ser feita com o [[Algoritmo de Dijkstra]].
 
+## Complexidade
+
+A busca em profundidade tem [[Complexidade Assintótica|complexidade de tempo]] $\large O(|V| + |E|)$ para alcançar todos os vértices conexos de um grafo.
 ## Algoritmo
 
 ```c

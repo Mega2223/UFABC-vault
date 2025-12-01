@@ -24,7 +24,7 @@ a \to b := (a,b) \in E(G) \\ \\
 \large a{\Large\leadsto} b := \exists P_{(x,y)} \subseteq G
 \end{gather}$$
 
-Um arco $\large (b,a)$ é dito o arco invertido de $\large (a,b)$. Se $\large \forall e \in E(g): e^{-1} \in E(g)$, o digrafo é dito simétrico. Para qualquer digrafo simétrico sem laços, existe um [[grafo]] correspondente, por meio de um [[Grafo#Morfismos em Grafos|morfismo]] que mapeia cada par de arcos para uma aresta do grafo.
+Um arco $\large (b,a)$ é dito o arco invertido de $\large (a,b)$. Se $\large \forall e \in E(g): e^{-1} \in E(g)$, o digrafo é dito simétrico. Para qualquer digrafo simétrico sem laços, existe um [[grafo]] correspondente, por meio de um [[Grafo#Morfismos entre Estruturas|morfismo]] que mapeia cada par de arcos para uma aresta do grafo.
 ## Passeio
 
 Em um digrafo, o passeio é uma sequência ordenada de vértices onde para cada vértice na sequência é um sucessor direto do arco anterior (salvo o primeiro arco). Alternativamente, o passeio é um [[#subgrafo]] de vértices que seguem esta mesma propriedade e os arcos que ligam estes vértices entre si.

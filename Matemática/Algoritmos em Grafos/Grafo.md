@@ -132,8 +132,10 @@ O maior grau de qualquer vértice do grafo é dito grau máximo
 $$\large \Delta (G) := \max\{\deg(v) |v \in V(G)\}$$
 O menor grau de qualquer vértice do grafo é dito o grau mínimo
 $$\large \delta (G) := \min\{\deg(v) |v \in V(G)\}$$
+### Emparelhamento
+$\large M \subseteq E(G)$ é um emparelhamento de $\large G$ quando para qualquer par de arestas $\large e,f \in M: e \cap f = \emptyset$.
 
-## Morfismos em Grafos
+## Morfismos entre Estruturas
 
 ### Grafos e Digrafos
 Não há [[Função#Injetividade e Sobretividade|bijeção]] entre grafos e [[digrafo|digrafos]], pois dois arcos podem coincidir vértices em um digrafo. Pode-se mapear todo grafo para um digrafo, mas o inverso não é necessariamente verdade.

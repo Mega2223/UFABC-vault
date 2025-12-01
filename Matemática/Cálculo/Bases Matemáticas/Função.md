@@ -29,7 +29,6 @@ $$
 ## Injetividade e Sobretividade
 
 Dada uma função $f: A \to B$ dizemos que $f$ é uma função **injetora** se para quaisquer dois valores distintos no domínio, seus correspondentes no contradomínio também são distintos, ou seja, não existe repetição de valores no contradomínio.
-
 $$\large \forall (x_1,x_2) \in A, x_1 \ne x_2:\ \ \ f(x_1) \ne f(x_2)$$
 Dizemos ainda que $f$ é **sobrejetora** se para cada elemento $x \in A$ existe um elemento $y \in  B$ cujo $f(x) = y$, ou seja, não existem elementos do contradomínio sem elementos correspondentes no domínio
 $$\large

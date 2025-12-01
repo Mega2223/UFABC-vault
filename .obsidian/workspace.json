@@ -8,21 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "34869d85a7ebaeb8",
+            "id": "5660c400e089d398",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Humanas/Estrutura Dinâmica e Social/Marx.md",
+                "file": "Matemática/Algoritmos em Grafos/Pseudografo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Marx"
+              "title": "Pseudografo"
             }
           },
           {
-            "id": "5660c400e089d398",
+            "id": "23605c0622dea36c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Grafo"
             }
+          },
+          {
+            "id": "2139504b5fd80cd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Algoritmos em Grafos/Digrafo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Digrafo"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0c2cdb790c78953d",
@@ -197,10 +212,17 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "ebb6f088f2b77cf1",
+  "active": "2139504b5fd80cd1",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Matemática/Algoritmos em Grafos/Grafo.md",
+    "Matemática/Algoritmos em Grafos/Digrafo.md",
+    "Matemática/Algoritmos em Grafos/Pseudografo.md",
+    "Matemática/Cálculo/Bases Matemáticas/Função.md",
+    "Matemática/Algoritmos em Grafos/Bipartição.md",
+    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
+    "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
+    "Humanas/Estrutura Dinâmica e Social/Marx.md",
+    "conflict-files-obsidian-git.md",
     "Computação/Programação Funcional/Mônada.md",
     "Matemática/Lógica Básica/Cálculo de Predicados.md",
     "Matemática/Teoria das Categorias/Functor.md",
@@ -209,7 +231,6 @@
     "Humanas/Ciência, Tecnologia e Sociedade/Primeira Revolução Industrial.md",
     "Humanas/Estrutura Dinâmica e Social/Weber.md",
     "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
-    "Humanas/Estrutura Dinâmica e Social/Marx.md",
     "Matemática/Lógica Básica/Linguagem Proposicional.md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Hume.md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Descartes.md",
@@ -220,13 +241,7 @@
     "Matemática/Lógica Básica/Sistema Dedutivo.md",
     "Matemática/Lógica Básica/Sistema Axiomático.md",
     "Matemática/Lógica Básica/Linguagem Proposicional de 1ª Ordem.md",
-    "Matemática/Algoritmos em Grafos/Digrafo.md",
     "Matemática/Lógica Básica/Consequência Lógica.md",
-    "Matemática/Cálculo/Bases Matemáticas/Demonstração Indutiva.md",
-    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
-    "Matemática/Cálculo/Bases Matemáticas/Função.md",
-    "Matemática/Algoritmos em Grafos/Busca em Largura.md",
-    "Matemática/Algoritmos em Grafos/Corte.md",
     "Assets/FF NOR S-R.png",
     "Assets/FF nOR CT.png",
     "Assets/Pasted image 20251015193232.png",

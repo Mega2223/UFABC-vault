@@ -14,7 +14,7 @@ $$\Large \text{G} =\{\text{V},\text{E}\}$$
 - $\text{V}$ é o conjunto de vértices
 - $\text{E}$ é o conjunto de arestas[^1]
 
-Onde há algum mapa $w: E \to P(V)$[^3] que mapeia cada aresta a um subconjunto de tamanho 2 de elementos de $V$.
+Onde há algum mapa $w: E \to P(V)$[^3] que mapeia cada aresta a um subconjunto de tamanho 2 de elementos de $V$. Uma convenção mais comum é a em que a aresta em si é um conjunto de dois vértices: $\large e \in E = \{v_a,v_b\}, w(e) = \{v_a,v_b\} = e$.
 ## Propriedades
 
 ### Ordem e Tamanho
@@ -59,14 +59,32 @@ O conjunto de todos os grupos de vértices que se alcançam entre si são denomi
 ## Caminho
 
 Um [[#passeio]] sem repetições de vértice é denominado caminho. O caminho alternativamente é considerado uma classe de grafo própria onde
-$$\large  \begin{gather} V = \{1,2,\dots,n\}\\ \\ E = \{\{i,i+1\}: 1 \le i \le k\}\end{gather}$$
+$$\large P = \{V',E'\} \begin{gather} 
+&V' = \{1,2,\dots,n\} \\
+&E' = \{\{i,i+1\}: 1 \le i \le k\}
+\end{gather}$$
 - É denotado $P^n$ um caminho com $n$ vértices.
-- $v_0$ e $v_k$ são ditos extremos do caminho. Os demais são ditos como vértices internos.
-- Se não há um caminho entre os vértices $v$ e $u$ em $G$, dizemos que $\text{dist}_G(v,u) = \infty$.
+- $\large v_0$ e $\large v_k$ são ditos extremos do caminho. Os demais são ditos como vértices internos.
+- Se não há um caminho entre os vértices $\large v$ e $\large u$ em $\large G$, dizemos que $\large \text{dist}_G(v,u) = \infty$.
 
 Algoritmos de busca visam procurar um determinado caminho dentro do grafo, eles podem ser divididos em algoritmos de busca em largura (quando os vértices mais próximos da origem são visitados primeiro) e busca em profundidade (os vértices são visitados por profundidade, do primeiro ao último de cada potencial caminho).
 
 Muitos problemas visam encontrar um caminho com menor custo total, este problema é denominado problema do caminho mais curto.
+
+## Caminho Euleriano
+
+O caminho euleriano é o [[#caminho]] que passa por toda aresta do grafo[^4], ou seja, é um caminho constituído de vértices conexos de tal forma que $E' = E$.
+
+Um caminho euleriano é denominado fechado de forma análoga ao fechamento de qualquer caminho, quando um caminho começa e termina no mesmo vértice, ele é fechado. Um grafo que tenha um caminho euleriano é dito grafo euleriano.
+
+Um grafo conexo é euleriano se e somente se todos os vértices tem um [[#grau]] par.
+## Caminho Hamiltoniano
+
+Um caminho hamiltoniano é um [[#caminho]] que passa por todos os vértices do grafo, ou seja, é um subgrafo que tem as propriedades de um caminho e que $\large V' = V$.
+
+Um caminho hamiltoniano que é um circuito é denominado circuito hamiltoniano.
+
+Um grafo que possui algum caminho hamiltoniano é denominado grafo hamiltoniano.
 ## Representações Computacionais
 
 ### Lista de Adjacência
@@ -93,9 +111,10 @@ Sobre a [[Complexidade Assintótica#Big-$O$|complexidade]] da implementação, s
 
 Um grafo $G'$ é dito subgrafo de $G$ quando todos os elementos de $G'$ também fazem parte de $G$, $G$ é dito o supergrafo de $G'$.
 $$\large G' \subset G \iff E(G') \subseteq E(G) \land V(G') \subseteq V(G)$$
+Um subgrafo deve cumprir todas as propriedades de um grafo, um [[#corte]] por exemplo não é subgrafo pois ele conecta vértices fora de si mesmo.
 ## Estruturas Complementares
 ### Grafo Ponderado
-Um grafo pode ser ponderado ou não-ponderado, no caso ponderado as arestas todas têm um tamanho variável entre elas, o que influencia algoritmos de navegação em grafos. No caso não-ponderado, todas as arestas têm o mesmo peso.
+Um grafo ponderado é um grafo onde há um mapeamento de cada aresta do grafo a um membro de $\large \mathbb R$ (ou seja, uma [[#coloração]] aos reais). É útil para resolver problemas de minimização de custo ou de fluxo. Tipicamente todavia os problemas tendem a endereçar casos de uso para o [[digrafo]] ponderado já que todo algoritmo que vale para um digrafo vale para um grafo por meio da preservação da estrutura do grafo em um [[#Morfismos em Grafos#Grafos e Digrafos|morfismo para um digrafo]].
 ### Digrafo
 O [[digrafo]] é um grafo direcionado, certas arestas podem ir de um determinado vértice para outro sem que esta relação seja recíproca, enquanto o caso não direcional exige que se é possível ir de $a$ para $b$ também deve ser possível ir de $b$ para $a$. Ao contrário do grafo, o digrafo pode ter uma conexão saindo e entrando no mesmo vértice.
 ### Pseudografo
@@ -130,3 +149,5 @@ Uma função $\large \alpha: E \to K$ é uma coloração de arestas (ou arcos no
 [^1]: Alguns professores, principalmente no Brasil, usam $G = \{V,A\}$
 [^2]: Grafo onde todos os vértices se conectam entre si.
 [^3]: Onde $P$ é o mapa de [[Conjunto#conjunto das partes|conjunto das partes]].
+
+[^4]: Em referência ao problema das sete pontes de Konigsberg, embora este problema seja modelado encima de um [[pseudografo]] e não um grafo.

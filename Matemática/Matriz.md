@@ -39,17 +39,32 @@ A matriz inversa não existe caso o [[Matriz#Determinante|determinante]] de $M$ 
 
 ## Transposição
 
-A transposição $M^T$ é uma transposição de $M$ se e somente se:
+A matriz $\large M^T$ é uma transposição de $\large M$ se e somente se:
 $$\large M_{ij} = M^T_{ji}$$
+
+## Menor
+
+Dada uma matriz $\large A$, o menor com respeito ao elemento $\large a_{ij}$ é a matriz decorrente da retirada da $\large i$-ésima linha e $\large j$-ésima coluna de $\large A$.
 ## Determinante
 
-O determinante a variável que possibilita verificar se uma matriz possui matriz inversa. Se dá pela notação:
-$$|M| = \text{det}(M)$$
-Se o determinante de uma matriz é 0 ela não possui matriz inversa.
-### Determinante $M^2$
-O determinante de uma matriz 2x2 se dá por:$$\text{det}\begin{pmatrix}a_{11} & a_{12}\\a_{21} & a_{22} \end{pmatrix} = a_{11}a_{22}-a_{12}a_{21}$$
-### Determinante $M^3$
-O determinante de uma matriz 3x3 se dá por:$$\text{det}
+O determinante a variável que possibilita verificar se uma matriz possui matriz inversa, se o determinante de uma matriz é 0 ela não possui matriz inversa. O determinante dá pela notação
+$$\large|M| = \text{det}(M)$$
+
+Onde o determinante é definido recursivamente de acordo com uma soma do produto de cada elemento da matriz com seus respectivos [[#menor|menores]], ou simplesmente o único valor real da matriz quando ela converge ao caso base $\large M \in \mathbb R$. Seja $\large A_{ij}$ o menor de uma matriz $\large M \in \mathbb R^{n \times n}$ com respeito a $\large a_{ij} \in M$, o determinante se dá por:
+$$\large
+\det(M) :=
+\Bigg \{
+\begin{gather}
+a_{ij} &A_{ij} = \emptyset \\ 
+\sum_{j=1}^n (-1)^{i+j} a_{ij} |A_{ij}|
+
+
+\end{gather}$$
+Onde $\large i$ é o índice de alguma linha da matriz.
+### Determinante $M^{2\times2}$
+O determinante de uma matriz $2\times2$ se dá por:$$\large \text{det}\begin{pmatrix}a_{11} & a_{12}\\a_{21} & a_{22} \end{pmatrix} = a_{11}a_{22}-a_{12}a_{21}$$
+### Determinante $M^{3\times 3}$
+O determinante de uma matriz $3 \times 3$ se dá por:$$\text{det}
 \begin{pmatrix}
 a_{11} & a_{12} & a_{13}  \\
 a_{21} & a_{22} & a_{23}  \\

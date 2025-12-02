@@ -18,6 +18,7 @@ A busca em largura presume invariabilidade entre as arestas (grafo não ponderad
 
 A busca em profundidade tem [[Complexidade Assintótica|complexidade de tempo]] $\large O(|V| + |E|)$ para alcançar todos os vértices conexos de um grafo.
 ## Algoritmo
+//TODO faz isso em Scala deve ser mais compacto
 
 ```c
 #include<stdio.h>

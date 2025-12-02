@@ -15,7 +15,7 @@ $$\Large \text{G} =\{\text{V},\text{E}\}$$
 - $\text{V}$ é o conjunto de vértices
 - $\text{E}$ é o conjunto de arcos
 
-Onde temos dois mapas $\large s,t: E \to V$ onde $\large s(e)$ é a fonte de $\large e$ e $\large t(e)$ é o alvo de $\large  e$. O digrafo por definição permite um arco começar e acabar no mesmo vértice. Normalmente temos que $e$ é um par ordenado de vértices, $\large e = (a,b)\ \ a,b \in V(G)$, onde $\large s(e) = a, t(e) = b$.
+Onde temos dois mapas $\large s,t: E \to V$ onde $\large s(e)$ é a fonte de $\large e$ e $\large t(e)$ é o alvo de $\large  e$. O digrafo por definição permite um arco começar e acabar no mesmo vértice. Normalmente temos que $\large e$ é um par ordenado de vértices, $\large e = (a,b)\ \ a,b \in V(G)$, onde $\large s(e) = a, t(e) = b$.
 
 Se $\large (a,b) \in E(G)$ dizemos que $b$ é um sucessor direto de $\large a$ e $\large a$ é um predecessor direto de $\large b$. Se existe algum [[#caminho]] de $\large a$ até $\large b$ dizemos que $\large b$ é um sucessor de $\large a$ e $\large a$ é um predecessor de $b$, em notação:
 
@@ -42,9 +42,9 @@ $$\large P = \{V',E'\} \begin{gather}
 \end{gather}$$
 - É denotado $P^n$ um caminho com $n$ vértices.
 - $\large v_0$ e $\large v_k$ são ditos extremos do caminho. Os demais são ditos como vértices internos.
-- Se não há um caminho entre os vértices $\large v$ e $\large u$ em $\large G$, dizemos que $\large \text{dist}_G(v,u) = \infty$.
 
-Algoritmos de busca e de controle de fluxo em geral visam ser aplicáveis a dígrafos em vez de grafos, uma vez que todo algoritmo aplicável a um digrafo é aplicável a um grafo.
+### Distância
+A distância entre dois vértices $\large v, u \in V(G)$ é o caminho mínimo entre esses dois vértices, se não há um caminho entre os vértices $\large v$ e $\large u$ em $\large G$, dizemos que $\large \text{dist}_G(v,u) = \infty$.
 ## Caminho Euleriano
 
 O caminho euleriano é o [[#caminho]] que passa por todos os arcos do digrafo. Se o caminho é euleriano e fechado, é denominado de caminho euleriano fechado.[^1] Um digrafo que tenha um caminho euleriano é dito digrafo euleriano.

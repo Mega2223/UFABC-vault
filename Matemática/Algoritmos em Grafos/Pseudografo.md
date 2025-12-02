@@ -2,7 +2,6 @@
 tags:
   - matemática
   - algoritmo
-  - incompleto
   - teoria-de-grafos
 authors: Júlio César
 aliases:

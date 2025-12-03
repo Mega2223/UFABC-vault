@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f8f2c520b3e63d49",
+        "id": "9a9a6c0b37137e08",
         "type": "tabs",
         "children": [
           {
-            "id": "4797f53bfa1c4b60",
+            "id": "b058c17072a3699d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Álgebra Linear/Produto Interno e Norma.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Produto Interno e Norma"
             }
           }
         ]
@@ -179,10 +183,15 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "4797f53bfa1c4b60",
+  "active": "b058c17072a3699d",
   "lastOpenFiles": [
-    "Matemática/Algoritmos em Grafos/Busca em Largura.md",
+    "Matemática/Álgebra Linear/Produto Interno e Norma.md",
+    "Computação/Redes de Computador/Protocolo HDLC.md",
+    "Computação/Programação Funcional/Mônada.md",
+    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Multidimensionais.md",
+    "Computação/Programação Funcional/Scala.md",
     "Matemática/Álgebra Linear/Transformação Linear.md",
+    "Matemática/Algoritmos em Grafos/Busca em Largura.md",
     "Matemática/Álgebra Linear/Sistema Linear.md",
     "Matemática/Otimização Linear/Modelo Linear.md",
     "Matemática/Matriz.md",
@@ -195,7 +204,6 @@
     "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "Humanas/Estrutura Dinâmica e Social/Marx.md",
     "conflict-files-obsidian-git.md",
-    "Computação/Programação Funcional/Mônada.md",
     "Matemática/Lógica Básica/Cálculo de Predicados.md",
     "Matemática/Teoria das Categorias/Functor.md",
     "Matemática/Teoria das Categorias/Categoria.md",
@@ -203,12 +211,8 @@
     "Humanas/Ciência, Tecnologia e Sociedade/Primeira Revolução Industrial.md",
     "Humanas/Estrutura Dinâmica e Social/Weber.md",
     "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
-    "Matemática/Lógica Básica/Linguagem Proposicional.md",
-    "Humanas/Bases Epistemológicas da Ciência Moderna/Hume.md",
-    "Humanas/Bases Epistemológicas da Ciência Moderna/Descartes.md",
     "Humanas/Ciência, Tecnologia e Sociedade",
     "Humanas/Bases Epistemológicas da Ciência Moderna",
-    "Matemática/Álgebra Linear/Espaço Vetorial.md",
     "Assets/FF NOR S-R.png",
     "Assets/FF nOR CT.png",
     "Assets/Pasted image 20251015193232.png",

@@ -22,7 +22,7 @@ Sejam $A$, $B$ e $C$ matrizes, $C = AB$, para definir cada elemento de $C$ se us
 $$\large C_{ij} =\sum_{k=1}^{p}A_{ik}B_{kj}$$
  É necessário que o número de colunas de $A$ seja igual ao número de linhas em $B$
 ### Multiplicação matriz vetor
-Seja $A$ uma matriz e $\vec{v}$ um vetor, podemos considerar $\vec{v}$ como uma matriz de uma coluna:
+Seja $\large A$ uma matriz e $\large \vec{v}$ um vetor, a convenção é considerar $\large \vec{v}$ como uma matriz de uma coluna:
 $$\begin {align}\large \vec{v} \in \mathbb{V}^n = \begin{bmatrix}v_1 \\ \vdots \\ v_n \end{bmatrix} \end{align}$$
 Assim, $M\vec{v}$ é calculável. O [[Vetor#Produto escalar|produto escalar]] de dois vetores é ocasionalmente escrito como $a^Tb$.
 ## Matriz Identidade
@@ -41,7 +41,6 @@ A matriz inversa não existe caso o [[Matriz#Determinante|determinante]] de $M$ 
 
 A matriz $\large M^T$ é uma transposição de $\large M$ se e somente se:
 $$\large M_{ij} = M^T_{ji}$$
-
 ## Menor
 
 Dada uma matriz $\large A$, o menor com respeito ao elemento $\large a_{ij}$ é a matriz decorrente da retirada da $\large i$-ésima linha e $\large j$-ésima coluna de $\large A$.

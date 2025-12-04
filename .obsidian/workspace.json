@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9a9a6c0b37137e08",
+        "id": "3d1126a1af7df552",
         "type": "tabs",
         "children": [
           {
-            "id": "b058c17072a3699d",
+            "id": "e5cc83281dd8829b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Álgebra Linear/Produto Interno e Norma.md",
+                "file": "Matemática/Álgebra Linear/Hiperplano.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Produto Interno e Norma"
+              "title": "Hiperplano"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 340
   },
   "right": {
     "id": "0c2cdb790c78953d",
@@ -183,16 +182,20 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "b058c17072a3699d",
+  "active": "e5cc83281dd8829b",
   "lastOpenFiles": [
+    "Matemática/Álgebra Linear/Espaço Vetorial.md",
+    "Matemática/Álgebra Linear/Hiperplano.md",
     "Matemática/Álgebra Linear/Produto Interno e Norma.md",
+    "Matemática/Álgebra Linear/Transformação Linear.md",
+    "Matemática/Álgebra Linear/Sistema Linear.md",
+    "Matemática/Álgebra Linear/Combinação Linear.md",
+    "Matemática/Álgebra Linear/Estrutura Algébrica.md",
     "Computação/Redes de Computador/Protocolo HDLC.md",
     "Computação/Programação Funcional/Mônada.md",
     "Matemática/Probabilidade e estatística/Variáveis Aleatórias Multidimensionais.md",
     "Computação/Programação Funcional/Scala.md",
-    "Matemática/Álgebra Linear/Transformação Linear.md",
     "Matemática/Algoritmos em Grafos/Busca em Largura.md",
-    "Matemática/Álgebra Linear/Sistema Linear.md",
     "Matemática/Otimização Linear/Modelo Linear.md",
     "Matemática/Matriz.md",
     "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
@@ -207,10 +210,6 @@
     "Matemática/Lógica Básica/Cálculo de Predicados.md",
     "Matemática/Teoria das Categorias/Functor.md",
     "Matemática/Teoria das Categorias/Categoria.md",
-    "Matemática/Teoria das Categorias/Monoide.md",
-    "Humanas/Ciência, Tecnologia e Sociedade/Primeira Revolução Industrial.md",
-    "Humanas/Estrutura Dinâmica e Social/Weber.md",
-    "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
     "Humanas/Ciência, Tecnologia e Sociedade",
     "Humanas/Bases Epistemológicas da Ciência Moderna",
     "Assets/FF NOR S-R.png",

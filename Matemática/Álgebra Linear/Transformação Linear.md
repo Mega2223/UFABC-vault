@@ -12,7 +12,7 @@ Sejam $U,V$ [[Espaço Vetorial|espaços vetoriais]], a transformação linear é
 - $\large T(v + w) = T(v) + T(w)\ \ \ \forall (v,w) \in U$
 - $\large T(cv) = c T(v)\ \ \ \forall v \in U, c \in \mathbb R$
 
-Temos que a [[Função#Imagem|imagem]] de $\large T$ se dá por $\large {T(v)|v \in U}$. Uma transformação linear de mesmo domínio e contradomínio é chamada **operador linear** ($\large T: U \to U$).
+Temos que a [[Função#Imagem|imagem]] de $\large T$ se dá por $\large \{T(v)|v \in U\}$. Uma transformação linear de mesmo domínio e contradomínio é chamada **operador linear** ($\large T: U \to U$).
 ## Isomorfismo Entre Espaços
 
 Um [[Categoria#Morfismo|isomorfismo]] entre espaços vetoriais é uma [[transformação linear]] [[Função#Injetividade e Sobretividade|bijetora]], ou seja, invertível. Temos que $\large T^{-1}$ existe, $\large T^{-1}$ também é uma transformação linear.

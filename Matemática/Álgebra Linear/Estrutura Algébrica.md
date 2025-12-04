@@ -1,6 +1,0 @@
----
-tags:
-  - incompleto
-  - matemática
----
-## Grupo

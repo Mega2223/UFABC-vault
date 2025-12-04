@@ -25,30 +25,30 @@ Um conjunto de $v_n \in \mathbb V$ vetores não nulos pode formar um [[Espaço V
 
 Seja $S \subseteq \mathbb V$ um conjunto finito de vetores do espaço vetorial, temos que $[\ S \ ]$ é o subespaço vetorial gerado por $S$, que é o conjunto de todas as combinações lineares possíveis de elementos de $S$. Caso $S$ seja linearmente dependente, o conjunto pode ser reduzido sem que $[\ S\ ]$ sofra de alguma alteração.
 
-$$\Large [S] = \{s=\sum_{i=1}^n x_iv_i\ |\ x_i \in \mathbb R, v_i \in S, n = |S| \}$$
+$$\Large \big[S\big ] = \{s=\sum_{i=1}^n x_iv_i\ |\ x_i \in \mathbb R, v_i \in S, n = |S| \}$$
 
-Se $[S] = \mathbb V$ e todos os vetores de $S$ são linearmente independentes, dizemos que $S$ é uma base de $\mathbb V$.
+Se $\large \big[S\big] = V$ e todos os vetores de $S$ são linearmente independentes, dizemos que $\large S$ é uma base de $\large V$.
 ### Teoremas
-Sejam $S, U$ quaisquer subconjuntos não vazios finitos de $\mathbb V$:
-- $S \subseteq [S]$
-- $[[S]] = [S]$
-- $S \subseteq U \implies [S] \subseteq [U]$
-- $[\mathbb V] = \mathbb V$
+Sejam $S, U$ quaisquer subconjuntos não vazios finitos de $\large V$:
+- $\large S \subseteq [S]$
+- $\large [[S]] = [S]$
+- $\large S \subseteq U \implies [S] \subseteq [U]$
+- $[\large V] = \large V$
 
-Seja $B$ um conjunto de $n$ vetores linearmente independentes gerando um espaço vetorial $V$, temos que o maior conjunto linearmente independente de vetores de $V$ tem tamanho $n$. Analogamente, todas as bases LI de $V$ tem o mesmo tamanho $n$, e qualquer conjunto LI de $n$ elementos gera o espaço
+Seja $B$ um conjunto de $\large n$ vetores linearmente independentes gerando um espaço vetorial $V$, temos que o maior conjunto linearmente independente de vetores de $\large V$ tem tamanho $n$. Analogamente, todas as bases LI de $\large V$ tem o mesmo tamanho $\large n$, e qualquer conjunto LI de $\large n$ elementos gera o espaço $\large V$.
 ## Dimensão
 
-A dimensão $n$ é o número mínimo de vetores num espaço vetorial $\mathbb V$ que [[#Geração de Subespaço|geram]] $\mathbb V$. Dado um subconjunto finito linearmente independente do espaço, se o mesmo não gera $\mathbb V$, podemos incrementar elementos de $\mathbb V$ que estão fora do espaço gerado até chegarmos em $\mathbb V$. Dizemos que 
+A dimensão $\large n$ é o número mínimo de vetores num espaço vetorial $\large V$ que [[#Geração de Subespaço|geram]] $\large V$. Dado um subconjunto finito linearmente independente do espaço, se o mesmo não gera $\large V$, podemos incrementar elementos de $\large V$ que estão fora do espaço gerado até chegarmos em $\large V$. Dizemos que 
 
-$$\large \text{dim}(\mathbb V) = n$$
-Um espaço é dito de dimensão finita se possui uma base finita de elementos que geram o espaço, caso contrário o espaço é dito infinito e a dimensão não é um número, por exemplo o espaço de todas as funções contínuas em um intervalo real não possui dimensão contável.
+$$\large \text{dim}( V) = n$$
+Um espaço é dito de dimensão finita se possui uma base finita de elementos que geram o espaço, caso contrário o espaço é dito infinito e a dimensão não é um número, por exemplo o espaço de todas as funções contínuas em um intervalo real não possui dimensão contável, logo também não possui base.
 ## Dependência Linear
 
-Se temos um conjunto de $v_i \in \mathbb V$ vetores, dizemos que eles são linearmente dependentes quando algum determinado vetor do conjunto puder ser escrito como uma [[Matemática/Álgebra Linear/Combinação Linear|combinação linear]] dos demais, caso o contrário os vetores são linearmente independentes.
+Se temos um conjunto de $\large v_i \in V$ vetores, dizemos que eles são linearmente dependentes quando algum determinado vetor do conjunto puder ser escrito como uma [[Matemática/Álgebra Linear/Combinação Linear|combinação linear]] dos demais, caso o contrário os vetores são linearmente independentes.
 
-Para um conjunto de vetores linearmente independentes temos que 
+Para qualquer conjunto de vetores linearmente independentes temos que
 $$\large\begin{gather}
-{\Large\sum_{i=1}^n a_iv_i} = 0 \implies a_i = 0\ \forall\ i \end{gather}$$
+{\Large\sum_{i=1}^n a_iv_i} = 0 \iff a_i = 0\ \forall i \in \{1,...,n \} \end{gather}$$
 
 ## Relacionado
 

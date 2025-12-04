@@ -7,19 +7,19 @@ authors: Júlio César
 ---
 ## Definição
 
-Um espaço vetorial é um conjunto $\large \mathbb V$ sob o qual estão definidas as operações de adição e multiplicação escalar
+Um espaço vetorial é um espaço algébrico composto de um conjunto de elementos $\large V$ sob o qual estão definidas as operações de adição vetorial e multiplicação escalar
 
 $$
 \large \begin{gather}
-&\Huge \mathbb V \\ && \\
-+: \mathbb V \times \mathbb V \to \mathbb V &&
-\ \cdot : \mathbb V \times \mathbb R \to \mathbb V
+&\Huge V \\ && \\
++: V \times V \to V &&
+\ \cdot : V \times \mathbb R \to V
 \\\\
-\forall (u,v,w) \in \mathbb V &&\forall(\alpha,\beta) \in \mathbb R\\
+\forall (u,v,w) \in V &&\forall(\alpha,\beta) \in \mathbb R\\
 v + w = w + v &&(\alpha \beta) u = \alpha (\beta u) \\
 (u+v)+w = u+(v+w) &&(\alpha + \beta) u = \alpha u + \beta u \\
-\exists o \in \mathbb V,  v + o = v && (u+v)\alpha = \alpha u + \alpha v\\
-\exists (-v), v + (-v) = o &&1u = u \\
+\exists o \in V\ | \  v + o = v && (u+v)\alpha = \alpha u + \alpha v\\
+\exists (-v\in V)\ |\ v + (-v) = o &&1u = u \\
 \end {gather}
 $$
 ## Propriedades
@@ -31,7 +31,7 @@ u = 1 \cdot u && u + (-1) \cdot u = 0
 ## Espaços Vetoriais Válidos
 
 ### $\mathbb R ^d$
-Qualquer conjunto $\mathbb R ^d$ para qualquer $d \in \mathbb N$ é um espaço vetorial válido, e todas as [[Vetor|operações padrão]] do $\mathbb R^3$ são coerentes com a definição de espaço vetorial. 
+Qualquer conjunto $\large \mathbb R ^d$ para qualquer $\large d \in \mathbb N$ é um espaço vetorial válido, e todas as [[Vetor|operações padrão]] do $\large \mathbb R^3$ são coerentes com a definição de espaço vetorial. Tipicamente para o $\large \mathbb R^d$, denominamos o conjunto de vetores [[Produto Interno e Norma#Angulo, Ortogonalidade e Normalidade|ortonormais]] onde só há um elemento 1 de base canônica do $\large \mathbb R ^d$. Em $\large \mathbb R ^3$ notamos a base canônica como $\large\{\hat i, \hat j, \hat k\}$.
 
 ### Funções
 Dado um intervalo contínuo $U$ e um conjunto de funções $f: U \to \mathbb R$, temos que, sejam $f$, $g$ e $h$ quaisquer funções definidas em todo $U$
@@ -47,17 +47,17 @@ k \cdot j \cdot f(x) = k (j \cdot f(x))
 $$
 Logo, o conjunto de funções contínuas em $U$ constituem um espaço vetorial válido. Como não pode ser descrito em uma sequência finita de combinações lineares, este espaço é considerado infinitamente dimensional.
 ### Matrizes
-Sejam $(A,B) \in \mathbb R ^ {d_1 \times d_2}$ [[matriz|matrizes]] de mesma dimensão, temos que a [[Matriz#Operações|a soma matricial e a multiplicação por escalar]] são o suficiente para qualificar o espaço $\mathbb R^{d_1 \times d_2}$ como um espaço vetorial.
+Sejam $\large (A,B) \in \mathbb R ^ {d_1 \times d_2}$ [[matriz|matrizes]] de mesma dimensão, temos que a [[Matriz#Operações|a soma matricial e a multiplicação por escalar]] são o suficiente para qualificar o espaço $\large \mathbb R^{d_1 \times d_2}$ como um espaço vetorial.
 ## Subespaço Vetorial
 
-Um subespaço vetorial é um determinado subconjunto do espaço vetorial que cumpre todos os requisitos necessários para ser um espaço vetorial. Seja $\mathbb V$ um espaço vetorial, $U \subseteq \mathbb V$ um subconjunto, $U$ é um subespaço vetorial se todas as operações que tornam $\mathbb V$ um espaço vetorial válido também servem para $U$, são subespaços vetoriais. Uma consequência dessa definição é que $U$ deve ter o vetor nulo para ser considerado subespaço.
+Um subespaço vetorial é um determinado subconjunto do espaço vetorial que cumpre todos os requisitos necessários para ser um espaço vetorial. Seja $\large V$ um espaço vetorial, $\large U \subseteq \mathbb V$ um subconjunto, $\large U$ é um subespaço vetorial se todas as operações que tornam $\large V$ um espaço vetorial válido também servem para $\large U$, são subespaços vetoriais. Uma consequência dessa definição é que $\large U$ deve ter o vetor nulo para ser considerado subespaço.
 
-- No $\mathbb R^2$, o conjunto $\{(x,y) \in \mathbb R ^2\ |\ x = y\}$ é um subespaço vetorial válido.[^1]
+- No $\mathbb R^2$, o conjunto $\large \{(x,y) \in \mathbb R ^2\ |\ x = y\}$ é um subespaço vetorial válido.[^1]
 
 ### Subespaços Triviais
-São determinados subespaços triviais aqueles que pode-se razoavelmente assumir a partir de qualquer espaço vetorial, são os subespaços triviais de qualquer espaço $\mathbb V$:
+São determinados subespaços triviais aqueles que pode-se razoavelmente assumir a partir de qualquer espaço vetorial, são os subespaços triviais de qualquer espaço $\large V$:
 $$\Large \begin{gather}
-\mathbb V &\{o\}
+ V &\{o\}
 \end{gather}$$
 
 ### Propriedades

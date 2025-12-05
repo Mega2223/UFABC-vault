@@ -43,21 +43,37 @@ $$\large P = \{V',E'\} \begin{gather}
 - É denotado $P^n$ um caminho com $n$ vértices.
 - $\large v_0$ e $\large v_k$ são ditos extremos do caminho. Os demais são ditos como vértices internos.
 
-### Distância
-A distância entre dois vértices $\large v, u \in V(G)$ é o caminho mínimo entre esses dois vértices, se não há um caminho entre os vértices $\large v$ e $\large u$ em $\large G$, dizemos que $\large \text{dist}_G(v,u) = \infty$.
-## Caminho Euleriano
+ O caminho pode ser notado em uma lista ordenada de seus vértices
+ $$\large P= \big\langle v_1,v_2,...,v_n \big\rangle$$
+### Distância e Caminho Mínimo
+O caminho mínimo entre dois vértices $\large v, u \in V(G)$ é um [[#caminho]] cujo primeiro elemento é $\large v$, o elemento final é $\large u$ e que minimiza o número de arcos. Encontrar o caminho mínimo entre dois vértices tem [[Complexidade Assintótica|complexidade de tempo]] linear $\large O(|V| + |E|)$ por meio da [[busca em profundidade]].
 
+A distância entre dois vértices $\large v, u \in V(G)$ é tamanho do caminho mínimo entre esses dois vértices, se não há um caminho entre os vértices $\large v$ e $\large u$ em $\large G$, dizemos que $\large \text{dist}_G(v,u) = \infty$.
+$$\large \text{dist}_G(u,v) = \delta _G (u,v) := \min_{P \subseteq G}(|u\leadsto v|) $$
+### Caminho Euleriano
 O caminho euleriano é o [[#caminho]] que passa por todos os arcos do digrafo. Se o caminho é euleriano e fechado, é denominado de caminho euleriano fechado.[^1] Um digrafo que tenha um caminho euleriano é dito digrafo euleriano.
-## Caminho Hamiltoniano
-
+### Caminho Hamiltoniano
 Um caminho hamiltoniano é um [[#caminho]] que passa por todos os vértices do grafo, ou seja, é um subgrafo que tem as propriedades de um caminho e que $\large V' = V$.
 
-Um caminho hamiltoniano que é um [[#ciclo]] é denominado circuito hamiltoniano.
-
-Um digrafo que possui algum caminho hamiltoniano é denominado digrafo hamiltoniano.
-## Ciclo
-
+Um caminho hamiltoniano que é um [[#ciclo]] é denominado circuito hamiltoniano. Um digrafo que possui algum caminho hamiltoniano é denominado digrafo hamiltoniano.
+### Ciclo
 Um ciclo (ou circuito) é um [[#caminho]] onde o ultimo vértice é um predecessor do primeiro. Um digrafo que não possui ciclo entre qualquer par de vértices é dito digrafo acíclico.
+
+## Digrafo Ponderado
+
+Um digrafo ponderado é um digrafo que possui uma [[Grafo#Coloração|coloração]] aos reais $\large w: E_G \to \mathbb R$. Dizemos que $\large f(e)$ é o peso ou o custo de $\large e$ dependendo do contexto.
+### Custo e Caminho Ótimo
+Seja $\large p = \langle v_1,v_2,...,v_n \rangle$ um [[#caminho]], dizemos que o custo de $\large P$ se dá por
+$$\large w(p):= \sum_{i=1}^{n-1} w(v_i,v_{i+1})$$
+O caminho ótimo entre dois vértices $\large v,w$ é o caminho de menor custo entre esses dois vértices
+$$\large \delta (v,w) := \min(w(p): u \stackrel p \leadsto v)$$
+Se não existe $\large p$ entre os vértices, $\large \delta (u,v) = + \infty$. Caso existam custos negativos, existe a possibilidade de existência de infinitos caminhos que indutivamente um é menos caro que o outro, assim não há verdadeiramente um caminho ótimo, nesse caso podemos dizer que $\large \delta(v,w) = -\infty$.
+
+Para digrafos com caminhos de custos positivos, o caminho ótimo pode ser encontrado em tempo linear $\large O(|V| + |E|)$ pelo [[algoritmo de dijkstra]].
+
+//TODO caminhos com custos negativos
+### Capacidade e Fluxo
+- [[Controle de Fluxo]]
 ## Propriedades
 
 ### Densidade

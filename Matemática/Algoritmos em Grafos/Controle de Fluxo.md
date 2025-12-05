@@ -13,7 +13,7 @@ Em um [[digrafo]] [[Digrafo#Digrafo Ponderado|ponderado]], o fluxo é uma forma 
 
 ## Rede de Fluxo
 
-Uma rede de fluxo é um digrafo $\large G$ onde para cada arco $\large(u,v) \in E(G)$ há uma coloração não negativa $\large c: E \to \mathbb R_{x \ge 0}$ (denominada capacidade). Ainda, para qualquer arco, seu arco complementar $\large(v,u)$ não está no grafo. Se $\large (v,u) \not \in E(G)$ então $\large c(v,u) = 0$.
+Uma rede de fluxo é um digrafo $\large G$ onde para cada arco $\large(u,v) \in E(G)$ há uma coloração não negativa $\large c: E \to \mathbb R_{x \ge 0} \cup \{\infty\}$ (denominada capacidade). Ainda, para qualquer arco, seu arco complementar $\large(v,u)$ não está no grafo. Se $\large (v,u) \not \in E(G)$ então $\large c(v,u) = 0$.
 
 Em nossa rede de fluxo, distinguimos dois vértices, $\large s \in V$ é a fonte e $\large t \in V$ é o destino, dizemos que a rede é conexa se $\large \forall v \in V: s \leadsto v \leadsto t$.
 

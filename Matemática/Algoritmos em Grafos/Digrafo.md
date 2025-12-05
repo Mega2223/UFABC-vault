@@ -85,11 +85,15 @@ Um digrafo com uma densidade elevada é dito denso. Um digrafo com densidade igu
 Um digrafo é dito fracamente conexo (ou somente conexo) quando o grafo produzido a partir da substituição dos arcos do digrafo por vértices é [[Grafo#Conectividade|conexo]].
 ### Conectividade Forte
 Um digrafo é dito fortemente conexo se para cada par de vértices existe algum [[#caminho|caminho]] entre os vértices.
+### Corte de Entrada
+O corte de entrada de algum $\large v \in V(G)$ é o [[corte]] contendo todos os arcos $\large e$ que terminam em $\large v$ $$\large \text{ge}(v) = \{ e \in E(G)/ t(e) = v \}$$
 ### Grau de Entrada
-O grau de saída de algum $v \in V(G)$ é o número de arcos que começam em $v$
+O grau de saída de algum $\large v \in V(G)$ é o número de arcos que começam em $\large v$, ou seja, o tamanho do [[#corte de entrada]] de $\large v$
 $$\large \deg^+ (v \in V(G)) := |\{e \in E(G) / e_a =v\}|$$
+### Corte de Saída
+O corte de entrada de algum $\large v \in V(G)$ é o [[corte]] contendo todos os arcos $\large e$ que terminam em $\large v$ $$\large \text{gs}(v) = \{ e \in E(G)/ s(e) = v \}$$
 ### Grau de Saída
-O grau de saída de algum $v \in V(G)$ é o número de arcos que terminam em $v$
+O grau de saída de algum $\large v \in V(G)$ é o número de arcos que terminam em $\large v$
 $$\large \deg^- (v \in V(G)) := |\{e \in E(G) / e_b = v\}|$$
 ### Fórmula da Soma dos Graus
 A fórmula da soma dos graus dá uma relação entre o [[#grau de saída]] e [[#Grau de Entrada|de entrada]] de todos os vértices de um grafo.

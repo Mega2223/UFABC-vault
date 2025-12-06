@@ -34,3 +34,10 @@
       end [shape=Msquare];
     }
 ```
+
+```tikz
+\begin{tikzcd}
+A \arrow[r, "f"] \arrow[rd, "g \circ f"] & B \arrow[d, "g"] \\
+                                         & C               
+\end{tikzcd}
+```

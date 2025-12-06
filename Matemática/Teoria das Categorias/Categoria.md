@@ -35,7 +35,24 @@ Um morfismo onde $A$ e $B$ coincidem é chamado de endomorfismo.
 
 ### Diagrama
 Um determinado morfismo $f: A \to B$ pode ser representado por meio de um diagrama:
-$$\large A \xrightarrow{f} B $$
+$$\Huge A \xrightarrow{f} B $$
+
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+
+\tikzset{LA/.style = {draw=black, % just to demonstrate, where LA is used
+                      line width=#1, -{Straight Barb[length=3pt]}},
+         LA/.default=1pt
+        }
+\LARGE
+\begin{tikzcd}
+A \arrow[r, "f", LA] \arrow[LA, rd, "g \circ f", bend right] & B \arrow[LA, d, "g"] \\
+                                                     & C               
+\end{tikzcd}
+\end{document}
+```
+
 ### Isomorfismo e Inversão
 Um morfismo $f: A \to B$ é dito um isomorfismo quando existe algum morfismo $g: B \to A$ em $\mathcal C$ tal que
 $$\large g \circ f = 1_A\ \land f \circ g = 1_B$$

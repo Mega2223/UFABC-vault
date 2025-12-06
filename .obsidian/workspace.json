@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
+                "file": "Matemática/Teoria das Categorias/Categoria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Emparelhamentos"
+              "title": "Categoria"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Digrafo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,19 +196,31 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "ee0003529c487aa0",
+  "active": "cf51518a86570fb9",
   "lastOpenFiles": [
+    "Matemática/Teoria das Categorias/Functor.md",
+    "Matemática/Teoria das Categorias/Categoria.md",
+    "Assets/Playground.md",
+    "Assets/Pasted image 20251015193232.png",
+    "Assets/Quantas Línguas dá pra compilar no Obsidian.md",
+    "Assets/Untitled.circuit-sketcher",
+    "Assets/TesteGraf.md",
+    "Assets/Vetor.png",
+    "Assets/Untitled Diagram.svg",
+    "Assets/Pasted image 20241022235314.png",
+    "Assets/FF NOR S-R.png",
+    "Assets/FF nOR CT.png",
+    "Assets/DAC2.drawio.png",
+    "Assets/Análise de Sensibilidade (old).md",
     "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
+    "Matemática/Algoritmos em Grafos/Digrafo.md",
     "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "Matemática/Algoritmos em Grafos/Grafo.md",
     "Matemática/Algoritmos em Grafos/Árvore.md",
     "Matemática/Algoritmos em Grafos/Bipartição.md",
     "Matemática/Algoritmos em Grafos/Busca em Largura.md",
     "Matemática/Algoritmos em Grafos/Busca em Profundidade.md",
-    "Matemática/Teoria das Categorias/Categoria.md",
     "Computação/Comunicação e Redes/Algoritmo de Dijkstra.md",
-    "Matemática/Algoritmos em Grafos/Digrafo.md",
-    "Matemática/Teoria das Categorias/Functor.md",
     "Matemática/Algoritmos em Grafos/Corte.md",
     "Matemática/Álgebra Linear/Hiperplano.md",
     "Matemática/Álgebra Linear/Espaço Vetorial.md",
@@ -220,16 +231,8 @@
     "Matemática/Álgebra Linear/Estrutura Algébrica.md",
     "Computação/Redes de Computador/Protocolo HDLC.md",
     "Computação/Programação Funcional/Mônada.md",
-    "Matemática/Probabilidade e estatística/Variáveis Aleatórias Multidimensionais.md",
-    "Computação/Programação Funcional/Scala.md",
-    "Matemática/Otimização Linear/Modelo Linear.md",
-    "Matemática/Matriz.md",
-    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
     "Humanas/Ciência, Tecnologia e Sociedade",
     "Humanas/Bases Epistemológicas da Ciência Moderna",
-    "Assets/FF NOR S-R.png",
-    "Assets/FF nOR CT.png",
-    "Assets/Pasted image 20251015193232.png",
     "Humanas/Bases Epistemológicas da Ciência Moderna",
     "Matemática/Algoritmos em Grafos"
   ]

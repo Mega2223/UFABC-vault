@@ -34,8 +34,23 @@
               "icon": "lucide-file",
               "title": "Digrafo"
             }
+          },
+          {
+            "id": "dab29b96a16ef7be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Teoria das Categorias/Functor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Functor"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,10 +211,11 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "cf51518a86570fb9",
+  "active": "dab29b96a16ef7be",
   "lastOpenFiles": [
-    "Matemática/Teoria das Categorias/Functor.md",
+    "Matemática/Algoritmos em Grafos/Digrafo.md",
     "Matemática/Teoria das Categorias/Categoria.md",
+    "Matemática/Teoria das Categorias/Functor.md",
     "Assets/Playground.md",
     "Assets/Pasted image 20251015193232.png",
     "Assets/Quantas Línguas dá pra compilar no Obsidian.md",
@@ -213,7 +229,6 @@
     "Assets/DAC2.drawio.png",
     "Assets/Análise de Sensibilidade (old).md",
     "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
-    "Matemática/Algoritmos em Grafos/Digrafo.md",
     "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "Matemática/Algoritmos em Grafos/Grafo.md",
     "Matemática/Algoritmos em Grafos/Árvore.md",

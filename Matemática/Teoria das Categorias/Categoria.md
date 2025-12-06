@@ -12,7 +12,7 @@ Uma categoria é uma coleção de dois tipos de objetos: os objetos da categoria
 - Para cada morfismo $f$ existe um domínio $\text{dom} f$ e um contradomínio $\text{cod} f$
 - Sejam $f,g$ morfismos, $f:A\to B, g: B\to C$, existe uma composição $g \circ f: A \to C$
 - Sejam $f,g,h$ quaisquer morfismos, vale a igualdade $(h\circ g) \circ f = h\circ(g\circ f)$ 
-- Para qualquer objeto $A$ existe uma função identidade $1_A: A \to A$ onde para uma determinada $f: A \to B$ temos que $f \circ 1_A = 1_B \circ f = f$ 
+- Para qualquer objeto $A$ existe um morfismo identidade $1_A: A \to A$ onde para qualquer outro functor $f: A \to B$ temos que $f \circ 1_A = 1_B \circ f = f$ 
 
 São exemplos válidos de categoria:
 - [[Função|Funções]] em [[conjunto|conjuntos]]

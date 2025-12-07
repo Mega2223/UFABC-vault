@@ -54,8 +54,8 @@ $$\large
 \det(M) :=
 \Bigg \{
 \begin{gather}
-a_{ij} &A_{ij} = \emptyset \\ 
-\sum_{j=1}^n (-1)^{i+j} a_{ij} |A_{ij}|
+a_{11} &A_{ij} = \emptyset \\ 
+\sum_{j=1}^n (-1)^{i+j} a_{ij} \det (A_{ij})
 
 
 \end{gather}$$

@@ -103,6 +103,7 @@ Se vale a propriedade $\large \forall v \in V(G): \deg ^+(v) = \deg ^-(v)$, o di
 ## Subgrafo
 
 Um digrafo $G'$ é dito subgrafo de $G$ quando todos os vértices e arcos de $G'$ também fazem parte de $G$, $G$ é dito o supergrafo de $G'$.
+
 $$\large G' \subset G \iff E(G') \subseteq E(G) \land V(G') \subseteq V(G)$$
 ## Estruturas Complementares
 

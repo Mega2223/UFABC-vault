@@ -16,10 +16,9 @@ Uma categoria é uma coleção de dois tipos de objetos: os objetos da categoria
 
 São exemplos válidos de categoria:
 - [[Função|Funções]] em [[conjunto|conjuntos]]
-- [[Espaço Vetorial|Espaços vetoriais]]
-- [[Grafo|Grafos]] e [[digrafo|digrafos]], com seus vértices como objetos e arestas como morfismos
-- Subconjuntos contínuos de $\mathbb R$ e funções reais
-
+- [[Espaço Vetorial|Espaços vetoriais]] e [[Transformação Linear|transformações lineares]]
+- [[Grafo|Grafos]], [[digrafo|digrafos]] e [[pseudografo|pseudografos]], com seus vértices como objetos e arcos como morfismos
+- Subconjuntos contínuos de $\large \mathbb R$ e funções reais
 ## Terminologia
 
 - Uma categoria $\mathcal C$ é considerada pequena se $\text{Ob}_{\mathcal C}$ e $\text{Mor}_{\mathcal C}$ são [[Conjunto|conjuntos]]. Caso o contrário ela é dita grande.
@@ -34,7 +33,7 @@ $$
 Um morfismo onde $A$ e $B$ coincidem é chamado de endomorfismo.
 
 ### Diagrama
-Um determinado morfismo $f: A \to B$ pode ser representado por meio de um diagrama:
+Uma categoria pode ser representada por meio de um diagrama onde objetos são figuras e morfismos setas:
 $$\Huge A \xrightarrow{f} B $$
 
 ```tikz

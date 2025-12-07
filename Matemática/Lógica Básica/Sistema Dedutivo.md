@@ -12,5 +12,8 @@ O sistema dedutivo que só produz fórmulas que sejam consequência da hipótese
 
 Um sistema dedutivo que consegue inferir toda as consequências de uma determinada teoria é denominado completo, ou seja, sempre teremos $\Gamma \vdash A$ quando $\Gamma \vDash A$.
 
-## Axiomatização
+São sistemas dedutivos:
+- O [[sistema axiomático]]
+- O [[método de dedução natural]]
+- 
 

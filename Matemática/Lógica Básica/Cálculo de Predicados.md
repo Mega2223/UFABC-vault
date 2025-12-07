@@ -18,12 +18,14 @@ Todas as regras e símbolos da [[linguagem proposicional]] (átomos e operaçõe
 
 Temos que a relação de uma constante individual e um predicado unário é dada como
 $$\Large Pc$$
-$P$ um predicado qualquer e $c$ uma constante individual qualquer, uma união de constantes individuais e um predicado são essencialmente [[Linguagem Proposicional#Fórmulas|uma fórmula proposicional]]. Essas expressões são denominadas fórmulas. Fórmulas podem ter várias constantes individuais, por exemplo $\large Fxy$.
+$\large P$ um predicado qualquer e $\large c$ uma constante individual qualquer, uma união de constantes individuais e um predicado são essencialmente [[Linguagem Proposicional#Fórmulas|uma fórmula proposicional]]. Essas expressões são denominadas fórmulas. Fórmulas podem ter várias constantes individuais, por exemplo $\large Fxy$.
 
 ## Quantificadores
 
 São operadores que visam afirmar alguma propriedade em torno de algum universo, são quantificadores $\large \forall$ (quantificador universal, "para todo") e $\large \exists$ (quantificador existencial, "há algum"). Eles possuem um escopo interno que abrange as variáveis que operam, por exemplo:
 $$\begin{gather}
-\text{"Alguém é um filósofo"} \longrightarrow \large \exists x Fx
+\text{"Alguém é um filósofo"} \longrightarrow \large \exists x Fx \\ \\
+\text{"Todo filósofo é humano"} \longrightarrow \large \forall x  Fx \to Hx
 \end{gather}
 $$
+### Ramificações de Quantificadores

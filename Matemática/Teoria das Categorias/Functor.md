@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Um functor é um mapeamento entre [[Categoria|categorias]], preservando domínios, contradomínios, identidades e composições. Formalmente, sejam $\large A$ e $\large B$ categorias, um functor é uma transformação $\large F: C \to D$ tal que
+Um functor é um [[Função|mapeamento]] entre [[Categoria|categorias]], preservando domínios, contradomínios, identidades e composições. Formalmente, sejam $\large A$ e $\large B$ categorias, um functor é uma transformação $\large F: C \to D$ tal que
 
 $$\large \begin{gather}
 F(f: A \to B) = F(f): F(A) \to F(B) \\ \\

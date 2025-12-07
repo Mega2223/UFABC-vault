@@ -37,4 +37,4 @@ De forma geral, temos que functores são morfismos que mapeiam morfismos e objet
 ### Endofunctor
 - Um functor que coincidem sua origem[^1] e destino é chamado um endofunctor.
 
-[^1]: Ou seja, ele mapeia para a mesma categoria, não necessariamente é um functor identidade.
+[^1]: Ou seja, ele mapeia para a mesma categoria, não necessariamente é um functor identidade (ex $f(x) = x^3$).

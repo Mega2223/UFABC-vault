@@ -51,7 +51,7 @@ O caminho mínimo entre dois vértices $\large v, u \in V(G)$ é um [[#caminho]]
 A distância entre dois vértices $\large v, u \in V(G)$ é tamanho do caminho mínimo entre esses dois vértices, se não há um caminho entre os vértices $\large v$ e $\large u$ em $\large G$, dizemos que $\large \text{dist}_G(v,u) = \infty$.
 $$\large \text{dist}_G(u,v) = \delta _G (u,v) := \min_{P \subseteq G}(|u\leadsto v|) $$
 ### Caminho Euleriano
-O caminho euleriano é o [[#caminho]] que passa por todos os arcos do digrafo. Se o caminho é euleriano e fechado, é denominado de caminho euleriano fechado.[^1] Um digrafo que tenha um caminho euleriano é dito digrafo euleriano.
+O caminho euleriano é o [[#caminho]] que passa por todos os arcos do digrafo. Se o caminho é euleriano é fechado, é denominado de caminho euleriano fechado.[^1] Um digrafo que tenha um caminho euleriano é dito digrafo euleriano.
 ### Caminho Hamiltoniano
 Um caminho hamiltoniano é um [[#caminho]] que passa por todos os vértices do grafo, ou seja, é um subgrafo que tem as propriedades de um caminho e que $\large V' = V$.
 
@@ -61,13 +61,13 @@ Um ciclo (ou circuito) é um [[#caminho]] onde o ultimo vértice é um predecess
 
 ## Digrafo Ponderado
 
-Um digrafo ponderado é um digrafo que possui uma [[Grafo#Coloração|coloração]] aos reais $\large w: E_G \to \mathbb R$. Dizemos que $\large f(e)$ é o peso ou o custo de $\large e$ dependendo do contexto.
+Um digrafo ponderado é um digrafo que possui uma [[Grafo#Coloração|coloração]] aos reais $\large w: E_G \to \mathbb R$. Dizemos que $\large f(e)$ é o peso, capacidade ou o custo de $\large e$ dependendo do contexto.
 ### Custo e Caminho Ótimo
 Seja $\large p = \langle v_1,v_2,...,v_n \rangle$ um [[#caminho]], dizemos que o custo de $\large P$ se dá por
 $$\large w(p):= \sum_{i=1}^{n-1} w(v_i,v_{i+1})$$
 O caminho ótimo entre dois vértices $\large v,w$ é o caminho de menor custo entre esses dois vértices
 $$\large \delta (v,w) := \min(w(p): u \stackrel p \leadsto v)$$
-Se não existe $\large p$ entre os vértices, $\large \delta (u,v) = + \infty$. Caso existam custos negativos, existe a possibilidade de existência de infinitos caminhos que indutivamente um é menos caro que o outro, assim não há verdadeiramente um caminho ótimo, nesse caso podemos dizer que $\large \delta(v,w) = -\infty$.
+Se não existe $\large p$ entre os vértices, $\large \delta (u,v) = + \infty$. Caso existam custos negativos, existe a possibilidade de existência de infinitos caminhos onde indutivamente um é menos caro que o outro (ou seja, há algum circuito com custo negativo), assim não há verdadeiramente um caminho ótimo, nesse caso podemos dizer que $\large \delta(v,w) = -\infty$.
 
 Para digrafos com caminhos de custos positivos, o caminho ótimo pode ser encontrado em tempo linear $\large O(|V| + |E|)$ pelo [[algoritmo de dijkstra]].
 
@@ -88,13 +88,13 @@ Um digrafo é dito fortemente conexo se para cada par de vértices existe algum 
 ### Corte de Entrada
 O corte de entrada de algum $\large v \in V(G)$ é o [[corte]] contendo todos os arcos $\large e$ que terminam em $\large v$ $$\large \text{ge}(v) = \{ e \in E(G)/ t(e) = v \}$$
 ### Grau de Entrada
-O grau de saída de algum $\large v \in V(G)$ é o número de arcos que começam em $\large v$, ou seja, o tamanho do [[#corte de entrada]] de $\large v$
-$$\large \deg^+ (v \in V(G)) := |\{e \in E(G) / e_a =v\}|$$
+O grau de saída de algum $\large v \in V(G)$ é o número de arcos que terminam em $\large v$, ou seja, o tamanho do [[#corte de entrada]] de $\large v$
+$$\large \deg^+ (v \in V(G)) := |\{e \in E(G) / t(e) =v\}|$$
 ### Corte de Saída
-O corte de entrada de algum $\large v \in V(G)$ é o [[corte]] contendo todos os arcos $\large e$ que terminam em $\large v$ $$\large \text{gs}(v) = \{ e \in E(G)/ s(e) = v \}$$
+O corte de entrada de algum $\large v \in V(G)$ é o [[corte]] contendo todos os arcos $\large e$ que começam em $\large v$ $$\large \text{gs}(v) = \{ e \in E(G)/ s(e) = v \}$$
 ### Grau de Saída
-O grau de saída de algum $\large v \in V(G)$ é o número de arcos que terminam em $\large v$
-$$\large \deg^- (v \in V(G)) := |\{e \in E(G) / e_b = v\}|$$
+O grau de saída de algum $\large v \in V(G)$ é o número de arcos que começam em $\large v$
+$$\large \deg^- (v \in V(G)) := |\{e \in E(G) / s(e) = v\}|$$
 ### Fórmula da Soma dos Graus
 A fórmula da soma dos graus dá uma relação entre o [[#grau de saída]] e [[#Grau de Entrada|de entrada]] de todos os vértices de um grafo.
 $$\large \sum_{v\in V(G)} \deg ^+(v) = \sum_{v\in V(G)}\deg^-(v)=|E(G)|$$

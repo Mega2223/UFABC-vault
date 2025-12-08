@@ -28,4 +28,13 @@ $$\begin{gather}
 \text{"Todo filósofo é humano"} \longrightarrow \large \forall x  Fx \to Hx
 \end{gather}
 $$
-### Ramificações de Quantificadores
+Existe uma relação inversa entre os quantificadores, onde afirmar que existe algum objeto cumpre alguma qualidade é a mesma coisa que negar que todo objeto não tem aquela qualidade.
+$$\large
+\begin{gather}
+\forall x Px \vdash \lnot \exists x \lnot Px \\
+\exists x Px \vdash \lnot \forall x \lnot Px
+\end{gather}$$
+## Operador de Igualidade
+
+## Ramificações do CQC
+

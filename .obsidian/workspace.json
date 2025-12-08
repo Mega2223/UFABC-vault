@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Lógica Básica/Cálculo de Predicados.md",
+                "file": "Matemática/Lógica Básica/Tablôs Semânticos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cálculo de Predicados"
+              "title": "Tablôs Semânticos"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Sistema Dedutivo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,10 +196,11 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "b3f90c76f9e7a789",
+  "active": "f5c8a8315d2df9cc",
   "lastOpenFiles": [
-    "Matemática/Lógica Básica/Cálculo de Predicados.md",
     "Matemática/Lógica Básica/Sistema Dedutivo.md",
+    "Matemática/Lógica Básica/Tablôs Semânticos.md",
+    "Matemática/Lógica Básica/Cálculo de Predicados.md",
     "Matemática/Matriz.md",
     "Matemática/Teoria das Categorias/Categoria.md",
     "Matemática/Teoria das Categorias/Functor.md",
@@ -232,7 +232,6 @@
     "Matemática/Álgebra Linear/Produto Interno e Norma.md",
     "Matemática/Álgebra Linear/Transformação Linear.md",
     "Matemática/Álgebra Linear/Sistema Linear.md",
-    "Matemática/Álgebra Linear/Combinação Linear.md",
     "Humanas/Ciência, Tecnologia e Sociedade",
     "Humanas/Bases Epistemológicas da Ciência Moderna",
     "Humanas/Bases Epistemológicas da Ciência Moderna",

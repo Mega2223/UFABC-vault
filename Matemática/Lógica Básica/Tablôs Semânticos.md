@@ -39,17 +39,24 @@ F A \to B & TA & FB &&&  T A  \to   B & FA & TB\\
 
 Expansões de ramo único devem ser priorizadas para minimizar a complexidade do tablô.
 ### CQC
-No sistema do CQC, temos 3 operadores adicionais com regras de expansão mais complexas, para algum sujeito $\large \omega$ fazemos a substituição
+No sistema do CQC, temos 3 operadores adicionais com regras de expansão mais complexas, para qualquer sujeito $\large \omega$ fazemos a substituição
 
 $$\large
 \begin{gather}
-T\forall x Px \over TP\omega && T \exists x Px \over T P \omega 
-\end{gather}$$
+T\forall x Px \over TP\omega &&  \large \checkmark{T \exists x Px \over T P \omega }\end{gather}$$
 
-Ainda para as fórmulas marcadas com $\large F$, podemos fazer a substituição para uma das fórmulas acima
+Ainda para as fórmulas do CQC marcadas com $\large F$, podemos fazer a substituição para uma das fórmulas acima
+
 $$\large
 \begin{gather}
 F \forall x P x \over T \exists x \lnot Px && F \exists x P x \over T \forall x \lnot Px
 \end{gather}$$
 
-Para a primeira expansão, nunca a marcamos com $\large \checkmark$ pois sempre vão existir sujeitos para expandir, para a segunda expansão só usamos sujeitos que já aparecem em ramos anteriores, eventualmente acabando com todos os sujeitos disponíveis.
+Para uma expansão existencial de tipo $\large T \forall x Px$, nunca a marcamos com $\large \checkmark$ pois sempre vão existir sujeitos para expandir, esse qualificador aceita sujeitos que já estão no tablô e aqueles que não estão. Para um existencial positivo, só colocamos um sujeito que ainda não está no tablô (o nosso hipotético sujeito que vale $\large Px$) e marcamos a fórmula como $\large \checkmark$.
+
+Ainda para o predicado de igualdade, temos que ele funciona a partir de [[Linguagem Proposicional#Substituição|substituições]], que são as mesmas para ambos os casos, seja $\large B$ uma fórmula onde $\large t$ ocorre, temos que
+$$\large
+\begin{gather}
+{{T\ t_1=t_2 \over T\ A[t_1/t_2]}} &&
+{{F\ t_1=t_2 \over F\ A[t_1/t_2]}} &&
+F\ t \neq t \over  \times\end{gather}$$

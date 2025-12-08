@@ -14,11 +14,11 @@ O cálculo de predicados de primeira ordem é uma extensão da [[linguagem propo
 Todas as regras e símbolos da [[linguagem proposicional]] (átomos e operações) valem, além dessas, temos:
 - As constantes individuais, que designam indivíduos na língua, estas normalmente são notadas por $\large a, b, ..., t, a_1, b_1, ...$ (pois letras a partir de $\large p$ já usamos para preposições).
 - As variáveis individuais, que não designam indivíduos específicos, mas permitem que façamos generalizações no cálculo, em vez de se referirem a algum algo elas se referem a algum domínio de possíveis constantes individuais, estas são designadas por $\large u,v,w,x,y,z,u_1,v_1,...$, gramaticamente se comportam da mesma forma que constantes individuais.
-- Predicados unários (de primeiro grau), que são sentenças declarativas em relação a algum aspecto de uma constante / variável individual. São denominadas $A, B, ..., T, A_1, B_1, ...$
+- Predicados, que são sentenças declarativas em relação a algum aspecto de uma constante / variável individual. São denominadas $A, B, ..., T, A_1, B_1, ...$
 
 Temos que a relação de uma constante individual e um predicado unário é dada como
 $$\Large Pc$$
-$\large P$ um predicado qualquer e $\large c$ uma constante individual qualquer, uma união de constantes individuais e um predicado são essencialmente [[Linguagem Proposicional#Fórmulas|uma fórmula proposicional]]. Essas expressões são denominadas fórmulas. Fórmulas podem ter várias constantes individuais, por exemplo $\large Fxy$.
+$\large P$ um predicado qualquer e $\large c$ uma constante individual qualquer, uma união de constantes individuais e um predicado são essencialmente [[Linguagem Proposicional#Fórmulas|uma fórmula proposicional]]. Fórmulas atômicas podem ser representada por um predicado sem constantes (de grau 0). Essas expressões são denominadas fórmulas. Fórmulas podem ter várias constantes individuais, por exemplo $\large Fxy$.
 
 ## Quantificadores
 
@@ -28,7 +28,7 @@ $$\begin{gather}
 \text{"Todo filósofo é humano"} \longrightarrow \large \forall x  Fx \to Hx
 \end{gather}
 $$
-Existe uma relação inversa entre os quantificadores, onde afirmar que existe algum objeto cumpre alguma qualidade é a mesma coisa que negar que todo objeto não tem aquela qualidade.
+Existe uma relação inversa entre os quantificadores, onde afirmar que existe algum objeto cumpre alguma qualidade é a mesma coisa que negar que todo objeto não tem aquela qualidade. 
 $$\large
 \begin{gather}
 \forall x Px \vdash \lnot \exists x \lnot Px \\
@@ -36,5 +36,7 @@ $$\large
 \end{gather}$$
 ## Operador de Igualidade
 
+O operador de igualdade é um predicado binário que relaciona algum individuo com ele mesmo e nenhum outro, ou seja, só valora positivamente quando ambos seus indivíduos são o mesmo. A notação do predicado é diferente dos demais, tipicamente colocamos cada individuo de um lado
+$$\Large{ =_{xy} \over x=y}$$
 ## Ramificações do CQC
 

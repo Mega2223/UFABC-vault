@@ -6,10 +6,7 @@ authors: Júlio César
 ---
 ## Definição
 
-É uma estrutura de dados que alinha os dados de forma ordenada sem repetições, cada um tendo um único índice.
-## Array Dinâmica
-
-É uma lista de bits contínua de acesso aleatório, como arrays têm um valor máximo, caso seja colocada uma variável além do tamanho atual da array, deve-se criar uma nova array com capacidade aumentada. A array dinâmica possui uma boa rapidez de consulta (uma vez que sabendo o tamanho da primitiva e o ponteiro inicial podemos inferir o local da variável sendo consultada) a custo de mais dificuldades de gerenciamento de memória.
+A lista é o elemento computacional que simula uma sequência ordenada, é uma estrutura de dados que alinha os dados de forma ordenada sem repetições, cada um tendo um único índice, a lista é uma estrutura que provém uma ordenação intrínseca aos dados.
 ### Propriedades
 Dado uma array dinâmica com $n$ elementos, temos que seu [[Complexidade Assintótica#Big-$O$|tempo]] é de
 $$\begin{gather}
@@ -22,11 +19,12 @@ O(1) & O(n) &O(n)  & O(1) \lor O(n)
 É uma estrutura de dados dinâmica em que temos um pointer para algum elemento inicial da lista, e cada elemento possui um outro pointer para o seguinte elemento, geralmente o último elemento da lista aponta para `NULL`.
 ### Propriedades
 Dado uma lista ligada com $n$ elementos, temos que seu [[Complexidade Assintótica#Big-$O$|tempo]] é de
-$$\begin{gather}
+$$\large\begin{gather}
 \text{Peek} & \text{Mutate (Começo)} & \text {Mutate(Meio)} & \text{Mutate (Fim)} &
 \\
 O(n) & O(1) & O(n)& \begin{cases} O(n) &\text{n conhecido} \\ O(1)& O(n) \text{caso contrário}\end{cases} 
 \end{gather}$$
+//TODO faz isso verticalmente
 ### Lista Duplamente Ligada
 É uma lista ligada onde cada elemento também têm conhecimento do elemento anterior da lista, assim pode-se andar a lista em 2 sentidos.
 ### Lista Ligada Circular

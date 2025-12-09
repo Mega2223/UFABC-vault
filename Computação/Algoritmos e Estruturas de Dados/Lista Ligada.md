@@ -1,12 +1,7 @@
 ---
 tags:
   - computação
-  - algoritmo
   - incompleto
+aliases:
 authors: Júlio César
 ---
-```csharp
-void main(){
-
-}
-```

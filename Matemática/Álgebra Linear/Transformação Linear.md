@@ -24,4 +24,4 @@ O kernel é um [[Espaço Vetorial#Subespaço Vetorial|subespaço]] de $\large V$
 ### Nulidade e Posto
 A nulidade de uma transformação linear é a dimensionalidade do [[#Núcleo|núcleo]] da transformação. O posto de uma transformação linear é a dimensionalidade da [[Função#Imagem|imagem]] da transformação. Temos que, em $\large T:U\to V$
 $$\large \dim (U) = \dim(\ker(T)) + \dim(\text{Im}(T))$$
-Logicamente temos que se $\large T$ for um [[#Isomorfismo Entre Espaços|isomorfismo]], o kernel será um subespaço trivial de $\large V$ com dimensão 0.
+Logicamente temos que se $\large T$ for um [[#Isomorfismo Entre Espaços|isomorfismo]], o kernel será o subespaço trivial $\large\{0\} \in V$ com dimensão 0.

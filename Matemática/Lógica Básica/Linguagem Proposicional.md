@@ -28,7 +28,7 @@ $$
 
 São as fórmulas atômicas da linguagem proposicional:
 - $\lnot$ "Não", conectivo unário. Ex: $\lnot\ a$ 
-- $\implies$ "Implica", conectivo binário. Ex: $a \implies b$
+- $\rightarrow$ "Implica", conectivo binário. Ex: $a \rightarrow b$
 - $\land$ "E", conectivo binário. Ex: $a \land b$
 - $\lor$ "Ou", conectivo binário. Ex: $a \lor b$
 - $(\ )$ Parênteses, que são os únicos elementos de pontuação.[^1]
@@ -39,12 +39,12 @@ Fórmulas são aninhamentos de [[#Fórmulas Atômicas|operações proposicionais
 $$\Large\begin{gather}
 \mathcal P \subseteq \mathcal L_\text{LP} \\ \\
 
-A \in \mathcal L_\text{LP} \implies \lnot A \in \mathcal L_\text{LP} \\ \\
-(A,B) \in \mathcal L_\text{LP} \implies 
+A \in \mathcal L_\text{LP} \rightarrow \lnot A \in \mathcal L_\text{LP} \\ \\
+(A,B) \in \mathcal L_\text{LP} \rightarrow 
 \begin{cases}
 A \land B &\in \mathcal L_\text{LP}\\
 A \lor B &\in \mathcal L_\text{LP}\\
-A \implies B &\in \mathcal L_\text{LP}
+A \rightarrow B &\in \mathcal L_\text{LP}
 \end{cases}\\
 \end{gather}$$
 
@@ -58,7 +58,7 @@ $$\large \text{subf}(A \in \mathcal L_\text{LP}) :=
 \{\lnot A\} \cup \text{subf}(B) & A = \lnot B \\
 \{B \land C\} \cup \text{subf(B)} \cup \text{subf(C)} & A = B \land C \\
 \{B \lor C\} \cup \text{subf(B)} \cup \text{subf(C)} & A = B \lor C \\
-\{B \implies C\} \cup \text{subf(B)} \cup \text{subf(C)} & A = (B \implies C)
+\{B \rightarrow C\} \cup \text{subf(B)} \cup \text{subf(C)} & A = (B \rightarrow C)
 \end{cases}
 $$
 ## Tamanho
@@ -68,7 +68,7 @@ $$\large
 |A|= \begin{cases}
 1 & A \in \mathcal P \\
 1 + |B| & A = \lnot B \\
-1 + |B| + |C| & A= |B \circ C| & \circ \in \{\land,\lor,\implies\}
+1 + |B| + |C| & A= |B \circ C| & \circ \in \{\land,\lor,\rightarrow\}
 \end{cases}
 $$
 
@@ -83,7 +83,7 @@ V(A) = 1 \iff
 V(B) = 0 & A = \lnot B \\
 V(B) =1 \land V(C) = 1 & A = B \land C \\
 V(B) =1 \lor V(C) = 1 & A = B \lor C \\
-V(B) =0 \lor V(C) = 1 & A = B \implies C
+V(B) =0 \lor V(C) = 1 & A = B \rightarrow C
 \end{cases}
 \end{gather}
 $$

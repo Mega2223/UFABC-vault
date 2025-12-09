@@ -4,6 +4,9 @@ tags:
   - incompleto
   - matemática
   - lógica
+aliases:
+  - cqc
+  - sistema cqc
 ---
 ## Definição
 
@@ -14,7 +17,7 @@ O cálculo de predicados de primeira ordem é uma extensão da [[linguagem propo
 Todas as regras e símbolos da [[linguagem proposicional]] (átomos e operações) valem, além dessas, temos:
 - As constantes individuais, que designam indivíduos na língua, estas normalmente são notadas por $\large a, b, ..., t, a_1, b_1, ...$ (pois letras a partir de $\large p$ já usamos para preposições).
 - As variáveis individuais, que não designam indivíduos específicos, mas permitem que façamos generalizações no cálculo, em vez de se referirem a algum algo elas se referem a algum domínio de possíveis constantes individuais, estas são designadas por $\large u,v,w,x,y,z,u_1,v_1,...$, gramaticamente se comportam da mesma forma que constantes individuais.
-- Predicados, que são sentenças declarativas em relação a algum aspecto de uma constante / variável individual. São denominadas $A, B, ..., T, A_1, B_1, ...$
+- Predicados, que são sentenças declarativas em relação a algum aspecto de uma constante / variável individual. São denominadas $\large A, B, ..., T, A_1, B_1, ...$
 
 Temos que a relação de uma constante individual e um predicado unário é dada como
 $$\Large Pc$$
@@ -38,3 +41,4 @@ $$\large
 
 O operador de igualdade é um predicado binário que relaciona algum individuo com ele mesmo e nenhum outro, ou seja, só valora positivamente quando ambos seus indivíduos são o mesmo. A notação do predicado é diferente dos demais, tipicamente colocamos cada individuo de um lado
 $$\Large{ =_{xy} \over x=y}$$
+Embora em tese seja um predicado como qualquer outro, o fato de conhecermos a propriedade da identidade possibilita fazer [[Tablôs Semânticos#CQC|deduções]] sobre o comportamento deste predicado, notoriamente que para um grupo de fórmulas $\large A_x, B_y, x=y$ então $\large B_x$.

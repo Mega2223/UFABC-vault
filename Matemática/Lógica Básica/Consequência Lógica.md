@@ -10,4 +10,4 @@ A consequência lógica é uma relação de garantia de valoração entre duas f
 $$\large
 A\vDash B
 $$
-Isso não implica necessariamente que $A$ seja consequência lógica de $B$, por exemplo, a fórmula $p \implies q$ é uma consequência lógica de $p \lor r \implies q$, mas o inverso não é necessariamente verdade.
+Isso não implica necessariamente que $A$ seja consequência lógica de $B$, por exemplo, a fórmula $\large p \to q$ é uma consequência lógica de $\large p \lor r \to q$, mas o inverso não é necessariamente verdade.

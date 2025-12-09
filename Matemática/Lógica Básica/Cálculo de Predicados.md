@@ -38,5 +38,3 @@ $$\large
 
 O operador de igualdade é um predicado binário que relaciona algum individuo com ele mesmo e nenhum outro, ou seja, só valora positivamente quando ambos seus indivíduos são o mesmo. A notação do predicado é diferente dos demais, tipicamente colocamos cada individuo de um lado
 $$\Large{ =_{xy} \over x=y}$$
-## Ramificações do CQC
-

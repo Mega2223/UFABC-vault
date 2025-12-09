@@ -15,5 +15,5 @@ Um sistema dedutivo que consegue inferir toda as consequências de uma determina
 São sistemas dedutivos:
 - O [[sistema axiomático]]
 - O [[método de dedução natural]]
-- 
+- O método de [[tablôs semânticos]]
 

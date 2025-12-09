@@ -39,17 +39,16 @@ F A \to B & TA & FB &&&  T A  \to   B & FA & TB\\
 
 Expansões de ramo único devem ser priorizadas para minimizar a complexidade do tablô.
 ### CQC
-No sistema do CQC, temos 3 operadores adicionais com regras de expansão mais complexas, para qualquer sujeito $\large \omega$ fazemos a substituição
-
+No sistema do CQC, temos 3 operadores adicionais com regras de expansão mais complexas, que envolvem inserir sujeitos ao ramo por meio da [[Linguagem Proposicional#Substituição|substituição]], seja $\large \omega$ um sujeito qualquer, $\large \delta$ um sujeito que ainda não apareceu no ramo e $\large A$ uma fórmula do CQC em que $\large x$ ocorre, temos que as substituições de quantificadores de dá por 
 $$\large
 \begin{gather}
-T\forall x Px \over TP\omega &&  \large \checkmark{T \exists x Px \over T P \omega }\end{gather}$$
+T\forall x A_x \over TA[x/\omega] &&  \large \checkmark{T \exists x A_x \over T A[ x/\delta] }\end{gather}$$
 
 Ainda para as fórmulas do CQC marcadas com $\large F$, podemos fazer a substituição para uma das fórmulas acima
 
 $$\large
 \begin{gather}
-F \forall x P x \over T \exists x \lnot Px && F \exists x P x \over T \forall x \lnot Px
+F \forall x A_ x \over T \exists x \lnot A_x && F \exists x A_x \over T \forall x \lnot A_x
 \end{gather}$$
 
 Para uma expansão existencial de tipo $\large T \forall x Px$, nunca a marcamos com $\large \checkmark$ pois sempre vão existir sujeitos para expandir, esse qualificador aceita sujeitos que já estão no tablô e aqueles que não estão. Para um existencial positivo, só colocamos um sujeito que ainda não está no tablô (o nosso hipotético sujeito que vale $\large Px$) e marcamos a fórmula como $\large \checkmark$.

@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Transformação Linear"
             }
+          },
+          {
+            "id": "b2109953895e0d87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Álgebra Linear/Combinação Linear.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Combinação Linear"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,9 +211,12 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "f325302723aac793",
+  "active": "b2109953895e0d87",
   "lastOpenFiles": [
+    "Matemática/Álgebra Linear/Espaço Vetorial.md",
+    "Matemática/Álgebra Linear/Transformação Linear.md",
     "Matemática/Álgebra Linear/Autovetores.md",
+    "Matemática/Álgebra Linear/Combinação Linear.md",
     "Matemática/Teoria das Categorias/Functor.md",
     "Computação/Algoritmos e Estruturas de Dados/Lista Ligada.md",
     "Computação/Algoritmos e Estruturas de Dados/Array Dinâmico.md",
@@ -223,10 +240,7 @@
     "Matemática/Matriz.md",
     "Matemática/Teoria das Categorias/Categoria.md",
     "Matemática/Teoria das Categorias/Monoide.md",
-    "Matemática/Algoritmos em Grafos/Digrafo.md",
-    "Assets/Playground.md",
     "Assets/Pasted image 20251015193232.png",
-    "Assets/Quantas Línguas dá pra compilar no Obsidian.md",
     "Assets/Untitled.circuit-sketcher",
     "Assets/Vetor.png",
     "Assets/Untitled Diagram.svg",

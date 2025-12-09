@@ -25,3 +25,33 @@ O kernel é um [[Espaço Vetorial#Subespaço Vetorial|subespaço]] de $\large V$
 A nulidade de uma transformação linear é a dimensionalidade do [[#Núcleo|núcleo]] da transformação. O posto de uma transformação linear é a dimensionalidade da [[Função#Imagem|imagem]] da transformação. Temos que, em $\large T:U\to V$
 $$\large \dim (U) = \dim(\ker(T)) + \dim(\text{Im}(T))$$
 Logicamente temos que se $\large T$ for um [[#Isomorfismo Entre Espaços|isomorfismo]], o kernel será o subespaço trivial $\large\{0\} \in V$ com dimensão 0.
+
+## Matrizes Como Transformações Lineares
+
+Um espaço com uma base de $\large n$ vetores pode ser transformado para um espaço com base de $\large m$ vetores a partir de uma [[Matriz#Multiplicação de matrizes|multiplicação matricial]], de forma geral uma multiplicação do tipo
+
+$$\large \begin{bmatrix}
+& \leftarrow & n & \rightarrow & \\
+\uparrow \\ m \\ \downarrow \\ \
+\end{bmatrix}
+\begin{bmatrix}
+\uparrow \\
+\ n\ \\
+\downarrow
+\end{bmatrix} =
+\begin{bmatrix}
+\uparrow \\
+\ m\ \\
+\downarrow
+\end{bmatrix}
+$$
+
+É uma transformação do tipo
+
+$$\Large\begin{gather}
+T: \mathbb R^n \to \mathbb R^m \\
+T(b) := Ab
+\end{gather}$$
+
+### Transformação de Bases para Matrizes
+Sejam $\large U,V$ espaços vetoriais de base $\large A$ e $\large B$, $\large T: U \to V$ uma transformação linear qualquer, $\large T$ pode ser representada como uma matriz $\large M$

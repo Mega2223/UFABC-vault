@@ -2,6 +2,7 @@
 tags:
   - geometria-analitica
   - matemática
+  - incompleto
 authors: Júlio César
 aliases:
   - matricial
@@ -69,3 +70,10 @@ a_{11} & a_{12} & a_{13}  \\
 a_{21} & a_{22} & a_{23}  \\
 a_{31} & a_{32} & a_{33}
 \end{pmatrix} = (a_{11}a_{22}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32})-(a_{31}a_{22}a_{13}+a_{32}a_{23}a_{11}+a_{33}a_{21}a_{12})$$ 
+## Matriz Triangular
+
+Uma matriz triangular é uma matriz em que todo elemento acima ou abaixo de uma diagonal é igual a zero.
+### Inverso
+A matriz inversa de uma matriz triangular é uma matriz com cada elemento sendo o inverso real do elemento de $\large A$
+
+$$\large A^{-1}_{ij} = \frac {1} {A_{ij}} \text{ sse } A \text{ é diagonal}$$ 

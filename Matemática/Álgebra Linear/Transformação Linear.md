@@ -26,6 +26,9 @@ A nulidade de uma transformação linear é a dimensionalidade do [[#Núcleo|nú
 $$\large \dim (U) = \dim(\ker(T)) + \dim(\text{Im}(T))$$
 Logicamente temos que se $\large T$ for um [[#Isomorfismo Entre Espaços|isomorfismo]], o kernel será o subespaço trivial $\large\{0\} \in V$ com dimensão 0.
 
+### Isometria
+Uma transformação linear é dita isométrica quando ela preserva [[Produto Interno e Norma#Distância|distâncias]]
+$$\large \text{dist}(v,w) = \text{dist}(T(v),T(w))$$
 ## Matrizes Como Transformações Lineares
 
 Um espaço com uma base de $\large n$ vetores pode ser transformado para um espaço com base de $\large m$ vetores a partir de uma [[Matriz#Multiplicação de matrizes|multiplicação matricial]], de forma geral uma multiplicação do tipo

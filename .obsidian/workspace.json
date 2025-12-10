@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f6994c712177e48b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática/Álgebra Linear/Autovetores.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Autovetores"
-            }
-          },
-          {
             "id": "f325302723aac793",
             "type": "leaf",
             "state": {
@@ -41,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Álgebra Linear/Combinação Linear.md",
+                "file": "Matemática/Álgebra Linear/Produto Interno e Norma.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Combinação Linear"
+              "title": "Produto Interno e Norma"
             }
           }
         ]
@@ -210,16 +196,21 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "f6994c712177e48b",
+  "active": "f325302723aac793",
   "lastOpenFiles": [
+    "Matemática/Álgebra Linear/Produto Interno e Norma.md",
     "Matemática/Álgebra Linear/Combinação Linear.md",
-    "Matemática/Matriz.md",
-    "Matemática/Álgebra Linear/Autovetores.md",
-    "Matemática/Álgebra Linear/Espaço Vetorial.md",
     "Matemática/Álgebra Linear/Transformação Linear.md",
+    "Computação/Algoritmos e Estruturas de Dados/Array Dinâmico.md",
+    "Computação/Prática Avançada de Programação/Algoritmos/Busca em Profundidade.md",
+    "Computação/Prática Avançada de Programação/Algoritmos/Merge Sort.md",
+    "Computação/Prática Avançada de Programação/Algoritmos/Quicksort.md",
+    "Computação/Prática Avançada de Programação/Algoritmos Gulosos.md",
+    "Matemática/Álgebra Linear/Autovetores.md",
+    "Matemática/Matriz.md",
+    "Matemática/Álgebra Linear/Espaço Vetorial.md",
     "Matemática/Teoria das Categorias/Functor.md",
     "Computação/Algoritmos e Estruturas de Dados/Lista Ligada.md",
-    "Computação/Algoritmos e Estruturas de Dados/Array Dinâmico.md",
     "Computação/Algoritmos e Estruturas de Dados/Lista.md",
     "Computação/Algoritmos e Estruturas de Dados/Fila.md",
     "Computação/Prática Avançada de Programação/Fila.md",
@@ -234,11 +225,6 @@
     "Matemática/Lógica Básica/Tablôs Semânticos.md",
     "Matemática/Lógica Básica/Cálculo de Predicados.md",
     "Matemática/Lógica Básica/Sistema Axiomático.md",
-    "Matemática/Lógica Básica/Linguagem Proposicional.md",
-    "Matemática/Lógica Básica/Consequência Lógica.md",
-    "Matemática/Lógica Básica/Sistema Dedutivo.md",
-    "Matemática/Teoria das Categorias/Categoria.md",
-    "Matemática/Teoria das Categorias/Monoide.md",
     "Assets/Pasted image 20251015193232.png",
     "Assets/Untitled.circuit-sketcher",
     "Assets/Vetor.png",

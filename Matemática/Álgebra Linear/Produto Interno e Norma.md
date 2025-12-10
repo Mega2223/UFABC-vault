@@ -31,7 +31,13 @@ Um vetor é dito normal quando sua norma é 1, um conjunto de vetores ortogonais
 Uma projeção $\large T$ é uma [[transformação linear]] em um espaço vetorial a um subespaço de si mesmo, $\large T: V \to W, W \subseteq V$.
 
 $\large T$ é uma projeção se e somente se $\large T \circ T = T$ (idempotente).
-## Convenções padrão
+
+## Distância
+
+A distância entre dois membros de um espaço vetorial $\large V$ é dada em função da [[#norma]] do espaço
+$$\large \text{dist}(v,w) := || v-w || $$
+
+## Convenções
 
 ### Reais
 Em $\large \mathbb R^n$ é comum definir o produto interno como

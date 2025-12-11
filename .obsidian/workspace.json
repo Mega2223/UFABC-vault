@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Álgebra Linear/Transformação Linear.md",
+                "file": "Matemática/Álgebra Linear/Autovetores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformação Linear"
+              "title": "Autovetores"
             }
           },
           {
@@ -198,9 +198,10 @@
   },
   "active": "f325302723aac793",
   "lastOpenFiles": [
+    "Matemática/Álgebra Linear/Sistema Linear.md",
+    "Matemática/Álgebra Linear/Transformação Linear.md",
     "Matemática/Álgebra Linear/Produto Interno e Norma.md",
     "Matemática/Álgebra Linear/Combinação Linear.md",
-    "Matemática/Álgebra Linear/Transformação Linear.md",
     "Computação/Algoritmos e Estruturas de Dados/Array Dinâmico.md",
     "Computação/Prática Avançada de Programação/Algoritmos/Busca em Profundidade.md",
     "Computação/Prática Avançada de Programação/Algoritmos/Merge Sort.md",
@@ -224,7 +225,6 @@
     "Humanas/Ciência, Tecnologia e Sociedade/Primeira Revolução Industrial.md",
     "Matemática/Lógica Básica/Tablôs Semânticos.md",
     "Matemática/Lógica Básica/Cálculo de Predicados.md",
-    "Matemática/Lógica Básica/Sistema Axiomático.md",
     "Assets/Pasted image 20251015193232.png",
     "Assets/Untitled.circuit-sketcher",
     "Assets/Vetor.png",

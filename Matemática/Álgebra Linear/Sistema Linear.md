@@ -49,7 +49,7 @@ A resolução de um sistema linear consiste em encontrar um conjunto de incógni
 ## Propriedades
 
 ### Consistência
-Um sistema é denominado possível ou consistente quando existe algum conjunto de incógnitas que satisfazem a equação $Ax = b$.
+Um sistema é denominado possível ou consistente quando existe algum conjunto de incógnitas $\large x = [x_1,x_2,...,x_n]^T$ que satisfazem a equação $\large Ax = b$.
 ### Sistema homogêneo
-Um sistema é homogêneo quando todos os elementos de $b$ são 0. Todo sistema homogêneo admite pelo menos uma solução ($x_i = 0$), essa solução é denominada trivial.
+Um sistema é homogêneo quando todos os elementos de $\large b$ são 0. Todo sistema homogêneo admite pelo menos uma solução ($\large x_i = 0$), essa solução é denominada trivial.
 

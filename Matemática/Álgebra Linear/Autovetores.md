@@ -24,3 +24,10 @@ T(v):= \begin{bmatrix}
 \end{gather}$$
 
 A transformação linear tem autovalores $\large 3$ e $\large -1$. Para o autovalor $\large -1$ qualquer vetor da forma $\large (0,0,\alpha)^T$ vale, logo temos que sua multiplicidade geométrica é $\large 1$. Para o autovalor $\large 3$, temos que qualquer vetor da forma $\large (\beta,-\beta,\alpha)^T$ é paralelo ao seu produto, logo esse autovalor tem multiplicidade geométrica $\large 3$.
+
+## Polinômio Característico
+
+Seja $\large I$ uma matriz identidade, $\large x$ um autovetor e $\large \lambda$ um autovalor de uma transformação $\large A$, temos que
+$$\large (\lambda I-A)x = 0$$
+Se nossa matriz $\large(\lambda I-A)$ tem determinante diferente de $\large 0$, a única solução para essa equação é $\large x = 0$.
+//TODO

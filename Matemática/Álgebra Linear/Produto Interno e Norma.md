@@ -6,7 +6,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Seja $\large V$ um [[espaço vetorial]] qualquer, $\large u,v,w \in V$ quaisquer vetores, o produto interno $\large \langle \ \ , \ \ \rangle: V \to \mathbb R$ é uma [[função]] onde
+Seja $\large V$ um [[espaço vetorial]] qualquer, $\large (u,v,w) \in V$ quaisquer vetores, o produto interno $\large \langle \ \ , \ \ \rangle: V \to \mathbb R$ é uma [[função]] onde
 $$\Large
 \begin{gather}
 \langle v,w \rangle = \langle w,v \rangle \\

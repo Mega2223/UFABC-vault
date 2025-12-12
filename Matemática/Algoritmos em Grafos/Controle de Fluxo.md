@@ -16,7 +16,11 @@ Em um [[digrafo]] [[Digrafo#Digrafo Ponderado|ponderado]], o fluxo é uma forma 
 Uma rede de fluxo é um digrafo $\large G$ onde para cada arco $\large(u,v) \in E(G)$ há uma coloração não negativa $\large c: E \to \mathbb R_{x \ge 0} \cup \{\infty\}$ (denominada capacidade). Ainda, para qualquer arco, seu arco complementar $\large(v,u)$ não está no grafo. Se $\large (v,u) \not \in E(G)$ então $\large c(v,u) = 0$.
 
 Em nossa rede de fluxo, distinguimos dois vértices, $\large s \in V$ é a fonte e $\large t \in V$ é o destino, dizemos que a rede é conexa se $\large \forall v \in V: s \leadsto v \leadsto t$.
+### Superfontes
+Para mapear redes de múltiplas fontes podemos criar uma rede de uma única fonte por meio de uma 'superfonte' que conecta a todas as nossas fontes em um único arco de capacidade infinita. O processo pode ser repetido analogamente para destinos.
 
+### Remoção de Arcos Complementares
+//TODO
 ## Fluxo
 
 Dada uma [[#rede de fluxo]] $\large G$, um fluxo é uma função $\large f: V \times V \to \mathbb R$ que satisfaz as propriedades:

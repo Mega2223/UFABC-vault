@@ -10,7 +10,7 @@ aliases:
 ---
 ## Definição
 
-O cálculo de predicados de primeira ordem é uma extensão da [[linguagem proposicional]], capaz de atribuir preposições a indivíduos.
+O cálculo de predicados (CQC) de primeira ordem é uma extensão da [[linguagem proposicional]], capaz de atribuir preposições a indivíduos.
 
 ## Sintaxe
 

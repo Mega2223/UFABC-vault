@@ -1,7 +1,10 @@
 ---
 tags:
   - lógica
-  - incompleto
+  - matemática-discreta
+  - algoritmo
+aliases:
+authors: Júlio César
 ---
 ## Definição
 

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Cálculo/Bases Matemáticas/Função.md",
-                "mode": "source",
-                "source": false
+                "file": "Matemática/Cálculo/Teorema do confronto.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Função"
+              "title": "Teorema do confronto"
             }
           }
         ],
@@ -199,6 +199,7 @@
   },
   "active": "01945166ba7dbf01",
   "lastOpenFiles": [
+    "Matemática/Cálculo/Bases Matemáticas/Função.md",
     "Matemática/Teoria das Categorias/Functor.md",
     "Matemática/Teoria das Categorias/Monoide.md",
     "Matemática/Teoria das Categorias/Categoria.md",
@@ -225,7 +226,6 @@
     "Computação/Algoritmos e Estruturas de Dados/Fila.md",
     "Computação/Prática Avançada de Programação/Fila.md",
     "Computação/Algoritmos e Estruturas de Dados",
-    "Humanas/Bases Epistemológicas da Ciência Moderna/Descartes.md",
     "Assets/Pasted image 20251015193232.png",
     "Assets/Untitled.circuit-sketcher",
     "Assets/Vetor.png",

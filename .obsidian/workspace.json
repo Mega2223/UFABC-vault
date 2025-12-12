@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Cálculo/Teorema do confronto.md",
-                "mode": "preview",
-                "source": true
+                "file": "Matemática/Cálculo/Série de Taylor.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Teorema do confronto"
+              "title": "Série de Taylor"
             }
           }
         ],
@@ -199,6 +199,7 @@
   },
   "active": "01945166ba7dbf01",
   "lastOpenFiles": [
+    "Matemática/Cálculo/Teorema do confronto.md",
     "Matemática/Cálculo/Bases Matemáticas/Função.md",
     "Matemática/Teoria das Categorias/Functor.md",
     "Matemática/Teoria das Categorias/Monoide.md",
@@ -224,7 +225,6 @@
     "Computação/Algoritmos e Estruturas de Dados/Lista Ligada.md",
     "Computação/Algoritmos e Estruturas de Dados/Lista.md",
     "Computação/Algoritmos e Estruturas de Dados/Fila.md",
-    "Computação/Prática Avançada de Programação/Fila.md",
     "Computação/Algoritmos e Estruturas de Dados",
     "Assets/Pasted image 20251015193232.png",
     "Assets/Untitled.circuit-sketcher",

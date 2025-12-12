@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Lógica Básica/Tablôs Semânticos.md",
-                "mode": "preview",
+                "file": "Matemática/Cálculo/Bases Matemáticas/Função.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tablôs Semânticos"
+              "title": "Função"
             }
           }
         ],
@@ -199,6 +199,10 @@
   },
   "active": "01945166ba7dbf01",
   "lastOpenFiles": [
+    "Matemática/Teoria das Categorias/Functor.md",
+    "Matemática/Teoria das Categorias/Monoide.md",
+    "Matemática/Teoria das Categorias/Categoria.md",
+    "Matemática/Lógica Básica/Tablôs Semânticos.md",
     "Matemática/Lógica Básica/Cálculo de Predicados.md",
     "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
@@ -216,16 +220,12 @@
     "Computação/Prática Avançada de Programação/Algoritmos Gulosos.md",
     "Matemática/Matriz.md",
     "Matemática/Álgebra Linear/Espaço Vetorial.md",
-    "Matemática/Teoria das Categorias/Functor.md",
     "Computação/Algoritmos e Estruturas de Dados/Lista Ligada.md",
     "Computação/Algoritmos e Estruturas de Dados/Lista.md",
     "Computação/Algoritmos e Estruturas de Dados/Fila.md",
     "Computação/Prática Avançada de Programação/Fila.md",
     "Computação/Algoritmos e Estruturas de Dados",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Descartes.md",
-    "Humanas/Bases Epistemológicas da Ciência Moderna/Hume.md",
-    "Humanas/Estrutura Dinâmica e Social/Weber.md",
-    "Humanas/Estrutura Dinâmica e Social/Turkheim.md",
     "Assets/Pasted image 20251015193232.png",
     "Assets/Untitled.circuit-sketcher",
     "Assets/Vetor.png",

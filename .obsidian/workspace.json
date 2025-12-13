@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8b42b2505c0a72e6",
+        "id": "5bc2bb06dd66b29c",
         "type": "tabs",
         "children": [
           {
-            "id": "6fd4ab002362333c",
+            "id": "4bd4c81119532059",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Computação/Redes de Computador/Camada Física/Camada Física.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Camada Física"
             }
           }
         ]
@@ -182,8 +182,13 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "6fd4ab002362333c",
+  "active": "4bd4c81119532059",
   "lastOpenFiles": [
+    "Computação/Redes de Computador/Camada de Aplicação/Camada de Aplicação.md",
+    "Computação/Redes de Computador/Camada Física/Camada Física.md",
+    "Computação/Redes de Computador/Camada Física",
+    "Computação/Redes de Computador/Camada de Aplicação/Protocolo DNS.md",
+    "Computação/Redes de Computador/Camada de Aplicação/Protocolo HTTP.md",
     "Computação/Comunicação e Redes/Algoritmo de Dijkstra.md",
     "Computação/Aprendizado de Máquina/Regressão Logística.md",
     "Computação/Aprendizado de Máquina/Regressão Polinomial.md",
@@ -206,10 +211,6 @@
     "Matemática/Álgebra Linear/Sistema Linear.md",
     "Matemática/Álgebra Linear/Produto Interno e Norma.md",
     "Matemática/Álgebra Linear/Autovetores.md",
-    "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
-    "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
-    "Humanas/Ciência, Tecnologia e Sociedade/C&T.md",
-    "Humanas/Bases Epistemológicas da Ciência Moderna/Hume.md",
     "Computação/Algoritmos e Estruturas de Dados",
     "Humanas/Ciência, Tecnologia e Sociedade",
     "Humanas/Bases Epistemológicas da Ciência Moderna",

@@ -19,5 +19,5 @@ Um determinado [[vetor]] não nulo que seja algum escalar de $\large w$ é ortog
 
 ## Distância Ponto e Hiperplano
 
-Dado $\large x \in \mathbb R^d$, a distância entre $\large x$ e um determinado hiperplano $\large d$-dimensional $\large H$, temos que a distância entre o ponto $\large x$ e o ponto mais próximo dentro de $H$ se dá por
+Dado $\large x \in \mathbb R^d$, a distância entre $\large x$ e um determinado hiperplano $\large d$-dimensional $\large H$, temos que a distância entre o ponto $\large x$ e o ponto mais próximo dentro de $\large H$ se dá por
 $$\large\text{dist}(x,H) = \frac{|w^Tx + b|}{||w||}$$

@@ -15,3 +15,7 @@ Dizemos que $A$ implica tautologicamente $B$. Isso não implica necessariamente 
 A consequência lógica é transitiva, se $\large A \vDash B$ e $\large B \vDash C$, então $\large A \vDash C$.
 
 Uma fórmula cujo $\large \emptyset \vDash A$ é válida, essa implicação normalmente é abreviada para $\large \vDash A$.
+
+## Teorema da Dedução
+
+O teorema da dedução diz que se $\large A \vDash B$, então $\large \vDash A \rightarrow B$.

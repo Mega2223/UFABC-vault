@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc76df26c0c0d6df",
+            "id": "6fd4ab002362333c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Matemática/Lógica Básica/Consequência Lógica.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Consequência Lógica"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -182,35 +182,35 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "fc76df26c0c0d6df",
+  "active": "6fd4ab002362333c",
   "lastOpenFiles": [
-    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
-    "Matemática/Lógica Básica/Consequência Lógica.md",
+    "Computação/Comunicação e Redes/Algoritmo de Dijkstra.md",
+    "Computação/Aprendizado de Máquina/Regressão Logística.md",
+    "Computação/Aprendizado de Máquina/Regressão Polinomial.md",
+    "Computação/Aprendizado de Máquina/Regularização de Modelo.md",
+    "Computação/Circuitos Digitais/Circuito Digital.md",
+    "Computação/Circuitos Digitais/Circuito Combinatório.md",
+    "Computação/Circuitos Digitais/Circuito Sequencial.md",
+    "Computação/Natureza da Informação/Álgebra Booleana.md",
+    "Computação/Natureza da Informação/Álgebra Binária.md",
+    "Computação/Aprendizado de Máquina/Regressão de Ridge.md",
+    "Matemática/Lógica Básica/Tablôs Semânticos.md",
     "Matemática/Lógica Básica/Linguagem Proposicional.md",
+    "Matemática/Lógica Básica/Consequência Lógica.md",
+    "Matemática/Lógica Básica/Sistema Axiomático.md",
+    "Matemática/Lógica Básica/Cálculo de Predicados.md",
+    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
     "Matemática/Algoritmos em Grafos/Digrafo.md",
     "Matemática/Álgebra Linear/Combinação Linear.md",
     "Matemática/Álgebra Linear/Hiperplano.md",
     "Matemática/Álgebra Linear/Sistema Linear.md",
     "Matemática/Álgebra Linear/Produto Interno e Norma.md",
     "Matemática/Álgebra Linear/Autovetores.md",
-    "Matemática/Lógica Básica/Tablôs Semânticos.md",
     "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
     "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "Humanas/Ciência, Tecnologia e Sociedade/C&T.md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Hume.md",
-    "Computação/Algoritmos e Estruturas de Dados/Pilha.md",
-    "Computação/Algoritmos e Estruturas de Dados/Lista.md",
-    "Computação/Algoritmos e Estruturas de Dados/Lista Ligada.md",
-    "Computação/Algoritmos e Estruturas de Dados/Array Dinâmico.md",
-    "Computação/Algoritmos e Estruturas de Dados/Fila.md",
     "Computação/Algoritmos e Estruturas de Dados",
-    "Matemática/Algoritmos em Grafos/Árvore.md",
-    "Matemática/Algoritmos em Grafos/Grafo.md",
-    "Computação/Programação Funcional/Recursividade na Calda.md",
-    "Computação/Programação Funcional/Haskell.md",
-    "Computação/Programação Funcional/Estruturas Funcionais.md",
-    "Computação/Programação Funcional/Computação com Estados Funcionais.md",
-    "Computação/Programação Funcional/Avaliação Preguiçosa.md",
     "Humanas/Ciência, Tecnologia e Sociedade",
     "Humanas/Bases Epistemológicas da Ciência Moderna",
     "Assets/FF NOR S-R.png",

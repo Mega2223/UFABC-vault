@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
+                "file": "Matemática/Lógica Básica/Consequência Lógica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conjunto"
-            }
-          },
-          {
-            "id": "0e7e48653fd32f6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática/Lógica Básica/Linguagem Proposicional.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linguagem Proposicional"
+              "title": "Consequência Lógica"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,9 +182,11 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "0e7e48653fd32f6f",
+  "active": "fc76df26c0c0d6df",
   "lastOpenFiles": [
     "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
+    "Matemática/Lógica Básica/Consequência Lógica.md",
+    "Matemática/Lógica Básica/Linguagem Proposicional.md",
     "Matemática/Algoritmos em Grafos/Digrafo.md",
     "Matemática/Álgebra Linear/Combinação Linear.md",
     "Matemática/Álgebra Linear/Hiperplano.md",
@@ -224,8 +211,6 @@
     "Computação/Programação Funcional/Estruturas Funcionais.md",
     "Computação/Programação Funcional/Computação com Estados Funcionais.md",
     "Computação/Programação Funcional/Avaliação Preguiçosa.md",
-    "Computação/Programação Funcional/Cálculo Lambda.md",
-    "Computação/Programação Funcional/Mônada.md",
     "Humanas/Ciência, Tecnologia e Sociedade",
     "Humanas/Bases Epistemológicas da Ciência Moderna",
     "Assets/FF NOR S-R.png",

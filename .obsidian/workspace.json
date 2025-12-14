@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Redes de Computador/Camada Física/Camada Física.md",
+                "file": "Computação/Redes de Computador/Lab/Laboratório.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Camada Física"
+              "title": "Laboratório"
             }
           }
         ],
@@ -197,10 +197,15 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "ebb6f088f2b77cf1",
+  "active": "76cec116fa33641a",
   "lastOpenFiles": [
     "Computação/Redes de Computador/Camada Física/Camada Física.md",
-    "Computação/Redes de Computador/Camada Física/Camada Física.md",
+    "Computação/Redes de Computador/Camada de Transporte/Protocolo TCP.md",
+    "Computação/Redes de Computador/Camada de Transporte/Camada de Transporte.md",
+    "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Protocolo CSMA.md",
+    "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Protocolo Bit-Map.md",
+    "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Protocolo ALOHA.md",
+    "Computação/Redes de Computador/Modelo TCP-IP.md",
     "Computação/Redes de Computador/Camada de Rede/Camada de Rede.md",
     "Computação/Redes de Computador/Camada de Enlace/Camada de Enlace.md",
     "Computação/Redes de Computador/Camada de Aplicação/Camada de Aplicação.md",
@@ -220,12 +225,6 @@
     "Matemática/Lógica Básica/Tablôs Semânticos.md",
     "Matemática/Lógica Básica/Linguagem Proposicional.md",
     "Matemática/Lógica Básica/Consequência Lógica.md",
-    "Matemática/Lógica Básica/Sistema Axiomático.md",
-    "Matemática/Lógica Básica/Cálculo de Predicados.md",
-    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
-    "Matemática/Algoritmos em Grafos/Digrafo.md",
-    "Matemática/Álgebra Linear/Combinação Linear.md",
-    "Matemática/Álgebra Linear/Hiperplano.md",
     "Computação/Algoritmos e Estruturas de Dados",
     "Humanas/Ciência, Tecnologia e Sociedade",
     "Humanas/Bases Epistemológicas da Ciência Moderna",

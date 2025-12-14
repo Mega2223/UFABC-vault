@@ -9,11 +9,11 @@ authors: Júlio César
 ## Definição
 
 
-## Protocolo Baseado em Pacotes
+## Protocolos Baseados em Pacotes
 //todo nome?
-Protocolos baseados em pacotes  são protocolos que visam transmitir de forma confiável uma sequência ordenada de dados. O _sender_ adiciona aos dados algum dado para a confirmação de recebimento do pacote (como um _checksum_) e um número de sequência, e quando o _receiver_ recebe este pacote, ele manda de volta somente o nosso dado de confirmação. Quando o sender recebe o pacote de confirmação, ele envia o próximo, caso contrário ele tenta re-enviar o pacote atual até receber uma confirmação, caso o _receiver_ receba um pacote duas vezes, ele descarta a repetição por meio do número de sequência.
+Protocolos baseados em pacotes são protocolos que visam transmitir de forma confiável uma sequência ordenada de dados. O _sender_ adiciona aos dados algum dado para a confirmação de recebimento do pacote (como um _checksum_) e um número de sequência, e quando o _receiver_ recebe este pacote, ele manda de volta somente o nosso dado de confirmação. Quando o sender recebe o pacote de confirmação, ele envia o próximo, caso contrário ele tenta re-enviar o pacote atual até receber uma confirmação, caso o _receiver_ receba um pacote duas vezes, ele descarta a repetição por meio do número de sequência.
 
-## Protocolo de Janela Deslizante
+## Protocolos de Janela Deslizante
 
 É uma adaptação do protocolo baseado em pacotes para canais de alta latência, onde o transmissor possui um número de janela, manda todos os pacotes dentro da janela e mantém uma tabela interna de cada pacote reconhecido pelo receptor. Quando o menor pacote da janela é recebido, a janela aumenta e os novos pacotes são transmitidos.
 

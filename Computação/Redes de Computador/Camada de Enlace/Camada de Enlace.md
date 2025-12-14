@@ -10,8 +10,8 @@ aliases:
 ## Definição
 
 Nos modelos [[Modelo TCP-IP|TCP/IP]] e [[Arquitetura de Rede#Modelo OSI|OSI]] a camada de enlace é a [[Arquitetura de Rede#Camada|camada]] que media a comunicação entre a [[camada de rede]][^1] e as demais camadas, é a camada de enlace que é responsável pelo fluxo de dados e a correção de erros de transmissão causados no [[Camada Física|meio físico]]. A camada de enlace têm a função de tomar dados da camada de rede e os encapsular em quadros para a transmissão.
-A camada de enlace insere um cabeçalho, um campo de carga útil para guardar o pacote e uma cauda ao pacote. 
 
+A camada de enlace pode, em certos casos, prover um serviço orientado a conexões para as camadas superiores, mas no caso do modelo [[Modelo TCP-IP|TCP/IP]] esse serviço já é oferecido pela [[camada de rede]] por meio do [[Protocolo TCP]].
 ## Tipos de Serviço
 
 ### Sem Conexão e Sem Confirmação
@@ -28,12 +28,17 @@ Para o controle de erros, a camada de enlace emprega de diversas ferramentas, ap
 - Solicitar o pacote novamente caso o mesmo não tenha sido recebido
 
 ### Distância de Hamming
-A distância de Hamming entre duas sentenças binárias é a diferença de bits necessários para que uma sentença se torne a outra.
-$$\large\text{dh }= \sum_i
+A distância de Hamming entre duas sentenças binárias é a diferença de bits necessários para que uma sentença se torne a outra. De forma geral, sejam $\large A$ e $\large B$ mensagens
+$$\large
+\begin{gather}
+A = \langle a_1,a_2,...,a_n \rangle \ \ \ a_i \in \{0,1\} \\
+B = \langle b_1,b_2,...,b_n \rangle \ \ \ b_i \in \{0,1 \}\\\\\text{dh }(A,B):= \sum_{i=1}
 \begin{cases}
-0 & A_i = B_i \\
-1 & A_i \ne B_i
-\end{cases}$$
+0 & a_i = b_i \\
+1 & a_i \ne b_i
+\end{cases}
+\end{gather}
+$$
 ## Enquadramento
 
 É o processo de codificação de dados em quadros para a [[Camada Física]].

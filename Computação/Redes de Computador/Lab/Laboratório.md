@@ -1,6 +1,3 @@
-Por Júlio César Borges de Oliveira Sampaio
-RA 11202320328
-
 Em laboratório foi discutido o protocolo UDP por meio das bibliotecas de Java, e foi solicitado fazer um protocolo de aplicação individual como tarefa de casa. Os arquivos de aula e os do protocolo estão nas pastas LabUDP e MeuProtocolo respectivamente.
 
 ## Cliente-Servidor UDP

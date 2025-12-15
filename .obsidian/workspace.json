@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "===",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,6 +200,11 @@
   },
   "active": "01945166ba7dbf01",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Matemática/Cálculo/Série de Taylor.md",
+    "Computação/Redes de Computador/Camada de Aplicação/Camada de Aplicação.md",
+    "Computação/Redes de Computador/Camada Física/Camada Física.md",
+    "Computação/Redes de Computador/Camada Física",
     "Matemática/Cálculo/Teorema do confronto.md",
     "Matemática/Cálculo/Bases Matemáticas/Função.md",
     "Matemática/Teoria das Categorias/Functor.md",
@@ -221,10 +227,6 @@
     "Computação/Prática Avançada de Programação/Algoritmos/Quicksort.md",
     "Computação/Prática Avançada de Programação/Algoritmos Gulosos.md",
     "Matemática/Matriz.md",
-    "Matemática/Álgebra Linear/Espaço Vetorial.md",
-    "Computação/Algoritmos e Estruturas de Dados/Lista Ligada.md",
-    "Computação/Algoritmos e Estruturas de Dados/Lista.md",
-    "Computação/Algoritmos e Estruturas de Dados/Fila.md",
     "Computação/Algoritmos e Estruturas de Dados",
     "Assets/Pasted image 20251015193232.png",
     "Assets/Untitled.circuit-sketcher",

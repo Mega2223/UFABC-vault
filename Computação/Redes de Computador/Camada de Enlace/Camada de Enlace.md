@@ -9,8 +9,8 @@ aliases:
 ---
 ## Definição
 
-Nos protocolos [[Modelo TCP-IP|TCP/IP]] e [[Arquitetura de Rede#Modelo OSI|OSI]] a camada de enlace é a [[Arquitetura de Rede#Camada|camada]] responsável pela comunicação entre a [[Camada de Rede]][^1] e as demais camadas, é a camada de enlace que é responsável pelo fluxo de dados e a correção de erros de transmissão causados no [[Camada Física|meio físico]]. A camada de enlace têm a função de tomar dados da camada de rede e os encapsular em quadros para a transmissão.
-A camada de enlace insere um cabeçalho, um campo de carga útil para guardar o pacote e uma cauda ao pacote.
+Nos modelos [[Modelo TCP-IP|TCP/IP]] e [[Arquitetura de Rede#Modelo OSI|OSI]] a camada de enlace é a [[Arquitetura de Rede#Camada|camada]] que media a comunicação entre a [[camada de rede]][^1] e as demais camadas, é a camada de enlace que é responsável pelo fluxo de dados e a correção de erros de transmissão causados no [[Camada Física|meio físico]]. A camada de enlace têm a função de tomar dados da camada de rede e os encapsular em quadros para a transmissão.
+A camada de enlace insere um cabeçalho, um campo de carga útil para guardar o pacote e uma cauda ao pacote. 
 
 ## Tipos de Serviço
 
@@ -36,7 +36,7 @@ $$\large\text{dh }= \sum_i
 \end{cases}$$
 ## Enquadramento
 
-É o processo de codificação de dados em quadros para a [[camada física]].
+É o processo de codificação de dados em quadros para a [[Camada Física]].
 ### Cabeçalho
 Contém informação pertinente à natureza do quadro.
 #### Contagem de Caracteres 

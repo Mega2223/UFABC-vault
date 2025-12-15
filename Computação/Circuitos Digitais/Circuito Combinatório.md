@@ -9,7 +9,7 @@ authors: Júlio César
 
 O circuito combinatório é um circuito digital sem memória, ou seja, que é completamente determinístico, para cada entrada sempre haverá apenas uma saída não importando o contexto dessa entrada.
 
-Um circuito combinatório pode ser escrito como um conjunto de [[Álgebra Booleana|expressões booleana]], onde as entradas representam valores e a saída é a valoração da expressão.
+Um circuito combinatório pode ser escrito como um conjunto de [[Álgebra Booleana|expressões booleanas]], onde as entradas representam valores e a saída é a valoração da expressão.
 
 Uma entrada, no sentido de um circuito digital, é um conjunto de sinais binários, cada saída é então uma combinação algébrica das entradas. Um circuito combinatório pode ser escrito como uma fórmula de álgebra booleana, e como toda fórmula de álgebra booleana, também pode ser descrito em termos de uma tabela verdade.
 

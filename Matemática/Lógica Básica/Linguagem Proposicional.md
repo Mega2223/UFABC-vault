@@ -87,7 +87,8 @@ V(B) =0 \lor V(C) = 1 & A = B \rightarrow C
 \end{cases}
 \end{gather}
 $$
-
+### Modelo
+Seja $\large \Gamma$ um conjunto de fórmulas proposicionais, uma valoração $\large V$ é dita um modelo de $\large$ $\large \Gamma$ quando $\large \forall p \in \Gamma, V(p) = 1$.
 ## Substituição
 
 A substituição é o processo de trocar todas as ocorrências de um átomo por uma fórmula proposicional.

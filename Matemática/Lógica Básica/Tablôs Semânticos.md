@@ -10,7 +10,7 @@ authors: Júlio César
 
 É um [[sistema dedutivo]] que serve para provar definidamente se uma fórmula é ou não é consequência lógica de outras fórmulas. Envolve presumir que as hipóteses sejam verdadeiras e as conclusões falsas e verificar se essa premissa é contraditória.
 
-De forma geral, o sistema semântico parte da premissa que, seja $\large \Gamma$ um conjunto de fórmulas, para qualquer $\large \Gamma \vDash A, \Gamma \cup A$ não é satisfazível. 
+De forma geral, o sistema semântico parte da premissa que, seja $\large \Gamma$ um conjunto de fórmulas, para qualquer $\large \Gamma \vDash A, \lnot\Gamma \cup A$ não é satisfazível. 
 
 ## Algoritmo
 

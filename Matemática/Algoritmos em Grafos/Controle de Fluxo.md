@@ -18,7 +18,6 @@ Uma rede de fluxo é um digrafo $\large G$ onde para cada arco $\large(u,v) \in 
 Em nossa rede de fluxo, distinguimos dois vértices, $\large s \in V$ é a fonte e $\large t \in V$ é o destino, dizemos que a rede é conexa se $\large \forall v \in V: s \leadsto v \leadsto t$.
 ### Superfontes
 Para mapear redes de múltiplas fontes podemos criar uma rede de uma única fonte por meio de uma 'superfonte' que conecta a todas as nossas fontes em um único arco de capacidade infinita. O processo pode ser repetido analogamente para destinos.
-
 ### Remoção de Arcos Complementares
 //TODO
 ## Fluxo

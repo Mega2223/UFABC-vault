@@ -22,14 +22,16 @@ Para mapear redes de múltiplas fontes podemos criar uma rede de uma única font
 //TODO
 ## Fluxo
 
-Dada uma [[#rede de fluxo]] $\large G$, um fluxo é uma função $\large f: V \times V \to \mathbb R$ que satisfaz as propriedades:
+Dada uma [[#rede de fluxo]] $\large G$, um fluxo é uma função $\large f: V \times V \to \mathbb R$ [^2]que satisfaz as propriedades:
 - $\large \forall u,v \in V: 0 \le f(u,v) \le c(u,v)$ (Restrição de capacidade)
 - $\large \forall u \in V / \{s,t\}: \sum_{v \in V} f(v,u) = \sum_{v \in V} f(u,v)$ (Conservação de fluxo)
 
 O valor de uma rede de fluxo, dado por $\large |f|$[^1], é
 $$\large |f| := \sum_{v \in V} f(s,v) - \sum_{v \in V} f(v,s)$$
-Tipicamente, não existem arcos com destino a fonte do fluxo, então a segunda somatória costuma ser $\large 0$.
+Tipicamente não existem arcos com destino a fonte do fluxo, então a segunda somatória costuma ser $\large 0$.
 
 
 
 [^1]: Onde $|f|$ não é o valor absoluto de $f$.
+
+[^2]: Analogamente, uma [[Grafo#Coloração|coloração]] nos arcos da rede

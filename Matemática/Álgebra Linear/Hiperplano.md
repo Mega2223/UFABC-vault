@@ -2,7 +2,6 @@
 aliases:
 tags:
   - matemática
-  - incompleto
   - geometria-analitica
 authors: Júlio César
 ---

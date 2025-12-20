@@ -26,12 +26,6 @@ Dois vetores são ditos ortogonais quando o angulo entre eles é um angulo reto,
 
 Um vetor é dito normal quando sua norma é 1, um conjunto de vetores ortogonais entre si e normais é dito ortonormal.
 
-## Projeção
-
-Uma projeção $\large T$ é uma [[transformação linear]] em um espaço vetorial a um subespaço de si mesmo, $\large T: V \to W, W \subseteq V$.
-
-$\large T$ é uma projeção se e somente se $\large T \circ T = T$ (idempotente).
-
 ## Distância
 
 A distância entre dois membros de um espaço vetorial $\large V$ é dada em função da [[#norma]] do espaço

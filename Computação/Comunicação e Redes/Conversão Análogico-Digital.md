@@ -12,6 +12,7 @@ Envolve fazer uma conversão suficientemente fiel de um [[sinal analógico]] par
 
 ## Sinal Analógico em Sinal Digital
 
+A conversão de um sinal analógico em um sinal digital envolve discretizar o domínio e contradomínio do sinal, a perda de informação é inevitável uma vez que o domínio analógico não é contável.
 ### Amostragem
 A amostragem é o processo de converter o domínio contínuo do sinal analógico em um domínio discreto por meio de sensorear a amplitude do sinal em um número discreto de instantes. Normalmente esses instantes são distribuídos uniformemente.
 ### Quantização

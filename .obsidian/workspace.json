@@ -13,36 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Computação/Comunicação e Redes/Conversão Análogico-Digital.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conversão Análogico-Digital"
+            }
+          },
+          {
+            "id": "eeef61d51e06c873",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computação/Sistemas Digitais/Conversor Analógico-Digital.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conversor Analógico-Digital"
+            }
+          },
+          {
+            "id": "240941fcbe02fc40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Computação/Natureza da Informação/Sinal Digital.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Sinal Digital"
-            }
-          },
-          {
-            "id": "1c4dd5151d9d1770",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "240f7e1113b3e0d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computação/Comunicação e Redes/Sinal Analógico.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sinal Analógico"
             }
           }
         ]
@@ -208,9 +212,13 @@
   },
   "active": "c0c10199be47f592",
   "lastOpenFiles": [
+    "Computação/Sistemas Digitais/Conversor Analógico-Digital.md",
+    "Computação/Natureza da Informação/Sinal Digital.md",
+    "Computação/Natureza da Informação/Álgebra Booleana.md",
+    "Computação/Natureza da Informação/Álgebra Binária.md",
+    "Computação/Comunicação e Redes/Conversão Análogico-Digital.md",
     "Computação/Comunicação e Redes/Sinal Analógico.md",
     "Computação/Comunicação e Redes/Algoritmo de Dijkstra.md",
-    "Computação/Natureza da Informação/Sinal Digital.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares/Ondas Sinusoides.md",
     "Matemática/Cálculo/Bases Matemáticas/Funções Trigonométricas.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares/Sinal.md",
@@ -232,11 +240,7 @@
     "Matemática/Álgebra Linear/Espaço Vetorial.md",
     "Matemática/Cálculo/Série de Taylor.md",
     "conflict-files-obsidian-git.md",
-    "Computação/Redes de Computador/Camada de Aplicação/Camada de Aplicação.md",
-    "Computação/Redes de Computador/Camada Física/Camada Física.md",
     "Computação/Redes de Computador/Camada Física",
-    "Matemática/Cálculo/Teorema do confronto.md",
-    "Matemática/Cálculo/Bases Matemáticas/Função.md",
     "Computação/Algoritmos e Estruturas de Dados",
     "Assets/Pasted image 20251015193232.png",
     "Assets/Untitled.circuit-sketcher",

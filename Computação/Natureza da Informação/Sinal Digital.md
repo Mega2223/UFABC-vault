@@ -13,10 +13,4 @@ authors: Júlio César
 ## Sinal Binário
 
 Um sinal digital é binário quando ele tem somente dois estados, tipicamente denominados como LOW (baixa voltagem) e HIGH (alta voltagem), na [[álgebra booleana]] e a [[álgebra binária]] são referidos respectivamente como $\large 0$ e $\large 1$. 
-## Conversão a Partir de Sinais Analógicos
-### Amostragem
-A amostragem é o processo de converter o domínio contínuo do sinal analógico em um domínio discreto por meio de sensorear a amplitude do sinal em um número discreto de instantes. Normalmente esses instantes são distribuídos uniformemente.
-### Quantização
-Envolve discretizar a amplitude do sinal analógico, isso é, converter o sinal contínuo em um contradomínio discreto de estados.
-### Codificação
-Para [[#Sinal Binário|sinais binários]] ainda se torna necessária a codificação do sinal, isso envolve converter os estados finitos em combinações de sinais por meio de algum sistema de símbolos.
+

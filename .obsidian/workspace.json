@@ -21,23 +21,8 @@
               "icon": "diff",
               "title": "Diff: Tablôs Semânticos"
             }
-          },
-          {
-            "id": "67b23db5892c3652",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,7 +183,7 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "67b23db5892c3652",
+  "active": "f8ced61eb3e75520",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares/Sinal.md",

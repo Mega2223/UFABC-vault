@@ -43,6 +43,8 @@ Para qualquer base ordenada $\large S$, um vetor $\large x \in V$, pode ser desc
 $$\Large [x]_S := (s_1,...s_n)$$
 
 para descrever os coeficientes lineares que formam $\large x$ na base $\large S$.
+
+// TODO transição entre sistemas
 ## Dimensão
 
 A dimensão $\large n$ é o número mínimo de vetores num espaço vetorial $\large V$ que [[#Bases Geradoras|geram]] $\large V$. Dado um subconjunto finito linearmente independente do espaço, se o mesmo não gera $\large V$, podemos incrementar elementos de $\large V$ que estão fora do espaço gerado até chegarmos em $\large V$. Dizemos que 

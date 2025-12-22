@@ -26,15 +26,15 @@ $$\large
 f^{-1}(Y) := \{x \in A | f(x) = y\}
 $$
 
-## Injetividade e Sobretividade
+## Injetividade e Sobrejetividade
 
 Dada uma função $f: A \to B$ dizemos que $f$ é uma função **injetora** se para quaisquer dois valores distintos no domínio, seus correspondentes no contradomínio também são distintos, ou seja, não existe repetição de valores no contradomínio.
-$$\large \forall (x_1,x_2) \in A, x_1 \ne x_2:\ \ \ f(x_1) \ne f(x_2)$$
+$$\large \forall (x_1,x_2) \in A, x_1 \ne x_2\ |\ f(x_1) \ne f(x_2)$$
 Dizemos ainda que $f$ é **sobrejetora** se para cada elemento $x \in A$ existe um elemento $y \in  B$ cujo $f(x) = y$, ou seja, não existem elementos do contradomínio sem elementos correspondentes no domínio
 $$\large
 \text{Im}\ f = B
 $$
-Uma função pode ser sobrejetora mas não injetora, por exemplo $x^2$. Uma função é considerada **bijetora** quando ela é tanto injetora quanto sobrejetora. Uma função ser sobrejetora implica a existência da [[#função inversa]] dessa função.
+Uma função pode ser sobrejetora mas não injetora. Uma função é considerada **bijetora** quando ela é tanto injetora quanto sobrejetora. Uma função ser sobrejetora implica a existência da [[#função inversa]] dessa função.
 ## Função Inversa
 
 Uma função inversa de uma determinada função é uma função que faz o mapeamento contrário de $f$, isso é, para cada elemento do contradomínio de f, ela encontra o elemento correspondente no domínio de $f$. A função inversa só existe se a função original é [[#Injetividade e Sobretividade|bijetora]].

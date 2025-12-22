@@ -6,7 +6,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Seja $\large V$ um [[espaço vetorial]] qualquer, $\large u,v,w \in V$ quaisquer vetores, o produto interno $\large \langle \ \ , \ \ \rangle: V \to \mathbb R$ é uma [[função]] onde
+Seja $\large V$ um [[espaço vetorial]] qualquer, $\large (u,v,w) \in V$ quaisquer vetores, o produto interno $\large \langle \ \ , \ \ \rangle: V \to \mathbb R$ é uma [[função]] onde
 $$\Large
 \begin{gather}
 \langle v,w \rangle = \langle w,v \rangle \\
@@ -25,12 +25,6 @@ $$\large \theta := \arccos\bigg (\frac{\langle v,w \rangle}{||v||\ ||w||}\bigg)$
 Dois vetores são ditos ortogonais quando o angulo entre eles é um angulo reto, ou seja, $\large \langle v,w \rangle = 0$.
 
 Um vetor é dito normal quando sua norma é 1, um conjunto de vetores ortogonais entre si e normais é dito ortonormal.
-
-## Projeção
-
-Uma projeção $\large T$ é uma [[transformação linear]] em um espaço vetorial a um subespaço de si mesmo, $\large T: V \to W, W \subseteq V$.
-
-$\large T$ é uma projeção se e somente se $\large T \circ T = T$ (idempotente).
 
 ## Distância
 

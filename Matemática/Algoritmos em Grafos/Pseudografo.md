@@ -15,6 +15,6 @@ $$\Large \text{G} =\{\text{V},\text{E},\phi\}$$
 
 - $\large \text{V}$ é o conjunto de vértices
 - $\large \text{E}$ é o conjunto de arestas
-- $\large \phi$ é uma função que mapeia cada aresta a um par de vértices, podendo haver repetições de pares
+- $\large \phi: E \to V^2$ é uma função que mapeia cada aresta a um par de vértices, podendo haver repetições de pares
 
-Como $\large \phi$ não é [[Função#Injetividade e Sobretividade|injetora]], temos que $\large E$ não pode ser simplesmente um conjunto de pares de $V$. É necessária alguma distinção entre membros de $\large E$ que resultam no mesmo par de vértices. 
+Como $\large \phi$ não é [[Função#Injetividade e Sobrejetividade|injetora]], temos que $\large E$ não pode ser simplesmente um conjunto de pares de $V$. É necessária alguma distinção entre membros de $\large E$ que resultam no mesmo par de vértices. 

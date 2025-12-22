@@ -30,6 +30,11 @@ Logicamente temos que se $\large T$ for um [[#Isomorfismo Entre Espaços|isomorf
 Uma função é dita uma isometria quando ela preserva [[Produto Interno e Norma#Distância|distâncias]]
 $$\large \text{dist}(v,w) = \text{dist}(T(v),T(w))$$
 Se $\large T(0) = 0$, a isometria é dita central. A função só é uma transformação linear caso ela seja central.
+## Projeção
+
+Uma projeção $\large T$ é uma [[transformação linear]] em um espaço vetorial a um subespaço de si mesmo, $\large T: V \to W, W \subseteq V$.
+
+$\large T$ é uma projeção se e somente se $\large T \circ T = T$ (idempotente).
 ## Matrizes Como Transformações Lineares
 
 Um espaço com uma base de $\large n$ vetores pode ser transformado para um espaço com base de $\large m$ vetores a partir de uma [[Matriz#Multiplicação de matrizes|multiplicação matricial]], de forma geral uma multiplicação do tipo

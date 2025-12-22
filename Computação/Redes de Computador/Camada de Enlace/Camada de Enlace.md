@@ -32,7 +32,7 @@ A distância de Hamming entre duas sentenças binárias é a diferença de bits 
 $$\large
 \begin{gather}
 A = \langle a_1,a_2,...,a_n \rangle \ \ \ a_i \in \{0,1\} \\
-B = \langle b_1,b_2,...,b_n \rangle \ \ \ b_i \in \{0,1 \}\\\\\text{dh }(A,B):= \sum_{i=1}
+B = \langle b_1,b_2,...,b_n \rangle \ \ \ b_i \in \{0,1 \}\\\\\text{dh }(A,B):= \sum_{i=1}^n
 \begin{cases}
 0 & a_i = b_i \\
 1 & a_i \ne b_i

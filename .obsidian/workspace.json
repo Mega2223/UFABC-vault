@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "98fd41844e8287d6",
+        "id": "8289317366b324a8",
         "type": "tabs",
         "children": [
           {
-            "id": "5a84ff25b769e24b",
+            "id": "4a05c0b641773312",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Solidariedade Mecânica e Orgânica"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 200
   },
   "right": {
     "id": "0c2cdb790c78953d",
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 473
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,17 +182,25 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "5a84ff25b769e24b",
+  "active": "4a05c0b641773312",
   "lastOpenFiles": [
+    "Humanas/Estrutura Dinâmica e Social/Weber",
+    "Humanas/Estrutura Dinâmica e Social/Marx",
+    "Humanas/Estrutura Dinâmica e Social/Untitled.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Ética Protestante e o Espírito do Capitalismo.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Materialismo Histórico-Dialético.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Fato Social.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores",
     "Humanas/Estrutura Dinâmica e Social/Materialismo Histórico-Dialético.md",
+    "Humanas/Estrutura Dinâmica e Social/Autores/Marx.md",
+    "Humanas/Estrutura Dinâmica e Social/Autores/Weber.md",
+    "Humanas/Estrutura Dinâmica e Social/Autores/Durkheim.md",
     "conflict-files-obsidian-git.md",
     "Humanas/Estrutura Dinâmica e Social/Fato Social.md",
     "Humanas/Estrutura Dinâmica e Social/Ética Protestante e o Espírito do Capitalismo.md",
-    "Humanas/Estrutura Dinâmica e Social/Autores/Weber.md",
     "Matemática/Algoritmos em Grafos/Grafo.md",
-    "Humanas/Estrutura Dinâmica e Social/Solidariedade Mecânica e Orgânica.md",
-    "Humanas/Estrutura Dinâmica e Social/Autores/Durkheim.md",
-    "Humanas/Estrutura Dinâmica e Social/Autores/Marx.md",
     "Humanas/Estrutura Dinâmica e Social/Autores",
     "README.md",
     "Humanas/Estrutura Dinâmica e Social/Durkheim.md",
@@ -206,11 +214,6 @@
     "Computação/Programação Orientada a Objetos/Encapsulamento.md",
     "Computação/Programação Orientada a Objetos/Classes Abstratas e Interfaces.md",
     "Computação/Programação Funcional/Tipos de Dados Algébricos.md",
-    "Computação/Programação Funcional/Scala.md",
-    "Computação/Programação Funcional/Programação Funcional.md",
-    "Computação/Programação Funcional/Mônada.md",
-    "Computação/Programação Funcional/Haskell.md",
-    "Computação/Programação Funcional/Estruturas Funcionais.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares",
     "Matemática/Equações Diferenciais Ordinárias",
     "Computação/Redes de Computador/Camada Física",
@@ -223,9 +226,6 @@
     "Assets/FF NOR S-R.png",
     "Assets/FF nOR CT.png",
     "Assets/DAC2.drawio.png",
-    "Humanas/Ciência, Tecnologia e Sociedade",
-    "Humanas/Bases Epistemológicas da Ciência Moderna",
-    "Humanas/Bases Epistemológicas da Ciência Moderna",
-    "Matemática/Algoritmos em Grafos"
+    "Humanas/Ciência, Tecnologia e Sociedade"
   ]
 }

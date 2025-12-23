@@ -1,6 +1,0 @@
----
-tags:
-  - incompleto
-  - humanas
----
-## Definição

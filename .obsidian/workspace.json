@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,7 +221,7 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "b87c9ea42e14b21a",
+  "active": "fbd9559683424b4f",
   "lastOpenFiles": [
     "Humanas/Bases Epistemológicas da Ciência Moderna/Conjecturas e Refutações.md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Ciência Normal e Revolução.md",

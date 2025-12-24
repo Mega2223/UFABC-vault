@@ -13,15 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
+                "file": "Humanas/Bases Epistemológicas da Ciência Moderna/Conjecturas e Refutações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Solidariedade Mecânica e Orgânica"
+              "title": "Conjecturas e Refutações"
+            }
+          },
+          {
+            "id": "fbd9559683424b4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Humanas/Bases Epistemológicas da Ciência Moderna/Ciência Normal e Revolução.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ciência Normal e Revolução"
+            }
+          },
+          {
+            "id": "b87c9ea42e14b21a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Humanas/Bases Epistemológicas da Ciência Moderna/Conjecturas e Refutações.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conjecturas e Refutações"
+            }
+          },
+          {
+            "id": "1d01f85094cc39f8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 268
   },
   "right": {
     "id": "0c2cdb790c78953d",
@@ -182,18 +221,27 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "4a05c0b641773312",
+  "active": "b87c9ea42e14b21a",
   "lastOpenFiles": [
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Conjecturas e Refutações.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Ciência Normal e Revolução.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Problema da Indução.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Hume.md",
+    "README.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Popper.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Descartes.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Kuhn.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores",
+    "Humanas/Estrutura Dinâmica e Social/Marx/Materialismo Histórico-Dialético.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
     "Humanas/Estrutura Dinâmica e Social/Weber",
     "Humanas/Estrutura Dinâmica e Social/Marx",
     "Humanas/Estrutura Dinâmica e Social/Untitled.md",
-    "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
     "Humanas/Estrutura Dinâmica e Social/Durkheim/Ética Protestante e o Espírito do Capitalismo.md",
     "Humanas/Estrutura Dinâmica e Social/Durkheim/Materialismo Histórico-Dialético.md",
     "Humanas/Estrutura Dinâmica e Social/Durkheim/Fato Social.md",
     "Humanas/Estrutura Dinâmica e Social/Durkheim",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Autores",
-    "Humanas/Estrutura Dinâmica e Social/Marx/Materialismo Histórico-Dialético.md",
     "Humanas/Estrutura Dinâmica e Social/Autores/Marx.md",
     "Humanas/Estrutura Dinâmica e Social/Autores/Weber.md",
     "Humanas/Estrutura Dinâmica e Social/Autores/Durkheim.md",
@@ -202,30 +250,21 @@
     "Humanas/Estrutura Dinâmica e Social/Ética Protestante e o Espírito do Capitalismo.md",
     "Matemática/Algoritmos em Grafos/Grafo.md",
     "Humanas/Estrutura Dinâmica e Social/Autores",
-    "README.md",
     "Humanas/Estrutura Dinâmica e Social/Durkheim.md",
     "Humanas/Estrutura Dinâmica e Social/Weber.md",
     "Humanas/Estrutura Dinâmica e Social/Marx.md",
     "Matemática/Álgebra Linear/Espaço Vetorial.md",
     "Matemática/Álgebra Linear/Combinação Linear.md",
-    "Matemática/Álgebra Linear/Autovetores.md",
-    "Computação/Redes de Computador/Roteamento Hierárquico.md",
-    "Computação/Programação Orientada a Objetos/Singleton.md",
-    "Computação/Programação Orientada a Objetos/Encapsulamento.md",
-    "Computação/Programação Orientada a Objetos/Classes Abstratas e Interfaces.md",
-    "Computação/Programação Funcional/Tipos de Dados Algébricos.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares",
     "Matemática/Equações Diferenciais Ordinárias",
     "Computação/Redes de Computador/Camada Física",
     "Computação/Algoritmos e Estruturas de Dados",
     "Assets/Pasted image 20251015193232.png",
-    "Assets/Untitled.circuit-sketcher",
     "Assets/Vetor.png",
     "Assets/Untitled Diagram.svg",
     "Assets/Pasted image 20241022235314.png",
     "Assets/FF NOR S-R.png",
     "Assets/FF nOR CT.png",
-    "Assets/DAC2.drawio.png",
-    "Humanas/Ciência, Tecnologia e Sociedade"
+    "Assets/DAC2.drawio.png"
   ]
 }

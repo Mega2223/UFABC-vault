@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 274
   },
   "right": {
     "id": "0c2cdb790c78953d",
@@ -197,7 +197,7 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "b84321eeee201060",
+  "active": "617b937a9e5b8f55",
   "lastOpenFiles": [
     "Matemática/Algoritmos em Grafos/Busca em Profundidade.md",
     "Matemática/Algoritmos em Grafos/Grafo.md",

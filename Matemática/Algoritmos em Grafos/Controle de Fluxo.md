@@ -77,6 +77,12 @@ Um caminho aumentador é um $\large st$-caminho qualquer em $\large G_f$, dizemo
 
 O maior aumento possível para um caminho aumentador se dá pela menor capacidade residual no caminho, seja $\large p$ um caminho aumentador qualquer, dizemos que sua capacidade residual é dada por
 $$\large c_f(p) = \min(c_f(u,v): (u,v) \in p)$$
+Seja $\large f_p$ um fluxo em $\large p \subseteq G$ dado por
+$$\large f_p(u,v) := \begin{cases}
+c_f(u,v) & (u,v) \in p \\
+0 & (u,v) \not \in p
+\end{cases}$$
+Temos que $\large f + f_p$ é um fluxo válido em $\large G$ onde $\large |f \uparrow f_p| \gt |f|$.
 
 [^1]: Onde $|f|$ não é o valor absoluto de $f$.
 

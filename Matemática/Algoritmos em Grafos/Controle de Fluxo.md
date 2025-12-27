@@ -24,7 +24,7 @@ A definição de rede de fluxo exige que só exista uma única fonte, todavia po
 Sejam $\large {s_1,s_2,\dots,s_n} \in E(G)$ fontes em $\large G$, sejam $\large t_1,t_2,\dots,t_n \in E(G)$ sorvedouros em $\large G$, a rede de fluxo correspondente é um digrafo complementar $\large G'$ onde temos dois vértices adicionais, $\large s$ e $\large t$:
 $$\large 
 \begin{gather}
-V(G') = V(G) \cup \{S,T\} \\ \\c(s,s_i)=\infty \\ c(t_i,t) = \infty
+V(G') = V(G) \cup \{s,t\} \\ \\c(s,s_i)=\infty \\ c(t_i,t) = \infty
 \end{gather}$$
 ### Remoção de Arcos Complementares
 A definição da estrutura não aceita a existência de arcos complementares, pode-se aplicar um morfismo em um arco com complementar para tornar seu digrafo uma rede, para todo $\large (v_1,v_2) \in E(G)$ cujo complementar $\large(v_2,v_1)$ também está em $\large G$, no lugar de $\large(v_1,v_2)$ pode-se adicionar um novo vértice $\large v^*$ tal que

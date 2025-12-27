@@ -20,6 +20,12 @@ Uma árvore não orientada sempre terá $\large |V| - 1$ arestas, que é o míni
 ## Árvore Binária
 
 ## Árvore de Decisão
+
+A árvore de decisão é uma [[#Árvore Enraizada]] que representa um modelo de decisões condicionais com base em algum número de consequências dessas decisões.
+
+De forma geral, para um determinado vértice, cada arco do seu respectivo [[Digrafo#Corte de Saída|corte de saída]] é colorado de acordo com alguma condicional externa de forma que somente uma das condicionais desse vértice possam ser cumpridas. Essa é a 'decisão' representada.
+
+Árvores de decisão podem ser criada como modelos de aprendizado estatístico (normalmente modelos de [[Classificação|classificação]]) por meio de métodos de [[boosting]].
 ## Estruturas Complementares
 
 ### Árvore Enraizada

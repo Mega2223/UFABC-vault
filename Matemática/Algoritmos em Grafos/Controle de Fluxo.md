@@ -9,17 +9,30 @@ aliases:
 ---
 ## Definição
 
-Em um [[digrafo]] [[Digrafo#Digrafo Ponderado|ponderado]], o fluxo é uma forma de mapear a capacidade de canais, de forma similar ao custo, é uma coloração de cada arco a um número real, todavia problemas em relação ao custo normalmente visam encontrar algum caminho de custo mínimo, enquanto problemas de controle de fluxo visam encontrar algum fluxo máximo entre dois vértices.
-
+Em um [[digrafo]] [[Digrafo#Digrafo Ponderado|ponderado]], o fluxo é uma forma de mapear a capacidade de canais de transporte, a capacidade é uma coloração de arcos aos reais não-negativos, enquanto problemas relacionados a custos visam achar algum caminho de custo mínimo, problemas de fluxo visam encontrar um fluxo máximo entre dois vértices.
 ## Rede de Fluxo
 
-Uma rede de fluxo é um digrafo $\large G$ onde para cada arco $\large(u,v) \in E(G)$ há uma coloração não negativa $\large c: E \to \mathbb R_{x \ge 0} \cup \{\infty\}$ (denominada capacidade). Ainda, para qualquer arco, seu arco complementar $\large(v,u)$ não está no grafo. Se $\large (v,u) \not \in E(G)$ então $\large c(v,u) = 0$[^3]
+Uma rede de fluxo é um digrafo $\large G$ onde:
+- Para cada arco $\large(u,v) \in E(G)$ há uma coloração não negativa $\large c: E \to \mathbb R_{x \ge 0} \cup \{\infty\}$ (denominada capacidade).
+- Para qualquer arco $\large (u,v) \in E(G)$, seu arco complementar $\large(v,u)$ não está no grafo.
+- $\large (u,v) \not \in E(G)$ se e somente se $\large c(v,u) = 0$[^3]
 
-Em nossa rede de fluxo, distinguimos dois vértices, $\large s \in V$ é a fonte e $\large t \in V$ é o destino, dizemos que a rede é conexa se $\large \forall v \in V: s \leadsto v \leadsto t$.
-### Superfontes
-Para mapear redes de múltiplas fontes podemos criar uma rede de uma única fonte por meio de uma 'superfonte' que conecta a todas as nossas fontes em um único arco de capacidade infinita. O processo pode ser repetido analogamente para destinos.
+Em nossa rede de fluxo, distinguimos dois vértices, $\large s \in V$ é a fonte (_source_) e $\large t \in V$ é o sorvedouro (_sink_), dizemos que a rede é conexa se $\large \forall v \in V/\{s,t\}: s \leadsto v \leadsto t$.
+### Superfontes e Supersorvedouros
+A definição de rede de fluxo exige que só exista uma única fonte, todavia pode-se mapear uma rede de várias fontes para uma rede de uma fonte sem perda da estrutura da rede. Ainda podemos também ter uma rede com múltiplos sorvedouros, que também não cumprem com a definição do objeto.
+
+Sejam $\large {s_1,s_2,\dots,s_n} \in E(G)$ fontes em $\large G$, sejam $\large t_1,t_2,\dots,t_n \in E(G)$ sorvedouros em $\large G$, a rede de fluxo correspondente é um digrafo complementar $\large G'$ onde temos dois vértices adicionais, $\large s$ e $\large t$:
+$$\large 
+\begin{gather}
+V(G') = V(G) \cup \{S,T\} \\ \\c(s,s_i)=\infty \\ c(t_i,t) = \infty
+\end{gather}$$
 ### Remoção de Arcos Complementares
-//TODO
+A definição da estrutura não aceita a existência de arcos complementares, pode-se aplicar um morfismo em um arco com complementar para tornar seu digrafo uma rede, para todo $\large (v_1,v_2) \in E(G)$ cujo complementar $\large(v_2,v_1)$ também está em $\large G$, no lugar de $\large(v_1,v_2)$ pode-se adicionar um novo vértice $\large v^*$ tal que
+$$\large 
+\begin{gather}
+(v_1,v^*)\in E(G') ,(v^*,v_2) \in E(G') \\
+c'(v_1,v^*) = c'(v^*,v_2) = c(v_1,v_2)
+\end{gather}$$
 ## Fluxo
 
 Dada uma [[#rede de fluxo]] $\large G$, um fluxo qualquer em $\large G$ é uma função $\large f: V \times V \to \mathbb R$ [^2]que satisfaz as propriedades:

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
+                "file": "Matemática/Algoritmos em Grafos/Digrafo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Controle de Fluxo"
+              "title": "Digrafo"
             }
           }
         ],
@@ -199,9 +199,11 @@
   },
   "active": "f8be2bfa74372086",
   "lastOpenFiles": [
+    "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
+    "Matemática/Algoritmos em Grafos/Pseudografo.md",
+    "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "Assets/TesteGraf.md",
     "Computação/Sistemas Distribuídos/Tolerância a Falhas em Sistemas Distribuídos.md",
-    "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "Assets/Vetor.png",
     "Assets/Análise de Sensibilidade (old).md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Descartes.md",
@@ -225,8 +227,6 @@
     "Computação/Redes de Computador/Lab/Laboratório.md",
     "Computação/Redes de Computador/Camada de Transporte/Protocolo TCP.md",
     "Computação/Redes de Computador/Camada de Transporte/Camada de Transporte.md",
-    "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Protocolo Bit-Map.md",
-    "Computação/Redes de Computador/Modelo TCP-IP.md",
     "Computação/Redes de Computador/Camada Física",
     "Computação/Algoritmos e Estruturas de Dados",
     "Humanas/Ciência, Tecnologia e Sociedade",

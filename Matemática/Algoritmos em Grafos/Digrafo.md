@@ -33,6 +33,8 @@ $$\large
 W = (v_1,\dots,v_n) &&v_i \to v_{i+1} \forall i \in (1,2,\dots,n-1)
 
 \end{gather}$$
+ Como um digrafo não possui mais de um arco para um par ordenado de vértices, um passeio pode ser notado em uma lista ordenada dos vértices em que circula sem ambiguidade
+ $$\large P= \big\langle v_1,v_2,...,v_n \big\rangle$$
 ## Caminho
 
 Um [[#passeio]] sem repetições de vértice é denominado caminho. O caminho alternativamente é considerado o subgrafo tal que
@@ -43,13 +45,12 @@ $$\large P = \{V',E'\} \begin{gather}
 - É denotado $P^n$ um caminho com $n$ vértices.
 - $\large v_0$ e $\large v_k$ são ditos extremos do caminho. Os demais são ditos como vértices internos.
 
- O caminho pode ser notado em uma lista ordenada de seus vértices
- $$\large P= \big\langle v_1,v_2,...,v_n \big\rangle$$
 ### Distância e Caminho Mínimo
 O caminho mínimo entre dois vértices $\large v, u \in V(G)$ é um [[#caminho]] cujo primeiro elemento é $\large v$, o elemento final é $\large u$ e que minimiza o número de arcos. Encontrar o caminho mínimo entre dois vértices tem [[Complexidade Assintótica|complexidade de tempo]] linear $\large O(|V| + |E|)$ por meio da [[busca em profundidade]].
 
 A distância entre dois vértices $\large v, u \in V(G)$ é tamanho do caminho mínimo entre esses dois vértices, se não há um caminho entre os vértices $\large v$ e $\large u$ em $\large G$, dizemos que $\large \text{dist}_G(v,u) = \infty$.
 $$\large \text{dist}_G(u,v) = \delta _G (u,v) := \min_{P \subseteq G}(|u\leadsto v|) $$
+Em digrafos ponderados a distância normalmente é dada não em termos do caminho ótimo mas sim em termos do custo do caminho de menor custo.
 ### Caminho Euleriano
 O caminho euleriano é o [[#caminho]] que passa por todos os arcos do digrafo. Se o caminho é euleriano é fechado, é denominado de caminho euleriano fechado.[^1] Um digrafo que tenha um caminho euleriano é dito digrafo euleriano.
 ### Caminho Hamiltoniano
@@ -73,6 +74,7 @@ Para digrafos com caminhos de custos positivos, o caminho ótimo pode ser encont
 
 //TODO caminhos com custos negativos
 ### Capacidade e Fluxo
+Redes de fluxo simulam o transporte contínuo de material de uma fonte até um sorvedouro. De forma geral queremos maximizar o fluxo de material.
 - [[Controle de Fluxo]]
 ## Propriedades
 
@@ -98,7 +100,7 @@ $$\large \deg^- (v \in V(G)) := |\{e \in E(G) / s(e) = v\}|$$
 ### Fórmula da Soma dos Graus
 A fórmula da soma dos graus dá uma relação entre o [[#grau de saída]] e [[#Grau de Entrada|de entrada]] de todos os vértices de um grafo.
 $$\large \sum_{v\in V(G)} \deg ^+(v) = \sum_{v\in V(G)}\deg^-(v)=|E(G)|$$
-Se vale a propriedade $\large \forall v \in V(G): \deg ^+(v) = \deg ^-(v)$, o digrafo é dito balanceado.
+Se vale a propriedade $\large \forall v \in V(G): \deg ^+(v) = \deg ^-(v)$, o digrafo $\large G$ é dito balanceado.
 
 ## Subgrafo
 
@@ -110,8 +112,8 @@ $$\large G' \subset G \iff E(G') \subseteq E(G) \land V(G') \subseteq V(G)$$
 ### Digrafo Acíclico
 É um digrafo que não possui [[#ciclo]] entre quaisquer dois vértices. 
 ### Árvore Enraizada
-É uma [[árvore]] em que todo vértice se existe uma raiz a qual todos os outros vértices são sucessores da raiz. Naturalmente temos que a árvore é um [[#digrafo acíclico]]. Se o grafo é uma árvore mas não é enraizada, então dizemos que ele é um árvore livre.
+É uma [[árvore]] em que todo vértice existe uma raiz a qual todos os outros vértices são sucessores da raiz. Naturalmente temos que a árvore é um [[#digrafo acíclico]]. Se o grafo é uma árvore mas não é enraizada, então dizemos que ele é um árvore livre.
 ### Ordenação Topológica
-É uma sequência ordenada de vértices de algum digrafo $\large v_1, v_2, ..., v_n$ tal que $\large \forall (i \gt j): v_i \not\rightsquigarrow v_j$. Ou seja, nenhum vértice precede algum outro vértice anterior na sequência. A ordenação topológica só existe quando não há [[#ciclo]] no digrafo, ou seja, é [[#Digrafo Acíclico|acíclico]]. Pode-se existir mais que uma ordenação topológica válida.
+É uma sequência ordenada de vértices de algum digrafo $\large \langle v_1, v_2, ..., v_n \rangle$ tal que $\large \forall (i \gt j): v_i \not\rightsquigarrow v_j$. Ou seja, nenhum vértice precede algum outro vértice anterior na sequência. A ordenação topológica existe se e somente se não há [[#ciclo]] no digrafo, ou seja, é [[#Digrafo Acíclico|acíclico]]. Pode-se existir mais que uma ordenação topológica válida.
 
 [^1]: uau!

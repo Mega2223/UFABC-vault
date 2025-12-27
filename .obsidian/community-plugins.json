@@ -6,5 +6,6 @@
   "drawio-obsidian",
   "obsidian-graphviz",
   "circuit-sketcher",
-  "code-emitter"
+  "code-emitter",
+  "pseudocode-in-obs"
 ]

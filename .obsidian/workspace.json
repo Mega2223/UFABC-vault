@@ -4,38 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "3d7fb19ed2152d71",
+        "id": "115bc7cfccc46d3e",
         "type": "tabs",
         "children": [
           {
-            "id": "b1fa4bdc1fd8f42a",
+            "id": "97d1bb5d56d43599",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assets/TesteGraf.md",
+                "file": "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TesteGraf"
+              "title": "Método Ford-Fulkerson"
             }
           },
           {
-            "id": "f8be2bfa74372086",
+            "id": "b84321eeee201060",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Probabilidade e estatística/Axiomas da probabilidade.md",
-                "mode": "preview",
+                "file": "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Axiomas da probabilidade"
+              "title": "Controle de Fluxo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0c2cdb790c78953d",
@@ -197,15 +197,18 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "b1fa4bdc1fd8f42a",
+  "active": "b84321eeee201060",
   "lastOpenFiles": [
+    "Matemática/Algoritmos em Grafos/Busca em Profundidade.md",
+    "Matemática/Algoritmos em Grafos/Grafo.md",
+    "Matemática/Algoritmos em Grafos/Pseudografo.md",
+    "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
     "Matemática/Probabilidade e estatística/Axiomas da probabilidade.md",
+    "Assets/TesteGraf.md",
     "Matemática/Algoritmos em Grafos/Árvore.md",
     "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "Matemática/Algoritmos em Grafos/Digrafo.md",
     "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
-    "Matemática/Algoritmos em Grafos/Pseudografo.md",
-    "Assets/TesteGraf.md",
     "Computação/Sistemas Distribuídos/Tolerância a Falhas em Sistemas Distribuídos.md",
     "Assets/Vetor.png",
     "Assets/Análise de Sensibilidade (old).md",
@@ -224,9 +227,6 @@
     "Matemática/Transformadas em Sinais e Sistemas Lineares",
     "Matemática/Cálculo/Bases Matemáticas/Funções Trigonométricas.md",
     "Computação/Natureza da Informação/Sinal Digital.md",
-    "Computação/Comunicação e Redes/Sinal Analógico.md",
-    "Computação/Comunicação e Redes/Conversão Análogico-Digital.md",
-    "Computação/Redes de Computador/Camada Física/Camada Física.md",
     "Computação/Redes de Computador/Camada Física",
     "Computação/Algoritmos e Estruturas de Dados",
     "Humanas/Ciência, Tecnologia e Sociedade",

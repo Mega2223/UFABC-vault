@@ -44,6 +44,22 @@ O valor de uma rede de fluxo, dado por $\large |f|$[^1], é
 $$\large |f| := \sum_{v \in V} f(s,v) - \sum_{v \in V} f(v,s)$$
 Tipicamente não existem arcos com destino a fonte do fluxo, então a segunda somatória costuma ser $\large 0$.
 
+## Rede Residual
+
+Uma rede residual em um fluxo $\large f$ representa o quanto podemos adicionar ao fluxo em uma determinada rede $\large G$. Uma rede residual $\large G_f$ é um grafo em $\large G$ onde a capacidade entre dois vértices é dada por
+$$\large c_f(u,v) = \begin{cases}
+c(u,v) - f(u,v) & (u,v) \in E(G)\\
+f(v,u) & (v,u) \in E(G) \\
+0 & (u,v),(v,u) \not \in E(G)
+\end{cases}$$
+Se o fluxo ocupa toda a capacidade em um determinado arco, temos que o seu custo residual é zero e o arco de capacidade já maximizada não é um elemento de $\large G_f$. Ainda temos que, podemos representar uma potencial diminuição de fluxo, para representar-mos essa folga usamos o valor do fluxo no arco que é complementar ao nosso. Uma consequência disso é que alguns arcos em $\large G_f$ podem não necessariamente fazer parte de $\large G$. Por fim, a rede residual dada pela aplicação de $\large f$ em uma rede de fluxo $\large G$ se dá por
+$$\large
+\begin{gather}
+G_f := (E_f,V) \\\\
+E_f := \{(u,v)\in V(G) \times V(G): c_f(u,v) \ge 0\}
+\end{gather}$$
+Podemos concluir que um fluxo é máximo quando não há um $\large st$-caminho em sua rede residual.
+
 [^1]: Onde $|f|$ não é o valor absoluto de $f$.
 
 [^2]: Analogamente, uma [[Grafo#Coloração|coloração]] nos arcos da rede

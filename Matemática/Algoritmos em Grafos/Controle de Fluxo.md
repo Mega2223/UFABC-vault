@@ -82,7 +82,17 @@ $$\large f_p(u,v) := \begin{cases}
 c_f(u,v) & (u,v) \in p \\
 0 & (u,v) \not \in p
 \end{cases}$$
-Temos que $\large f + f_p$ é um fluxo válido em $\large G$ onde $\large |f \uparrow f_p| \gt |f|$.
+Temos que $\large f + f_p$ é um fluxo válido em $\large G$ onde $\large |f \uparrow f_p| \gt |f|$. Dizemos que um fluxo $\large f$ é máximo quando não há qualquer caminho aumentador na rede residual $\large G_f$.
+
+## Corte
+
+Similar ao [[corte]] de grafos, mas com requerimentos adicionais. Em uma rede de fluxo $\large G = (V,E)$, um $\large st$-corte $\large (S,T) \subseteq V$ na rede de fluxo é uma partição $\large S \cup T = V$, $\large S \cap T = \not \text O$ tal que $\large s \in S$ e $\large t \in T$.
+
+Seja $\large f$ um fluxo em $\large G$, dizemos que o fluxo líquido (_net flow_) do $\large st$-corte é dado por
+$$\large f(S,T) := \Large \sum_{u \in S} \sum_{v\in T} f(u,v) - \sum_{u \in S} \sum_{v\in T} f(v,u)$$
+A capacidade do corte é dada por
+$$\large c(S,T) :=\Large \sum_{u \in S} \sum_{v\in T} c(u,v)$$
+Um corte é dito mínimo quando não existem cortes de capacidade menor na rede.
 
 [^1]: Onde $|f|$ não é o valor absoluto de $f$.
 

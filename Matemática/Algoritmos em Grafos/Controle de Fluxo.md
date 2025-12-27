@@ -2,7 +2,6 @@
 tags:
   - teoria-de-grafos
   - algoritmo
-  - incompleto
 authors: Júlio César
 aliases:
   - Rede de Fluxo
@@ -86,12 +85,18 @@ Temos que $\large f \uparrow f_p$ é um fluxo válido em $\large G$ onde $\large
 ## Corte
 
 Similar ao [[corte]] de grafos, mas com requerimentos adicionais. Em uma rede de fluxo $\large G = (V,E)$, um $\large st$-corte $\large (S,T) \subseteq V$ na rede de fluxo é uma partição $\large S \cup T = V$, $\large S \cap T = \not \text O$ tal que $\large s \in S$ e $\large t \in T$.
-
+### Fluxo Líquido
 Seja $\large f$ um fluxo em $\large G$, dizemos que o fluxo líquido (_net flow_) do $\large st$-corte é dado por
 $$\large f(S,T) := \Large \sum_{u \in S} \sum_{v\in T} f(u,v) - \sum_{u \in S} \sum_{v\in T} f(v,u)$$
+Seguindo as regras de preservação de fluxo, temos que, para todo $\large st$-corte na o fluxo é o mesmo, que é o [[#Fluxo|valor do fluxo]], ou seja, $\large f(S,T) = |f|$.
+### Capacidade
 A capacidade do corte é dada por
 $$\large c(S,T) :=\Large \sum_{u \in S} \sum_{v\in T} c(u,v)$$
-Um corte é dito mínimo quando não existem cortes de capacidade menor na rede.
+Um corte é dito mínimo quando não existem cortes de capacidade menor na rede. O valor de qualquer fluxo em $\large G$ tem uma fronteira máxima que é o valor de qualquer $\large st$-corte em $\large G$, de forma geral,  para todo corte $\large (S,T)$ e qualquer fluxo $\large f$ e temos que
+
+$$\large |f| \le c(S,T)$$
+
+Ainda, se $\large |f| = c(S,T)$ para qualquer corte, então $\large f$ não tem caminho aumentador, ou seja, é ótimo, logo, a capacidade do fluxo máximo de uma rede é a mesma que a capacidade do seu corte mínimo.
 
 [^1]: Onde $|f|$ não é o valor absoluto de $f$.
 

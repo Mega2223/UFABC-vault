@@ -11,14 +11,20 @@ authors: Júlio César
 
 ```pseudo
 \begin{algorithm}
+\caption{Ford-Fulkerson Method}
 \begin{algorithmic}
 \Procedure{FFS}{$G,s,t$}
-\State $f \leftarrow 0$
-
+\State $\large f \leftarrow 0$
+\While{$\text{Existe um caminho aumentador }{\large p} \text{ em } {\large G_f}$}
+\State $\large f \leftarrow (f \uparrow f_p)$
+\EndWhile
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
 ```
-## Método
 
+O algoritmo pode convergir em um fluxo máximo, todavia a implementação depende de como encontramos o nosso [[Controle de Fluxo#Caminho Aumentador|caminho aumentador]].
 ## Implementações
+
+## Complexidade
+

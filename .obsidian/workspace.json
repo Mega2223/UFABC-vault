@@ -34,6 +34,16 @@
               "icon": "lucide-file",
               "title": "Controle de Fluxo"
             }
+          },
+          {
+            "id": "f98bd52294643704",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
         "currentTab": 1

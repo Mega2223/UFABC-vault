@@ -58,8 +58,21 @@ $$\large
 G_f := (E_f,V) \\\\
 E_f := \{(u,v)\in V(G) \times V(G): c_f(u,v) \ge 0\}
 \end{gather}$$
-Podemos concluir que um fluxo é máximo quando não há um $\large st$-caminho em sua rede residual.
+A rede residual em si não é uma rede de fluxo pois pode conter arcos complementares, podemos concluir que um fluxo $\large f$ é máximo quando não há um $\large st$-caminho em sua rede residual.
 
+Embora a rede residual não seja uma rede de fluxo, ela tem propriedades similares a uma, podemos definir fluxos da mesma forma que definimos em redes de fluxo, um fluxo $\large f'$ é qualquer coloração que satisfaz as propriedades de fluxo em $\large G_f$ tendo $\large c_f$ como capacidade.
+
+O aumento é uma variação em um fluxo que gera algum outro fluxo, seguindo as devidas restrições, dizemos que sejam $\large f$ um fluxo em $\large G$ e $f'$ um fluxo na rede complementar $\large G$, o aumento entre os fluxos $\large f$ e $\large f'$ é dado por
+$$\large 
+\begin{gather}
+(f \uparrow f'): V \times V \to \mathbb R \\ \\
+(f \uparrow f') := \begin{cases}
+f(u,v) + f'(u,v) - f'(v,u) & (u,v) \in E(G) \\
+0 & (u,v) \not \in E(G)
+\end{cases}
+\end{gather}$$
+Temos que $\large (f \uparrow f') = |f| + |f'|$.
+ 
 [^1]: Onde $|f|$ não é o valor absoluto de $f$.
 
 [^2]: Analogamente, uma [[Grafo#Coloração|coloração]] nos arcos da rede

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Matemática/Algoritmos em Grafos/Busca em Largura.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -185,9 +185,9 @@
   },
   "active": "b84321eeee201060",
   "lastOpenFiles": [
+    "Matemática/Algoritmos em Grafos/Busca em Largura.md",
     "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
     "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
-    "Matemática/Algoritmos em Grafos/Busca em Largura.md",
     "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
     "Matemática/Algoritmos em Grafos/Corte.md",
     "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",

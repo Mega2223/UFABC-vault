@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "69bba3398758b48d",
+        "id": "79e326ea94da7ed1",
         "type": "tabs",
         "children": [
           {
-            "id": "d85cd2e7cd6c5e8f",
+            "id": "4092f54dba7f6f51",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática/Algoritmos em Grafos/Busca em Largura.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Busca em Largura"
+              "title": "New tab"
             }
           }
         ]
@@ -183,8 +179,10 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "d85cd2e7cd6c5e8f",
+  "active": "4092f54dba7f6f51",
   "lastOpenFiles": [
+    "Matemática/Transformadas em Sinais e Sistemas Lineares/Sinal.md",
+    "Matemática/Teoria das Categorias/Categoria.md",
     "Matemática/Algoritmos em Grafos/Busca em Largura.md",
     "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
     "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
@@ -210,8 +208,6 @@
     "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Subcamada de Acesso ao Meio.md",
     "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Protocolo ALOHA.md",
     "Computação/Redes de Computador/Camada de Enlace/Camada de Enlace.md",
-    "conflict-files-obsidian-git.md",
-    "Matemática/Transformadas em Sinais e Sistemas Lineares/Sinal.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares",
     "Computação/Redes de Computador/Camada Física",
     "Computação/Algoritmos e Estruturas de Dados",

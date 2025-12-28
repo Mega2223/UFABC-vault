@@ -76,6 +76,6 @@ A busca em profundidade só colore cada vértice um total de duas vezes (sem con
 
 ```scala
 class Digraph{
-
+	//TODO :3
 }
 ```

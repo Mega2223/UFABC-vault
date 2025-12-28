@@ -63,7 +63,8 @@ Além de atribuir um valor distância para todo vértice alcançável, o conjunt
 
 $$\large
 \begin{gather}
-V_\pi := \{v \in V: v.\pi \ne \text{nil} \} \\ \\
+G_\pi := (V_\pi,E_\pi)\\
+V_\pi := \{v \in V: v.\pi \ne \text{nil} \} \\
 E_\pi := \{(v,v.\pi):v \in V_\pi /\{s\}\}
 \end{gather}$$
 

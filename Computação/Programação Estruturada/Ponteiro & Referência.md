@@ -18,10 +18,11 @@ void mut(int* loc){
 	*loc = 4;
 }
 
-void main(){
+int main(){
 	int g = 0;
 	mut(&g);
 	printf("%2d",g);
+	return 0;
 }
 ```
 

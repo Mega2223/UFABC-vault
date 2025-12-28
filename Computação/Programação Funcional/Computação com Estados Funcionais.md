@@ -28,7 +28,7 @@ A partir de um estado inicial aplica todas as variáveis de uma lista a um objet
 }
 ```
 ### Reduce
-Similar ao fold, mas ela presume que nossa lista não está vazia, o primeiro estado fornecido será então considerado o estado
+Similar ao fold, mas ela presume que nossa lista não está vazia, o primeiro estado fornecido será então considerado o estado de inicialização
 ```scala
 @main def main = {
 	val l: List[Int] = List(1,2,3,4,5,6)

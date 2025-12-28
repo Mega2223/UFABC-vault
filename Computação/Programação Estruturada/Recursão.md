@@ -21,15 +21,15 @@ unsigned int factorial(unsigned int n){
 	return n*factorial(n-1);
 }
 
-void main(){
-	printf("%3d", factorial(5));
+int main(){
+	printf("%d", factorial(5));
+	return 0;
 }
 ```
 
 ## Desempenho
 
-Em geral algoritmos recursivos são menos ótimos que algoritmos iterativos, por conta do custo de manter as funções na pilha e o fato da mesma ter um tamanho máximo e a possibilidade de atingir um erro stackoverflow. Algumas línguas visam amenizar o custo de memória de algoritmos recursivos por meio de [[recursividade na calda]].
-
+Em geral algoritmos recursivos são menos ótimos que algoritmos iterativos por conta do custo de manter as funções na pilha e o fato da mesma ter um tamanho máximo e a consequente possibilidade de atingir um erro _stack overflow_. Algumas línguas visam amenizar o custo de memória de algoritmos recursivos por meio de reconhecer algoritmos que tem [[recursividade na calda]] durante a compilação.
 ### Implementação da Série de Fibonacci
 
 ```c

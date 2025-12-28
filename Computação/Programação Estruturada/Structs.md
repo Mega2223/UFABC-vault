@@ -8,14 +8,14 @@ authors: Júlio César
 
 Um struct é um conjunto de dados em um determinado objeto, que geralmente não atribui padrões funcionais de classe relacionados à [[Programação Orientada a Objetos|POO]], por padrão todos os elementos de um struct são de acesso global, ao contrário de classes que por padrão têm todos os objetos com acesso restrito.
 
-```C
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
-void main(){
+int main(){
     typedef struct Person {
 		unsigned int age;
-		char* name;
+		const char* name;
 	} Person;
 	
 	Person A = {10,"Lucas\0"};
@@ -29,6 +29,8 @@ void main(){
 	    printf(P[i].name);
 	    printf(" %2d \n",P[i].age);
 	}
-	return;
+	
+	free(C);
+	return 0;
 }
 ```

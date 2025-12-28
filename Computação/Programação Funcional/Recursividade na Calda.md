@@ -1,7 +1,6 @@
 ---
 tags:
   - computação
-  - incompleto
   - algoritmo
 authors: Júlio César
 aliases:
@@ -35,7 +34,7 @@ def fibonacci(x: Int): Int = {
 }
 ```
 
-Todavia esse tipo de recursão é suscetível a erros stack overflow para operações muito intensivas, para podemos reestruturar o código com um acumulador de forma que a função não necessita de manter seu espaço na pilha após a chamada da próxima função, o compilador de Scala vai automaticamente otimizar o uso da pilha.
+Todavia esse tipo de recursão é suscetível a exceções stack overflow para operações muito intensivas, para podemos reestruturar o código com um acumulador de forma que a função não necessita de manter seu espaço na pilha após a chamada da próxima função, o compilador de Scala vai automaticamente otimizar o uso da pilha.
 
 ```scala
 @tailrec
@@ -50,6 +49,8 @@ def fibonacci(x: Int, i: Int = 0, a: Int = 0, b: Int = 1): Int = {
 }
 
 @main def main() = {
-	printf("f(10) = %d",fibonacci(10))
+	printf("f(10) = %d\n",fibonacci(10))
 }
 ```
+
+De forma geral, dizemos que uma função é recursiva na calda quando, após a chamada recursiva, ela não tem operações pendentes, podendo assim ser completamente removida da pilha, e sua valoração é simplesmente a valoração da função chamada. Quando uma função é recursiva na calda, reduzimos a [[Complexidade Assintótica|complexidade na memória]] a $\large O(1)$.

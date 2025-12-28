@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Programação Funcional/Tipos de Dados Algébricos.md",
+                "file": "Computação/Programação Funcional/Recursividade na Calda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipos de Dados Algébricos"
+              "title": "Recursividade na Calda"
             }
           }
         ]
@@ -184,6 +184,7 @@
   },
   "active": "505c35b039a712d9",
   "lastOpenFiles": [
+    "Computação/Programação Funcional/Tipos de Dados Algébricos.md",
     "Computação/Programação Funcional/Scala.md",
     "Computação/Programação Funcional/Recursividade na Calda.md",
     "Computação/Programação Funcional/Programação Funcional.md",
@@ -211,7 +212,6 @@
     "Computação/Sistemas Distribuídos/Tolerância a Falhas em Sistemas Distribuídos.md",
     "Assets/Vetor.png",
     "Assets/Análise de Sensibilidade (old).md",
-    "Humanas/Bases Epistemológicas da Ciência Moderna/Descartes.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares",
     "Computação/Redes de Computador/Camada Física",
     "Computação/Algoritmos e Estruturas de Dados",

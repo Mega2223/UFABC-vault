@@ -54,3 +54,11 @@ Um morfismo $f: A \to B$ é dito um isomorfismo quando existe algum morfismo $g:
 $$\large g \circ f = 1_A\ \land f \circ g = 1_B$$
 Dizemos que $g$ é o inverso de $f$, denotado por $f^{-1}$. Caso exista um isomorfismo entre os objetos $A$ e $B$, dizemos que o objeto $A$ é isomórfico a $B$, notado por
 $$\huge A \cong B$$
+## Produto
+
+Para dois objetos $A$ e $B$, o produto de categorias entre estes é um objeto dado por $A \times B$ em que
+
+- Existe um par de morfismos $\pi_1: A\times B \to A$ e $\pi_2: A\times B \to B$, denominados projeções canônicas
+- Para qualquer outro $Y$ da categoria com morfismos $f_1: Y \to A$ e $f_2: Y \to B$, existe um morfismo $f: Y \to A \times B$ tal que $\pi_1 \circ f = f_1$ e $\pi_2 \circ f = f_2$ 
+
+O morfismo $f$ resultante do produto de categorias é dito um produto de morfismos: $f = \large \langle f_1,f_2 \rangle$

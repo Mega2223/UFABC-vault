@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "79e326ea94da7ed1",
+        "id": "6c25051522807279",
         "type": "tabs",
         "children": [
           {
-            "id": "4092f54dba7f6f51",
+            "id": "505c35b039a712d9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Teoria das Categorias/Categoria.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Categoria"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274,
-    "collapsed": true
+    "width": 274
   },
   "right": {
     "id": "0c2cdb790c78953d",
@@ -179,8 +182,9 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "4092f54dba7f6f51",
+  "active": "505c35b039a712d9",
   "lastOpenFiles": [
+    "Untitled.circuit-sketcher",
     "Matemática/Transformadas em Sinais e Sistemas Lineares/Sinal.md",
     "Matemática/Teoria das Categorias/Categoria.md",
     "Matemática/Algoritmos em Grafos/Busca em Largura.md",
@@ -207,7 +211,6 @@
     "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Protocolo CSMA.md",
     "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Subcamada de Acesso ao Meio.md",
     "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Protocolo ALOHA.md",
-    "Computação/Redes de Computador/Camada de Enlace/Camada de Enlace.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares",
     "Computação/Redes de Computador/Camada Física",
     "Computação/Algoritmos e Estruturas de Dados",

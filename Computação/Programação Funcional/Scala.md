@@ -28,8 +28,12 @@ def performFunction(f: Int => Int, x1: Int) = {
 	f(x1)
 }
 
-getAdder(3)(4) // 7
-performFunction(getAdder(3),4) //7
+@main def main() = {
+	def x = getAdder(3)(4) // 7
+	def y = performFunction(getAdder(3),4) //7
+	println(x)
+	println(y)
+}
 ```
 
 ```scala
@@ -52,14 +56,12 @@ def getSum(x: Int, y: Int): Int = {
 Scala tem suporte ao paradigma de [[Programação Orientada a Objetos|programação orientada a objetos]], tanto de forma funcional (todas as variáveis da classe são constantes) quanto imperativa.
 
 ```scala
-class Pessoa(name: String, age: Int){
-	
-}
+class Pessoa(val name: String,val age: Int){}
 
 @main def main(): Unit = {
 	val pessoaA = Pessoa("Marcos",16)
 	val pessoaB = Pessoa("Luciana",32)
-	
+	printf("%s %s",pessoaA.name,pessoaB.name);
 }
 ```
 ### Objetos
@@ -98,7 +100,7 @@ trait Iterator[A]{
 }
 ```
 
-Dito isso, traits não são exatamente equivalentes a interfaces, notoriamente eles podem ser [[Tipos de Dados Algébricos#Tipo Soma|tipos soma]].
+Dito isso, traits não são exatamente equivalentes a interfaces, enquanto interfaces expressam os métodos de um objeto, traits expressam a estrutura dos objetos, um trait é o análogo funcional do [[Tipos de Dados Algébricos#Tipo Soma|tipos soma]].
 ## Implementação
 
 ### Função Print
@@ -113,7 +115,7 @@ val v = ((add: Int, mult: Int) => add + ( (mult: Int) => 2 * mult )(mult))(3,4)
 println(v)
 ```
 ### Listas
-A língua têm uma implementação nativa de listas que obedecem o paradigma funcional
+A lista em Scala é um objeto [[Mônada|monádico]] puramente funcional, muitos métodos são oferecidos nativamente para que se possa mapear ou iterar sobre a lista.
 
 ```scala
 val data: List[Int] = List(1, 2, 3, 4, 5)

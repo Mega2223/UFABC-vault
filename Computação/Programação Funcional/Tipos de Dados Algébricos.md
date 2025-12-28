@@ -27,7 +27,7 @@ Traits são um [[#Tipo Soma|tipo algébrico soma]], tem um comportamento extrema
 //TODO
 # Tipo Produto
 
-Uma agregação de diferentes tipos, onde cada tipo pode ser composto por outros tipos
+Uma agregação de diferentes tipos, onde cada tipo pode ser composto por outros tipos, o tipo produto é o [[Categoria#Produto|produto categórico]] entre dois tipos de objetos.
 
 Se $A, B, \cdots, Z$ são tipos com $n, m, \cdots, z$ possíveis valores, temos que o tipo produto $A \times B \times \times \cdots \times Z$ terá $n\ .\ m\ .\ \cdots\ .\ z$ valores possíveis.
 

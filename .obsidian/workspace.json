@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Teoria das Categorias/Categoria.md",
+                "file": "Computação/Programação Funcional/Tipos de Dados Algébricos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Categoria"
+              "title": "Tipos de Dados Algébricos"
             }
           }
         ]
@@ -184,9 +184,17 @@
   },
   "active": "505c35b039a712d9",
   "lastOpenFiles": [
+    "Computação/Programação Funcional/Scala.md",
+    "Computação/Programação Funcional/Recursividade na Calda.md",
+    "Computação/Programação Funcional/Programação Funcional.md",
+    "Computação/Programação Funcional/Mônada.md",
+    "Computação/Programação Funcional/Estruturas Funcionais.md",
+    "Computação/Programação Funcional/Avaliação Preguiçosa.md",
+    "Computação/Programação Funcional/Cálculo Lambda.md",
+    "Computação/Programação Funcional/Computação com Estados Funcionais.md",
+    "Matemática/Teoria das Categorias/Categoria.md",
     "Untitled.circuit-sketcher",
     "Matemática/Transformadas em Sinais e Sistemas Lineares/Sinal.md",
-    "Matemática/Teoria das Categorias/Categoria.md",
     "Matemática/Algoritmos em Grafos/Busca em Largura.md",
     "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
     "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
@@ -204,13 +212,6 @@
     "Assets/Vetor.png",
     "Assets/Análise de Sensibilidade (old).md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Descartes.md",
-    "Computação/Sistemas Distribuídos/Algoritmos de Eleição.md",
-    "Computação/Sistemas Distribuídos/Sincronização.md",
-    "Computação/Redes de Computador/Arquitetura de Rede.md",
-    "Computação/Redes de Computador/Camada de Rede/Camada de Rede.md",
-    "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Protocolo CSMA.md",
-    "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Subcamada de Acesso ao Meio.md",
-    "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Protocolo ALOHA.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares",
     "Computação/Redes de Computador/Camada Física",
     "Computação/Algoritmos e Estruturas de Dados",

@@ -59,7 +59,15 @@ Os vértices de coloração $G$ são mantidos em uma [[fila]] $\large Q$, a cada
 \end{algorithm}
 ```
 
-Além de atribuir um valor distância para todo vértice alcançável, o conjunto de vértices alcançados junto com os arcos que os alcançam otimamente formam uma [[Árvore de Extensão]] (_Spanning Tree_) [[Árvore#Árvore Enraizada|enraizada]] em $\large s$.
+Além de atribuir um valor distância para todo vértice alcançável, o conjunto de vértices alcançados junto com os arcos que os alcançam otimamente formam uma [[Árvore de Extensão]] (_Spanning Tree_) [[Árvore#Árvore Enraizada|enraizada]] em $\large s$. 
+
+$$\large
+\begin{gather}
+V_\pi := \{v \in V: v.\pi \ne \text{nil} \} \\ \\
+E_\pi := \{(v,v.\pi):v \in V_\pi /\{s\}\}
+\end{gather}$$
+
+Independente de qualquer característica da lista de vizinhança a distância computada a partir de um vértice é sempre a mesma, mas a topologia da árvore gerada pode ser diferente quando houverem múltiplos caminhos mínimos.
 ## Complexidade
 
 A busca em profundidade só colore cada vértice um total de duas vezes (sem contar a inicialização), ela ainda cruza um determinado arco somente uma vez, ou seja, ela é linear em $\large V$ e linear em $\large E$. Formalmente, tem [[Complexidade Assintótica|complexidade de tempo]] $\large O(|V| + |E|)$ para alcançar todos os vértices de um grafo (e saber com certeza quais não são alcançáveis).

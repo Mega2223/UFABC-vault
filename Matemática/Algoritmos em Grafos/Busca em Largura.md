@@ -10,10 +10,20 @@ authors: Júlio César
 ---
 ## Definição
 
-É um #algoritmo que visa procurar o [[Grafo#caminho|caminho]] ótimo (que minimiza o número de arcos) entre um determinado vértice e todos os outros vértices de um [[digrafo]] (ou um [[grafo]], já que vale o [[Grafo#Morfismos entre Estruturas|morfismo]] de grafo para digrafo simétrico), pode calcular a distância total entre quaisquer dois vértices, o conjunto de todas as arestas de caminhos ótimos a um determinado vértice (e consequentemente explorados pela busca) é uma [[árvore]] de escoamento onde cada caminho entre o vértice de origem e qualquer outro é o caminho com menos arcos.
+A Busca em Largura (_Breadth-First Search_, abreviado para BFS) visa procurar o [[Grafo#caminho|caminho]] ótimo (que minimiza o número de arcos) entre um determinado vértice e todos os outros vértices de um [[digrafo]] (ou um [[grafo]], já que vale o [[Grafo#Morfismos entre Estruturas|morfismo]] de grafo para digrafo simétrico), o algoritmo tem duas finalidades:
+- Calcular a distância entre um vértice e os demais (que é o tamanho do caminho mínimo entre o vértice de origem e os demais)
+- Encontrar o subgrafo que contém todos os vértices e arestas que formam os caminhos ótimos se originando do nosso vértice inicial, essa estrutura é uma [[árvore]].
 
-A busca em largura presume invariabilidade entre as arestas (grafo não ponderado), caso o grafo seja [[Grafo#Grafo Ponderado|ponderado]], para achar o caminho de menor custo associado, a análise deve ser feita com o [[Algoritmo de Dijkstra]].
+A busca em largura presume invariabilidade entre as arestas (grafo não ponderado), caso o grafo seja [[Grafo#Grafo Ponderado|ponderado]], para achar o caminho de menor custo associado (presumindo custos não negativos) a análise deve ser feita com o [[Algoritmo de Dijkstra]].
 ## Algoritmo
+
+O algoritmo BFS é um método que tem como parâmetros em um digrafo $\large G$ e um vértice de origem $\large s \in V(G)$.
+
+O BFS funciona com base em [[Grafo#Coloração|colorações]] em vértices, onde ele continuamente itera essas colorações para entender quais vértices já foram mapeados os caminhos ótimos, existem 3 rótulos para a coloração, normalmente denominadas de branco ($\text W$), cinza ($\text G$) e preto ($\text B$), são dadas da seguinte forma:
+- $W$: Vértices ainda não explorados.
+- $G$: Vértices onde conhecemos o caminho mínimo de $\large s$.
+- $B$: Vértices onde conhecemos o caminho mínimo de todos os vértices de sua vizinhança.
+Os vértices de coloração $G$ são mantidos em uma [[fila]] $\large Q$, a cada iteração retiramos um elemento de $Q$ e mapeamos todos os vértices brancos de sua vizinhança para vértices cinzas. O vértice que removemos da fila se torna um vértice preto e seus vizinhos são colocados na fila. 
 
 ```pseudo
 \begin{algorithm}
@@ -44,9 +54,11 @@ A busca em largura presume invariabilidade entre as arestas (grafo não ponderad
 \end{algorithmic}
 \end{algorithm}
 ```
+
+Além de atribuir um valor distância para todo vértice alcançável, o conjunto de vértices alcançados junto com os arcos que os alcançam otimamente formam uma [[Árvore de Extensão]] (_Spanning Tree_) enraizada em $\large s$.
 ## Complexidade
 
-A busca em profundidade tem [[Complexidade Assintótica|complexidade de tempo]] $\large O(|V| + |E|)$ para alcançar todos os vértices conexos de um grafo.
+A busca em profundidade tem [[Complexidade Assintótica|complexidade de tempo]] $\large O(|V| + |E|)$ para alcançar todos os vértices de um grafo (e saber com certeza quais não são alcançáveis).
 
 ## Implementação
 //TODO faz isso em Scala deve ser mais compacto

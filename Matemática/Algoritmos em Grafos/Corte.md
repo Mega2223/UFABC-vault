@@ -8,6 +8,6 @@ authors: Júlio César
 ---
 ## Definição
 
-Um corte é um conjunto de arestas de um determinado [[grafo]] (ou estrutura relacionada) que separa o grafo em dois grupos de vértices não conexos entre si.
+Seja $\large G$ um [[grafo]] ou um [[Digrafo|digrafo]], um corte é um conjunto de arestas que particiona um grafo em dois conjuntos de vértices $\large (S,T) \subseteq V(G)$ onde $\large S \cup T = V(G), S \cap T = \not \text O$.
 ## Propriedades
 

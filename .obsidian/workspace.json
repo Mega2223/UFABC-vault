@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
+                "file": "Matemática/Algoritmos em Grafos/Busca em Largura.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Controle de Fluxo"
+              "title": "Busca em Largura"
             }
           },
           {
@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274
+    "width": 274,
+    "collapsed": true
   },
   "right": {
     "id": "0c2cdb790c78953d",
@@ -210,6 +211,9 @@
   "active": "38c38dfc02c9f08a",
   "lastOpenFiles": [
     "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
+    "Matemática/Algoritmos em Grafos/Busca em Largura.md",
+    "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
+    "Matemática/Algoritmos em Grafos/Corte.md",
     "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "Matemática/Algoritmos em Grafos/Busca em Profundidade.md",
     "Matemática/Algoritmos em Grafos/Grafo.md",
@@ -218,7 +222,6 @@
     "Assets/TesteGraf.md",
     "Matemática/Algoritmos em Grafos/Árvore.md",
     "Matemática/Algoritmos em Grafos/Digrafo.md",
-    "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
     "Computação/Sistemas Distribuídos/Tolerância a Falhas em Sistemas Distribuídos.md",
     "Assets/Vetor.png",
     "Assets/Análise de Sensibilidade (old).md",
@@ -235,8 +238,6 @@
     "Matemática/Transformadas em Sinais e Sistemas Lineares/Sinal.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares/Ondas Sinusoides.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares",
-    "Matemática/Cálculo/Bases Matemáticas/Funções Trigonométricas.md",
-    "Computação/Natureza da Informação/Sinal Digital.md",
     "Computação/Redes de Computador/Camada Física",
     "Computação/Algoritmos e Estruturas de Dados",
     "Humanas/Ciência, Tecnologia e Sociedade",

@@ -24,7 +24,5 @@ authors: Júlio César
 ```
 
 O algoritmo pode convergir em um fluxo máximo, todavia a implementação depende de como encontramos o nosso [[Controle de Fluxo#Caminho Aumentador|caminho aumentador]].
-## Implementações
-
-## Complexidade
+## Algoritmo
 

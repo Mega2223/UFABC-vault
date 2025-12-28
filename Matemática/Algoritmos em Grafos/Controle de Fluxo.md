@@ -93,10 +93,8 @@ Seguindo as regras de preservação de fluxo, temos que, para todo $\large st$-c
 A capacidade do corte é dada por
 $$\large c(S,T) :=\Large \sum_{u \in S} \sum_{v\in T} c(u,v)$$
 Um corte é dito mínimo quando não existem cortes de capacidade menor na rede. O valor de qualquer fluxo em $\large G$ tem uma fronteira máxima que é o valor de qualquer $\large st$-corte em $\large G$, de forma geral,  para todo corte $\large (S,T)$ e qualquer fluxo $\large f$ e temos que
-
 $$\large |f| \le c(S,T)$$
-
-Ainda, se $\large |f| = c(S,T)$ para qualquer corte, então $\large f$ não tem caminho aumentador, ou seja, é ótimo, logo, a capacidade do fluxo máximo de uma rede é a mesma que a capacidade do seu corte mínimo.
+Ainda, se $\large |f| = c(S,T)$ para qualquer corte, então $\large f$ não tem caminho aumentador, ou seja, é ótimo, logo, o valor do fluxo máximo de uma rede é igual a capacidade do seu corte mínimo.
 
 [^1]: Onde $|f|$ não é o valor absoluto de $f$.
 

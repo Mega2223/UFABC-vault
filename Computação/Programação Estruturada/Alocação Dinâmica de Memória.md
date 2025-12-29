@@ -14,11 +14,11 @@ O endereço retornado pela função `malloc` então deve ser castado para o tipo
 #include<stdio.h>
 #include<stdlib.h>
 
-void main(){
+int main(){
 	int* v = (int*) malloc(6 * sizeof(int));
 	v[0] = 11;
 	printf("%d",v[0]);
-	return;
+	return 0;
 }
 ```
 

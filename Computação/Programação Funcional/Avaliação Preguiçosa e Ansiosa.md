@@ -3,6 +3,8 @@ tags:
   - computação
   - incompleto
 authors: Júlio César
+aliases:
+  - memoização
 ---
 ## Avaliação Ansiosa
 
@@ -67,7 +69,6 @@ def fib(n: Int): Int = {
 ```
 
 Uma estrutura memoizada não é puramente funcional (pois gera efeito colateral), mas como ela é idempotente então uma função memoizada pode ser tratada externamente como um método puramente funcional.
-## Propriedades
+## Estruturas de Dados Infinitas
 
-### Estruturas de Dados Infinitas
 A estrutura que define uma variável ansiosa implica que ela seja computada e memorizada antes de ser acessada, o que inviabiliza certas estruturas muito grandes. Agora para variáveis preguiçosamente valoradas, estas podem ser definidas em termos de um mapa de forma que podemos ter uma estrutura de dados essencialmente infinita.

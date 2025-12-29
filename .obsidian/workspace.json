@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e72f0f131126ebb3",
+        "id": "dd0875fa2039ee33",
         "type": "tabs",
         "children": [
           {
-            "id": "cd0082f03db61bbf",
+            "id": "52e59bdbca586a66",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,8 +183,9 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "cd0082f03db61bbf",
+  "active": "52e59bdbca586a66",
   "lastOpenFiles": [
+    "Computação/Programação Funcional/Avaliação Preguiçosa e Ansiosa.md",
     "Computação/Programação Orientada a Objetos/Singleton.md",
     "Computação/Programação Orientada a Objetos/Programação Orientada a Objetos.md",
     "Computação/Programação Orientada a Objetos/Encapsulamento.md",
@@ -196,7 +197,6 @@
     "Computação/Programação Estruturada/Structs.md",
     "Computação/Programação Estruturada/Strings.md",
     "Computação/Programação Estruturada/Programação Estruturada.md",
-    "Computação/Programação Funcional/Avaliação Preguiçosa e Ansiosa.md",
     "Computação/Programação Funcional/Cálculo Lambda.md",
     "Computação/Programação Funcional/Computação com Estados Funcionais.md",
     "Computação/Programação Funcional/Estruturas Funcionais.md",

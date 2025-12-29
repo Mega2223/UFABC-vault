@@ -14,10 +14,10 @@ Onde $A$ é o domínio ( $\text{Dom}\ f$ ) de $f$ e $B$ é o seu contradomínio 
 ## Imagem
 
 Dado um elemento $x \in A$ deve existir um elemento $y$ no contradomínio correspondente. Dizemos que $y$ é a imagem de $x$. Um determinado $y$ pode ser imagem para vários valores de $x$, mas cada valor de $x$ é único. O conjunto de todas imagens de $f$ é um subconjunto de seu contradomínio, é dado por 
-$$\large\text{Im } f := \{f(x)| x \in a\}$$
-Para um subconjunto $X \subseteq A$, a imagem de todos os valores de $C$ se dá por
+$$\large\text{Im } f := \{f(x)| x \in A\}$$
+Para um subconjunto $X \subseteq A$, a imagem de todos os valores de $X$ se dá por todos os valores que são resultantes de $f$ em $X$
 
-$$\large f(X) := \{f(a) | a \in X\}$$
+$$\large f(X) := \{f(x) | x \in X\}$$
 ## Pré-Imagem
 
 A pré-imagem é o conceito inverso à [[#imagem]], dado um conjunto $Y \subseteq B$, a pré-imagem de $Y$ são todos os elementos de $x \in A$ cujo $f(x) \in Y$, ou seja
@@ -29,7 +29,7 @@ $$
 ## Injetividade e Sobrejetividade
 
 Dada uma função $f: A \to B$ dizemos que $f$ é uma função **injetora** se para quaisquer dois valores distintos no domínio, seus correspondentes no contradomínio também são distintos, ou seja, não existe repetição de valores no contradomínio.
-$$\large \forall (x_1,x_2) \in A, x_1 \ne x_2\ |\ f(x_1) \ne f(x_2)$$
+$$\large \forall (x_1,x_2) \in A: x_1 \ne x_2\ \implies\ f(x_1) \ne f(x_2)$$
 Dizemos ainda que $f$ é **sobrejetora** se para cada elemento $x \in A$ existe um elemento $y \in  B$ cujo $f(x) = y$, ou seja, não existem elementos do contradomínio sem elementos correspondentes no domínio
 $$\large
 \text{Im}\ f = B

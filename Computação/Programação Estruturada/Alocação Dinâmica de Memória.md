@@ -41,10 +41,10 @@ float** genMatrix(int n, int m){
 	return ret;
 }
 
-void main(){
+int main(){
 	float **M = genMatrix(10,10);
 	M[0][0] = 1.0F;
 	printf("%.2f\n",M[0][0]);
-	return;
+	return 0;
 }
 ```

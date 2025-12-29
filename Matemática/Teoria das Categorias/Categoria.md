@@ -24,11 +24,11 @@ São exemplos válidos de categoria:
 - Uma categoria $\mathcal C$ é considerada pequena se $\text{Ob}_{\mathcal C}$ e $\text{Mor}_{\mathcal C}$ são [[Conjunto|conjuntos]]. Caso o contrário ela é dita grande.
 ## Morfismo
 
-O morfismo é uma transição de objetos, tem um domínio e um contradomínio. O conjunto de todos os morfismos entre $A$ e $B$ se dá por
+O morfismo (ou seta / _arrow_) é uma transição de objetos, tem um domínio e um contradomínio. O conjunto de todos os morfismos entre $A$ e $B$ se dá por
 $$\large
 \mathcal C [A,B] := \{\text{dom}(f) = A \land \text{cod}(f) = B\}
 $$
-Um morfismo onde $A$ e $B$ coincidem é chamado de endomorfismo.
+Um morfismo onde coincidem seu domínio e seu contradomínio é chamado de endomorfismo.
 ### Diagrama
 Uma categoria pode ser representada por meio de um diagrama onde objetos são figuras e morfismos setas:
 $$\Huge A \xrightarrow{f} B $$
@@ -37,8 +37,7 @@ $$\Huge A \xrightarrow{f} B $$
 \usepackage{tikz-cd}
 \begin{document}
 
-\tikzset{LA/.style = {draw=black, % just to demonstrate, where LA is used
-                      line width=#1, -{Straight Barb[length=3pt]}},
+\tikzset{LA/.style = {draw=black, line width=#1, -{Straight Barb[length=3pt]}},
          LA/.default=1pt
         }
 \LARGE
@@ -48,7 +47,8 @@ A \arrow[r, "f", LA] \arrow[LA, rd, "g \circ f", bend right] & B \arrow[LA, d, "
 \end{tikzcd}
 \end{document}
 ```
-
+### Comutatividade
+Dizemos que um [[#diagrama]] comuta quando entre quaisquer dois caminhos seguidos entre um par de categorias, o resultado da composição dos morfismos é o mesmo.
 ### Isomorfismo e Inversão
 Um morfismo $f: A \to B$ é dito um isomorfismo quando existe algum morfismo $g: B \to A$ em $\mathcal C$ tal que
 $$\large g \circ f = 1_A\ \land f \circ g = 1_B$$

@@ -8,7 +8,7 @@ authors: Júlio César
 ---
 ## Definição
 
-A álgebra booleana é um sistema algébrico que descreve relações entre valores verdade por meio de fórmulas, é uma forma de projetar e descrever o comportamento de circuitos digitais. Possui um funcionamento extremamente similar à [[Linguagem Proposicional|lógica proposicional]], todavia a álgebra booleana não estuda inferências e sim somente evaluações.
+A álgebra booleana é um sistema algébrico que descreve relações entre valores verdade por meio de fórmulas, é uma forma de projetar e descrever o comportamento de circuitos digitais. Possui um funcionamento extremamente similar à [[Linguagem Proposicional|lógica proposicional]], todavia a álgebra booleana não estuda inferências e sim valorações.
 
 ## Componentes Algébricos
 

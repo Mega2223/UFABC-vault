@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Cálculo/Derivada.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Derivada"
+              "title": "README"
             }
           }
         ]
@@ -184,9 +184,18 @@
   },
   "active": "30e72de30783ebb7",
   "lastOpenFiles": [
+    "Naturais/Sistema Internacional.md",
+    "Matemática/Teoria das Categorias/Categoria.md",
+    "Matemática/Cálculo/Bases Matemáticas/Função.md",
+    "Naturais/Química/Transformações Químicas/Ácidos e Bases.md",
+    "Computação/Redes de Computador/Modelo TCP-IP.md",
+    "Computação/Natureza da Informação/Álgebra Booleana.md",
+    "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
+    "Computação/Aprendizado de Máquina/Regressão.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Popper.md",
+    "Matemática/Cálculo/Derivada.md",
     "Computação/Sistemas Distribuídos/Sistema Distribuído.md",
     "Computação/Natureza da Informação/Sinal Digital.md",
-    "Computação/Aprendizado de Máquina/Regressão.md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Ciência Normal e Revolução.md",
     "Computação/Algoritmos e Estruturas de Dados/Fila.md",
     "Computação/Aprendizado de Máquina/Agrupamento.md",
@@ -194,22 +203,13 @@
     "Humanas/Ciência, Tecnologia e Sociedade/Primeira Revolução Industrial.md",
     "Computação/Redes de Computador/Roteamento Hierárquico.md",
     "Computação/Aprendizado de Máquina/Regressão de Ridge.md",
-    "Matemática/Cálculo/Bases Matemáticas/Função.md",
     "Computação/Sistemas Digitais/Conversor Analógico-Digital.md",
     "Matemática/Otimização Linear/Resolução Gráfica de Sistemas Lineares.md",
     "Computação/Sistemas Digitais/Memória de Acesso Aleatório.md",
     "Computação/Comunicação e Redes/A-Star.md",
     "Computação/Redes de Computador/Protocolo HDLC.md",
     "Matemática/Cálculo/Bases Matemáticas/Funções Trigonométricas.md",
-    "Matemática/Teoria das Categorias/Categoria.md",
     "Matemática/Lógica Básica/Linguagem Proposicional.md",
-    "Matemática/Otimização Linear/Método dos Elipsoides.md",
-    "Computação/Programação Funcional/Mônada.md",
-    "Computação/Programação Funcional/Tratamento Funcional de Erros.md",
-    "Matemática/Lógica Básica/Tablôs Semânticos.md",
-    "Matemática/Lógica Básica/Cálculo de Predicados.md",
-    "Matemática/Algoritmos em Grafos/Bipartição.md",
-    "Computação/Redes de Computador/Camada de Enlace/Subcamada de Acesso ao Meio/Protocolo Bit-Map.md",
     "Untitled.circuit-sketcher",
     "Assets/Vetor.png",
     "Matemática/Transformadas em Sinais e Sistemas Lineares",

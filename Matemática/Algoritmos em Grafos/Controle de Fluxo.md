@@ -71,7 +71,7 @@ f(u,v) + f'(u,v) - f'(v,u) & (u,v) \in E(G) \\
 \end{gather}$$
 Temos que $\large |(f \uparrow f')| = |f| + |f'|$.
 ### Caminho Aumentador
-Um caminho aumentador é um $\large st$-caminho qualquer em $\large G_f$, dizemos que ele é aumentador pois podemos aumentar o fluxo em $\large f$ adicionando todos os $\large c_f(u,v)$ para o fluxo $\large f$.
+Um caminho aumentador é um $\large st$-caminho qualquer em $\large G_f$, dizemos que ele é aumentador pois podemos aumentar o fluxo em $\large f$ adicionando a menor capacidade residual do caminho aumentador para o fluxo $\large f$.
 
 O maior aumento possível para um caminho aumentador se dá pela menor capacidade residual no caminho, seja $\large p$ um caminho aumentador qualquer, dizemos que sua capacidade residual é dada por
 $$\large c_f(p) = \min(c_f(u,v): (u,v) \in p)$$

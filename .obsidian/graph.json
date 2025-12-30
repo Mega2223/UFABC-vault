@@ -6,20 +6,6 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-<<<<<<< HEAD
-  "colorGroups": [],
-  "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": -1.2,
-  "nodeSizeMultiplier": 1.01875,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.28125,
-  "repelStrength": 20,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.03901844231062335,
-=======
   "colorGroups": [
     {
       "query": "path:Matemática  ",
@@ -67,7 +53,6 @@
   "repelStrength": 9.89583333333333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.02319004415114233,
->>>>>>> origin/main
+  "scale": 0.03164498353854132,
   "close": false
 }

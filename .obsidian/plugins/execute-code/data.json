@@ -124,7 +124,7 @@
   "mathematicaArgs": "-file",
   "mathematicaFileExtension": "wls",
   "mathematicaInject": "",
-  "scalaPath": "scala",
+  "scalaPath": "scala3",
   "scalaArgs": "",
   "scalaFileExtension": "scala",
   "scalaInject": "",

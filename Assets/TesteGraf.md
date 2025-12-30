@@ -4,6 +4,56 @@
     a -- b -- c;
 }
 ```
+```dot
+Digraph G{
+ rankdir = LR;
+ node[shape=circle,background=gray]
+ splines=false
+ subgraph S{
+  cluster=false;
+  s1 s2 s3
+ }
+ subgraph E {
+ e1 e2 e3
+ }
+ node[label=""];
+ v1 v2 v3 v4 
+ {
+ s1 -> v1; s1 -> v2; s1 -> v3;
+ s2 -> v3; s2 -> v2;
+ s3 -> v2; s3 -> v3; s3 -> v4;
+ }
+ v1 -> e2; v1 -> e1;
+ v2 -> e2; v2 -> e3;
+ v3 -> e1; v3 -> e2;
+ v4 -> e3; v4 -> e2;
+}
+```
+```dot
+Digraph G{
+ rankdir = LR;
+ node[shape=circle,background=gray]
+ splines=false
+ subgraph S{
+  cluster=false;
+  s1 s2 s3
+ }
+ subgraph E {
+ e1 e2 e3
+ }
+ node[label=""];
+ v1 v2 v3 v4 
+ {
+ s1 -> v1; s1 -> v2; s1 -> v3;
+ s2 -> v3; s2 -> v2;
+ s3 -> v2; s3 -> v3; s3 -> v4;
+ }
+ v1 -> e2; v1 -> e1;
+ v2 -> e2; v2 -> e3;
+ v3 -> e1; v3 -> e2;
+ v4 -> e3; v4 -> e2;
+}
+```
 
 ```dot
     digraph G {

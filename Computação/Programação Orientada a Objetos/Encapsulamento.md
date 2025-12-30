@@ -1,12 +1,11 @@
 ---
 tags:
   - computação
-  - incompleto
 authors: Júlio César
 ---
 ## Definição
 
-Encapsulamento é a prática em [[programação orientada a objetos]] de regular o acesso de leitura e modificação de uma determinada variável por meio de um sistema de funções, se constitui da ação de conter um dado com métodos que operam sob esse dado. É considerada uma boa prática pois regula o acesso dos campos de cada classe.
+Encapsulamento é a prática em [[programação orientada a objetos]] de regular o acesso de leitura e modificação de uma determinada variável por meio de um sistema de funções, se constitui da ação de conter um dado com métodos que operam sob esse dado de forma que o dado em si é privado e somente seus métodos de acesso e modificação são públicos.
 
 ```java
 public class Account{

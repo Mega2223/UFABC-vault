@@ -1,6 +1,5 @@
 ---
 tags:
-  - incompleto
   - computação
 authors: Júlio César
 ---
@@ -55,7 +54,7 @@ Não podem:
 
 A interface é uma [[Programação Orientada a Objetos#classe|classe]] que define alguma determinada implementação do objeto, e quais funções este deve implementar, assim a interface está para quais operações um determinado objeto suporta.
 
-A interface em si não retém estados, pode ter implementações por meio da keyword `default` mas tipicamente queremos que nossas subclasses façam as implementações. Interfaces podem estender umas as outras, mas classes reais devem implementar interfaces.
+A interface em si não retém estados, pode ter implementações por meio da keyword `default` mas tipicamente queremos que nossas subclasses façam as implementações. Interfaces podem estender umas as outras, mas classes reais devem implementar interfaces. Uma classe pode implementar múltiplas interfaces.
 
 ```java
 public class Forest{

@@ -12,10 +12,11 @@ Strings são sequências de caracteres que formam sentenças, são armazenadas c
 ```c
 #include <stdio.h>
 
-void main(){
+int main(){
 	const char* string = "Olá mundo"; //literals são constantes em c
 	const char* string2 = "Adeus mundo";
 	
 	printf("%s\n%s",string,string2);
+	return 0;
 }
 ```

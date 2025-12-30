@@ -114,6 +114,21 @@ $$\large G' \subset G \iff E(G') \subseteq E(G) \land V(G') \subseteq V(G)$$
 ### Árvore Enraizada
 É uma [[árvore]] em que todo vértice existe uma raiz a qual todos os outros vértices são sucessores da raiz. Naturalmente temos que a árvore é um [[#digrafo acíclico]]. Se o grafo é uma árvore mas não é enraizada, então dizemos que ele é um árvore livre.
 ### Ordenação Topológica
-É uma sequência ordenada de vértices de algum digrafo $\large \langle v_1, v_2, ..., v_n \rangle$ tal que $\large \forall (i \gt j): v_i \not\rightsquigarrow v_j$. Ou seja, nenhum vértice precede algum outro vértice anterior na sequência. A ordenação topológica existe se e somente se não há [[#ciclo]] no digrafo, ou seja, é [[#Digrafo Acíclico|acíclico]]. Pode-se existir mais que uma ordenação topológica válida.
+É uma sequência ordenada de vértices de algum digrafo $\large \langle v_1, v_2, ..., v_n \rangle$ tal que $\large \forall (i \gt j): v_i \not\to v_j$. Ou seja, numa ordenação topológica para qualquer par de vértices $\large (v_i,v_j)$, se $\large v_i \to v_j$ então $\large i \le j$. A ordenação topológica existe se e somente se não há [[#ciclo]] no digrafo, ou seja, é [[#Digrafo Acíclico|acíclico]]. Pode-se existir mais que uma ordenação topológica válida.
+
+Uma ordenação topológica pode ser gerada por uma implementação da [[busca em profundidade]]
+
+```pseudo
+\begin{algorithm}
+\caption{Topological-Sort$(G)$}
+\begin{algorithmic}
+\ForAll{$v \in V(G)$}
+
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+```
+
+
 
 [^1]: uau!

@@ -34,7 +34,7 @@ W = (v_1,\dots,v_n) &&v_i \to v_{i+1} \forall i \in (1,2,\dots,n-1)
 
 \end{gather}$$
  Como um digrafo não possui mais de um arco para um par ordenado de vértices, um passeio pode ser notado em uma lista ordenada dos vértices em que circula sem ambiguidade
- $$\large P= \big\langle v_1,v_2,...,v_n \big\rangle$$
+ $$\large W= \big\langle v_1,v_2,...,v_n \big\rangle$$
 ## Caminho
 
 Um [[#passeio]] sem repetições de vértice é denominado caminho. O caminho alternativamente é considerado o subgrafo tal que
@@ -62,7 +62,7 @@ Um ciclo (ou circuito) é um [[#caminho]] onde o ultimo vértice é um predecess
 
 ## Digrafo Ponderado
 
-Um digrafo ponderado é um digrafo que possui uma [[Grafo#Coloração|coloração]] aos reais $\large w: E_G \to \mathbb R$. Dizemos que $\large f(e)$ é o peso, capacidade ou o custo de $\large e$ dependendo do contexto.
+Um digrafo ponderado é um digrafo que possui uma [[Grafo#Coloração|coloração]] aos reais $\large w: E(G) \to \mathbb R$. Dizemos que $\large w(e)$ é o peso, capacidade ou o custo de $\large e$ dependendo do contexto.
 ### Custo e Caminho Ótimo
 Seja $\large p = \langle v_1,v_2,...,v_n \rangle$ um [[#caminho]], dizemos que o custo de $\large P$ se dá por
 $$\large w(p):= \sum_{i=1}^{n-1} w(v_i,v_{i+1})$$

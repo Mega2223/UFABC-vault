@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
+                "file": "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Método Ford-Fulkerson"
+              "title": "Solidariedade Mecânica e Orgânica"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
+                "file": "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Método Ford-Fulkerson"
+              "title": "Backlinks for Solidariedade Mecânica e Orgânica"
             }
           },
           {
@@ -184,11 +184,19 @@
   },
   "active": "2fc58b622ee32d0b",
   "lastOpenFiles": [
-    "Matemática/Algoritmos em Grafos/Pseudografo.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Fato Social.md",
+    "Humanas/Estrutura Dinâmica e Social/Marx/Materialismo Histórico-Dialético.md",
+    "Humanas/Estrutura Dinâmica e Social/Ética Protestante e o Espírito do Capitalismo.md",
+    "Matemática/Álgebra Linear/Autovetores.md",
+    "Matemática/Álgebra Linear/Combinação Linear.md",
+    "Matemática/Álgebra Linear/Espaço Vetorial.md",
+    "Matemática/Álgebra Linear/Transformação Linear.md",
     "Matemática/Algoritmos em Grafos/Digrafo.md",
-    "Matemática/Algoritmos em Grafos/Grafo.md",
-    "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
     "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
+    "Matemática/Algoritmos em Grafos/Grafo.md",
+    "Matemática/Algoritmos em Grafos/Pseudografo.md",
+    "Matemática/Cálculo/Bases Matemáticas/Função.md",
+    "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
     "Matemática/Algoritmos em Grafos/Busca em Largura.md",
     "Matemática/Algoritmos em Grafos/Bipartição.md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Popper.md",
@@ -202,17 +210,9 @@
     "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "conflict-files-obsidian-git.md",
     "Computação/Programação Funcional/Tratamento Funcional de Erros.md",
-    "Computação/Programação Funcional/Avaliação Preguiçosa e Ansiosa.md",
-    "README.md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Autores",
-    "Humanas/Estrutura Dinâmica e Social/Marx/Materialismo Histórico-Dialético.md",
-    "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
     "Humanas/Estrutura Dinâmica e Social/Weber",
     "Humanas/Estrutura Dinâmica e Social/Marx",
-    "Humanas/Estrutura Dinâmica e Social/Untitled.md",
-    "Humanas/Estrutura Dinâmica e Social/Durkheim/Ética Protestante e o Espírito do Capitalismo.md",
-    "Humanas/Estrutura Dinâmica e Social/Durkheim/Materialismo Histórico-Dialético.md",
-    "Humanas/Estrutura Dinâmica e Social/Durkheim/Fato Social.md",
     "Humanas/Estrutura Dinâmica e Social/Durkheim",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Autores",
     "Humanas/Estrutura Dinâmica e Social/Autores",

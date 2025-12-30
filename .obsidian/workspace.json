@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ef0f5977e39608cb",
+        "id": "7aa046628fb4dc98",
         "type": "tabs",
         "children": [
           {
-            "id": "d2a2e63f212ea416",
+            "id": "2fc58b622ee32d0b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Hume.md",
-                "bFile": "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Hume.md",
-                "aRef": ""
+                "file": "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Hume"
+              "icon": "lucide-file",
+              "title": "Método Ford-Fulkerson"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computação/Sistemas Digitais/Unidade de Controle.md",
+                "file": "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Unidade de Controle"
+              "title": "Backlinks for Método Ford-Fulkerson"
             }
           },
           {
@@ -182,12 +182,12 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "d2a2e63f212ea416",
+  "active": "2fc58b622ee32d0b",
   "lastOpenFiles": [
+    "Matemática/Algoritmos em Grafos/Pseudografo.md",
     "Matemática/Algoritmos em Grafos/Digrafo.md",
     "Matemática/Algoritmos em Grafos/Grafo.md",
     "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
-    "Matemática/Algoritmos em Grafos/Pseudografo.md",
     "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
     "Matemática/Algoritmos em Grafos/Busca em Largura.md",
     "Matemática/Algoritmos em Grafos/Bipartição.md",

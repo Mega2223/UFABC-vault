@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c5d71adb1e39717a",
+        "id": "ef0f5977e39608cb",
         "type": "tabs",
         "children": [
           {
-            "id": "30e72de30783ebb7",
+            "id": "d2a2e63f212ea416",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Método Ford-Fulkerson"
             }
           }
         ]
@@ -37,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "struct",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 268
   },
   "right": {
     "id": "0c2cdb790c78953d",
@@ -178,44 +182,50 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "30e72de30783ebb7",
+  "active": "617b937a9e5b8f55",
   "lastOpenFiles": [
-    "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
-    "Naturais/Química/Bioquímica/Carboidratos.md",
-    "Computação/Aprendizado de Máquina/Regressão de Ridge.md",
-    "Matemática/Otimização Linear/Análise de Sensibilidade.md",
-    "README.md",
-    "Matemática/Otimização Linear/Modelo Linear.md",
-    "Computação/Programação Funcional/Programação Funcional.md",
-    "Computação/Aprendizado de Máquina/Regressão Logística.md",
-    "Naturais/Sistema Internacional.md",
-    "Matemática/Teoria das Categorias/Categoria.md",
-    "Matemática/Cálculo/Bases Matemáticas/Função.md",
-    "Naturais/Química/Transformações Químicas/Ácidos e Bases.md",
-    "Computação/Redes de Computador/Modelo TCP-IP.md",
-    "Computação/Natureza da Informação/Álgebra Booleana.md",
-    "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
-    "Computação/Aprendizado de Máquina/Regressão.md",
-    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Popper.md",
-    "Matemática/Cálculo/Derivada.md",
-    "Computação/Sistemas Distribuídos/Sistema Distribuído.md",
-    "Computação/Natureza da Informação/Sinal Digital.md",
+    "Matemática/Algoritmos em Grafos/Grafo.md",
+    "conflict-files-obsidian-git.md",
+    "Computação/Programação Funcional/Tratamento Funcional de Erros.md",
+    "Computação/Programação Funcional/Avaliação Preguiçosa e Ansiosa.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Conjecturas e Refutações.md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Ciência Normal e Revolução.md",
-    "Computação/Algoritmos e Estruturas de Dados/Fila.md",
-    "Computação/Aprendizado de Máquina/Agrupamento.md",
-    "Computação/Redes de Computador/Rede Ethernet.md",
-    "Humanas/Ciência, Tecnologia e Sociedade/Primeira Revolução Industrial.md",
-    "Untitled.circuit-sketcher",
-    "Assets/Vetor.png",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Problema da Indução.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Hume.md",
+    "README.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Popper.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Descartes.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Kuhn.md",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores",
+    "Humanas/Estrutura Dinâmica e Social/Marx/Materialismo Histórico-Dialético.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
+    "Humanas/Estrutura Dinâmica e Social/Weber",
+    "Humanas/Estrutura Dinâmica e Social/Marx",
+    "Humanas/Estrutura Dinâmica e Social/Untitled.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Ética Protestante e o Espírito do Capitalismo.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Materialismo Histórico-Dialético.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Fato Social.md",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim",
+    "Humanas/Bases Epistemológicas da Ciência Moderna/Autores",
+    "Humanas/Estrutura Dinâmica e Social/Autores/Marx.md",
+    "Humanas/Estrutura Dinâmica e Social/Autores/Weber.md",
+    "Humanas/Estrutura Dinâmica e Social/Autores/Durkheim.md",
+    "Humanas/Estrutura Dinâmica e Social/Fato Social.md",
+    "Humanas/Estrutura Dinâmica e Social/Ética Protestante e o Espírito do Capitalismo.md",
+    "Humanas/Estrutura Dinâmica e Social/Autores",
+    "Humanas/Estrutura Dinâmica e Social/Durkheim.md",
+    "Humanas/Estrutura Dinâmica e Social/Weber.md",
     "Matemática/Transformadas em Sinais e Sistemas Lineares",
+    "Matemática/Equações Diferenciais Ordinárias",
     "Computação/Redes de Computador/Camada Física",
     "Computação/Algoritmos e Estruturas de Dados",
-    "Humanas/Ciência, Tecnologia e Sociedade",
-    "Humanas/Bases Epistemológicas da Ciência Moderna",
+    "Assets/Pasted image 20251015193232.png",
+    "Assets/Vetor.png",
+    "Assets/Untitled Diagram.svg",
+    "Assets/Pasted image 20241022235314.png",
     "Assets/FF NOR S-R.png",
     "Assets/FF nOR CT.png",
-    "Assets/Pasted image 20251015193232.png",
-    "Matemática/Algoritmos em Grafos"
+    "Assets/DAC2.drawio.png"
   ]
 }

@@ -17,7 +17,7 @@ A notação Big-$O$ é uma notação que define o comportamento de uma determina
 Dadas as funções $\large f: \mathbb{R}^{x\ge0} \to \mathbb{R}^{x\ge0}$ e $\large g: \mathbb{R}^{x\ge0} \to \mathbb{R}^{x\ge0}$,
 $$\large
 \begin{gather}
-f(n) \in O(g(n)) \iff \exists\ (c\in \mathbb{R}^{x\gt0},n_0 \in\mathbb{R}^{x\ge0})\ f(n) \le c\ \cdot\ g(n)\ \forall (n \ge n_o)
+f(n) \in O(g(n)) \iff \exists\ (c\in \mathbb{R}^{x\gt0},n_0 \in\mathbb{R}^{x\ge0})\ f(n) \le c\ \cdot\ g(n)\ \forall (n \ge n_0)
 \end{gather}
 $$
 

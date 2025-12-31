@@ -28,8 +28,9 @@ A união de dois conjuntos $A$ e $B$ é um conjunto que possui tanto os elemento
 $$\large A \cup B := \{x \in A\ \lor\ x \in B \} $$
 A intersecção entre $A$ e $B$ é todo elemento de $A$ que também pertence a $B$.
 $$\large A \cap B := \{x \in A\ \land\ x \in B \} $$
-- $A \cap (B \cup C) = (A\cap B) \cup (A\cap C)$
-- $A \cup (B \cap C) = (A\cup B) \cap (A\cup C)$
+Logicamente essas operações são comutativas e associativas, também seguem as propriedades distributivas:
+- $\large A \cap (B \cup C) = (A\cap B) \cup (A\cap C)$
+- $\large A \cup (B \cap C) = (A\cup B) \cap (A\cup C)$
 ## Cardinalidade
 //TODO
 

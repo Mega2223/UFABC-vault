@@ -37,4 +37,9 @@ De forma geral, temos que functores são morfismos que mapeiam morfismos e objet
 ### Endofunctor
 - Um functor que coincidem sua origem[^1] e destino é chamado um endofunctor.
 
+## Transformações Naturais
+
+Uma transformação natural é um [[Função|mapeamento]] entre [[Functor|functores]] que respeita todas as composições entre morfismos aplicados no functor. Isso é, sejam $\large F$ e $\large G$ functores entre as categorias $\large \textbf A$ e $\large \textbf B$, uma transformação natural $\large \eta$ é uma família de [[Categoria#Morfismo|morfismos]] do tipo $\large \eta _X: F(X) \to G(X)$ para algum todo objeto $\large X$ em $\large \textbf A$ ou em $\large \textbf B$.
+
+
 [^1]: Ou seja, ele mapeia para a mesma categoria, não necessariamente é um functor identidade (ex $f(x) = x^3$).

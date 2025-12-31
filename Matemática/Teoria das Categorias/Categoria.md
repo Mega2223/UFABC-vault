@@ -19,9 +19,6 @@ São exemplos válidos de categoria:
 - [[Espaço Vetorial|Espaços vetoriais]] e [[Transformação Linear|transformações lineares]]
 - [[Grafo|Grafos]], [[digrafo|digrafos]] e [[pseudografo|pseudografos]], com seus vértices como objetos e arcos como morfismos
 - Subconjuntos contínuos de $\large \mathbb R$ e funções reais
-## Terminologia
-
-- Uma categoria $\mathcal C$ é considerada pequena se $\text{Ob}_{\mathcal C}$ e $\text{Mor}_{\mathcal C}$ são [[Conjunto|conjuntos]]. Caso o contrário ela é dita grande.
 ## Morfismo
 
 O morfismo (ou seta / _arrow_) é uma transição de objetos, tem um domínio e um contradomínio. O conjunto de todos os morfismos entre $A$ e $B$ se dá por
@@ -82,4 +79,20 @@ O morfismo $f$ resultante do produto de categorias é dito um produto de morfism
 
 ## Produto Categórico
 
-Sejam $\large \textbf A$ e $\large \textbf B$ [[Categoria|categorias]], o produto categórico $\large \textbf A \times \textbf B$ e é o [[Conjunto#Produto Cartesiano|produto cartesiano]] entre os objetos e morfismos das categorias. Ou seja, é uma categoria que tem duplas de objetos e morfismos do tipo $\large (f,g):(A,B) \to (A',B')$ para morfismos do tipo $\large f: A \to A'$ e $\large g: B \to B'$  nas categorias originais $\large (A,A')\in \textbf A$,$\large (B,B')\in \textbf B$.
+Sejam $\large \textbf A$ e $\large \textbf B$ [[Categoria|categorias]], o produto categórico $\large \textbf A \times \textbf B$ tem as propriedades do [[Conjunto#Produto Cartesiano|produto cartesiano]] entre os objetos e morfismos das categorias. O produto é uma categoria que tem duplas de objetos e morfismos do tipo $\large (f,g):(A,B) \to (A',B')$ para morfismos do tipo $\large f: A \to A'$ e $\large g: B \to B'$  nas categorias originais $\large (A,A')\in \textbf A$,$\large (B,B')\in \textbf B$.
+
+Logicamente, existem projeções para essas duplas da forma
+$$\large
+\begin{gather}
+\pi_1: \large \textbf A \times \textbf B \to \textbf A & \pi_2: \large \textbf A \times \textbf B \to \textbf B \\
+\pi_1(A,B) := A & \pi_2(A,B) := B
+\end{gather}$$
+## Categoria Dual
+O dual de uma categoria $\large \textbf C$, dado por $\large \textbf C^\text{op}$ é uma categoria com os mesmos objetos, mas onde para cada morfismo $\large f: A \to  B$ em $\large \textbf C$, existe um morfismo dual $\large \overline f: B \to A$. Com a inversão dos domínios também são invertidas as composições ($\large g \overline \circ f = \overline f  \circ \overline g$).
+
+Identidades da categoria dual se dão por $\large 1_{\overline C} = \overline {1_C}$.
+
+## Terminologia
+
+### Categoria Pequena
+Uma categoria $\large \mathcal C$ é considerada pequena se $\large \text{Ob}_{\mathcal C}$ e $\large \text{Mor}_{\mathcal C}$ são [[Conjunto|conjuntos]]. Caso o contrário ela é dita grande. Se os objetos de uma categoria são finitos, logicamente $\large \text{Ob}_{\mathcal C}$ é um conjunto, a categoria é dita finita.

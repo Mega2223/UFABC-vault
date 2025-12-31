@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
+                "file": "Matemática/Teoria das Categorias/Categoria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Solidariedade Mecânica e Orgânica"
+              "title": "Categoria"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "categoria",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,6 +185,7 @@
   },
   "active": "2fc58b622ee32d0b",
   "lastOpenFiles": [
+    "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
     "Humanas/Estrutura Dinâmica e Social/Durkheim/Fato Social.md",
     "Humanas/Estrutura Dinâmica e Social/Marx/Materialismo Histórico-Dialético.md",
     "Humanas/Estrutura Dinâmica e Social/Ética Protestante e o Espírito do Capitalismo.md",
@@ -209,7 +211,6 @@
     "Humanas/Bases Epistemológicas da Ciência Moderna/Autores/Descartes.md",
     "Matemática/Algoritmos em Grafos/Controle de Fluxo.md",
     "conflict-files-obsidian-git.md",
-    "Computação/Programação Funcional/Tratamento Funcional de Erros.md",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Autores",
     "Humanas/Estrutura Dinâmica e Social/Weber",
     "Humanas/Estrutura Dinâmica e Social/Marx",

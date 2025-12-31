@@ -54,11 +54,32 @@ Um morfismo $f: A \to B$ é dito um isomorfismo quando existe algum morfismo $g:
 $$\large g \circ f = 1_A\ \land f \circ g = 1_B$$
 Dizemos que $g$ é o inverso de $f$, denotado por $f^{-1}$. Caso exista um isomorfismo entre os objetos $A$ e $B$, dizemos que o objeto $A$ é isomórfico a $B$, notado por
 $$\huge A \cong B$$
-## Produto
+## Produto Entre Objetos
 
-Para dois objetos $A$ e $B$, o produto de categorias entre estes é um objeto dado por $A \times B$ em que
+Para dois objetos $A$ e $B$, o produto de objetos entre estes é um objeto dado por $A \times B$ em que
 
 - Existe um par de morfismos $\pi_1: A\times B \to A$ e $\pi_2: A\times B \to B$, denominados projeções canônicas
-- Para qualquer outro $Y$ da categoria com morfismos $f_1: Y \to A$ e $f_2: Y \to B$, existe um morfismo $f: Y \to A \times B$ tal que $\pi_1 \circ f = f_1$ e $\pi_2 \circ f = f_2$ 
+- Para qualquer outro objeto $Y$ da categoria com morfismos $f_1: Y \to A$ e $f_2: Y \to B$, existe um morfismo $f: Y \to A \times B$ tal que $\pi_1 \circ f = f_1$ e $\pi_2 \circ f = f_2$ 
 
-O morfismo $f$ resultante do produto de categorias é dito um produto de morfismos: $f = \large \langle f_1,f_2 \rangle$
+Ou seja produto entre dois objetos é um objeto tal que o seguinte diagrama [[#Diagrama|comuta]]:
+
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+
+\tikzset{LA/.style = {draw=black, line width=#1, -{Straight Barb[length=3pt]}},
+         LA/.default=1pt
+        }
+\LARGE
+\begin{tikzcd}
+  & Y \arrow[ld, "f_1"',LA] \arrow[d, "f", dashed,LA] \arrow[rd, "f_2",LA] &   \\
+A & A \times B \arrow[r, "\pi_2"',LA] \arrow[l, "\pi_1",LA]        & B
+\end{tikzcd}
+\end{document}
+```
+
+O morfismo $f$ resultante do produto de categorias é dito um produto de morfismos: $f = \large \langle f_1,f_2 \rangle$.
+
+## Produto Categórico
+
+Sejam $\large \textbf A$ e $\large \textbf B$ [[Categoria|categorias]], o produto categórico $\large \textbf A \times \textbf B$ e é o [[Conjunto#Produto Cartesiano|produto cartesiano]] entre os objetos e morfismos das categorias. Ou seja, é uma categoria que tem duplas de objetos e morfismos do tipo $\large (f,g):(A,B) \to (A',B')$ para morfismos do tipo $\large f: A \to A'$ e $\large g: B \to B'$  nas categorias originais $\large (A,A')\in \textbf A$,$\large (B,B')\in \textbf B$.

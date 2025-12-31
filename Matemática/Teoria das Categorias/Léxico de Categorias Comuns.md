@@ -24,7 +24,7 @@ A categoria das categorias pequenas, denominada $\large \textbf {Cat}$ é uma [[
 A categoria dos quivers, dada por $\large \textbf {Quiv}$, é a categoria dos [[Pseudografo#Pseudodigrafo|multidigrafos]], onde cada objeto é um vértice e cada arco é um morfismo de forma que $\large \text{dom}(e \in E) = s(e)$ e $\large \text{cod}(e \in E) = t(e)$.
 ## Categoria das Setas / Categoria dos Morfismos
 
-
+// TODO
 ## Categoria dos Functores
 
 Entre dois objetos $\large C$ e $\large D$ (que são categorias), categoria dos functores entre eles, dada por $\large D^C$, ou $\large \text{Funct}(C,D)$ é a categoria onde objetos são [[functor|functores]] do tipo $\large F: C \to D$ e seus [[Categoria#Morfismo|morfismos]] são [[Functor#Transformações Naturais|transformações naturais]] entre esses functores, ou seja, do tipo $\large \eta : F \to G$.

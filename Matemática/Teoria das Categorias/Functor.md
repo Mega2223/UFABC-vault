@@ -39,7 +39,8 @@ De forma geral, temos que functores são morfismos que mapeiam morfismos e objet
 
 ## Transformações Naturais
 
-Uma transformação natural é um [[Função|mapeamento]] entre [[Functor|functores]] que respeita todas as composições entre morfismos aplicados no functor. Isso é, sejam $\large F$ e $\large G$ functores entre as categorias $\large \textbf A$ e $\large \textbf B$, uma transformação natural $\large \eta$ é uma família de [[Categoria#Morfismo|morfismos]] do tipo $\large \eta _X: F(X) \to G(X)$ para algum todo objeto $\large X$ em $\large \textbf A$ ou em $\large \textbf B$.
+Uma transformação natural é um [[Função|mapeamento]] entre [[Functor|functores]] que respeita todas as composições entre morfismos aplicados no functor. Isso é, sejam $\large F: \textbf A \to \textbf B$ e $\large G: \textbf A \to \textbf B$ functores entre as categorias $\large \textbf A$ e $\large \textbf B$, uma transformação natural $\large \eta : F \to G$ é uma família de [[Categoria#Morfismo|morfismos]] do tipo $\large \eta _X: F(X) \to G(X)$ para todo objeto $\large X$ em $\large \textbf A$.
 
+Os componentes da transformação $\large \eta$ devem preservar as identidades e composições dos morfismos a qual ela opera, para todo morfismo do tipo $\large f: X \to Y$ é necessário que $\large G(f) \circ \eta_X = \eta_Y \circ F(f)$.
 
 [^1]: Ou seja, ele mapeia para a mesma categoria, não necessariamente é um functor identidade (ex $f(x) = x^3$).

@@ -43,4 +43,4 @@ Uma transformação natural é um [[Função|mapeamento]] entre [[Functor|functo
 
 Os componentes da transformação $\large \eta$ devem preservar as identidades e composições dos morfismos a qual ela opera, para todo morfismo do tipo $\large f: X \to Y$ é necessário que $\large G(f) \circ \eta_X = \eta_Y \circ F(f)$.
 
-[^1]: Ou seja, ele mapeia para a mesma categoria, não necessariamente é um functor identidade (ex $f(x) = x^3$).
+[^1]: Ou seja, ele mapeia para a mesma categoria, não necessariamente é um functor identidade, ex: [[Transformação Linear#Definição|operadores lineares]].

@@ -42,4 +42,6 @@ $$\large f^{-1}(y)  = x \iff f(x) = y$$
 ## Composição
 
 Sejam $\large f: B \to C$ e $\large g: A \to B$ funções, a composição entre $\large f$ e $\large g$ se dá pela função $\large f \circ g: A \to C$ definida como
-$$\large f \circ g (x) := f(g(x))$$Composições são associativas, ou seja, $\large (f \circ g) \circ h = f \circ (g \circ h)$.
+$$\large f \circ g (x) := f(g(x))$$
+
+Composições são associativas, ou seja, $\large (f \circ g) \circ h = f \circ (g \circ h)$.

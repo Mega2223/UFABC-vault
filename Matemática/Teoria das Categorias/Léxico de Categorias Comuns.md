@@ -6,7 +6,6 @@ tags:
   - incompleto
 aliases:
 ---
-
 ## Categorias Pequenas
 São [[Categoria#Categoria Pequena|categorias pequenas]] aquelas em que $\large \text{Ob}_{\mathcal C}$ é um conjunto.
 ### Categoria 0
@@ -19,4 +18,8 @@ A categoria dos conjuntos, denominada $\large \textbf {Set}$ é a [[categoria]] 
 
 ## Categoria das Categorias Pequenas
 
+A categoria das categorias pequenas, denominada $\large \textbf {Cat}$ é uma [[categoria]] onde seus objetos são [[Categoria#Categoria Pequena|categorias pequenas]] e seus [[Categoria#Morfismo|morfismos]] são [[Functor|functores]] entre essas categorias, como functores são mapas eles obedecem todas as regras de composição que exige uma categoria. $\large \textbf {Cat}$ é uma categoria grande, ou seja, não contém a si mesma. Existe um [[functor]] dessa categoria até a [[#categoria dos quivers]].
+## Categoria dos Quivers
+
+A categoria dos quivers, dada por $\large \textbf {Quiv}$, é a categoria dos [[Pseudografo#Pseudodigrafo|multidigrafos]], onde cada objeto é um vértice e cada arco é um morfismo de forma que $\large \text{dom}(e \in E) = s(e)$ e $\large \text{cod}(e \in E) = t(e)$.
 ## Categoria dos Functores

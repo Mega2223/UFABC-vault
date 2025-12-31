@@ -52,12 +52,12 @@ Define funções que são estritamente da mesma ordem
 
 Dadas as funções $\large f: \mathbb{R}^{x\ge0} \to \mathbb{R}^{x\ge0}$ e $\large g: \mathbb{R}^{x\ge0} \to \mathbb{R}^{x\ge0}$,
 
-$$\large f(x) \in \Theta(g(x)) \iff \exists(c_1 \in \mathbb R^{x \ge 0},c_2\in \mathbb R^{x \ge 0},n_0\in \mathbb R^{x \ge 0}) \ \forall (n \ge n_0)\ c_1\cdot g(n) \le f(n) \le c_2\cdot g(n)$$
+$$\large f(n) \in \Theta(g(n)) \iff \exists(c_1 \in \mathbb R^{x \ge 0},c_2\in \mathbb R^{x \ge 0},n_0\in \mathbb R^{x \ge 0}) \ \forall (n \ge n_0)\ c_1\cdot g(n) \le f(n) \le c_2\cdot g(n)$$
 
 Analogamente, $\large f$ é da ordem $\large \Theta(g)$ se e somente se $\large f \in O(g)$ e $\large f \in \Omega(g)$.
 ## Equivalência Assintótica
 
-Duas funções $f$ e $g$ são ditas assintoticamente equivalentes quando elas crescem em ordem similar
+Duas funções $\large f$ e $\large g$ são ditas assintoticamente equivalentes quando elas crescem em ordem similar
 $$\large f(x) \sim g(x) \iff \lim_{x\to\infty} \frac{f(x)}{g(x)} = 1$$
 
 [^1]: Também é usada pra medir a quantidade de memória e alguns outros parâmetros do algoritmo. Em tese você pode usar isso em qualquer função definida em $\mathbb{R}^{\ge0}$, mas é mais comum se usar ela em computação para funções discretas.

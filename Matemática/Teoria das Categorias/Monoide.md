@@ -14,4 +14,4 @@ $$\large\begin{gather}
 \forall x \in M : x \cdot u = u \cdot x = x
 \end{gather}$$
 
-Como todas as operações são feitas dentro do conjunto $M$, temos que o monoide é uma [[categoria]] de um único elemento. Monoides podem ser formados de boa parte das categorias numéricas com a adição ou o produto algébrico ($\large\mathbb N$, $\large\mathbb Q$, $\large\mathbb R$). Todos os morfismos de um monoide são [[Categoria#Isomorfismo e Inversão|isomorfismos]].
+Como todas as operações são feitas dentro do conjunto $M$, temos que o monoide é uma [[categoria]] de um único elemento. Monoides podem ser formados de boa parte das categorias numéricas com a adição ou o produto algébrico ($\large\mathbb N$, $\large\mathbb Q$, $\large\mathbb R$). Todos os morfismos de um monoide são [[Categoria#Morfismo|endomorfismos]].

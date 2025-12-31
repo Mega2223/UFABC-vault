@@ -35,7 +35,7 @@ De forma geral, temos que functores são morfismos que mapeiam morfismos e objet
 ## Terminologia
 
 ### Endofunctor
-- Um functor que coincidem sua origem[^1] e destino é chamado um endofunctor.
+- Um functor que coincidem sua origem[^1] e destino é chamado um endofunctor. Seja $\large F$ um endofunctor, a composição $\large F \circ F$ tem a notação $\large F^2$, composições maiores seguem a mesma notação ($\large F \circ F \circ F = F^3$ etc).
 
 ## Transformações Naturais
 

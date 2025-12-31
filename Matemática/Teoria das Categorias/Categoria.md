@@ -45,7 +45,7 @@ A \arrow[r, "f", LA] \arrow[LA, rd, "g \circ f", bend right] & B \arrow[LA, d, "
 \end{document}
 ```
 ### Comutatividade
-Dizemos que um [[#diagrama]] comuta quando entre quaisquer dois caminhos seguidos entre um par de categorias, o resultado da composição dos morfismos é o mesmo.
+Dizemos que um [[#diagrama]] comuta quando entre quaisquer dois caminhos entre um par de categorias, o resultado da composição dos morfismos neste caminho é o mesmo.
 ### Isomorfismo e Inversão
 Um morfismo $f: A \to B$ é dito um isomorfismo quando existe algum morfismo $g: B \to A$ em $\mathcal C$ tal que
 $$\large g \circ f = 1_A\ \land f \circ g = 1_B$$
@@ -58,7 +58,7 @@ Para dois objetos $A$ e $B$, o produto de objetos entre estes é um objeto dado 
 - Existe um par de morfismos $\pi_1: A\times B \to A$ e $\pi_2: A\times B \to B$, denominados projeções canônicas
 - Para qualquer outro objeto $Y$ da categoria com morfismos $f_1: Y \to A$ e $f_2: Y \to B$, existe um morfismo $f: Y \to A \times B$ tal que $\pi_1 \circ f = f_1$ e $\pi_2 \circ f = f_2$ 
 
-Ou seja produto entre dois objetos é um objeto tal que o seguinte diagrama [[#Diagrama|comuta]]:
+Ou seja produto entre dois objetos é um objeto tal que o seguinte diagrama [[#Comutatividade|comuta]]:
 
 ```tikz
 \usepackage{tikz-cd}
@@ -77,6 +77,15 @@ A & A \times B \arrow[r, "\pi_2"',LA] \arrow[l, "\pi_1",LA]        & B
 
 O morfismo $f$ resultante do produto de categorias é dito um produto de morfismos: $f = \large \langle f_1,f_2 \rangle$.
 
+## Objeto Inicial e Objeto Terminal
+
+Em uma [[categoria]] $\large \textbf C$, um objeto $\large A$ é dito o objeto inicial de $\large \textbf C$ se e somente se para todo objeto $\large X$ da categoria existe um único morfismo $\large f: A \to X$. O objeto inicial costuma ter a notação $\large 0$, e seus morfismos tem a notação $\large 0_X:0\to X$.
+
+O objeto terminal é o dual do objeto inicial, $\large A$ é dito o objeto terminal de $\large \textbf C$ se e somente se para todo objeto $\large X$ da categoria existe um único morfismo do tipo $\large f: X \to A$. O objeto final costuma ter a notação $\large 1$, e seus morfismos tem a notação $\large 1_X:X\to 1$.
+
+Para qualquer par de objetos iniciais ou finais em uma categoria deve existir um [[Categoria#Isomorfismo e Inversão|isomorfismo]] entre eles.
+
+Na [[Léxico de Categorias Comuns#Categoria dos Conjuntos|categoria dos conjuntos]] ($\large \text{Set}$), o objeto inicial da categoria é o [[Conjunto#Conjunto Vazio|conjunto vazio]], enquanto qualquer conjunto de um elemento (_singleton_) é um objeto terminal. É trivial que entre qualquer par de _singletons_ existe um único mapa de um para outro, que é isomórfico.
 ## Produto Categórico
 
 Sejam $\large \textbf A$ e $\large \textbf B$ [[Categoria|categorias]], o produto categórico $\large \textbf A \times \textbf B$ tem as propriedades do [[Conjunto#Produto Cartesiano|produto cartesiano]] entre os objetos e morfismos das categorias. O produto é uma categoria que tem duplas de objetos e morfismos do tipo $\large (f,g):(A,B) \to (A',B')$ para morfismos do tipo $\large f: A \to A'$ e $\large g: B \to B'$  nas categorias originais $\large (A,A')\in \textbf A$,$\large (B,B')\in \textbf B$.

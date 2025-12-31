@@ -49,3 +49,6 @@ $$\large A \times B := \{\langle x,y \rangle | x \in A, y \in B\} $$
 Essa definição pode ser estendida para cobrir uma sequência ordenada qualquer
 $$\large A \times B \times C := \{ \langle x,y,z \rangle | x \in A, y \in B, z \in C \}$$
 A convenção é que o produto de $\large n$ vezes o mesmo conjunto $\large A$, dada por $\large A \times A$ se abrevia como $\large A^n$.
+
+## Conjunto das Partes
+//TODO

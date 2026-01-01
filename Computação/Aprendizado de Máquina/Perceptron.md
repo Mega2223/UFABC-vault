@@ -16,7 +16,7 @@ $$\large
 0 & w^Tx + b \lt 0
 \end{cases}
 $$
-Onde $w$ e $b$ são os hiperparâmetros do [[hiperplano#Definição|hiperplano]] que forma a fronteira de decisão do algoritmo.
+Onde $\large w$ e $\large b$ são os hiperparâmetros do [[hiperplano#Definição|hiperplano]] que forma a fronteira de decisão do algoritmo.
 ## Função de Perda
 
 O perceptron usa a [[função de perda]]
@@ -40,10 +40,6 @@ $$\large
 \gamma = \min_{i = 1, \dots, m} \frac{|w^Tx_i+b|}{||w||} 
 $$
 O classificador então visa maximizar $\large \gamma$ pelos hiperparâmetros $w$ e $b$
-## Multi Layered Perceptron
-
-//todo
-
 ## Perceptron em Rede
 
 Podemos organizar um conjunto de perceptrons em uma rede, onde nós de entrada se conectam a determinados perceptrons que se reorganizam entre si e uma determinada camada que se conecta à saída do algoritmo, é a preposição por trás das [[Rede Neural|redes neurais]].

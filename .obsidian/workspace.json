@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "564afe75131effee",
+        "id": "26503a51c1d1a9af",
         "type": "tabs",
         "children": [
           {
-            "id": "54736bbaa733e23f",
+            "id": "ed608bbcf6dbb96b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática/Teoria das Categorias/Monoide.md",
+                "file": "Computação/Aprendizado de Máquina/Rede Neural.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monoide"
+              "title": "Rede Neural"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática/Teoria das Categorias/Monoide.md",
+                "file": "Computação/Aprendizado de Máquina/Rede Neural.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Monoide"
+              "title": "Backlinks for Rede Neural"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática/Teoria das Categorias/Monoide.md",
+                "file": "Computação/Aprendizado de Máquina/Rede Neural.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Monoide"
+              "title": "Outgoing links from Rede Neural"
             }
           },
           {
@@ -182,35 +182,35 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "54736bbaa733e23f",
+  "active": "ed608bbcf6dbb96b",
   "lastOpenFiles": [
-    "Matemática/Teoria dos Grupos/Grupo.md",
-    "Matemática/Teoria das Categorias/Monoide.md",
-    "Matemática/Teoria dos Grupos",
-    "Computação/Programação Funcional/Mônada.md",
-    "Matemática/Teoria das Categorias/Functor.md",
-    "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
-    "Computação/Comunicação e Redes/Algoritmo de Dijkstra.md",
-    "Computação/Prática Avançada de Programação/Algoritmos Gulosos.md",
-    "Computação/Aprendizado de Máquina/Rede Neural.md",
+    "Computação/Aprendizado de Máquina/R.md",
+    "Computação/Aprendizado de Máquina/Perceptron.md",
+    "Computação/Aprendizado de Máquina/Regressão.md",
+    "Computação/Aprendizado de Máquina/Regressão de Ridge.md",
+    "Computação/Aprendizado de Máquina/Regressão em Splines.md",
+    "Computação/Aprendizado de Máquina/Regularização de Modelo.md",
+    "Computação/Aprendizado de Máquina/Regressão Polinomial.md",
+    "Computação/Aprendizado de Máquina/Regressão Logística.md",
+    "Computação/Aprendizado de Máquina/Regressão Linear.md",
+    "Computação/Programação Funcional/Scala.md",
+    "Computação/Sistemas Digitais/VHDL.md",
+    "Matemática/Otimização Linear/Análise de Sensibilidade.md",
+    "Naturais/Química/Transformações Químicas/Reação Química.md",
+    "Computação/Redes de Computador/Árvore de Amplitude.md",
+    "Computação/Prática Avançada de Programação/Algoritmos/Quicksort.md",
+    "Computação/Programação Orientada a Objetos/Encapsulamento.md",
+    "Matemática/Otimização Linear/Resolução Gráfica de Sistemas Lineares.md",
     "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
-    "Matemática/Teoria das Categorias/Categoria.md",
-    "Matemática/Cálculo/Bases Matemáticas/Função.md",
+    "Computação/Programação Estruturada/C.md",
+    "Matemática/Álgebra Linear/Combinação Linear.md",
+    "Matemática/Algoritmos em Grafos/Grafo.md",
+    "Matemática/Álgebra Linear/Autovetores.md",
     "Matemática/Teoria das Categorias/Léxico de Categorias Comuns.md",
-    "Naturais/Física/Mecânica/Força.md",
-    "Naturais/Física/Teoria de Erros.md",
-    "Matemática/Algoritmos em Grafos/Pseudografo.md",
-    "Matemática/Cálculo/Integração por Partes.md",
-    "Naturais/Física/Mecânica/Cinemática.md",
-    "Naturais/Física/Eletromagnetismo/Lei de Coulomb.md",
-    "Matemática/Cálculo/Frações Parciais.md",
-    "Matemática/Cálculo/Esboço de Gráficos.md",
-    "Matemática/Cálculo/Derivada.md",
-    "Matemática/Cálculo/Derivadas Comuns.md",
-    "Humanas/Estrutura Dinâmica e Social/Durkheim/Solidariedade Mecânica e Orgânica.md",
-    "Humanas/Estrutura Dinâmica e Social/Durkheim/Fato Social.md",
-    "Humanas/Estrutura Dinâmica e Social/Marx/Materialismo Histórico-Dialético.md",
-    "Humanas/Estrutura Dinâmica e Social/Ética Protestante e o Espírito do Capitalismo.md",
+    "Matemática/Teoria das Categorias/Functor.md",
+    "Matemática/Álgebra Linear/Transformação Linear.md",
+    "Matemática/Teoria das Categorias/Categoria.md",
+    "Matemática/Teoria dos Grupos",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Autores",
     "Humanas/Estrutura Dinâmica e Social/Weber",
     "Humanas/Estrutura Dinâmica e Social/Marx",

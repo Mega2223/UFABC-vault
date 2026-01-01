@@ -14,7 +14,7 @@ Onde
 - $\ce{A B Y Z}$ são elementos
 - $\ce{a b y z}$ são seus respectivos coeficientes estequiométricos, isso é, suas proporções em relação aos demais elementos
 - $\ce{A B}$ são **reagentes**
-- $\ce{C D}$ são **produtos**
+- $\ce{Y Z}$ são **produtos**
 
 ## Concentração
 

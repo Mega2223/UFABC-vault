@@ -57,10 +57,14 @@ Seja $\large B$ um conjunto de $\large n$ vetores linearmente independentes gera
 
 Se temos um conjunto de $\large v_i \in V$ vetores, dizemos que eles são linearmente dependentes quando algum determinado vetor do conjunto puder ser escrito como uma [[Matemática/Álgebra Linear/Combinação Linear|combinação linear]] dos demais, caso o contrário os vetores são linearmente independentes.
 
-Para qualquer conjunto de vetores linearmente independentes temos que
-$$\large\begin{gather}
-{\Large\sum_{i=1}^n a_iv_i} = 0 \iff a_i = 0\ \forall i \in \{1,...,n \} \end{gather}$$
+Para qualquer conjunto de vetores temos que o conjunto é linearmente independente (**LI**) se e somente se um vetor não pode ser construído como combinação linear dos demais, ou seja, em um conjunto $\large S \subseteq V = \{\mathbf v_1,\dots,\mathbf v_n\}$, $\large S$ é LI se e somente o **único** grupo de coeficientes reais que satisfazem a equação
 
+$$\large\begin{gather}
+{\Large\sum_{i=1}^n a_iv_i} =\textbf 0 \end{gather}$$
+é o grupo $\large a_i = 0\ \forall i \in \{1,...,n \}$, caso exista algum outro grupo que também satisfaça essa equação, dizemos que $\large S$ é linearmente dependente (**LD**).
+### Propriedade
+- O vetor nulo pode ser construído com qualquer vetor, $\large \textbf 0 = 0\textbf v$, ou seja, todo conjunto com vetor nulo é LD.
+- Se $\large S = \{\textbf v\}$ e $\large \textbf v \ne \textbf 0$ , então $\large S$ é LI
 ## Relacionado
 
 - [[Matemática/Geometria Analítica/Combinação Linear|Combinação Linear]] de geometria analítica para combinações lineares no $\mathbb R ^ 2$ e $\mathbb R ^ 3$.

@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computação/Aprendizado de Máquina/Rede Neural.md",
+                "file": "Matemática/Álgebra Linear/Espaço Vetorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rede Neural"
+              "title": "Espaço Vetorial"
+            }
+          },
+          {
+            "id": "f8d1ca92201ba72f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Álgebra Linear/Transformação Linear.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Transformação Linear"
+            }
+          },
+          {
+            "id": "2c773ff274b21015",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Álgebra Linear/Combinação Linear.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Combinação Linear"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#incompleto",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computação/Aprendizado de Máquina/Rede Neural.md",
+                "file": "Matemática/Álgebra Linear/Combinação Linear.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rede Neural"
+              "title": "Outgoing links from Combinação Linear"
             }
           },
           {
@@ -182,34 +211,34 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "ed608bbcf6dbb96b",
+  "active": "2c773ff274b21015",
   "lastOpenFiles": [
+    "Matemática/Álgebra Linear/Transformação Linear.md",
+    "Matemática/Álgebra Linear/Espaço Vetorial.md",
+    "Matemática/Álgebra Linear/Sistema Linear.md",
+    "Matemática/Álgebra Linear/Produto Interno e Norma.md",
+    "Matemática/Álgebra Linear/Hiperplano.md",
+    "Matemática/Álgebra Linear/Autovetores.md",
+    "Matemática/Álgebra Linear/Combinação Linear.md",
+    "Computação/Prática Avançada de Programação/Complexidade Assintótica.md",
+    "Computação/Prática Avançada de Programação/Algoritmos/Quicksort.md",
+    "Computação/Prática Avançada de Programação/Algoritmos/Busca em Profundidade.md",
+    "Computação/Natureza da Informação/Sinal Digital.md",
+    "Computação/Natureza da Informação/Álgebra Booleana.md",
+    "Computação/Natureza da Informação/Álgebra Binária.md",
+    "Computação/Comunicação e Redes/Sinal Analógico.md",
+    "Computação/Comunicação e Redes/Conversão Análogico-Digital.md",
+    "Computação/Comunicação e Redes/Algoritmo de Dijkstra.md",
+    "Computação/Comunicação e Redes/A-Star.md",
+    "Computação/Aprendizado de Máquina/Árvore de Decisão.md",
+    "Computação/Aprendizado de Máquina/Aprendizado Supervisionado.md",
+    "Computação/Aprendizado de Máquina/Agrupamento.md",
+    "Computação/Aprendizado de Máquina/Regressão.md",
+    "Computação/Aprendizado de Máquina/Rede Neural.md",
     "Computação/Aprendizado de Máquina/R.md",
     "Computação/Aprendizado de Máquina/Perceptron.md",
-    "Computação/Aprendizado de Máquina/Regressão.md",
     "Computação/Aprendizado de Máquina/Regressão de Ridge.md",
     "Computação/Aprendizado de Máquina/Regressão em Splines.md",
-    "Computação/Aprendizado de Máquina/Regularização de Modelo.md",
-    "Computação/Aprendizado de Máquina/Regressão Polinomial.md",
-    "Computação/Aprendizado de Máquina/Regressão Logística.md",
-    "Computação/Aprendizado de Máquina/Regressão Linear.md",
-    "Computação/Programação Funcional/Scala.md",
-    "Computação/Sistemas Digitais/VHDL.md",
-    "Matemática/Otimização Linear/Análise de Sensibilidade.md",
-    "Naturais/Química/Transformações Químicas/Reação Química.md",
-    "Computação/Redes de Computador/Árvore de Amplitude.md",
-    "Computação/Prática Avançada de Programação/Algoritmos/Quicksort.md",
-    "Computação/Programação Orientada a Objetos/Encapsulamento.md",
-    "Matemática/Otimização Linear/Resolução Gráfica de Sistemas Lineares.md",
-    "Matemática/Cálculo/Bases Matemáticas/Conjunto.md",
-    "Computação/Programação Estruturada/C.md",
-    "Matemática/Álgebra Linear/Combinação Linear.md",
-    "Matemática/Algoritmos em Grafos/Grafo.md",
-    "Matemática/Álgebra Linear/Autovetores.md",
-    "Matemática/Teoria das Categorias/Léxico de Categorias Comuns.md",
-    "Matemática/Teoria das Categorias/Functor.md",
-    "Matemática/Álgebra Linear/Transformação Linear.md",
-    "Matemática/Teoria das Categorias/Categoria.md",
     "Matemática/Teoria dos Grupos",
     "Humanas/Bases Epistemológicas da Ciência Moderna/Autores",
     "Humanas/Estrutura Dinâmica e Social/Weber",

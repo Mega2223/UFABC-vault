@@ -36,15 +36,55 @@ Sejam $\large S, U$ quaisquer subconjuntos não vazios finitos de $\large V$:
 - $\large [V] = \large V$
 ## Sistema de Coordenadas
 
-Sejam $\large R = (r_1,...,r_n)$ e $\large S=(s_1,...,s_n)$ ambos [[#Bases Geradoras|bases]] para $\large V$ (ou seja, $[R] = [S] = V$), claramente qualquer vetor em $\large V$ pode ser representado tanto como combinação de $\large R$ como de $\large S$.
+Seja  $\large S=(s_1,...,s_n)$ uma [[#Bases Geradoras|base geradora]] para um espaço $\large V$ (ou seja, $\large [S] = V$), claramente qualquer vetor em $\large V$ pode ser representado tanto como combinação de $\large S$.
 
-Para qualquer base ordenada $\large S$, um vetor $\large x \in V$, pode ser descrito como uma combinação linear de membros de $\large S$, $\large x = \alpha_1 s_1 + ...+ \alpha_n s_n$, usamos a notação
+Para qualquer base ordenada $\large S$, um vetor $\large \textbf x \in V$, pode ser descrito como uma combinação linear de membros de $\large S$, $\large \mathbf x = \alpha_1 \mathbf s_1 + ...+ \ \alpha_n \mathbf s_n$, usamos a notação
 
-$$\Large [x]_S := (s_1,...s_n)$$
+$$\Large [\mathbf x]_S = (s_1,...s_n)$$
 
-para descrever os coeficientes lineares que formam $\large x$ na base $\large S$.
+para descrever os coeficientes lineares que formam $\large \mathbf x$ na base $\large S$.
 
-// TODO transição entre sistemas
+## Transição Entre Sistemas de Coordenadas
+
+Sejam $\large S = (\mathbf s_1 + \dots + \mathbf s_n)$ e $\large R = (\mathbf r_1 + \dots + \mathbf r_n)$ [[#Sistema de Coordenadas|sistemas de coordenadas]] diferentes para $\large V$, como $\large [S] = [R] = V$, temos que qualquer vetor $\large \mathbf v \in V$ que pode ser descrito em termos de uma combinação em $\large S$ também pode ser descrito em termos de uma combinação em $\large R$. Temos que existem dois conjuntos de incógnitas reais que constroem $\large \mathbf v$:
+
+$$\large
+\mathbf v = \begin{gather}
+\alpha_1 \mathbf s_1 + \cdots + \alpha_n \mathbf s_n   \\
+\beta_1 \mathbf r_1 + \cdots + \beta_n \mathbf r_n
+
+\end{gather}
+$$
+Ou seja
+$$\large {\mathbf v \Large=} \ \
+\begin{bmatrix}
+\alpha_1 \\ \vdots \\ \alpha_n
+\end{bmatrix}_S
+{\Large=}\ \
+\begin{bmatrix}
+\beta_1 \\ \vdots \\ \beta_n
+\end{bmatrix}_R
+$$
+Temos que existe uma matriz $\large M = (a_{ij})$ tal que
+$$\large \begin{bmatrix}
+\alpha_1 \\ \vdots \\ \alpha_n
+\end{bmatrix} = 
+\begin{bmatrix}
+a_{11} & \cdots & a_{1n} \\
+\vdots & \ddots & \vdots \\
+a_{n1}  & \cdots & a_{nn}
+\end{bmatrix}
+\begin{bmatrix}
+\beta_1 \\ \vdots \\ \beta_n
+\end{bmatrix}
+$$
+Dizemos que $\large M$ é uma matriz de mudança de base de $\large R$ para $\large S$, cada coluna da matriz é um vetor da base $\large R$ escrito em termos da base $\large S$
+$$\large {\Huge [M]_{R\to S}} := \begin{bmatrix}
+(\mathbf r_1)_S,(\mathbf r_2)_S,\dots,(\mathbf r_n)_S
+\end{bmatrix}$$
+Para qualquer vetor $\large \mathbf v$, temos que
+$$\large [\mathbf v]_S = [M]_{R\to S}[\mathbf v]_R$$
+
 ## Dimensão
 
 A dimensão $\large n$ é o número mínimo de vetores num espaço vetorial $\large V$ que [[#Bases Geradoras|geram]] $\large V$. Dado um subconjunto finito linearmente independente do espaço, se o mesmo não gera $\large V$, podemos incrementar elementos de $\large V$ que estão fora do espaço gerado até chegarmos em $\large V$. Dizemos que 
@@ -60,7 +100,7 @@ Se temos um conjunto de $\large v_i \in V$ vetores, dizemos que eles são linear
 Para qualquer conjunto de vetores temos que o conjunto é linearmente independente (**LI**) se e somente se um vetor não pode ser construído como combinação linear dos demais, ou seja, em um conjunto $\large S \subseteq V = \{\mathbf v_1,\dots,\mathbf v_n\}$, $\large S$ é LI se e somente o **único** grupo de coeficientes reais que satisfazem a equação
 
 $$\large\begin{gather}
-{\Large\sum_{i=1}^n a_iv_i} =\textbf 0 \end{gather}$$
+{\Large\sum_{i=1}^n a_i\mathbf v_i} =\textbf 0 \end{gather}$$
 é o grupo $\large a_i = 0\ \forall i \in \{1,...,n \}$, caso exista algum outro grupo que também satisfaça essa equação, dizemos que $\large S$ é linearmente dependente (**LD**).
 ### Propriedade
 - O vetor nulo pode ser construído com qualquer vetor, $\large \textbf 0 = 0\textbf v$, ou seja, todo conjunto com vetor nulo é LD.

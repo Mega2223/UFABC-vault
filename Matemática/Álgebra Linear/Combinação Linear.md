@@ -84,7 +84,10 @@ $$\large {\Huge [M]_{R\to S}} := \begin{bmatrix}
 \end{bmatrix}$$
 Para qualquer vetor $\large \mathbf v$, temos que
 $$\large [\mathbf v]_S = [M]_{R\to S}[\mathbf v]_R$$
-
+Essa operação é reversível
+$$\large \large [\mathbf v]_R = ([M]_{R\to S})^{-1}[\mathbf v]_S$$
+// TODO Exemplo 4.52. Jeronimo
+// Exemplo 4.54. diz como vc encontra esses vetores (resolução de sistemas lineares duh)
 ## Dimensão
 
 A dimensão $\large n$ é o número mínimo de vetores num espaço vetorial $\large V$ que [[#Bases Geradoras|geram]] $\large V$. Dado um subconjunto finito linearmente independente do espaço, se o mesmo não gera $\large V$, podemos incrementar elementos de $\large V$ que estão fora do espaço gerado até chegarmos em $\large V$. Dizemos que 

@@ -34,11 +34,13 @@ $$\Huge A \xrightarrow{f} B $$
 \usepackage{tikz-cd}
 \begin{document}
 
-\tikzset{LA/.style = {draw=black, line width=#1, -{Straight Barb[length=3pt]}},
+\tikzset{LA/.style = {draw=white, line width=#1, -{Straight Barb[length=3pt]}},
          LA/.default=1pt
         }
 \LARGE
+\color{white}
 \begin{tikzcd}
+
 A \arrow[r, "f", LA] \arrow[LA, rd, "g \circ f", bend right] & B \arrow[LA, d, "g"] \\
                                                      & C               
 \end{tikzcd}
@@ -64,10 +66,11 @@ Ou seja produto entre dois objetos é um objeto tal que o seguinte diagrama [[#C
 \usepackage{tikz-cd}
 \begin{document}
 
-\tikzset{LA/.style = {draw=black, line width=#1, -{Straight Barb[length=3pt]}},
+\tikzset{LA/.style = {line width=#1, -{Straight Barb[length=3pt]}},
          LA/.default=1pt
         }
 \LARGE
+\color{white}
 \begin{tikzcd}
   & Y \arrow[ld, "f_1"',LA] \arrow[d, "f", dashed,LA] \arrow[rd, "f_2",LA] &   \\
 A & A \times B \arrow[r, "\pi_2"',LA] \arrow[l, "\pi_1",LA]        & B

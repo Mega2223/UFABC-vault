@@ -19,12 +19,13 @@ De forma geral, temos que functores são morfismos que mapeiam morfismos e objet
 
 ```tikz
 \usepackage{tikz-cd}
-\tikzset{LA/.style = {draw=black, % just to demonstrate, where LA is used
+\tikzset{LA/.style = {draw=white, % just to demonstrate, where LA is used
                       line width=#1, -{Straight Barb[length=3pt]}},
          LA/.default=1pt
         }
 \begin{document}
 \LARGE
+\color{white}
 \begin{tikzcd}
 \LARGE A \arrow[LA,rr, "\LARGE f"] \arrow[LA,"\LARGE h"', loop, distance=2em, in=125, out=55] \arrow[LA,rrdd, "\LARGE g \circ f"] &  & \LARGE B \arrow[LA, dd, "\LARGE g"']               &  & \LARGE F(A) \arrow[LA,rrdd, "\LARGE F(g \circ f)"] \arrow[LA, rr, "\LARGE F(f)"] \arrow[LA, "\LARGE F(h)"', loop, distance=2em, in=125, out=55] &  & \LARGE F(C) \arrow[LA,dd, "\LARGE F(g)"] \\
                                                                                                                          &  & {} \Huge\arrow[LA, rr, "\Huge F", Rightarrow, maps to] &  & {}                                                                                                                                   &  &                                       \\

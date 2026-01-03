@@ -34,15 +34,27 @@ u = 1 \cdot u && u + (-1) \cdot u = 0
 Um subespaço vetorial é um determinado subconjunto do espaço vetorial que cumpre todos os requisitos necessários para ser um espaço vetorial. Seja $\large V$ um espaço vetorial, $\large U \subseteq \mathbb V$ um subconjunto, $\large U$ é um subespaço vetorial se todas as operações que tornam $\large V$ um espaço vetorial válido também servem para $\large U$, são subespaços vetoriais. Uma consequência dessa definição é que $\large U$ deve ter o vetor nulo para ser considerado subespaço.
 
 - No $\mathbb R^2$, o conjunto $\large \{(x,y) \in \mathbb R ^2\ |\ x = y\}$ é um subespaço vetorial válido.[^1]
-
 ### Subespaços Triviais
 São determinados subespaços triviais aqueles que pode-se razoavelmente assumir a partir de qualquer espaço vetorial, são os subespaços triviais de qualquer espaço $\large V$:
 $$\Large \begin{gather}
  V &\{o\}
 \end{gather}$$
 ### Propriedades
-- Espaços de [[Matemática/Álgebra Linear/Combinação Linear#Dimensão|dimensões diferentes]] nunca são isomorfos entre si.
+- Espaços de [[Matemática/Álgebra Linear/Combinação Linear#Dimensão|dimensões diferentes]] nunca são isomórficos entre si.
+## Soma de Espaços Vetoriais
 
+Sejam $\large U$ e $\large W$ [[#Subespaço Vetorial|subespaços]] de $\large V$, a soma dos espaços vetoriais, dada por $\large U + W$, é o espaço de todos os vetores que podem ser construídos a partir de [[Matemática/Álgebra Linear/Combinação Linear|combinações lineares]] de elementos dos subespaços.
+
+$$\large U + W := \{v \in V | v = u + w; u \in U, w \in W\}$$
+
+Se $\large U \cap W = \{\textbf 0\}$, dizemos que a soma entre os subespaços é uma soma direta, de notação $\large U \oplus W$.
+### Propriedades
+- As [[Matemática/Álgebra Linear/Combinação Linear#Bases Geradoras|bases]] de $\large U = [S_1]$ e $\large W = [S_2]$ geram $\large U + W = [S_1 \cup S_2]$
+## Intersecção de Espaços Vetoriais
+
+Sejam $\large U$ e $\large W$ [[#Subespaço Vetorial|subespaços]] de $\large V$, a intersecção entre os espaços, dada por $\large U \cap W$, são os elementos que fazem parte da [[Conjunto#União e Intersecção|intersecção]] dos elementos de $\large U$ e $\large W$
+$$\large U \cap W  = \{ v \in U , v \in W \}$$
+A intersecção de dois subespaços também é um subespaço, no caso de intersecção mínima (espaços são LI um do outro), temos que a intersecção é o subespaço [[#Subespaços Triviais|trivial]] $\large \{\textbf 0\}$.
 ## Espaços Vetoriais Válidos
 
 ### $\mathbb R ^d$

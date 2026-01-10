@@ -2,9 +2,9 @@
 tags:
   - incompleto
   - humanas
+  - Durkheim
 authors: Júlio César
 ---
-
 ## Solidariedade Mecânica
 
 A solidariedade mecânica é a que se solidifica de acordo com as semelhanças culturais entre os membros de sociedade, que visa explicar como pessoas de religiões, nacionalidades e educação semelhantes tendem a se conectar. [[Durkheim]] argumenta que é predominante em sociedades de pequena escala, onde ela liga um indivíduo a sua sociedade sem qualquer agente intermediador.

@@ -9,6 +9,8 @@ authors: Júlio César
 ---
 ## Definição
 
+// TODO Na verdade isso é um MLP
+
 A rede neural é um algoritmo de [[Aprendizado Supervisionado|aprendizado supervisionado]], um conjunto de [[Perceptron|perceptrons]] interligados entre si formando uma cadeia ponderada de perceptrons e nós. 
 A rede neural é dividida em um determinado número de $L$ camadas, onde um perceptron de uma determinada camada $l$ comuta todos os perceptrons da camada anterior com seus pesos locais. Tendo $N_l$ o número de perceptrons na camada $l$, temos que existem $N_{l-1}$ vetores de pesos para cada perceptron em $l$, podemos resumir essa relação em uma matriz
 $$\Large 

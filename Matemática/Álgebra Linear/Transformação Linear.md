@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Sejam $U,V$ [[Espaço Vetorial|espaços vetoriais]], a transformação linear é uma [[função]] $\large T: U \to V$ que segue as propriedades:
+Sejam $\large U,V$ [[Espaço Vetorial|espaços vetoriais]], a transformação linear é uma [[função]] $\large T: U \to V$ que segue as propriedades:
 
 - $\large T(v + w) = T(v) + T(w)\ \ \ \forall (v,w) \in U$
 - $\large T(cv) = c T(v)\ \ \ \forall v \in U, c \in \mathbb R$

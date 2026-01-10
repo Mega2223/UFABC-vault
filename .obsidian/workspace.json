@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Método Ford-Fulkerson"
             }
+          },
+          {
+            "id": "54e9dd94b1f6c6e3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0c2cdb790c78953d",
@@ -166,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,12 +195,12 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "2fc58b622ee32d0b",
+  "active": "54e9dd94b1f6c6e3",
   "lastOpenFiles": [
+    "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
     "Matemática/Algoritmos em Grafos/Pseudografo.md",
     "Matemática/Algoritmos em Grafos/Digrafo.md",
     "Matemática/Algoritmos em Grafos/Grafo.md",
-    "Matemática/Algoritmos em Grafos/Método Ford-Fulkerson.md",
     "Matemática/Algoritmos em Grafos/Emparelhamentos.md",
     "Matemática/Algoritmos em Grafos/Busca em Largura.md",
     "Matemática/Algoritmos em Grafos/Bipartição.md",

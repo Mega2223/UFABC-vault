@@ -12,6 +12,7 @@ A água $\ce{H2O}$ é uma molécula [[Geometria Molecular#Tipos de estrutura#Ang
 ```tikz
 \usepackage{chemfig}
 \begin{document}
+\color{white}
 \huge
 \chemfig{\Chemabove{H}{\Lewis{3:,}\ \Lewis{1:,}}([:-142.225]-O)([:322.225]-O)}
 \end{document}

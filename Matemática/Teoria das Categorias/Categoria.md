@@ -78,7 +78,7 @@ A & A \times B \arrow[r, "\pi_2"',LA] \arrow[l, "\pi_1",LA]        & B
 \end{document}
 ```
 
-O morfismo $f$ resultante do produto de categorias é dito um produto de morfismos: $f = \large \langle f_1,f_2 \rangle$.
+O morfismo $f$ resultante do produto de objetos é dito um produto de morfismos: $\large f = \langle f_1,f_2 \rangle$.
 
 ## Objeto Inicial e Objeto Terminal
 

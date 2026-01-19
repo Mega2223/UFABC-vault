@@ -29,8 +29,22 @@ A transformação linear tem autovalores $\large 3$ e $\large -1$. Para o autova
 
 ## Polinômio Característico
 
-Seja $\large I$ uma matriz identidade, $\large \textbf v$ um autovetor e $\large \lambda$ um autovalor de uma transformação $\large A$, temos que
-$$\large (\lambda I-A)\textbf
-v= {\textbf 0}$$
-Se nossa matriz $\large(\lambda I-A)$ tem determinante diferente de $\large 0$, a única solução para essa equação é $\large x = 0$.
-//TODO
+Todo operador linear pode ser definido em termos de uma [[Transformação Linear#Matrizes Como Transformações Lineares|multiplicação matricial]] da forma
+$$\large T(\textbf x) = A \textbf x$$
+Onde $\textbf x$ é o coeficiente de cada vetor da base, $\large A$ uma matriz quadrada. Queremos encontrar autovalores $\large \lambda$ e autovetores $\large \textbf x$ onde $\large T(\textbf x) = \lambda \textbf x$. Ou seja, queremos achar soluções para a equação
+
+$$\large A \textbf x = \lambda \textbf x $$
+
+Transformando temos
+
+$$\large \begin{gather}
+A \textbf x = \lambda \textbf x \\
+A \textbf x - \lambda \textbf x = \textbf 0 \\
+A \textbf x - \lambda I \textbf x = \textbf 0 \\
+(A-\lambda I)\textbf x= \textbf 0
+\end{gather}$$
+Como queremos todas as soluções não triviais ($\large \textbf x \ne \textbf 0$), a equação só tem soluções quando a matriz $\large (A-\lambda I)$ é [[Matriz#Matriz Inversa|invertível]], ou seja, $\large \det(A-\lambda I) = 0$.
+
+Os autovalores são todos os $\large \lambda$ que satisfazem a equação
+$$\large |A - \lambda I| = 0$$
+A única incógnita real da equação é $\large \lambda$, o resultado dessa determinante é então um polinômio em termos de $\large\lambda$.

@@ -97,7 +97,7 @@ A transformação então pode ser interpretada como uma transformação entre os
 
 $$
 \large\begin{gather}
-[\mathbf u]_C = A[T(\mathbf u)]_B \\ 
+[\mathbf u]_C = A \cdot[\mathbf u]_B \\ 
 \end{gather}
 $$
 
@@ -110,7 +110,7 @@ $$\large
 T: \mathcal P_2 \to \mathcal P_2 \\
 T(\mathbf x) := (3a + 2b) + (5b - 2c)x
 \end{gather}$$
-Temos que o espaço polinomial é gerados de acordo com a base canônica:
+Temos que o espaço polinomial é gerado de acordo com a base canônica:
 $$\large
 \begin{gather}
 B = \{(1),(x),(x²)\} \\

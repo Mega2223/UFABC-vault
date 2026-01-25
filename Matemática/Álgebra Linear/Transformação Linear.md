@@ -88,8 +88,8 @@ T(\mathbf u) = k_1 \mathbf v_1 + \dots + k_m\mathbf v_m & k \in\mathbb R, \mathb
 Existe uma relação entre cada vetor da base de $\large U$ e os demais vetores da base de $\large V$, de forma que
 
 $$\large \begin{matrix}
-k_1 &=& a_{11}c_1& +& \cdots& +& a_{1n}c_n \\
-\vdots & & \ddots & & & \vdots \\
+k_1&=& a_{11}c_1& +& \cdots& +& a_{1n}c_n \\
+\vdots & & & \ddots & & & \vdots \\
 k_m &=& a_{m1}& +& \cdots& + & a_{mn} c_n
 \end{matrix}$$
 
@@ -97,7 +97,7 @@ A transformação então pode ser interpretada como uma transformação entre os
 
 $$
 \large\begin{gather}
-[\mathbf u]_C = A \cdot[\mathbf u]_B \\ 
+[T(\mathbf u)]_C = A \cdot[\mathbf u]_B \\ 
 \end{gather}
 $$
 
@@ -118,7 +118,7 @@ B = \{(1),(x),(x²)\} \\
 \end{gather}$$
 E qualquer elemento $\large \mathbf x \in \mathcal P_2$ pode ser definido como uma combinação linear na base canônica:
 $$\large \mathbf x = a(1) + b(x) + c(x^2)$$
-O primeiro elemento de $\large T (\mathbf x) \in \mathcal P_2$ se dá por $\large 3a + 2b$, o segundo se dá por $\large 5b -2c$ e o terceiro é sempre nulo (ou seja, nossa transformação é uma [[#Projeção|projeção]]). Podemos dar essa relação em termo da seguinte matriz
+O primeiro elemento de $\large T (\mathbf x) \in \mathcal P_2$ se dá por $\large 3a + 2b$, o segundo se dá por $\large 5b -2c$ e o terceiro é sempre nulo (ou seja, nossa transformação é uma [[#Projeção|projeção]]). Podemos dar essa relação em termos da seguinte matriz
 $$\large
 \begin{gather}
 A = \begin{bmatrix}

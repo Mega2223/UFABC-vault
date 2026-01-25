@@ -15,17 +15,17 @@ $$\large
 \begin{gather}
 U \subseteq  V, |U| = n \\
 \\
-\Large c = \sum_{i=1}^n a_i v_i\\ \\
-a_i \in \mathbb R,v_i \in  V
+\Large c = \sum_{i=1}^n a_i \mathbf v_i\\ \\
+a_i \in \mathbb R,\mathbf v_i \in  V
 \end{gather}
 $$
 ## Bases Geradoras
 
-Um conjunto de $\large v_n \in V$ vetores não nulos pode formar um [[Espaço Vetorial#Subespaço Vetorial|subespaço]] de acordo com todas as combinações lineares possíveis deste subconjunto. Se o conjunto é [[#Dependência Linear|linearmente dependente]] então o mesmo pode ser reduzido sem perda do conjunto final.
+Um conjunto de $\large \mathbf v_n \in V$ vetores não nulos pode formar um [[Espaço Vetorial#Subespaço Vetorial|subespaço]] de acordo com todas as combinações lineares possíveis deste subconjunto. Se o conjunto é [[#Dependência Linear|linearmente dependente]] então o mesmo pode ser reduzido sem perda do conjunto final.
 
 Seja $\large S \subseteq V$ um conjunto finito de vetores do espaço vetorial, temos que $[\ S \ ]$ é o subespaço vetorial gerado por $\large S$, que é o conjunto de todas as combinações lineares possíveis de elementos de $\large S$. Caso $\large S$ seja linearmente dependente, o conjunto pode ser reduzido sem que $\large [\ S\ ]$ sofra de alguma alteração.
 
-$$\Large \big[S\big ] = \{s=\sum_{i=1}^n x_iv_i\ |\ x_i \in \mathbb R, v_i \in S, n = |S| \}$$
+$$\Large \big[S\big ] = \{\mathbf s=\sum_{i=1}^n x_i\mathbf v_i\ |\ x_i \in \mathbb R, \mathbf v_i \in S, n = |S| \}$$
 
 Se $\large \big[S\big] = V$ e todos os vetores de $S$ são linearmente independentes, dizemos que $\large S$ é uma base de $\large V$.
 ### Teoremas
@@ -36,11 +36,11 @@ Sejam $\large S, U$ quaisquer subconjuntos não vazios finitos de $\large V$:
 - $\large [V] = \large V$
 ## Sistema de Coordenadas
 
-Seja  $\large S=(s_1,...,s_n)$ uma [[#Bases Geradoras|base geradora]] para um espaço $\large V$ (ou seja, $\large [S] = V$), claramente qualquer vetor em $\large V$ pode ser representado tanto como combinação de $\large S$.
+Seja  $\large S=(\mathbf s_1,...,\mathbf s_n)$ uma [[#Bases Geradoras|base geradora]] para um espaço $\large V$ (ou seja, $\large [S] = V$), claramente qualquer vetor em $\large V$ pode ser representado tanto como combinação de $\large S$.
 
 Para qualquer base ordenada $\large S$, um vetor $\large \textbf x \in V$, pode ser descrito como uma combinação linear de membros de $\large S$, $\large \mathbf x = \alpha_1 \mathbf s_1 + ...+ \ \alpha_n \mathbf s_n$, usamos a notação
 
-$$\Large [\mathbf x]_S = (s_1,...s_n)$$
+$$\Large [\mathbf x]_S = (\alpha_1,...\alpha_n)$$
 
 para descrever os coeficientes lineares que formam $\large \mathbf x$ na base $\large S$.
 

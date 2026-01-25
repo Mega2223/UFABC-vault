@@ -75,5 +75,8 @@ $$
 Logo, o conjunto de funções contínuas em $U$ constituem um espaço vetorial válido. Como não pode ser descrito em uma sequência finita de combinações lineares, este espaço é considerado infinitamente dimensional.
 ### Matrizes
 Sejam $\large (A,B) \in \mathbb R ^ {d_1 \times d_2}$ [[matriz|matrizes]] de mesma dimensão, temos que a [[Matriz#Operações|a soma matricial e a multiplicação por escalar]] são o suficiente para qualificar o espaço $\large \mathbb R^{d_1 \times d_2}$ como um espaço vetorial.
+### Polinômios
+O espaço de todas as equações polinomiais de grau $\large n$ formam um espaço com $\large n + 1$ dimensões.
+$$\large \mathcal P_n(\mathbb R) = \{\alpha_1+\alpha_2x+\alpha_3 x^2 + \cdots + \alpha_{n+1}x^n| \alpha_i \in \mathbb R\}$$
 
 [^1]: Isso vale para todas as linhas em $\mathbb R ^2$ que cruzam a origem, de forma mais geral podemos afirmar que vale para a condição $x = ky$ onde $k$ é uma constante real qualquer.

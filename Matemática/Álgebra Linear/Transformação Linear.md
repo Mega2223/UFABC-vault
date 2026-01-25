@@ -56,12 +56,28 @@ $$\large \begin{bmatrix}
 $$
 
 É uma transformação do tipo
-
-$$\Large\begin{gather}
+$$\large\begin{gather}
 T: \mathbb R^n \to \mathbb R^m \\
 T(b) := Ab
 \end{gather}$$
-### Transformação de Bases para Matrizes
+De forma geral, qualquer transformação no $\large \mathbb R ^n$ pode ser representada em termos de uma matriz. Por exemplo, sejam $\large U$ e $\large V$ os espaços $\large \mathbb R^3$ e $\large \mathbb R^2$ respectivamente, gerados pelas [[Matemática/Álgebra Linear/Combinação Linear#Bases Geradoras|bases]] canônicas ortonormais $\large B = \{(1,0,0),(0,1,0),(0,0,1)\}$ e $\large C = \{(1,0),(0,1)\}$, a transformação
+
+$$\large
+\begin{gather}
+\mathbf u \in U = (\alpha_1 , \alpha_2 , \alpha_3) \\\
+T(\mathbf u) = (\alpha_1 + \alpha_2, \alpha_1 - \alpha_3)
+\end{gather}$$
+
+ Pode ser descrita como a multiplicação matricial
+ $$\large \begin{gather}
+ T(\mathbf u)= \begin{bmatrix}
+ 1 & 1 & 0 \\
+ 0 & 1 & -1
+\end{bmatrix}\mathbf u
+\end{gather}$$
+
+## Transformação de Bases para Matrizes
+
 Sejam $\large U$ e $\large V$ espaços vetoriais de dimensão finita, $\large B$ e $\large C$ bases para $\large U$ e $\large V$ respectivamente, $\large T: U \to V$ uma transformação linear qualquer de $\large U$ para $\large V$, é possível representar qualquer vetor em $\large U$ em uma [[combinação linear]] de $\large B$ e qualquer vetor de $\large V$ em uma combinação linear de $\large C$.
 
 $$\large \begin{gather}
@@ -77,19 +93,32 @@ $$
 \end{gather}
 $$
 
-Ou seja, qualquer transformada linear em espaços gerados pode ser descrita em termos de uma matriz que relaciona coeficientes da base do domínio para coeficientes da base do contradomínio.
+Ou seja, qualquer transformada linear em espaços gerados pode ser descrita em termos de uma matriz que relaciona coeficientes da base do domínio para coeficientes da base do contradomínio. Essencialmente, pode-se reduzir qualquer transformação de espaços de dimensão finita em uma transformação no $\large \mathbb R^n$.
 
-Por exemplo, sejam $\large U$ e $\large V$ os espaços $\large \mathbb R^3$ e $\large \mathbb R^2$ respectivamente, gerados pelas [[Matemática/Álgebra Linear/Combinação Linear#Bases Geradoras|bases]] canônicas ortonormais $\large B = \{(1,0,0),(0,1,0),(0,0,1)\}$ e $\large C = \{(1,0),(0,1)\}$, a transformação
-
+Por exemplo, seja $\large T$ um operador linear no espaço dos polinômios de grau 2:
 $$\large
 \begin{gather}
-\mathbf u \in U = (\alpha_1 , \alpha_2 , \alpha_3) \\\
-T(\mathbf u) = (\alpha_1 + \alpha_2, \alpha_1 - \alpha_3)
+\mathcal P_2 = \{ a+bx+cx^2 | (a,b,c) \in \mathbb R\}\\
+T: \mathcal P_2 \to \mathcal P_2 \\
+T(\mathbf x) := (3a + 2b) + (5b - 2c)x
 \end{gather}$$
- Pode ser descrita como a multiplicação matricial
- $$\large \begin{gather}
- T(\mathbf u)= \begin{bmatrix}
- 1 & 1 & 0 \\
- 0 & 1 & -1
-\end{bmatrix}\mathbf u
+Temos que o espaço polinomial é gerados de acordo com a base canônica:
+$$\large
+\begin{gather}
+B = \{(1),(x),(x²)\} \\
+\mathcal P_2= \big[B\big] 
 \end{gather}$$
+E qualquer elemento $\large \mathbf x \in \mathcal P_2$ pode ser definido como uma combinação linear na base canônica:
+$$\large \mathbf x = a(1) + b(x) + c(x^2)$$
+O primeiro elemento de $\large T (\mathbf x) \in \mathcal P_2$ se dá por $\large 3a + 2b$, o segundo se dá por $\large 5b -2c$ e o terceiro é sempre nulo (ou seja, nossa transformação é uma [[#Projeção|projeção]]). Podemos dar essa relação em termo da seguinte matriz
+$$\large
+\begin{gather}
+A = \begin{bmatrix}
+3 & 2 & 0 \\
+0 & 5 & -2 \\
+0 & 0 & 0
+\end{bmatrix}
+\end{gather}$$
+Temos que a transformação pode ser descrita em termo dos coeficientes da base, uma vez que o resultado também é uma combinação linear de vetores da base
+$$\large A\cdot[a,b,c]^T = [T(\mathbf x)]_B$$
+Para espaços diferentes, é necessário utilizar bases diferentes.

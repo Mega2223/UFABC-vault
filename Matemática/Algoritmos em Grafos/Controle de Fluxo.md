@@ -60,7 +60,7 @@ A rede residual em si não é uma rede de fluxo pois pode conter arcos complemen
 
 Embora a rede residual não seja uma rede de fluxo, ela tem propriedades similares a uma, podemos definir fluxos da mesma forma que definimos em redes de fluxo, um fluxo $\large f'$ é qualquer coloração que satisfaz as propriedades de fluxo em $\large G_f$ tendo $\large c_f$ como capacidade.
 ### Aumento
-O aumento é uma variação em um fluxo que gera algum outro fluxo, seguindo as devidas restrições, sejam $\large f$ um fluxo em $\large G$ e $f'$ um fluxo na rede complementar $\large G_f$, o aumento entre os fluxos $\large f$ e $\large f'$ é dado por
+O aumento é uma variação em um fluxo que gera algum outro fluxo, seguindo as devidas restrições, sejam $\large f$ um fluxo em $\large G$ e $f'$ um fluxo na rede complementar $\large G_f$, o aumento entre os fluxos $\large f$ e $\large f'$ é uma função dada por
 $$\large 
 \begin{gather}
 (f \uparrow f'): V \times V \to \mathbb R_{\ge 0} \\ \\

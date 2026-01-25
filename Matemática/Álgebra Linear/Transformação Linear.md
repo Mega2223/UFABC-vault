@@ -76,7 +76,7 @@ T(\mathbf u) = (\alpha_1 + \alpha_2, \alpha_1 - \alpha_3)
 \end{bmatrix}\mathbf u
 \end{gather}$$
 
-## Transformação de Bases para Matrizes
+## Transformação Linear em Matrizes
 
 Sejam $\large U$ e $\large V$ espaços vetoriais de dimensão finita, $\large B$ e $\large C$ bases para $\large U$ e $\large V$ respectivamente, $\large T: U \to V$ uma transformação linear qualquer de $\large U$ para $\large V$, é possível representar qualquer vetor em $\large U$ em uma [[combinação linear]] de $\large B$ e qualquer vetor de $\large V$ em uma combinação linear de $\large C$.
 
@@ -85,7 +85,15 @@ $$\large \begin{gather}
 T(\mathbf u) = k_1 \mathbf v_1 + \dots + k_m\mathbf v_m & k \in\mathbb R, \mathbf v \in V
 \end{gather}$$
 
-Existe uma relação entre cada vetor da base de $\large U$ e os demais vetores da base de $\large V$, a transformação pode ser interpretada como uma transformação entre os coeficientes das bases  ($\large \mathbb R^n \to \mathbb R^m$) de forma que existe uma matriz $\large A$ tal que
+Existe uma relação entre cada vetor da base de $\large U$ e os demais vetores da base de $\large V$, de forma que
+
+$$\large \begin{matrix}
+k_1 &=& a_{11}c_1& +& \cdots& +& a_{1n}c_n \\
+\vdots & & \ddots & & & \vdots \\
+k_m &=& a_{m1}& +& \cdots& + & a_{mn} c_n
+\end{matrix}$$
+
+A transformação então pode ser interpretada como uma transformação entre os coeficientes das bases  ($\large \mathbb R^n \to \mathbb R^m$) de forma que existe uma matriz $\large A$ tal que
 
 $$
 \large\begin{gather}
@@ -121,4 +129,3 @@ A = \begin{bmatrix}
 \end{gather}$$
 Temos que a transformação pode ser descrita em termo dos coeficientes da base, uma vez que o resultado também é uma combinação linear de vetores da base
 $$\large A\cdot[a,b,c]^T = [T(\mathbf x)]_B$$
-Para espaços diferentes, é necessário utilizar bases diferentes.

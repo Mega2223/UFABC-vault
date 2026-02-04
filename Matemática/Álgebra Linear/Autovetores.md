@@ -45,6 +45,7 @@ A \textbf x - \lambda I \textbf x = \textbf 0 \\
 \end{gather}$$
 Como queremos todas as soluções não triviais ($\large \textbf x \ne \textbf 0$), a equação só tem soluções quando a matriz $\large (A-\lambda I)$ é [[Matriz#Matriz Inversa|invertível]], ou seja, $\large \det(A-\lambda I) = 0$.
 
-Os autovalores são todos os $\large \lambda$ que satisfazem a equação
+Os autovalores da transformação são todos os $\large \lambda$ que satisfazem a equação
 $$\large |A - \lambda I| = 0$$
 A única incógnita real da equação é $\large \lambda$, o resultado dessa determinante é então um polinômio em termos de $\large\lambda$.
+

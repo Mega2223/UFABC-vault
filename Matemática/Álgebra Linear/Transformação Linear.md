@@ -15,7 +15,7 @@ Sejam $\large U,V$ [[Espaço Vetorial|espaços vetoriais]], a transformação li
 A [[Função#Imagem|imagem]] de $\large T$ se dá por $\large \{T(v)|v \in U\}$. Uma transformação linear de mesmo domínio e contradomínio é chamada **operador linear** ($\large T: U \to U$).
 ## Isomorfismo Entre Espaços
 
-Um [[Categoria#Morfismo|isomorfismo]] entre espaços vetoriais é uma [[transformação linear]] [[Função#Injetividade e Sobretividade|bijetora]], ou seja, invertível. Temos que $\large T^{-1}$ existe, $\large T^{-1}$ também é uma transformação linear.
+Um [[Categoria#Morfismo|isomorfismo]] entre espaços vetoriais é uma [[transformação linear]] [[Função#Injetividade e Sobrejetividade|bijetora]], ou seja, invertível. Temos que $\large T^{-1}$ existe, $\large T^{-1}$ também é uma transformação linear.
 ## Atributos
 ### Núcleo
 O núcleo (ou kernel) de uma transformação linear é o conjunto cujo de elementos em $\large U$ que levam ao vetor nulo em $\large V$.

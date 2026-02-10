@@ -45,7 +45,45 @@ $$\large E_{i+\alpha Lj} A:= L_i \leftrightarrow L_i+\alpha L_j\ \ \ \ \alpha \i
 
 A resolução de um sistema linear consiste em encontrar um conjunto de incógnitas que satisfazem todas as equações lineares, ou seja, encontrar $\large x=[x_1,...,x_n]^T$ tais que $\large Ax = b$. É possível encontrar a solução de um sistema de forma algorítmica de acordo com [[#Operações Elementares Em Matrizes|operações elementares]] na matriz, ou determinar que não há solução.
 
-// TODO
+Dado um sistema linear, a sua forma aumentada é a matriz na forma
+$$\large \begin{bmatrix} A & b
+\end{bmatrix}$$
+De forma geral, se a forma aumentada de um sistema linear $\large Ax= b$ pode ser alcançada a partir de uma sequência operações elementares matriciais em um outro sistema $\large C x = d$, dizemos que os sistemas são equivalentes e seu conjunto solução será o mesmo.
+
+A matriz escalonada reduzida é a matriz onde:
+- Todas as linhas de elementos 0 estão abaixo das demais.
+- O primeiro elemento não nulo de cada linha é 1 (pivô)
+- O pivô de cada linha acontece a direita do pivô da linha anterior
+- A coluna de um pivô só possui elementos 0, exceto no próprio pivô
+
+A matriz escalonada reduzida descreve o conjunto solução de um sistema linear:
+$$\large\begin{gather}
+
+
+x + 2y = 1  & & & &  & & x = -1/3\\
+2x + y = 0  & & & &  & & y = 2/3\\
+
+
+\downarrow  & & & &  & & \uparrow \\
+\begin{bmatrix}
+1 & 2 & 1 \\
+2 & 1 & 0
+\end{bmatrix}& \to &
+\begin{bmatrix}
+1 & 2 & 1 \\
+0 & -3 & -2
+\end{bmatrix}& \to&
+\begin{bmatrix}
+1 & 2 & 1 \\
+0 & 1 & 2/3
+\end{bmatrix}& \to&
+\begin{bmatrix}
+1 & 0 & -1/3 \\
+0 & 1 & 2/3
+\end{bmatrix}
+\end{gather}$$
+
+A matriz escalonada reduzida é obtida através da eliminação gaussiana, onde:
 ## Propriedades
 
 ### Consistência

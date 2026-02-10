@@ -42,5 +42,5 @@ Em $\large \mathbb R^{m\times n}$ o produto interno pode ser definido como o pro
 $$\large \langle A,B \rangle := \sum_i^m \sum_j^n a_{ij} b_{ij}$$
 
 ### Funções Contínuas
-Sejam $\large f,g \in V$ funções contínuas no intervalo $\large (a,b) \subseteq \mathbb R$, o produto interno pode ser dado de acordo com a [[integral]] da função no intervalo:
-$$\large \langle f,g \rangle := \int_a^b |f(x) g(x)| dx $$
+Sejam $\large f,g \in V$ funções reais contínuas no intervalo $\large (a,b) \subseteq \mathbb R$, o produto interno pode ser dado de acordo com a [[integral]] da função no intervalo:
+$$\large \langle f,g \rangle := \int_a^b f(x) g(x) dx $$

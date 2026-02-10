@@ -9,7 +9,7 @@ aliases:
 ## Definição
 
 Seja $\large T$ um [[Transformação Linear#Definição|operador linear]] em um espaço $\large V$, autovetores de $\large T$ são os vetores que são paralelos às suas formas transformadas
-$$\large \textbf v \in V, \textbf v \ne 0 , \exists \lambda \in \mathbb R:  T(\textbf v) = \lambda \textbf  v$$
+$$\large \textbf v \in V, \textbf v \ne \mathbf 0 , \exists \lambda \in \mathbb R:  T(\textbf v) = \lambda \textbf  v$$
 Para cada autovetor, o $\large \lambda$ é denominado **autovalor**, que é o coeficiente que iguala o autovetor a sua versão transformada.
 
 Cada autovalor possui um espaço associado, que é o espaço de todos os autovetores que o tem de autovalor. Todo autovalor gera um [[espaço vetorial]] associado a si, que são os vetores que o tem de autovalor. A dimensionalidade desse subespaço é denominada **multiplicidade geométrica** do autovalor, por exemplo, para a transformação linear
@@ -29,9 +29,9 @@ A transformação linear tem autovalores $\large 3$ e $\large -1$. Para o autova
 
 ## Polinômio Característico
 
-Todo operador linear pode ser definido em termos de uma [[Transformação Linear#Matrizes Como Transformações Lineares|multiplicação matricial]] da forma
+Todo operador linear em um espaço vetorial de dimensão finita pode ser definido em termos de uma [[Transformação Linear#Matrizes Como Transformações Lineares|multiplicação matricial]] da forma
 $$\large T(\textbf x) = A \textbf x$$
-Onde $\textbf x$ é o coeficiente de cada vetor da base, $\large A$ uma matriz quadrada. Queremos encontrar autovalores $\large \lambda$ e autovetores $\large \textbf x$ onde $\large T(\textbf x) = \lambda \textbf x$. Ou seja, queremos achar soluções para a equação
+Onde $\large \textbf x$ é o coeficiente de cada vetor da base, $\large A$ uma matriz quadrada. Queremos encontrar autovalores $\large \lambda$ e autovetores $\large \textbf x$ onde $\large T(\textbf x) = \lambda \textbf x$. Ou seja, queremos achar soluções para a equação
 
 $$\large A \textbf x = \lambda \textbf x $$
 
@@ -49,4 +49,5 @@ Os autovalores da transformação são todos os $\large \lambda$ que satisfazem 
 $$\large |A - \lambda I| = 0$$
 A única incógnita real da equação é $\large \lambda$, o resultado dessa determinante é então um polinômio em termos de $\large\lambda$. Como $\large\lambda$ é um termo polinomial, podem existir várias soluções válidas para o polinômio característico. Os autovetores do autovalor são todos que, para qualquer $\large \lambda$ válido obedecem a igualdade
 $$\large (A - \lambda I) \mathbf x = \mathbf 0$$
+Esse sistema pode ser resolvido por meio de uma [[Sistema Linear#Resolução do Sistema Linear|redução gaussiana]].
 

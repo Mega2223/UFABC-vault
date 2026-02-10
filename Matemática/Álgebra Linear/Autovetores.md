@@ -47,5 +47,6 @@ Como queremos todas as soluções não triviais ($\large \textbf x \ne \textbf 0
 
 Os autovalores da transformação são todos os $\large \lambda$ que satisfazem a equação
 $$\large |A - \lambda I| = 0$$
-A única incógnita real da equação é $\large \lambda$, o resultado dessa determinante é então um polinômio em termos de $\large\lambda$.
+A única incógnita real da equação é $\large \lambda$, o resultado dessa determinante é então um polinômio em termos de $\large\lambda$. Como $\large\lambda$ é um termo polinomial, podem existir várias soluções válidas para o polinômio característico. Os autovetores do autovalor são todos que, para qualquer $\large \lambda$ válido obedecem a igualdade
+$$\large (A - \lambda I) \mathbf x = \mathbf 0$$
 

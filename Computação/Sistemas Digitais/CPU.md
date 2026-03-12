@@ -14,3 +14,5 @@ A CPU também implementa registradores adicionais, notavelmente:
 - _Program Counter_: Endereço de memória para a próxima instrução
 - _Stack Pointer:_ Aponta para o topo da pilha de memória
 - _Program Status Word_: Possui o nível de acesso de programação e outras variáveis de controle.
+
+Tipicamente um [[sistema operacional]] vai constantemente carregar e descarregar os registradores enquanto ele alterna os programas durante a distribuição de processamento.

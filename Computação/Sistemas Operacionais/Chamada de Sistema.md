@@ -62,9 +62,11 @@ pid_t waitpid(pid_t pid, int *_Nullable wstatus, int options);
 
 ## Chamadas `read` e `write`
 
-Provém leitura e escrita à memória permanente do computador no sistema de arquivos do sistema operacional.
+Provém leitura e escrita à memória permanente[^1] do computador no sistema de arquivos do sistema operacional.
 
 ```c
 // <unistd.h>
 ssize_t read(int fd, void buf[count], size_t count);
 ```
+
+[^1]: A arquivos em geral, incluindo pseudoarquivos do Unix ou streams virtuais de dados (`sdterr` ou uma conexão TCP por exemplo).

@@ -14,8 +14,8 @@ Sejam $\large U,V$ [[Espaço Vetorial|espaços vetoriais]], a transformação li
 
 A [[Função#Imagem|imagem]] de $\large T$ se dá por $\large \{T(v)|v \in U\}$. Uma transformação linear de mesmo domínio e contradomínio é chamada **operador linear** ($\large T: U \to U$).
 ## Isomorfismo Entre Espaços
+Um [[Categoria#Isomorfismo e Inversão|isomorfismo]] entre espaços vetoriais é uma [[transformação linear]] [[Função#Injetividade e Sobrejetividade|bijetora]], ou seja, invertível. Temos que se $\large T^{-1}$ existe, $\large T^{-1}$ também é uma transformação linear.
 
-Um [[Categoria#Morfismo|isomorfismo]] entre espaços vetoriais é uma [[transformação linear]] [[Função#Injetividade e Sobrejetividade|bijetora]], ou seja, invertível. Temos que $\large T^{-1}$ existe, $\large T^{-1}$ também é uma transformação linear.
 ## Atributos
 ### Núcleo
 O núcleo (ou kernel) de uma transformação linear é o conjunto cujo de elementos em $\large U$ que levam ao vetor nulo em $\large V$.
@@ -27,7 +27,7 @@ $$\large \dim (U) = \dim(\ker(T)) + \dim(\text{Im}(T))$$
 Logicamente temos que se $\large T$ for um [[#Isomorfismo Entre Espaços|isomorfismo]], o kernel será o subespaço trivial $\large\{\mathbf 0\} \subseteq V$ com dimensão 0.
 
 ### Isometria
-Uma função é dita uma isometria quando ela preserva [[Produto Interno e Norma#Distância|distâncias]]
+Uma função $\large T$ em um espaço vetorial é dita uma isometria quando ela preserva [[Produto Interno e Norma#Distância|distâncias]]
 $$\large \text{dist}(\mathbf v,\mathbf w) = \text{dist}(T(\mathbf v),T(\mathbf w))$$
 Se $\large T(\mathbf 0) =\mathbf 0$, a isometria é dita central. A função só é uma transformação linear caso ela seja central.
 ## Projeção

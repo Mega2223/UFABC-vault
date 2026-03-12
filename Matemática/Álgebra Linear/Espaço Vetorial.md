@@ -37,7 +37,7 @@ Um subespaço vetorial é um determinado subconjunto do espaço vetorial que cum
 ### Subespaços Triviais
 São determinados subespaços triviais aqueles que pode-se razoavelmente assumir a partir de qualquer espaço vetorial, são os subespaços triviais de qualquer espaço $\large V$:
 $$\Large \begin{gather}
- V &\{o\}
+ V &\{\mathbf0\}
 \end{gather}$$
 ### Propriedades
 - Espaços de [[Matemática/Álgebra Linear/Combinação Linear#Dimensão|dimensões diferentes]] nunca são isomórficos entre si.

@@ -18,3 +18,11 @@ A cadeia de ácidos nucléicos em cada sequência no DNA é ligada por ligaçõe
 
 ### Simetria
 Cada nucleotídeo em uma hélice tem afinidade a ligação de um outro nucleotídeo na hélice, nucleotídeos C se ligam a nucleotídeos G e nucleotídeos A se ligam a nucleotídeos T, assim numa listra de DNA a quantidade de nucleotídeos C é igual a quantidade de G, e essa simetria também se aplica entre nucleotídeos A e T.
+
+
+$$\large
+\text{EMR} = \begin{cases}
+\max\big\{\ 8\ , 96*(1-e^{-0.05*y} \Huge\frac{ t_h \cdot s_r}{100})\big\}&y \lt 96 \\
+t_h\cdot s_r&y \ge 96
+\end{cases}
+$$

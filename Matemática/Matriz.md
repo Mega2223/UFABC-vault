@@ -38,6 +38,11 @@ A matriz $M^{-1}$ é inversa de $M$ se e somente se
 $$\large M M^{-1} = I$$
 A matriz inversa não existe caso o [[Matriz#Determinante|determinante]] de $M$ seja 0 ou caso $M$ não seja uma matriz quadrada.
 
+### Propriedades
+Sejam $\large A, B$ quaisquer matrizes invertíveis:
+- $\large (A^{-1})^{-1} = A$
+- $\large (AB)^{-1} = B^{-1} A^{-1}$
+- $\large (A^T)^{-1} = (A^{-1})^T$
 ## Transposição
 
 A matriz $\large M^T$ é uma transposição de $\large M$:

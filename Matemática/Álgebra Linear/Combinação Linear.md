@@ -5,6 +5,7 @@ tags:
   - geometria-analitica
   - incompleto
 aliases:
+  - Bases Geradoras
 authors: Júlio César
 ---
 ## Definição
@@ -86,8 +87,7 @@ Para qualquer vetor $\large \mathbf v$, temos que
 $$\large [\mathbf v]_S = [M]_{R\to S}[\mathbf v]_R$$
 Essa operação é reversível
 $$\large \large [\mathbf v]_R = ([M]_{R\to S})^{-1}[\mathbf v]_S$$
-// TODO Exemplo 4.52. Jeronimo
-// Exemplo 4.54. diz como vc encontra esses vetores (resolução de sistemas lineares duh)
+A equação $\large [\mathbf v]_S = [M]_{R\to S}[\mathbf v]_R$ é essencialmente um [[sistema linear]], se conhecemos como o vetor é descrito em uma base, podemos fazer uma [[Sistema Linear#Resolução do Sistema Linear|eliminação gaussiana]] para presumir como ele é descrito em termos da outra base. 
 ## Dimensão
 
 A dimensão $\large n$ é o número mínimo de vetores num espaço vetorial $\large V$ que [[#Bases Geradoras|geram]] $\large V$. Dado um subconjunto finito linearmente independente do espaço, se o mesmo não gera $\large V$, podemos incrementar elementos de $\large V$ que estão fora do espaço gerado até chegarmos em $\large V$. Dizemos que 

@@ -69,4 +69,8 @@ Provém leitura e escrita à memória permanente[^1] do computador no sistema de
 ssize_t read(int fd, void buf[count], size_t count);
 ```
 
+## Chamadas `sleep` and `wakeup`
+
+A chamada `sleep` sinaliza que o processo está em suspensão e o escalonador do sistema operacional é notificado de que a aplicação não precisa ser executada até que alguma outra aplicação chame uma `wakeup` direcionada ao nosso processo em suspensão.
+
 [^1]: A arquivos em geral, incluindo pseudoarquivos do Unix ou streams virtuais de dados (`sdterr` ou uma conexão TCP por exemplo).

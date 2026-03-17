@@ -10,7 +10,7 @@ O sistema operacional é um super-programa dedicado ao gerenciamento e abstraç�
 ## Funções
 
 - Prover [[Chamada de Sistema|chamadas de sistema]] para aplicações
-- Distribuir o [[Distribuição de Tempo de CPU|processamento]] da máquina entre as aplicações
+- Distribuir o [[Escalonamento|processamento]] da máquina entre as aplicações
 - Gerenciar o [[Gerenciamento de Disco|espaço físico]] de memória
 - Gerenciar a [[Memória de Acesso Aleatório|memória heap]]
 - Gerenciar a política de memória e permissões entre [[Processo|aplicações]]

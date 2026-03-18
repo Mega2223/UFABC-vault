@@ -12,3 +12,9 @@ Um circuito sequencial é um circuito que faz decisões baseados em um determina
 O circuito sequencial segue então um comportamento baseado em um número finito de estados, que mudam de acordo com entradas ao sistema. Ele depende também de uma divisão discreta de tempo, normalmente sinalizada por um clock.
 
 A saída de um circuito sequencial pode ser uma combinação do estado e da entrada (baseado em transições, modelo de Mealy) ou simplesmente uma combinação apenas do estado (Moore).
+
+### Modelo de Mealy
+![[MEALY 1.png|center|500]]
+
+### Modelo de Moore
+![[MOORE 1.png|center|500]]

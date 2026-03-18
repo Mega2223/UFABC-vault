@@ -15,11 +15,11 @@ $$
 +: V \times V \to V &&
 \ \cdot : V \times \mathbb R \to V
 \\\\
-\forall (u,v,w) \in V &&\forall(\alpha,\beta) \in \mathbb R\\
-v + w = w + v &&(\alpha \beta) u = \alpha (\beta u) \\
-(u+v)+w = u+(v+w) &&(\alpha + \beta) u = \alpha u + \beta u \\
-\exists o \in V\ | \  v + o = v && (u+v)\alpha = \alpha u + \alpha v\\
-\exists (-v\in V)\ |\ v + (-v) = o &&1u = u \\
+\forall (\mathbf u,\mathbf v,\mathbf w) \in V &&\forall(\alpha,\beta) \in \mathbb R\\
+\mathbf v +\mathbf  w =\mathbf  w +\mathbf  v &&(\alpha \beta) \mathbf u = \alpha (\beta \mathbf u) \\
+(\mathbf u+\mathbf v)+\mathbf w = \mathbf  u+(\mathbf v+\mathbf w) &&(\alpha + \beta)\mathbf  u = \alpha \mathbf u + \beta\mathbf  u \\
+\exists \mathbf 0 \in V\ | \  \mathbf v + \mathbf 0 = \mathbf v && (\mathbf u+\mathbf v)\alpha = \alpha \mathbf  u + \alpha \mathbf v\\
+\exists (-\mathbf v\in V)\ |\ \mathbf v + (-\mathbf v) = \mathbf 0 &&1\mathbf u = \mathbf u \\
 \end {gather}
 $$
 ## Propriedades

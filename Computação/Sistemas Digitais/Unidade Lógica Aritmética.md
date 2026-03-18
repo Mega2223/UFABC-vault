@@ -10,9 +10,11 @@ authors: Júlio César
 ## Definição
 
 A Unidade Lógica e Aritmética (ULA) / _Arithmetic Logic Unit (ALU)_ é um [[circuito combinatório]] capaz de realizar operações aritméticas e lógicas em duas sequências cada uma de $\large n$ bits, com os necessários efeitos de propagação.
-## Design
+## Estrutura
 
 A ULA recebe com entrada $A$ e $B$, que são sequências binárias de $n$ bits cada (numeradas de $0$ a $n-1$), algum input de carry $C_{\text{in}}$, seletores de operação $S_0$ e $S_1$ e o seletor de modo $S_2$[^1], como saída ela dá uma sequência binária de $n$ bits denominada $G$ e um valor carry $C_{\text{out}}$.
+![[Computação/Sistemas Digitais/Untitled Diagram.svg]]
+
 ## Circuito Aritmético
 
 Quando temos $S_2 = 0$, a ULA faz uso do circuito aritmético para realizar operações, o comportamento do circuito aritmético varia de acordo com $S_0$, $S_1$ e $C_\text{in}$.

@@ -1,7 +1,6 @@
 ---
 tags:
   - computação
-  - incompleto
   - circuitos-digitais
 authors: Júlio César
 ---

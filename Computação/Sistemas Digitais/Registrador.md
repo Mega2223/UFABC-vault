@@ -41,7 +41,9 @@ Para isso é necessário que exista um circuito detector de bordas que detecte u
 
 ![[CC FF.drawio 1.png|center|280]]
 
-### Transferências entre registradores
+## Transferências entre registradores
+
+### Transferência Síncrona
 Uma operação comum entre registradores é a terferência de um registrador a outro, a transferência síncrona usa de dois relógios de período igual mas que trocam de estado em momentos diferentes para evitar que o circuito seja jogado em um estado indeterminado
 
 ![[SEQUEN.png|center|445]]

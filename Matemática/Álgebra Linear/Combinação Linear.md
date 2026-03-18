@@ -3,7 +3,6 @@ tags:
   - matemática
   - cálculo
   - geometria-analitica
-  - incompleto
 aliases:
   - Bases Geradoras
 authors: Júlio César

@@ -26,7 +26,8 @@ $$
 
 ### Identidade e Negação
 $$\large \begin{gather}
-u = 1 \cdot u && u + (-1) \cdot u = 0
+\mathbf u = 1 \cdot \mathbf u && 
+\mathbf u + (-1) \cdot \mathbf  u = 0
 \end{gather}$$
 //TODO propriedades
 ## Subespaço Vetorial

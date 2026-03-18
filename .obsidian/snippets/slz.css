@@ -1,0 +1,41 @@
+ 
+*[alt*="blur"] {
+    filter: blur(4px);
+}
+
+*[alt*="blur"]:hover {
+    filter: blur(0);
+    transition-duration: .25s;
+}
+
+img[alt*="blur"] {
+    filter: blur(10px);
+}
+
+img[alt*="blur"]:hover {
+    filter: blur(0px);
+    filter:invert(100%)
+}
+
+img[alt*="center"], video[alt*="center"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[alt*="left"], video[alt*="left"]{
+    float:left;
+    clear:left;
+    margin-right: 1rem;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+
+img[alt*="right"], video[alt*="right"]{
+    float:right;
+    clear:right;
+    margin-left: 1rem;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}

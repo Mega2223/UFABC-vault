@@ -1,0 +1,49 @@
+---
+tags:
+  - computação
+  - incompleto
+authors: Júlio César
+---
+## Definição
+
+É o ato de codificar um número de possíveis estados para uma única sequência binária afim de minimizar o número de sinais necessários. Se existem $\large n$ sinais e sabemos que somente um deles pode estar ativo em um determinado tempo, o modo mais eficiente de codificar essa informação em um [[circuito digital]] é mapear cada sinal para uma sequência binária.
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+
+\color{white}
+\begin{circuitikz}
+\color{white}
+\draw(0,0) node[muxdemux, muxdemux def = {
+NL = 4, NR = 1, NT = 0, NB = 0,
+Lh = 4, Rh = 4
+},anchor=rpin 1](ENC){ENC} to[bmultiwire=$2$,color=white] (2,0);
+\draw(2,0) node[muxdemux, muxdemux def = {
+NL = 1, NR = 4, NT = 0, NB = 0,
+Lh = 4, Rh = 4
+},anchor=lpin 1](DEC){DEC};
+\draw (ENC.lpin 1) ++ (-.25,0) node[](){A};
+\draw (ENC.lpin 2) ++ (-.25,0) node[](){B};
+\draw (ENC.lpin 3) ++ (-.25,0) node[](){C};
+\draw (ENC.lpin 4) ++ (-.25,0) node[](){D};
+
+\draw (DEC.rpin 1) ++ (.25,0) node[](){A};
+\draw (DEC.rpin 2) ++ (.25,0) node[](){B};
+\draw (DEC.rpin 3) ++ (.25,0) node[](){C};
+\draw (DEC.rpin 4) ++ (.25,0) node[](){D};
+
+\end{circuitikz}
+\end{document}
+```
+## Encoder
+
+O encoder é um [[circuito digital]] que mapeia um grupo de entradas digitais a uma sequência binária de sinais, onde somente um único sinal digital pode ser codificado por vez. É um elemento que codifica um número finito de possíveis estados para uma sequência binária. Para um encoder que recebe $\large n$ possíveis estados, são necessários $\large n \ge \lceil \log _ 2(n) \rceil$ sinais binários para codificar cada possível estado. 
+
+Tipicamente, o padrão de codificação de um encoder é ordenado de acordo com os elementos de entrada, onde cada entrada consecutiva é representada pelo número seguinte na álgebra binária.
+
+## Decoder
+
+O decoder é um circuito que faz a operação inversa ao [[#Decoder|decoder]], isso é, recebe um código de $\large n$ bytes como entrada e seleciona algum sinal específico para a saída, o decoder pode ter no máximo $\large n^2$ saídas digitais.
+
+O decoder é um componente essencial do [[Multiplexação Digital|multiplexador digital]], uma vez que é responsável por interpretar o sinal de seleção.

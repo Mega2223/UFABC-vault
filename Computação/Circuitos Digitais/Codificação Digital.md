@@ -62,7 +62,9 @@ c_1 = C + D  \\ c_2 = B + D
 \usepackage{circuitikz}
 \begin{document}
 \color{white}
-\begin{circuitikz}
+\Large
+\begin{circuitikz}[scale=2]
+\ctikzset{bipoles/length=2.8cm}
 \color{white}
 \draw (1,.25) -- (1,-.75) -- ++ (1.5,0)
 node[american or port,anchor=in 1,color=white](OR1){} ;

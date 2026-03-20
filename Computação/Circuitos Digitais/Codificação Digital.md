@@ -42,6 +42,45 @@ O encoder é um [[circuito digital]] que mapeia um grupo de entradas digitais a 
 
 Tipicamente, o padrão de codificação de um encoder é ordenado de acordo com os elementos de entrada, onde cada entrada consecutiva é representada pelo número seguinte na álgebra binária.
 
+Cada saída da sequência do encoder pode ser expressado por uma [[Álgebra Booleana|expressão booleana]] da entrada, onde a saída é a soma booleana das entradas em que ela está ativa, para uma codificação de 4 estados temos
+
+$$\large \begin{gather}
+\begin{matrix}
+&c_1 & c_2 \\
+A & 0 & 0 \\
+B & 0 & 1 \\
+C & 1 & 0 \\
+D & 1 & 1 
+\end{matrix}
+&& 
+\begin{matrix}
+c_1 = C + D  \\ c_2 = B + D
+\end{matrix}
+\end{gather}$$
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\color{white}
+\begin{circuitikz}
+\color{white}
+\draw (1,.25) -- (1,-.75) -- ++ (1.5,0)
+node[american or port,anchor=in 1,color=white](OR1){} ;
+\draw(.5,.25) -- (.5,-2) -- ++(2,0) 
+ node[american or port,anchor=in 1,color=white](OR2){};
+\draw (OR1.in 2) -- ++(-1,0) node[circ,color=white](CIRC){} -- (1.5,.25);
+\draw (OR2.in 2) -- ++ (-1,0) -- (CIRC.center)  ;
+\draw(0,.25) -- (0,-.75) node[ground](){};
+
+\draw(OR1.out) to ++ (.5,0) node[](){\ \ \ \ $c_1$};
+\draw(OR2.out) to ++ (.5,0) node[](){\ \ \ \ $c_2$};
+
+\draw[help lines, dashed] (-.3,0) -- ++ (4.5,0) -- ++ (0,-3.2) -- ++ (-4.5,0) -- (-.3,0);
+
+\draw(0,.5)node[](){A} (.5,.5)node[](){B} (1,.5)node[](){C} (1.5,.5)node[](){D};
+\end{circuitikz}
+\end{document}
+```
 ## Decoder
 
 O decoder é um circuito que faz a operação inversa ao [[#Decoder|decoder]], isso é, recebe um código de $\large n$ bytes como entrada e seleciona algum sinal específico para a saída, o decoder pode ter no máximo $\large n^2$ saídas digitais.

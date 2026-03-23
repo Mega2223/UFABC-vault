@@ -36,6 +36,10 @@ Lh = 4, Rh = 4
 \end{circuitikz}
 \end{document}
 ```
+
+ <center><sub>Codificação de 4 estados em combinações de 2 sinais binários</sub></center>    
+
+
 ## Encoder
 
 O encoder é um [[circuito digital]] que mapeia um grupo de entradas digitais a uma sequência binária de sinais, onde somente um único sinal digital pode ser codificado por vez. É um elemento que codifica um número finito de possíveis estados para uma sequência binária. Para um encoder que recebe $\large n$ possíveis estados, são necessários $\large n \ge \lceil \log _ 2(n) \rceil$ sinais binários para codificar cada possível estado. 
@@ -85,6 +89,6 @@ node[american or port,anchor=in 1,color=white](OR1){} ;
 ```
 ## Decoder
 
-O decoder é um circuito que faz a operação inversa ao [[#Decoder|decoder]], isso é, recebe um código de $\large n$ bytes como entrada e seleciona algum sinal específico para a saída, o decoder pode ter no máximo $\large n^2$ saídas digitais.
+O decoder é um circuito que faz a operação inversa ao [[#Decoder|decoder]], isso é, recebe um código de $\large n$ bytes como entrada e seleciona algum sinal específico para a saída, o decoder pode ter no máximo $\large 2^n$ saídas digitais.
 
-O decoder é um componente essencial do [[Multiplexação Digital|multiplexador digital]], uma vez que é responsável por interpretar o sinal de seleção.
+O decoder é um componente essencial do [[Multiplexação Digital|multiplexador digital]], uma vez que é responsável por interpretar o sinal de seleção e decidir para qual canal vai a saída. Um decoder que resolve um canal de $\large n$ bits para $\large m$ estados é dito um decodificador $\large n$ pra $\large m$.

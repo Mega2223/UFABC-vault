@@ -1,7 +1,7 @@
 ---
 tags:
   - computação
-  - incompleto
+  - comunicações
 authors: Júlio César
 ---
 ## Definição

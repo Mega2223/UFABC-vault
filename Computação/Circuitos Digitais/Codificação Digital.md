@@ -147,13 +147,16 @@ D =  c_1 \cdot  c_2
 \end{circuitikz}
 \end{document}
 ```
- <center><sub>2-to-4 encoder</sub></center>
+ <center><sub>2-to-4 decoder</sub></center>
+
+
+
 ## Encoder com Prioridade
 
 ## Função Enable
 ## Codificando Circuitos Combinatórios
 
-Cada saída de um [[circuito combinatório]] pode ser expressada em termos de uma combinação booleana das entradas, como o [[#Decoder|decoder]] agrega todos os possíveis estados da entrada em um circuito, circuito combinatório pode ser feito com um decoder e algumas expressões OR para agregar os estados.
+Cada saída de um [[circuito combinatório]] pode ser expressa em termos de uma combinação booleana das entradas, como o [[#Decoder|decoder]] agrega todos os possíveis estados da entrada em um circuito, circuito combinatório pode ser feito com um decoder e algumas expressões OR para agregar os estados.
 
 Por exemplo, um Full Adder é um circuito combinatório de 3 entradas e duas saídas que segue as expressões:
 

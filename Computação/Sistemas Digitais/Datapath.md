@@ -15,12 +15,12 @@ As operações típicas de implementação do datapath são:
 - [[Shifter de Bits|Shift binário]]
 - Operações aritméticas e lógicas por meio de uma [[Unidade Lógica Aritmética|ULA]] interna
 
-Em geral o datapath trabalha com vetores de algum $n$ número de bits e $m$ número de endereços de memória.
+Em geral o datapath trabalha com vetores de algum $\large n$ número de bits e $\large 2^m$ de endereços de memória.
 ## Estrutura
 
 O datapath é composto por um banco de registradores (_register file_) e uma unidade funcional (_function unit_).
 ### Banco de Registradores
-Um [[Registrador]] com uma entrada de dados e duas saídas de dados, com entradas e saídas de ponteiros para os endereços relacionados com essas entradas, e uma entrada de write. É usado para armazenar resultados parciais.
+Um [[registrador]] com uma entrada de dados e duas saídas de dados, com entradas e saídas de ponteiros para os endereços relacionados com essas entradas, e uma entrada de write. É usado para armazenar resultados parciais.
 
 $$\large 2^m \times n\ \  \text{Register file}$$
 #### Entradas
@@ -30,8 +30,8 @@ $$\large 2^m \times n\ \  \text{Register file}$$
 - **A address**: Endereço de leitura de A
 - **B address**: Endereço de leitura de B
 #### Saídas
-- **A data**: Vetor salvo em A address
-- **B data**: Vetor salvo em B address
+- **A data**: Vetor salvo em _A address_
+- **B data**: Vetor salvo em _B address_
 ### Unidade Funcional
 A unidade funcional é responsável pela implementação da computação dos resultados das micro-operações do datapath, é composta por uma [[Unidade Lógica Aritmética|ULA]] e um shifter de bits, a saída depende do modo da entrada.
 #### Entradas

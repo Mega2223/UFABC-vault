@@ -87,8 +87,63 @@ node[american or port,anchor=in 1,color=white](OR1){} ;
 \end{circuitikz}
 \end{document}
 ```
+
+ <center><sub>4-to-2 encoder</sub></center>
+ 
+
+
 ## Decoder
 
 O decoder é um circuito que faz a operação inversa ao [[#Decoder|decoder]], isso é, recebe um código de $\large n$ bytes como entrada e seleciona algum sinal específico para a saída, o decoder pode ter no máximo $\large 2^n$ saídas digitais.
 
 O decoder é um componente essencial do [[Multiplexação Digital|multiplexador digital]], uma vez que é responsável por interpretar o sinal de seleção e decidir para qual canal vai a saída. Um decoder que resolve um canal de $\large n$ bits para $\large m$ estados é dito um decodificador $\large n$ pra $\large m$.
+
+$$\large \begin{gather}
+\begin{matrix}
+A = \overline c_1 \cdot \overline c_2 &
+B = \overline c_1 \cdot c_2 \\
+C = c_1 \cdot \overline  c_2 &
+D =  c_1 \cdot  c_2
+\end{matrix}
+\end{gather}$$
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\color{white}
+\begin{circuitikz}[scale=1.5, transform shape]
+\draw(0,0) node[](){$c_1$} (0,-.25) -- (0,-1) node[circ,color=white,scale=.8](){} -- (.5,-1) (0,-1) -- (0,-3.75)
+(.5,-1) -- (.5,-1.5) node[american not port,color=white,anchor=in 1,scale=.4,rotate=-90](N1){}
+(N1.out) -- ++ (0,-.3)
+;
+\draw(1,0) node[,color=white](){$c_2$} (1,-.25) -- (1,-1) node[circ,color=white,scale=.8](){} -- (1.5,-1) (1,-1) -- (1,-4)
+(1.5,-1) -- (1.5,-1.5) node[american not port,color=white,anchor=in 1,scale=.4,rotate=-90](N2){}
+(N2.out) -- ++ (0,-1);
+
+\draw(N1.out) -- ++ (0,-.25) node[circ,color=white,scale=.8](){} -- ++ (1.5,0) node[](AE){}
+++ (0,-.75) node[](BE){}
+++ (0,-.75) node[](CE){}
+++ (0,-.75) node[](DE){}
+;
+\draw(AE.center) node[and port,color=white, scale=.4,anchor=in 1](A){};
+\draw(A.in 2) -- ++ (-.5,0) node[circ,color=white,scale=.8](){};
+\draw(A.out) -- ++ (.5,0);
+\draw(A.out) -- ++ (.5,0) ++(.2,0) node[](){A};
+\draw(BE.center) node[and port,color=white, scale=.4,anchor=in 1](B){};
+\draw(B.in 1) -- ++ (-1.5,0) -- ++(0,1);
+\draw(B.in 2) -- ++ (-1,0) node[circ,color=white,scale=.8](){};
+\draw(B.out) -- ++ (.5,0) ++(.2,0) node[](){B};
+\draw(CE.center) node[and port,color=white, scale=.4,anchor=in 1](C){};
+\draw(C.in 1) -- ++ (-2,0) node[circ,color=white,scale=.8](){};
+\draw(C.in 2) -- ++ (-.5,0) -- ++(0,1);
+\draw(C.out) -- ++ (.5,0) ++(.2,0) node[](){C};
+\draw(DE.center) node[and port,color=white, scale=.4,anchor=in 1](D){};
+\draw(D.in 1) -- ++ (-2,0) node[circ,color=white,scale=.8](){} -- (0,-1);
+\draw(D.in 2) -- ++ (-1,0) -- ++ (0,2);
+\draw(D.out) -- ++ (.5,0) ++(.2,0) node[](){D};
+
+
+\draw[help lines, dashed] (-.3,-.5) -- ++ (3.2,0) -- ++ (0,-4.75) -- ++ (-3.2,0) -- (-.3,-.5);
+
+\end{circuitikz}
+\end{document}
+```

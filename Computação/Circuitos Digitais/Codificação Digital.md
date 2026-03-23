@@ -147,3 +147,55 @@ D =  c_1 \cdot  c_2
 \end{circuitikz}
 \end{document}
 ```
+ <center><sub>2-to-4 encoder</sub></center>
+## Encoder com Prioridade
+
+## Função Enable
+## Codificando Circuitos Combinatórios
+
+Cada saída de um [[circuito combinatório]] pode ser expressada em termos de uma combinação booleana das entradas, como o [[#Decoder|decoder]] agrega todos os possíveis estados da entrada em um circuito, circuito combinatório pode ser feito com um decoder e algumas expressões OR para agregar os estados.
+
+Por exemplo, um Full Adder é um circuito combinatório de 3 entradas e duas saídas que segue as expressões:
+
+$$\large
+\begin{gather}
+ S = A \oplus B \oplus C_\text{in} \\
+ C_\text{out} = (A \cdot B) + (C_\text{in} \cdot (A \oplus B ) )
+\end{gather}$$
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\color{white}
+\begin{circuitikz}[scale=1.5, transform shape]
+\draw (0,0) node[muxdemux,anchor=rpin 1, muxdemux def = {
+NL = 3, NR = 8, NB = 0, NT = 0,
+Lh = 7, Rh = 7
+}](DEC){DEC 3-8};
+
+\draw (DEC.lpin 1) ++ (-.25,0) node[](){$A$};
+\draw (DEC.lpin 2) ++ (-.25,0) node[](){$B$};
+\draw (DEC.lpin 3) ++ (-.25,0) node[](){$C_{in}$};
+
+\draw (2,0) node[or port,color=white,anchor=in 1,number inputs=4](OR1){};
+\draw (DEC.rpin 2) -- ++ (.5,0) -- ++ (0,.5) -- (OR1.in 1);
+\draw (DEC.rpin 3) -- ++ (.75,0) |- (OR1.in 2);
+\draw (DEC.rpin 5) -- ++ (1,0) |- (OR1.in 3);
+\draw (DEC.rpin 8) -- ++ (1.25,0) |- (OR1.in 4);
+
+\draw (DEC.rpin 8) ++ (2,0) node[or port,color=white,anchor=in 4,number inputs=4](OR2){};
+\draw (DEC.rpin 4) -- ++ (.5,0) |- (OR2.in 1);
+\draw (DEC.rpin 6) -- ++ (.25,0) |- (OR2.in 2);
+\draw (DEC.rpin 7) |- (OR2.in 3);
+\draw (DEC.rpin 8) -- (OR2.in 4);
+
+\draw (OR1.out) ++ (+.2,0) node[](){$S$};
+\draw (OR2.out) ++ (+.4,0) node[](){$C_{out}$};
+
+\draw (DEC.rpin 8) ++ (1.25,0) node[circ,color=white](){};
+\end{circuitikz}
+\end{document}
+```
+ <center><sub>Full Adder implementado com um decoder 3-para-8</sub></center>
+
+O maior problema com esse tipo de implementação é que ela tende a ser redundante e usar muitos circuitos combinatórios desnecessários.

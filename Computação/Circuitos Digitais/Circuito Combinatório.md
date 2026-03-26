@@ -20,8 +20,8 @@ Dado um circuito com combinatório de $\large n$ entradas, são $\large 2^n$ pos
 Os circuitos lógicos são conjuntos de transistores que compõem circuitos combinatórios digitais, tipicamente circuitos lógicos são semicondutores que permitem a passagem de voltagem somente em certos estados.
 
 Sistemas elétricos precisam ser aterrados para que haja fluxo de carga, mas diagramas de circuitos lógicos tendem a ignorar esse aspecto e presumir somente o fluxo de dois estados, escondendo a fonte de energia e o aterramento.
-### Driver
-O Driver representa uma operação identidade, somente passa o sinal para frente sem qualquer alteração.
+### Buffer
+O Buffer representa uma operação identidade, somente passa o sinal para frente sem qualquer alteração.
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -114,7 +114,7 @@ $$\large F = x \oplus y $$
 | $\large 0$ | $\large 1$ | $\large 1$ |
 | $\large 1$ | $\large 1$ | $\large 0$ |
 ### Negação
-A negação é a operação de inversão lógica, representada por um círculo no final de outro circuito, para sinalizar uma negação sem circuito adicional usamos um [[#driver|driver]] seguido pela negação
+A negação é a operação de inversão lógica, representada por um círculo no final de outro circuito, para sinalizar uma negação sem circuito adicional usamos um [[#Buffer|buffer]] seguido pela negação
 $$\large F = x'$$
 ```tikz
 \usepackage{circuitikz}

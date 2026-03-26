@@ -4,7 +4,7 @@ tags:
 authors: Júlio César
 ---
 # Classe Abstrata
-
+// TODO separe
 ## Definição
 
 A classe abstrata é uma [[Programação Orientada a Objetos#Classe|classe]] que não é suficientemente completa em seus métodos e variáveis para ser instanciada, uma instanciação da classe demanda que os seus métodos incompletos / abstratos sejam fornecidos por algum objeto filho da classe abstrata.

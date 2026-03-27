@@ -11,6 +11,10 @@ O Flip Flop (FF) é um circuito lógico que armazena um de dois possíveis estad
 
 É um um circuito que é capaz de armazenar informação e repassar essa informação para alguma outra parte do circuito, o que causa uma variação no comportamento do mesmo até quando ele recebe a mesma entrada. O circuito que têm um componente de memória pode ter respostas diferentes para as mesmas entradas pois depende também de estados prévios, este é chamado de [[circuito sequencial]].
 
+## Latch
+
+As latches são [[Circuito Combinatório|circuitos combinatórios]] com capacidade de armazenamento, se comportam como flip flops, podem ser construídas com portas NAND ou portas NOR. FFs com latches são utilizados principalmente para formar [[Registrador|os registradores]] de [[CPU|CPUs]], eles tendem a ter uma velocidade de acesso extremamente alta, mas pelo custo dos circuitos tendem a ser caros em capacidade de memória, assim a capacidade de cache de processadores modernos é extremamente baixa, a maioria das variáveis que necessitam de acesso rápido e frequente de um programa vão existir na [[Memória de Acesso Aleatório|memória RAM]].
+
 ### FF S-R com portas NOR
 Para um FF com portas NOR temos o seguinte arranjo
 

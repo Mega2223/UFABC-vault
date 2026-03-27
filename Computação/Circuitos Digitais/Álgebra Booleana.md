@@ -2,7 +2,6 @@
 tags:
   - algoritmo
   - computação
-  - incompleto
   - circuitos-digitais
 authors: Júlio César
 ---
@@ -12,18 +11,15 @@ A álgebra booleana é um sistema algébrico que descreve relações entre valor
 
 ## Componentes Algébricos
 
-Formalmente, a álgebra booleana é uma tripla que segue 6 axiomas
+Formalmente, a álgebra booleana é uma 6-upla
 $$\Large 
 \begin{gather}
-(\mathbb B,\land,\lor) \\\\
+(\mathbb B,\land,\lor,\lnot,0,1) \\\\
 \mathbb B = \{a,b\}
 \end{gather} 
 $$
-### Axiomas
-#### Axioma de Fechamento
-O resultado de uma expressão algébrica também é uma expressão algébrica.
-$$\large \forall a,b \in \mathbb B: a \lor b \in \mathbb B, a \land b \in \mathbb B$$
-#### Axioma de Identidade
+Que segue os axiomas
+### Axiomas de Identidade
 Para cada operador algébrico existe um elemento identidade
 $$\large
 \begin{gather}
@@ -31,7 +27,7 @@ $$\large
 \exists 1 \in \mathbb B: \forall a \in \mathbb B, a \land 1 = a \\
 \end{gather}
 $$
-#### Axioma de Complemento
+### Axiomas de Complemento
 Todo elemento booleano tem um complemento
 $$\large
 \begin{align}
@@ -39,7 +35,7 @@ $$\large
 \end{align}
 $$
 
-#### Axioma de Comutatividade
+### Axiomas de Comutatividade
 As operações são comutativas
 $$
 \large
@@ -48,5 +44,40 @@ $$
 a \lor b = b \lor a
 \end{align}
 $$
-// todo faltam dois 
-### Teoremas
+### Axiomas de Associatividade
+As operações são associativas
+$$
+\large
+\begin{align}
+\forall a,b,c \in \mathbb B:
+a \land (b \land c) = (a \land b) \land c \\
+a \lor (b \lor c) = (a \lor b) \lor c \\
+\end{align}
+$$
+### Axiomas de Absorção
+$$\large
+\begin{align}
+\forall a,b \in \mathbb B: a \lor (a \land b) = a \\
+a \land (a \lor b) = a
+\end{align}$$
+### Axiomas de Distributividade
+$$\large
+\begin{align}
+\forall a,b,c \in \mathbb B:
+a \land (b \lor c) = (a \land b) \lor (a \land c) \\
+a \lor (b \land c) = (a \lor b) \land (a \lor c)
+\end{align}$$
+## Teoremas de De Morgan
+
+São teoremas [[Linguagem Proposicional|proposicionais]] que são utilizados na álgebra booleana.
+$$\large
+\begin{gather}
+\lnot (P \land Q) \iff \lnot (\lnot P \lor \lnot Q) \\
+\lnot (P \lor Q) \iff \lnot (\lnot P \land \lnot Q)
+\end{gather}$$
+Traduzidos para sua forma algébrica, ficam
+$$\large
+\begin{gather}
+\overline {(P \land Q)} \iff \overline {(\overline P \lor \overline Q)} \\
+\overline {(P \lor Q)} \iff \overline {(\overline P \land \overline Q)}
+\end{gather}$$

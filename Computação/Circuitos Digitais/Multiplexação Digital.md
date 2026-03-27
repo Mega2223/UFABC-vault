@@ -35,3 +35,20 @@ NL = 1, NR=8,NB=1, Lh = 6, Rh = 8
 
 \end{document}
 ```
+
+A operação de multiplexação é uma operação que envolve [[Codificação Digital#Decoder|decodificar]] o valor de seleção para cada entrada e decidir qual entrada deve passar para o bus por meio de [[Circuito Combinatório#Circuito AND|portas AND]], a demultiplexação faz a operação contrária, ela decide qual porta recebe os dados do bus por meio de portas AND.
+
+```latex
+\usepackage{circuitikz}
+\begin{document}
+// TODO
+\end{document}
+```
+
+Um multiplexador é notado em termo de 3 variáveis
+- O número $\large b$ de bits em cada entrada 
+- O número $\large n$ de entradas
+- O tamanho $\large m$ do endereço da entrada selecionada
+- O número de saídas de uma MUX é 1
+
+Tipicamente dizemos que temos uma $\large n$-para-$\large 1$ MUX $\large b$-ária. O número $\large m$ não entra na definição pois pode-se razoavelmente presumir que $\large m = \lceil \log_2 n \rceil$. Para um demultiplexador, dizemos que ele é um DEMUX $\large 1$-para-$\large n$ $\large b$-ário.

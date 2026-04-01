@@ -22,4 +22,4 @@ Tipicamente o filho não quer rodar a mesma lógica do pai, então quando a `for
 Um processo pode ser terminado pelo sistema, por outro processo ou de forma voluntária, cada tipo de término possui um sinal associado.
 ## Streams de Dados
 
-Uma aplicação tipicamente possui 3 streams de dados, `stdout`, `stdin` e `stderr`, tipicamente representadas como [[Sistemas de Arquivo#Pseudoarquivos|pseudoarquivos]] em implementações UNIX-like.
+Uma aplicação tipicamente possui 3 streams de dados, `stdout`, `stdin` e `stderr`, tipicamente representadas como [[Sistemas de Arquivo#Pseudoarquivo|pseudoarquivos]] em implementações UNIX-like.

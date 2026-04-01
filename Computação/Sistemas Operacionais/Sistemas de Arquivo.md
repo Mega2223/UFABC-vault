@@ -1,6 +1,6 @@
 ---
 tags:
-  - incompleto
+  - computação
 authors: Júlio César
 aliases:
   - Arquivo
@@ -8,7 +8,11 @@ aliases:
 ## Definição
 
 O sistema de arquivos é uma forma de ocultar o [[Gerenciamento de Disco|espaço físico do disco]] e representar arquivos do sistema, onde em vez de uma aplicação referenciar o endereço físico de um arquivo ela referencia um endereço do sistema, que tende a ser mais gerenciável. Tipicamente sistemas implementam um formato hierárquico por meio de pastas, gerando uma [[Árvore#Árvore Enraizada|árvore enraizada]] em um ou mais diretórios.
-## Posse e Acesso
+## Metadados
+
+Um sistema de arquivo tipicamente implementa um cabeçalho que sinaliza como um determinado arquivo pode ser usado, como a política de acesso, de execução ou a posse de um arquivo.
+
+SOs também tendem a implementar um sistema de flags no cabeçalho, que definem propriedades específicas sobre o arquivo, como a visibilidade, a possibilidade de execução do arquivo ou se um arquivo pode ser interpretado como ASCII.
 ## Arquivo
 
 O arquivo é uma unidade de dados presente no disco, a localização física do arquivo deve ser abstraída para os processos, de forma que cabe ao sistema buscar os dados do arquivo quando algum determinado processo o exige. O processo então só é ciente do sistema de arquivos implementado pelo sistema, mas não da estrutura física do disco.
@@ -28,6 +32,7 @@ Toda ação é feita do ponto de vista de um diretório, denominado diretório d
 
 Em implementações UNIX-like, pseudoarquivos são arquivos fornecidos pelo [[sistema operacional]] que não existem no disco físico, mas que agem como um arquivo normal para os processos. Esses arquivos são implementados pelo sistema operacional para fornecer algum tipo de interface de leitura/escrita para as aplicações ou para algum pipe, por exemplo, o `/dev/zero` é um pseudoarquivo cuja leitura sempre retorna uma sequência infinita de zeros, o `/dev/random` retorna uma sequência aleatória de bytes, o `/dev/null` sempre retorna um EOF na leitura, mas reporta toda escrita como um sucesso (embora ele nunca guarde o que foi escrito).
 
+Adicionalmente, pseudoarquivos podem existir no contexto de somente uma aplicação, como é o caso das streams de leitura e escrita de uma aplicação, que vão estar presentes no `/dev/stdin`,  `/dev/stdout` e  `/dev/stderr` na maioria dos casos.
 ## Operações em Diretórios
 
 O acesso ao sistema de diretórios para os programas é viabilizado por meio de [[Chamada de Sistema|chamadas de sistema]], que possibilitam a mudança ou leitura da topologia dos diretórios. Tipicamente um SO implementa as operações:

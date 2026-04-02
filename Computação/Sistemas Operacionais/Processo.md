@@ -11,7 +11,7 @@ Um processo representa um programa qualquer em um [[sistema operacional]], é um
 - Uma entrada na tabela de processos do sistema operacional
 ## Árvore de Processos
 
-Um processo gera um processo filho meio da [[chamada de sistema]] `fork`, esses subprocessos também podem gerar processos, em distribuições _unix-like_, essas divergências geram uma [[Árvore#Árvore Enraizada|árvore enraizada]].
+Um processo gera um processo filho meio da [[Chamada de Sistema]] `fork`, esses subprocessos também podem gerar processos, em distribuições _unix-like_, essas divergências geram uma [[Árvore#Árvore Enraizada|árvore enraizada]].
 
 A chamada `fork` duplica todas as variáveis da pilha do processo, a imagem de memória e os arquivos, efetivamente duplicando o processo, mas ela retorna valores diferentes para o pai e o filho, fazendo possível então distinguir qual é qual, notavelmente os processos terão espaços de endereçamento diferente.
 

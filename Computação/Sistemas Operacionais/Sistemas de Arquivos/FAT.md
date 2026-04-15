@@ -14,4 +14,8 @@ Um arquivo pode ser composto então de uma [[Lista#Lista Ligada|lista ligada]], 
 
 ## Definição
 
-A alocação de tipo FAT (_File Allocation Table_) é um algoritmo de alocação de memória para [[Sistemas de Arquivo|sistemas de arquivo]] baseado em [[Lista#Lista Ligada|lista ligada]] com tabela, onde cada bloco que ocupa um determinado bloco possui um ponteiro para o próximo bloco e o conteúdo do bloco. O arquivo consiste com uma tabela contendo todos os blocos em uma tabela, denominada tabela FAT, como não é necessário passar por todo ponto anterior antes de chegar em algum bloco no arquivo, o acesso é [[Complexidade Assintótica|assintoticamente constante]]. Esse tipo de alocação viabiliza que um arquivo esteja distribuído por vários blocos distintos no disco, que não são necessariamente vizinhos.
+A alocação de tipo FAT (_File Allocation Table_) é um algoritmo de alocação de memória para [[Sistemas de Arquivo|sistemas de arquivo]] baseado em [[Lista#Lista Ligada|lista ligada]] com tabela, onde cada bloco que ocupa um determinado bloco possui um ponteiro para o próximo bloco e o conteúdo do bloco. O arquivo consiste com uma tabela contendo todos os blocos em uma tabela, denominada tabela FAT, como não é necessário passar por todo ponto anterior antes de chegar em algum bloco no arquivo, o acesso é [[Complexidade Assintótica|assintoticamente constante]][^1]. Esse tipo de alocação viabiliza que um arquivo esteja distribuído por vários blocos distintos no disco, que não são necessariamente vizinhos.
+
+O tamanho da FAT cresce de acordo com o arquivo, um arquivo muito grande terá uma tabela também muito grande, um arquivo de 1 TB teria mais de 2 GBs de memória dedicado somente para a tabela de endereços.
+
+[^1]: Praticamente uma [[Lista#Lista em Array|array list]].

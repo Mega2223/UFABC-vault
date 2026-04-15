@@ -1,6 +1,5 @@
 ---
 tags:
-  - incompleto
   - circuitos-digitais
 authors: Júlio César
 ---
@@ -8,6 +7,7 @@ authors: Júlio César
 
 O circuito digital é um sistema eletrônico que opera por meio de sinais digitais, isso é, que opera por meio de uma discretização de sinais elétricos, é então presumido que um determinado circuito digital tenha comportamentos definidos somente sob somente duas limiares.
 
+Os estados digitais do circuito são definidos LOW e HIGH respectivamente, quando o HIGH é representado por uma voltagem mais alta que a LOW, o circuito é dito de lógica positiva, caso contrário ele é dito de lógica negativa.
 ## Transistor
 
 O transistor é a base da maioria dos circuitos digitais, pois possibilita a existência dos [[Circuito Combinatório|circuitos combinatórios]] e consequentemente viabiliza a álgebra binária em sistemas elétricos.
@@ -30,7 +30,7 @@ Um transistor padrão possui 3 terminais, a base, o coletor e o emissor, o emiss
 
 Tipicamente o sinal eletrônico é discretizado em duas fases, a transição entre essas fases possui uma limiar mínima e uma máxima que representam o quão baixo a corrente elétrica deve ser para trocar do estado HIGH para o LOW e o quão alta ela precisa ser para transicionar do LOW para o HIGH respectivamente.
 
-Um [[Circuito Combinatório#Negação|circuito NOT]] de tipo Schmitt-trigger tipicamente possui uma limiar de ativação e uma limiar de desativação em diferentes níveis de corrente, possibilitando por exemplo a criação de um oscilador binário.
+Um [[Circuito Combinatório#Negação|circuito NOT]] de tipo Schmitt-trigger tipicamente possui uma limiar de ativação e uma limiar de desativação em diferentes níveis de corrente, possibilitando por exemplo a criação de um oscilador binário a partir das transições do nível de carga do capacitor.
 
 ```tikz
 \usepackage{circuitikz}

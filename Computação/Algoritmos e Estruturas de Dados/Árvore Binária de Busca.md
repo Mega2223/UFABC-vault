@@ -59,7 +59,7 @@ A rotação é uma manobra de balanceamento que preserva a ordenação da árvor
 ### Rotação R e  L
 Quando um nó $\large v$ possui desbalanceamento na esquerda e seu componente esquerdo $\large v_\leftarrow$ também possui desbalanceamento na esquerda, a operação visa, afim de manter a ordenação, colocar $\large v_\leftarrow$ acima dos demais nós da subárvore, onde $\large v_\leftarrow$ aponta para $\large v$ na direita e para seu lado desbalanceado na esquerda, o lado direito que antes era de $\large v_\leftarrow$ agora fica como lado esquerdo de $\large v$ .
 
-
+// TODO
 ### Rotação LR
 
 ### Rotação RL

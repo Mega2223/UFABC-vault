@@ -15,4 +15,11 @@ $$\large e^x = 6y\ y' - y''$$
 
 Tipicamente queremos determinar a função desconhecida $\large y(x)$ com base em suas derivadas. [[Integral|Antiderivadas]] não podem ser usadas para presumir completamente uma função diferenciável, mas sim para presumir a forma da curva da função, que é uma equação da forma
 $$\large y(x) = \int f(x)\ dx = F(x) + c, c\in \mathbb R$$
-Ou seja, é necessário conhecer algum ponto $\large (k,y(k))$ para algum $\large k \in \text{dom} (y)$  para calcular todas as propriedades da função.
+Ou seja, é necessário conhecer algum ponto $\large (k,y(k))$ para algum $\large k \in \text{dom} (y)$  para calcular todas as propriedades da função, por exemplo, para a equação de crescimento populacional, temos que em um determinado instante $\large t$, o _crescimento_ da população se dá em função da população naquele instante:
+
+$$\large \frac d{dt}p(t) = r \cdot p(t) $$
+
+Que é da forma
+$$\large y'(t) = r \cdot y(t)$$
+Logo
+$$\large \int y'(t)\ dt =r \int  y(t)\ dt$$

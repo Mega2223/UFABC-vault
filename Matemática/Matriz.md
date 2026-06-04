@@ -2,7 +2,6 @@
 tags:
   - geometria-analitica
   - matemática
-  - incompleto
 authors: Júlio César
 aliases:
   - matricial
@@ -11,41 +10,38 @@ aliases:
 
 Uma matriz é um conjunto ordenado de números reais com  $m \in \mathbb{N}$ linhas $n \in \mathbb{N}$ colunas:
 
-$$\Large M=\begin{bmatrix}
+$$\large M=\begin{bmatrix}
 a_{11} & \cdots & a_{1n} \\ \vdots & \ddots & \vdots \\ a_{m1} & \cdots & a_{mn}
 \end{bmatrix}$$
 
 ## Operações
-
-São operações matriciais:
 ### Multiplicação de matrizes
-Sejam $A$, $B$ e $C$ matrizes, $C = AB$, para definir cada elemento de $C$ se usa a fórmula:
-$$\Large C_{ij} =\sum_{k=1}^{p}A_{ik}B_{kj}$$
- É necessário que o número de colunas de $A$ seja igual ao número de linhas em $B$
+Sejam $\large A$, $\large B$ e $\large C$ matrizes, $\large C = AB$, para computar cada elemento de $C$ se usa a fórmula:
+$$\large C_{ij} =\sum_{k=1}^{p}A_{ik}B_{kj}$$
+ É necessário que o número de colunas de $\large A$ seja igual ao número de linhas em $\large B$.
 ### Multiplicação matriz vetor
 Seja $\large A$ uma matriz e $\large \vec{v}$ um vetor, a convenção é considerar $\large \vec{v}$ como uma matriz de uma coluna:
 $$\begin {align}\large \vec{v} \in \mathbb{V}^n = \begin{bmatrix}v_1 \\ \vdots \\ v_n \end{bmatrix} \end{align}$$
-Assim, $M\vec{v}$ é calculável. O [[Vetor#Produto escalar|produto escalar]] de dois vetores é ocasionalmente escrito como $a^Tb$.
+Assim, $\large M\vec{v}$ é calculável. O [[Vetor#Produto escalar|produto escalar]] de dois vetores pode ser escrito como $\large a^Tb$.
 ## Matriz Identidade
 
-Uma matriz identidade $I$ é uma matriz de $m = n$ tal qual $MI = M\ \ \forall M$ válido.
+Uma matriz identidade $I$ é uma matriz de $\large m = n$ tal qual $\large MI = M\ \ \forall M$ válido. A matriz identidade possui valores $\large 1$ em toda sua diagonal e $\large 0$ nas demais posições.
 $$\large I_{ij} = \begin{cases}
 1,&i=j \\ 0,& i \ne j
 \end{cases}$$
 ## Matriz Inversa
 
-A matriz $M^{-1}$ é inversa de $M$ se e somente se
+A matriz $\large M^{-1}$ é inversa de $\large M$ se e somente se 
 $$\large M M^{-1} = I$$
-A matriz inversa não existe caso o [[Matriz#Determinante|determinante]] de $M$ seja 0 ou caso $M$ não seja uma matriz quadrada.
-
-### Propriedades
+A matriz inversa não existe caso o [[Matriz#Determinante|determinante]] de $\large M$ seja 0 ou caso $\large M$ não seja uma matriz quadrada.
+### Propriedades da Inversão
 Sejam $\large A, B$ quaisquer matrizes invertíveis:
 - $\large (A^{-1})^{-1} = A$
 - $\large (AB)^{-1} = B^{-1} A^{-1}$
 - $\large (A^T)^{-1} = (A^{-1})^T$
 ## Transposição
 
-A matriz $\large M^T$ é uma transposição de $\large M$:
+A matriz $\large M^T$ é uma transposição de $\large M$ onde:
 $$\large M_{ij} = M^T_{ji}$$
 ## Menor
 
@@ -60,12 +56,12 @@ $$\large
 \det(M) :=
 \Bigg \{
 \begin{gather}
-a_{11} &A_{ij} = \emptyset \\ 
+a_{11} &A_{ij} = \not \text O \\ 
 \sum_{j=1}^n (-1)^{i+j} a_{ij} \det (A_{ij})
 
 
 \end{gather}$$
-Onde $\large i$ é o índice de alguma linha da matriz.
+Onde $\large i$ é o índice de alguma linha qualquer da matriz.
 ### Determinante $M^{2\times2}$
 O determinante de uma matriz $2\times2$ se dá por:$$\large \text{det}\begin{pmatrix}a_{11} & a_{12}\\a_{21} & a_{22} \end{pmatrix} = a_{11}a_{22}-a_{12}a_{21}$$
 ### Determinante $M^{3\times 3}$
@@ -77,7 +73,7 @@ a_{31} & a_{32} & a_{33}
 \end{pmatrix} = (a_{11}a_{22}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32})-(a_{31}a_{22}a_{13}+a_{32}a_{23}a_{11}+a_{33}a_{21}a_{12})$$ 
 ## Matriz Triangular
 
-Uma matriz triangular é uma matriz em que todo elemento acima ou abaixo de uma diagonal é igual a zero.
+Uma matriz triangular é uma matriz em que todo elemento acima ou abaixo da diagonal é igual a zero.
 ### Inverso
 A matriz inversa de uma matriz triangular é uma matriz com cada elemento sendo o inverso real do elemento de $\large A$
 

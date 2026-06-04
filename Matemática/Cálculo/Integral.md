@@ -20,24 +20,19 @@ Essa não é uma aproximação muito boa, mas ela vai melhorando conforme aument
 
 Dessa forma, conforme aproximamos infinitas divisões, chegamos no valor certo da área da função.
 ## Definição
-Sejam $a,b\in \mathbb{R}$, e $f$ uma função [[Limite#Continuidade|contínua]] no [[intervalo]] $[a,b]$m a integral definida de $f$ se dá por: 
-$$\Large \int_a^b f(x) dx = \lim_{n \to \infty} \sum_{i=0}^n f(x_i^*)\Delta x$$
+Sejam $\large a,b\in \mathbb{R}$, e $\large f$ uma função [[Limite#Continuidade|contínua]] no [[intervalo]] $\large [a,b]$, a integral definida de $\large f$ se dá por: 
+$$\large \int_a^b f(x) dx = \lim_{n \to \infty} \sum_{i=0}^n f(x_i^*)\Delta x$$
 
-Onde $$ \Delta x = \frac{b-a}{n}$$ E $x_i^*$ a extremidade do subintervalo $a + i\Delta x_i$;
-
-No caso dessa função:
-
-$$\Large\int_0^\pi \sin x\ dx = 2$$ 
+Onde $$\large \Delta x = \frac{b-a}{n}$$ E $\large x_i^*$ a extremidade do subintervalo $\large a + i\Delta x_i$;
 ## Integral indefinida
 
-A integral indefinida é um conjunto de funções que informam sobre o comportamento de uma integral, ela se dá por:
+A integral indefinida é o conjunto de funções que informam sobre o comportamento de uma integral, ela se dá por:
 
-$$\Large F(x) + C =\int f(x) dx \iff \int_a^b f(x)dx =  F(x) \bigg|^b_a \ \forall (a,b)\in I \subseteq \mathbb{R}$$
+$$\large F(x) + C =\int f(x) dx \iff \int_a^b f(x)dx =  F(x) \bigg|^b_a \ \forall (a,b)\in I \subseteq \mathbb{R}$$
 
-onde $C$ é qualquer constante.
+onde $C$ é qualquer constante. De forma geral, $\large F(x) + C$ é a coleção de todas as funções cuja a derivada é $\large f(x)$.
 ### Relação com a [[derivada]]
-A função $F$ é uma anti[[derivada]] de $f$, ou seja, $f' = F$, assim, a melhor forma de descobrir a integral indefinida de uma função é encontrar a sua antiderivada.
-
-$$\Large \frac{d}{dx}\int f(x)\ dx= f(x)$$
+A função $\large F$ é uma anti[[derivada]] de $\large f$, ou seja, $\large f' = F$, assim, a integral definida de uma determinada função é a família de antiderivadas da função, segue que:
+$$\large \frac{d}{dx}\int f(x)\ dx= f(x)$$
 
 ## Propriedades da integral

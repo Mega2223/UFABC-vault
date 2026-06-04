@@ -1,10 +1,10 @@
 ---
 tags:
   - computação
-  - incompleto
 authors: Júlio César
 aliases:
   - Estruturas de Dados
+  - TAD
 ---
 ## Preâmbulo
 

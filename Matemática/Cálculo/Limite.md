@@ -4,7 +4,6 @@ tags:
   - cálculo
 authors: Júlio César
 ---
-
 ## Definição
 
 O Limite é o comportamento de uma determinada a função quando ela tende a valores infinitamente perto de $x$ que não são $x$ .
@@ -14,11 +13,9 @@ $$
 $$
 Assim, temos
 $$
-\lim _{x\to c} f(x) = L
+\large \lim _{x\to c} f(x) = L
 $$
-Como o limite da função $f$ em $c$.
-
-Em geral, o cálculo do limite exige o raciocínio lógico e o conhecimento da função em questão.
+Como o limite da função $\large f$ em $\large c$.
 ## Aplicações
 
 As definições de cálculo numérico exigem do limite para sua própria definição. Como o limite leva em conta o comportamento da função arbitrariamente perto de $x$ mas nunca em $x$ ele pode ter várias utilidades, por exemplo, suponhamos que queiramos calcular o limite da seguinte função em $0$:
@@ -63,6 +60,5 @@ Por exemplo, seja $f(x) = \frac{1}{x}$, o limite de $f$ não existe em 0 pois os
 
 ## Continuidade
 
-Uma função $f$ é considerada contínua em um [[intervalo]] $I$ se e somente se
-
+Uma função $f$ é considerada contínua em um [[intervalo]] $\large I$ se e somente se
 $$\large f(x) = \lim_{l\to x}{f(l)}; \forall x\in I$$

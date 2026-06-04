@@ -47,3 +47,15 @@ $$\large (f\circ g)'(x) = f'(g(x))\ g'(x)$$
 
 Sejam $f$ e $g$ funções diferenciáveis (exceto possivelmente em $c$), $c \in \mathbb{R}$, $g'(c) \ne 0$, se $f(c) = 0$ e $g(c) = 0$
 $$\large \lim_{x\to c}\frac{f(x)}{g(x)} =\lim_{x\to c} \frac{f'(x)}{g'(x)}$$
+
+## Propagação de Derivadas
+As derivadas de funções compostas podem ser presumidas a partir das derivadas de seus componentes, as propagações mais comuns são:
+
+| $h(x)$           | $h'(x)$                                         |
+| ---------------- | ----------------------------------------------- |
+| $cx$             | $c$                                             |
+| $x^c$            | $cx^{c-1}$                                      |
+| $(f + g)(x)$     | $(f' + g')(x)$                                  |
+| $(f.g)(x)$       | $f'(x).g(x)+g'(x).f(x)$                         |
+| $(f/g)(x)$       | $\large \frac{f'(x).g(x) - f(x).g'(x)}{g(x)^2}$ |
+| $(f\circ g)'(x)$ | $f'(g(x)) .g'(x)$                               |

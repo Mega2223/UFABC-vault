@@ -1,7 +1,6 @@
 ---
 authors: Júlio César
 tags:
-  - incompleto
   - matemática
   - lógica
 aliases:

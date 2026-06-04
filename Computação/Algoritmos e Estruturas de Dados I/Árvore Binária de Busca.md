@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Uma árvore binária de busca é um [[Tipos Abstratos de Dados|TAD]] que representa uma [[lista]] de elementos e uma ordenação, é orientado como uma [[Árvore#Árvore Binária|árvore binária]], onde o nó raiz é o ponto de entrada para o TAD e cada nó é em si uma subárvore, fazendo com que o TAD seja uma estrutura [[Recursão|recursiva]].
+Uma árvore binária de busca é um [[Tipos Abstratos de Dados|TAD]] que representa uma [[Lista]] de elementos e uma ordenação, é orientado como uma [[Árvore#Árvore Binária|árvore binária]], onde o nó raiz é o ponto de entrada para o TAD e cada nó é em si uma subárvore, fazendo com que o TAD seja uma estrutura [[Recursão|recursiva]].
 
 Para fins práticos, cada nó da arvore tipicamente aponta para um tipo de dados ordenável, assim, a estrutura do nó da árvore binária é: um ponteiro para seu nó 'esquerdo', um para o seu nó 'direito' e um para a estrutura de dados que o nó referencia.
 
@@ -45,7 +45,7 @@ Para a remoção, é necessário atualizar a topologia para que a estrutura não
 
 ## Balanceamento e Rotações
 
-A árvore binária representa uma [[lista]] de elementos, embora sua estrutura não seja linear, ela é ordenável e indexável, para implementações típicas de lista, queremos suporte a operações de remoção e adição em um tempo razoável. 
+A árvore binária representa uma [[Lista]] de elementos, embora sua estrutura não seja linear, ela é ordenável e indexável, para implementações típicas de lista, queremos suporte a operações de remoção e adição em um tempo razoável. 
 
 Embora uma implementação ingênua dos métodos de inserção e remoção seja trivial, tipicamente queremos que a árvore mantenha tempos de acesso assintoticamente razoáveis durante todo o seu uso, ou seja, a árvore deve sempre ser uma [[#Altura|árvore completa]], caso a inserção perturbe o equilíbrio do objeto, é necessário fazer alterações que simultaneamente mantenham a otimalidade da altura e a ordenação da lista. Uma árvore que mantém esse balanceamento é dita uma árvore binária de busca balanceada.
 ### Balanceamento

@@ -7,7 +7,7 @@ tags:
 ---
 ## Definição
 
-É uma implementação da [[lista]], o array dinâmico é um objeto que reserva um espaço contínuo na memória para o armazenamento dos componentes,  tipicamente via um array. O array dinâmico também é responsável por regular este espaço, como reservas de memória tem um número de bits máximo, o objeto deve alocar um espaço maior no evento de não ter espaço suficiente para acomodar um novo elemento.
+É uma implementação da [[Lista]], o array dinâmico é um objeto que reserva um espaço contínuo na memória para o armazenamento dos componentes,  tipicamente via um array. O array dinâmico também é responsável por regular este espaço, como reservas de memória tem um número de bits máximo, o objeto deve alocar um espaço maior no evento de não ter espaço suficiente para acomodar um novo elemento.
 
 ## Complexidade
 

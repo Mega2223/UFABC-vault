@@ -35,7 +35,7 @@ O algoritmo _Not Recently Used_ (NRU) dá a cada página um mapa de 2 bits que �
 - Referenciada e modificada
 
 ### Algoritmo First-In First-Out
-Usa uma política de [[fila]] para decidir qual página deve sair da memória física, a página mais antiga é removida e a página necessária é inserida no final da lista.
+Usa uma política de [[Fila]] para decidir qual página deve sair da memória física, a página mais antiga é removida e a página necessária é inserida no final da lista.
 
 ### Algoritmo de Segunda Chance
 Similar ao [[#Algoritmo First-In First-Out|algoritmo FIFO]] mas com uma mistura da implementação [[#Algoritmo de Substituição de Página Não Usada Recentemente|NRU]], o algoritmo verifica o bit R da primeira página, se ele é 0, ela é removida, caso contrário, ele seta esse bit para 0 e move a página examinada para o final da fila.

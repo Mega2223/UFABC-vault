@@ -27,7 +27,7 @@ O BFS funciona com base em [[Grafo#Coloração|colorações]] em vértices, onde
 - $W$: Vértices ainda não explorados.
 - $G$: Vértices onde conhecemos o caminho mínimo de $\large s$.
 - $B$: Vértices onde conhecemos o caminho mínimo de todos os vértices de sua vizinhança.
-Os vértices de coloração $G$ são mantidos em uma [[fila]] $\large Q$, a cada iteração retiramos um elemento de $Q$ e mapeamos todos os vértices brancos de sua vizinhança para vértices cinzas. O vértice que removemos da fila se torna um vértice preto e seus vizinhos são colocados na fila. 
+Os vértices de coloração $G$ são mantidos em uma [[Fila]] $\large Q$, a cada iteração retiramos um elemento de $Q$ e mapeamos todos os vértices brancos de sua vizinhança para vértices cinzas. O vértice que removemos da fila se torna um vértice preto e seus vizinhos são colocados na fila. 
 
 ```pseudo
 \begin{algorithm}

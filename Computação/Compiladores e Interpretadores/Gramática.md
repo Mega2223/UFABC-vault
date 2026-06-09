@@ -10,8 +10,8 @@ authors: Júlio César
 Uma gramática é uma quádrupla do tipo
 $$\large G := \langle N, \Sigma, P, S \rangle$$
 Onde
-- $\large N$ é o conjunto de símbolos não terminais da gramática.
-- $\large \Sigma$ é o conjunto de símbolos terminais da gramática.
+- $\large N$ é o [[alfabeto]] de símbolos não terminais da gramática.
+- $\large \Sigma$ é o [[alfabeto]] de símbolos terminais da gramática.
 - $\large P$ é o conjunto de regras de produção da gramática.
 - $\large S$ é o símbolo inicial da gramática.
 

@@ -1,7 +1,7 @@
 ---
 tags:
   - computação
-  - incompleto
+  - matemática
 ---
 ## Definição
 

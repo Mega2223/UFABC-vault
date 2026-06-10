@@ -14,7 +14,7 @@ $$\large A^* := \{a_1,\dots,a_n | n \in \mathbb N, a_i \in A\}$$
 
 A concatenação é o processo de juntar duas palavras, de forma geral, sejam $\large \alpha = \{\alpha_1,\dots,\alpha_n\}$, $\large \epsilon = \{\epsilon_1,\dots,\epsilon_m\}$, a palavra concatenada $\large \alpha \epsilon$ se dá por
 
-$$\large \alpha \epsilon := \{\alpha_1,\dots,\alpha_n, \epsilon_1,\dots,\epsilon_n\} $$
+$$\large \alpha \beta := \{\alpha_1,\dots,\alpha_n, \beta_1,\dots,\beta_n\} $$
 Sejam $\large X, Y$ alfabetos, a concatenação entre os alfabetos se dá por
 
 $$\large XY := \{\alpha \beta | \alpha \in X, \beta \in Y\}$$
@@ -28,4 +28,10 @@ Que é o conjunto de todas as palavras que começam com um elemento de $\large X
 - $\large r*$ é o conjunto de zero ou mais concatenações de $\large r$ com ele mesmo.
 - $\large r|s$ é o conjunto da [[Conjunto#União e Intersecção|união]] de $\large r$ e de $\large s$.
 
+Adicionalmente são comuns as anotações
+- $\large r^+$ denota o conjunto de uma ou mais concatenações ($\large r r^*$).
+- $\large r ?$ denota uma ou zero repetições ($\large r \cup \{\epsilon\}$).
+- $\large [abc]$ é uma expressão regular que denota $\large \{a,b,c \}$
+- $\large[a-d]$ é uma convenção para um intervalo caracteres ordenados $\large (a,b,c,d)$.
+- $\large[\lnot a-d]$ denota $\large L \setminus [a-d]$.
 Uma expressão regular representa uma [[Gramática|gramática]] e forma uma [[Gramática#Linguagem|linguagem]].

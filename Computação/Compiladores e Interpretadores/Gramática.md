@@ -18,7 +18,7 @@ Onde
 Toda gramática produz um conjunto de sentenças válidas, que é denominada uma linguagem. Enquanto $\large N, \large \Sigma$ e $\large S$ são conjuntos de símbolos arbitrários (alfabetos), $\large P$ é um conjunto de [[Função|mapas]].
 ### Comprimento
 O comprimento de uma cadeia de símbolos é o número total de símbolos que a compõem.
-$$\large ||aa|| = 3$$
+$$\large ||aaa|| = 3$$
 ### Divergência
 Uma determinada regra de produção de uma gramática pode, por meio do 
 ## Linguagem

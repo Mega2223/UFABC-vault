@@ -28,10 +28,11 @@ Que é o conjunto de todas as palavras que começam com um elemento de $\large X
 - $\large r*$ é o conjunto de zero ou mais concatenações de $\large r$ com ele mesmo.
 - $\large r|s$ é o conjunto da [[Conjunto#União e Intersecção|união]] de $\large r$ e de $\large s$.
 
-Adicionalmente são comuns as anotações
+Adicionalmente são comuns as anotações:
 - $\large r^+$ denota o conjunto de uma ou mais concatenações ($\large r r^*$).
 - $\large r ?$ denota uma ou zero repetições ($\large r \cup \{\epsilon\}$).
 - $\large [abc]$ é uma expressão regular que denota $\large \{a,b,c \}$
 - $\large[a-d]$ é uma convenção para um intervalo caracteres ordenados $\large (a,b,c,d)$.
 - $\large[\lnot a-d]$ denota $\large L \setminus [a-d]$.
+
 Uma expressão regular representa uma [[Gramática|gramática]] e forma uma [[Gramática#Linguagem|linguagem]].

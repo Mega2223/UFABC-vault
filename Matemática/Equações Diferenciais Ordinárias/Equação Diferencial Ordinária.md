@@ -23,7 +23,7 @@ $$\large h(y) dy = g(x)dx$$
 E integrar ambos os lados
 $$\large \int h(y) dy = \int g(x) dx$$
 De forma geral, isso funciona para qualquer EDO onde
-$$\large  \frac {d}{dy} \frac 1 {f(x)} = g(x)$$
+$$\large  \frac {d}{dy} \frac 1 {f(y)} = g(x)$$
 Por exemplo, para $\large y' = x^2/y^2$, temos:
 $$\large \begin{gather}
 \frac{dy}{dx} = \frac {x^2} {y^2} \\

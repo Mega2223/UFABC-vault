@@ -12,14 +12,33 @@ $$\Large F(x,y,y',\cdots,y^{(n)}) = 0$$
 Onde $\large y$ é uma variável dependente de (uma [[função]] em $\large$) $\large x$, $\large y = y(x)$, por exemplo
 
 $$\large e^x = 6y\ y' - y''$$
+## Equação Separável
 
-Tipicamente queremos determinar a função desconhecida $\large y(x)$ com base em suas derivadas. [[Integral|Antiderivadas]] não podem ser usadas para presumir completamente uma função diferenciável, mas sim para presumir a forma da curva da função, que é uma equação da forma
-$$\large y(x) = \int f(x)\ dx = F(x) + c, c\in \mathbb R$$
-Ou seja, é necessário conhecer algum ponto $\large (k,y(k))$ para algum $\large k \in \text{dom} (y)$  para calcular todas as propriedades da função, por exemplo, para a equação de crescimento populacional, temos que em um determinado instante $\large t$, o _crescimento_ da população se dá em função da população naquele instante:
+Uma equação diferencial separável é uma EDO que pode ser escrita na forma
+$$\large \frac {dy}{dx} = g(x)f(y)$$
+Sendo $\large y$ uma variável dependente de $\large x$ e $\large f,g$ duas funções, seja $\large h = 1/f$, podemos escrever uma equação separável na forma
+$$\large \frac {g(x)}{h(y)}$$
+Separando o fator diferencial, podemos isolar $\large x$ e $\large y$
+$$\large h(y) dy = g(x)dx$$
+E integrar ambos os lados
+$$\large \int h(y) dy = \int g(x) dx$$
+De forma geral, isso funciona para qualquer EDO onde
+$$\large  \frac {d}{dy} \frac 1 {f(x)} = g(x)$$
+Por exemplo, para $\large y' = x^2/y^2$, temos
 
-$$\large \frac d{dt}p(t) = r \cdot p(t) $$
+$$\large \begin{gather}
+\frac{dy}{dx} = \frac {x^2} {y^2} \\
+x^2 dx = y^2 dy \\
+\int x^2 dx = \int y^2 dy \\
+\frac {x^3}3+c = \frac{y^3}3 \\
+y^3 = c+3x^3 \\
+\large y(x) = \sqrt[3]{3x^3 + c}, c \in \mathbb R
+\end{gather}$$
 
-Que é da forma
-$$\large y'(t) = r \cdot y(t)$$
-Logo
-$$\large \int y'(t)\ dt =r \int  y(t)\ dt$$
+Para $\large y' = x^2y$, temos:
+$$\large \begin{gather}
+\frac {dx}{dy} = x^2y \\
+x^2 dx = y^{-1} dy \\
+x^3/3 + c = \ln |y| \\
+|y(x)| =e^{c+x^3 / 3} \\
+y(x) = \pm e^{c+x³ /3}\end{gather}$$

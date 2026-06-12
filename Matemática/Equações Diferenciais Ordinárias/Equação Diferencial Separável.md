@@ -13,7 +13,7 @@ Sendo $\large y$ uma variável dependente de $\large x$ e $\large f,g$ duas fun�
 $$\large \frac {dy}{dx} = \frac {g(x)}{h(y)}$$
 Separando o fator diferencial, podemos isolar $\large x$ e $\large y$
 $$\large h(y) dy = g(x)dx$$
-E integrar ambos os lados
+E [[Integral|integrar]] ambos os lados
 $$\large \int h(y) dy = \int g(x) dx$$
 De forma geral, isso funciona para qualquer EDO onde
 $$\large  \frac {d}{dy} \frac 1 {f(y)} = g(x)$$
@@ -26,7 +26,6 @@ x^2 dx = y^2 dy \\
 y^3 = c+3x^3 \\
 \large y(x) = \sqrt[3]{3x^3 + c}, c \in \mathbb R
 \end{gather}$$
-
 Para $\large y' = x^2y$, temos:
 $$\large \begin{gather}
 \frac {dx}{dy} = x^2y \\
@@ -34,6 +33,7 @@ x^2 dx = y^{-1} dy \\
 x^3/3 + c = \ln |y| \\
 |y(x)| =e^{c+x^3 / 3} \\
 y(x) = \pm e^{c+x³ /3}\end{gather}$$
+### Modelo de Crescimento da População
 Para o modelo de crescimento de população $\large dP / dt = kP$, temos
 $$\large
 \begin{gather}

@@ -41,11 +41,13 @@ $$\frac{d}{dx} f(x) = \frac {dy}{dx} = f'(x) = y' = Df(x) = f^{(1)}(x)$$
 
 ## Regra de Cadeia
 
-Sejam $f$ e $g$ funções diferenciáveis,
+Sejam $\large f$ e $\large g$ funções diferenciáveis,
 $$\large (f\circ g)'(x) = f'(g(x))\ g'(x)$$
+Se $\large y = f(u), u = g(x)$
+$$\large \frac{dy}{dx} = \frac{dy}{du}\frac{du}{dx} $$
 ## Regra de L'Hospital
 
-Sejam $f$ e $g$ funções diferenciáveis (exceto possivelmente em $c$), $c \in \mathbb{R}$, $g'(c) \ne 0$, se $f(c) = 0$ e $g(c) = 0$
+Sejam $f$ e $g$ funções diferenciáveis (exceto possivelmente em $\large c$), $\large c \in \mathbb{R}$, $g'(c) \ne 0$, se $\large f(c) = 0$ e $\large g(c) = 0$
 $$\large \lim_{x\to c}\frac{f(x)}{g(x)} =\lim_{x\to c} \frac{f'(x)}{g'(x)}$$
 
 ## Propagação de Derivadas

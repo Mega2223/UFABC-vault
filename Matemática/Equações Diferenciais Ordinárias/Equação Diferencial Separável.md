@@ -32,7 +32,7 @@ x^2 dx = y^{-1} dy \\
 x^3/3 + c = \ln |y| \\
 |y(x)| =e^{c+x^3 / 3} \\
 y(x) = \pm e^{c+x³ /3}\end{gather}$$
-### Modelo de Crescimento da População
+### Modelo de Crescimento de População
 Para o modelo de crescimento de população $\large dP / dt = kP$, temos
 $$\large
 \begin{gather}

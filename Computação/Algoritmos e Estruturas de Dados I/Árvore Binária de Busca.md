@@ -7,9 +7,9 @@ authors: Júlio César
 ---
 ## Definição
 
-Uma árvore binária de busca é um [[Tipos Abstratos de Dados|TAD]] que representa uma [[Lista]] de elementos e uma ordenação, é orientado como uma [[Árvore#Árvore Binária|árvore binária]], onde o nó raiz é o ponto de entrada para o TAD e cada nó é em si uma subárvore, fazendo com que o TAD seja uma estrutura [[Recursão|recursiva]].
+Uma árvore binária de busca é um [[Tipos Abstratos de Dados|TAD]] que representa uma sequência ordenada de elementos, tem a topologia de uma [[Árvore#Árvore Binária|árvore binária]] [[Árvore#Árvore Enraizada|enraizada]], onde o nó raiz é o ponto de entrada para o TAD e cada nó é em si uma subárvore, fazendo com que o TAD seja uma estrutura [[Recursão|recursiva]].
 
-Para fins práticos, cada nó da arvore tipicamente aponta para um tipo de dados ordenável, assim, a estrutura do nó da árvore binária é: um ponteiro para seu nó 'esquerdo', um para o seu nó 'direito' e um para a estrutura de dados que o nó referencia.
+Cada nó da árvore aponta para um tipo de dados ordenável, a estrutura do nó da árvore binária é: um ponteiro para seu nó 'esquerdo', um para o seu nó 'direito' e um para a estrutura de dados que o nó referencia.
 
 ## Altura
 
@@ -18,8 +18,7 @@ A altura de uma árvore binária de busca é o seu [[Grafo#Diâmetro|diâmetro]]
 A altura máxima de uma árvore binária de $\large n$ elementos é $\large n$, onde a topologia da árvore se assemelha a de uma [[Lista#Lista Ligada|lista ligada]], onde cada nó aponta somente para o nó seguinte. Uma árvore cuja altura é máxima é dita degenerada.
 
 Cada nível de uma árvore possui, no máximo, duas vezes o tamanho do nível superior, para uma altura $\large h$, a árvore terá no máximo $\large 1 + 2 + 4 + \dots + h$ elementos.
-
-$$\Large n \le \sum ^h_{i=0} 2^i  = {2^{h+1} -1}$$
+$$\large n \le \sum ^h_{i=0} 2^i  \to n \le {2^{h+1} -1}$$
 Isolando para $\large n$, temos:
 
 $$\large h \ge \log_2(n+1)-1$$

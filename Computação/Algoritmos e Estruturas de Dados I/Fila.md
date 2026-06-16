@@ -28,3 +28,5 @@ O array circular é uma adaptação do arraylist que viabiliza adição e remoç
 Importante notar que, em caso de overflow dos ponteiros para além do final da lista, este é corrigido por meio da operação de módulo, o novo ponteiro será o módulo da capacidade da lista no espaço de endereços.
 
 Todavia, quando o array possui toda sua memória ocupada, para fazer inserção, ainda é necessário [[Lista em Array#Realocação Dinâmica|realocar]] todos os elementos.
+
+//TODO faz um latex legal

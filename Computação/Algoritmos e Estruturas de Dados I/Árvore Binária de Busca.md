@@ -15,7 +15,7 @@ Cada nó da árvore aponta para um tipo de dados ordenável, a estrutura do nó 
 
 A altura de uma árvore binária de busca é o seu [[Grafo#Diâmetro|diâmetro]], para uma árvore enraizada, esse é sempre o maior caminho entre a raiz e qualquer outro nó.
 
-A altura máxima de uma árvore binária de $\large n$ elementos é $\large n$, onde a topologia da árvore se assemelha a de uma [[Lista#Lista Ligada|lista ligada]], onde cada nó aponta somente para o nó seguinte. Uma árvore cuja altura é máxima é dita degenerada.
+A altura máxima de uma árvore binária de $\large n$ elementos é $\large n$, onde a topologia da árvore se assemelha a de uma [[Lista Ligada|lista ligada]], onde cada nó aponta somente para o nó seguinte. Uma árvore cuja altura é máxima é dita degenerada.
 
 Cada nível de uma árvore possui, no máximo, duas vezes o tamanho do nível superior, para uma altura $\large h$, a árvore terá no máximo $\large 1 + 2 + 4 + \dots + h$ elementos.
 $$\large n \le \sum ^h_{i=0} 2^i  \to n \le {2^{h+1} -1}$$
@@ -42,13 +42,13 @@ Para a remoção, é necessário atualizar a topologia para que a estrutura não
 
 ## Balanceamento e Rotações
 
-A árvore binária representa uma lista ordenada de elementos, embora sua estrutura não seja linear, ela é ordenável e indexável, para implementações típicas de lista, queremos suporte a operações de remoção e adição em um tempo razoável. 
+A árvore binária de busca representa uma lista ordenada de elementos, embora sua estrutura não seja linear, ela é ordenável e indexável, para implementações típicas de lista, queremos suporte a operações de remoção e adição em um tempo razoável. 
 
-Embora uma implementação ingênua dos métodos de inserção e remoção seja trivial, tipicamente queremos que a árvore mantenha tempos de acesso assintoticamente razoáveis durante todo o seu uso, ou seja, a árvore deve sempre ser uma [[#Altura|árvore completa]], caso a inserção perturbe o equilíbrio do objeto, é necessário fazer alterações que simultaneamente mantenham a otimalidade da altura e a ordenação da lista. Uma árvore que mantém esse balanceamento é dita uma árvore binária de busca balanceada.
+Embora uma implementação ingênua dos métodos de inserção e remoção seja trivial, tipicamente queremos que a árvore mantenha tempos de acesso assintoticamente razoáveis durante todo o seu uso, como a pesquisa em árvores é linear em função de sua altura, o ideal é uma altura mínima. A árvore, em pior caso, tem a topologia de uma [[lista ligada]], e, no melhor caso, é uma [[#Altura|árvore completa]]. Caso a inserção perturbe o equilíbrio do objeto, é necessário fazer alterações que simultaneamente mantenham a otimalidade da altura e a ordenação da lista. Uma árvore que mantém esse balanceamento é dita uma árvore binária de busca balanceada (AVL).
 ### Balanceamento
 O balanceamento define a tendência da árvore de ter elementos de forma desproporcional para algum lado, cada nó possui seu próprio coeficiente de balanceamento, se todos os nós possuem um balanceamento no intervalo $\large [-1,1]$, então a árvore está balanceada, caso contrário, ela precisa ser balanceada.
 $$\large \text{bf}(v) := 
-\text h(v_{(\leftarrow)}) - \text h(v_{(\rightarrow)})
+\text h(\text{left}(v)) - \text h((\text{right}(v))
 $$
 Existem quatro tipos de desbalanceamento em uma árvore, Left-Left (LL), Left-Right (LR), Right-Left (RL), Right Right (RR). Esses desbalanceamentos são de referência à subárvore do nó desbalanceado, um desbalanceamento LL é quando a sua subárvore esquerda possui um desbalanceamento na esquerda, um LR é quando sua subárvore direita possui desbalanceamento na direita, RL é quando sua subárvore direita possui desbalanceamento a esquerda e RR é quando sua subárvore direita possui desbalanceamento a direita.
 

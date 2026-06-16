@@ -2,6 +2,7 @@
 tags:
   - teoria-de-grafos
   - algoritmo
+  - incompleto
 authors: Júlio César
 aliases:
   - floresta
@@ -37,8 +38,9 @@ De forma geral, para um determinado vértice, cada arco do seu respectivo [[Digr
 ## Estruturas Complementares
 
 ### Árvore Enraizada
-A [[Digrafo#Árvore Enraizada|árvore enraizada]] é um digrafo acíclico fracamente conexo qual existe alguma raiz a qual existe um único caminho da raiz até qualquer outro vértice no digrafo.
+A [[Digrafo#Árvore Enraizada|árvore enraizada]] é um digrafo acíclico fracamente conexo qual existe alguma raiz a qual pode existe um caminho da raiz até todos os demais vértices no digrafo.
 
 ## Floresta
+// TODO
 
 [^1]: Ou um [[digrafo]].

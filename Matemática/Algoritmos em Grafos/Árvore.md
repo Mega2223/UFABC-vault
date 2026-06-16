@@ -19,9 +19,13 @@ O caminho entre dois vértices de uma árvore não-orientada é sempre único, o
 Uma árvore não orientada sempre terá $\large |V| - 1$ arestas, que é o mínimo possível de arestas necessárias para manter um grafo conexo.
 ## Árvore Binária
 
-Uma árvore binária é uma [[#Árvore Enraizada|árvore enraizada]] [[Digrafo|direcionada]] onde cada nó é hierarquicamente superior a, no máximo, dois outros nós, o conjunto de um nó e todos os nós alcançáveis a partir do mesmo é uma subárvore que também é uma árvore binária. A raiz de uma árvore binária sempre é o único nó que não possui nó pai.
+Uma árvore binária é uma [[#Árvore Enraizada|árvore enraizada]] [[Digrafo|direcionada]] onde cada nó é hierarquicamente superior a, no máximo, dois outros nós, o conjunto de um nó e todos os nós alcançáveis a partir de algum nó é uma subárvore que também é uma árvore binária. A raiz de uma árvore binária sempre é o único nó que não possui nó pai.
 
-A árvore binária é comumente usada como uma estrutura [[Árvore Binária de Busca|relacional ordenada de dados.]]
+A árvore binária é comumente usada como uma estrutura relacional ordenada de dados. Os elementos relacionais de uma árvore podem ser interpretados em:
+- Pré Ordem: Raiz -> Subárvore Esquerda -> Subárvore Direita ([[Heap Binária|Heap Binária]])
+- Pós Ordem: Subárvore Esquerda -> Subárvore Direita -> Raiz 
+- In Ordem: Subárvore Esquerda -> Raiz -> Subárvore direita ([[Árvore Binária de Busca|ABB]])
+
 
 ## Árvore de Decisão
 

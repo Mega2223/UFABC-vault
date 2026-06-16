@@ -19,10 +19,8 @@ A altura máxima de uma árvore binária de $\large n$ elementos é $\large n$, 
 
 Cada nível de uma árvore possui, no máximo, duas vezes o tamanho do nível superior, para uma altura $\large h$, a árvore terá no máximo $\large 1 + 2 + 4 + \dots + h$ elementos.
 $$\large n \le \sum ^h_{i=0} 2^i  \to n \le {2^{h+1} -1}$$
-Isolando para $\large n$, temos:
-
+Isolando para $\large h$, temos:
 $$\large h \ge \log_2(n+1)-1$$
-
 Ou seja, a altura da árvore é [[Complexidade Assintótica|assintoticamente logarítmica]] em função do número de elementos. Uma árvore que minimiza a sua altura em função do seu número de elementos é uma árvore completa, onde $\large h = \lfloor \log_2(n) \rfloor$. 
 
 Cada nó possui uma altura individual, que é a altura da sua própria árvore local, uma árvore que não possui filhos tem altura 0.
@@ -44,7 +42,7 @@ Para a remoção, é necessário atualizar a topologia para que a estrutura não
 
 ## Balanceamento e Rotações
 
-A árvore binária representa uma [[Lista]] de elementos, embora sua estrutura não seja linear, ela é ordenável e indexável, para implementações típicas de lista, queremos suporte a operações de remoção e adição em um tempo razoável. 
+A árvore binária representa uma lista ordenada de elementos, embora sua estrutura não seja linear, ela é ordenável e indexável, para implementações típicas de lista, queremos suporte a operações de remoção e adição em um tempo razoável. 
 
 Embora uma implementação ingênua dos métodos de inserção e remoção seja trivial, tipicamente queremos que a árvore mantenha tempos de acesso assintoticamente razoáveis durante todo o seu uso, ou seja, a árvore deve sempre ser uma [[#Altura|árvore completa]], caso a inserção perturbe o equilíbrio do objeto, é necessário fazer alterações que simultaneamente mantenham a otimalidade da altura e a ordenação da lista. Uma árvore que mantém esse balanceamento é dita uma árvore binária de busca balanceada.
 ### Balanceamento

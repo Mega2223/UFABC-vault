@@ -2,6 +2,8 @@
 tags:
   - computação
   - matemática
+aliases:
+  - Expressões Regulares
 ---
 ## Definição
 

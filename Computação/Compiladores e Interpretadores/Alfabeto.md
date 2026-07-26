@@ -10,14 +10,16 @@ aliases:
 O alfabeto é um conjunto arbitrário de símbolos que formam palavras.
 ## Palavra
 
-Uma palavra é uma [[Conjunto#Par Ordenado e Sequência Ordenada|sequência ordenada]] de símbolos do alfabeto, o conjunto de todos os resultados de [[#concatenação]] em palavras do alfabeto é denominado Fecho de Kleene, esse conjunto se dá por
+Uma palavra é uma [[Conjunto#Par Ordenado e Sequência Ordenada|sequência ordenada]] de símbolos do alfabeto, a palavra vazia se dá por $\large \epsilon$. O conjunto de todos os resultados de [[#concatenação]] em palavras do alfabeto é denominado Fecho de Kleene, esse conjunto se dá por
 $$\large A^* := \{a_1,\dots,a_n | n \in \mathbb N, a_i \in A\}$$
+
+O conjunto $\large A^+ := A^* \setminus \epsilon$ é o conjunto de todas as palavras não nulas de $\large A$.
 ## Concatenação
 
 A concatenação é o processo de juntar duas palavras, de forma geral, sejam $\large \alpha = \{\alpha_1,\dots,\alpha_n\}$, $\large \epsilon = \{\epsilon_1,\dots,\epsilon_m\}$, a palavra concatenada $\large \alpha \epsilon$ se dá por
 
 $$\large \alpha \beta := \{\alpha_1,\dots,\alpha_n, \beta_1,\dots,\beta_n\} $$
-Sejam $\large X, Y$ alfabetos, a concatenação entre os alfabetos se dá por
+Sejam $\large X, Y$ alfabetos, a concatenação entre os eles se dá por
 
 $$\large XY := \{\alpha \beta | \alpha \in X, \beta \in Y\}$$
 

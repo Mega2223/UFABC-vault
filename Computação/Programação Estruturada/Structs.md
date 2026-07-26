@@ -6,7 +6,9 @@ authors: Júlio César
 ---
 ## Definição
 
-Um struct é um conjunto de dados em um determinado objeto, que geralmente não atribui padrões funcionais de classe relacionados à [[Programação Orientada a Objetos|POO]], por padrão todos os elementos de um struct são de acesso global, ao contrário de classes que por padrão têm todos os objetos com acesso restrito.
+Um struct é um conjunto de dados em um determinado objeto, que geralmente não atribui padrões funcionais mais complexos de classe relacionados à [[Programação Orientada a Objetos|POO]], como polimorfismo. Um struct, como diz o nome, é um padrão  baseado em estrutura, onde todo struct de determinado tipo tem a mesma estrutura, enquanto classes são baseadas em estrutura e implementação.
+
+Como todo struct tem o mesmo tamanho em bytes dos seus semelhantes, o acesso a variáveis de um struct é sempre de tempo constante.
 
 ```c
 #include <stdio.h>

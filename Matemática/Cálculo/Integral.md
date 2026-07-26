@@ -36,3 +36,13 @@ A função $\large F$ é uma anti[[derivada]] de $\large f$, ou seja, $\large f'
 $$\large \frac{d}{dx}\int f(x)\ dx= f(x)$$
 
 ## Propriedades da integral
+
+## Valor Médio
+
+O valor médio de uma amostra finita de pontos de uma função se dá por
+$$\large \frac 1n \sum_{i=1}^nf(x_i)$$
+De forma equivalente, o valor médio de uma função contínua em um intervalo $\large [a,b]$ se dá por
+$$f_\text{med}:=\large \frac 1{b-a}\int_a^bf(x)dx$$
+### Teorema do Valor Médio
+Se $\large f$ é contínua em $\large [a,b]$, então
+$$\large \exists c \in [a,b]: f(c) = f_\text{med}$$

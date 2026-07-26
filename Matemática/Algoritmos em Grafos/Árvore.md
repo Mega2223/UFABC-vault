@@ -2,6 +2,7 @@
 tags:
   - teoria-de-grafos
   - algoritmo
+  - incompleto
 authors: Júlio César
 aliases:
   - floresta
@@ -19,9 +20,13 @@ O caminho entre dois vértices de uma árvore não-orientada é sempre único, o
 Uma árvore não orientada sempre terá $\large |V| - 1$ arestas, que é o mínimo possível de arestas necessárias para manter um grafo conexo.
 ## Árvore Binária
 
-Uma árvore binária é uma [[#Árvore Enraizada|árvore enraizada]] [[Digrafo|direcionada]] onde cada nó é hierarquicamente superior a, no máximo, dois outros nós, o conjunto de um nó e todos os nós alcançáveis a partir do mesmo é uma subárvore que também é uma árvore binária. A raiz de uma árvore binária sempre é o único nó que não possui nó pai.
+Uma árvore binária é uma [[#Árvore Enraizada|árvore enraizada]] [[Digrafo|direcionada]] onde cada nó é hierarquicamente superior a, no máximo, dois outros nós, o conjunto de um nó e todos os nós alcançáveis a partir de algum nó é uma subárvore que também é uma árvore binária. A raiz de uma árvore binária sempre é o único nó que não possui nó pai.
 
-A árvore binária é comumente usada como uma estrutura [[Árvore Binária de Busca|relacional ordenada de dados.]]
+A árvore binária é comumente usada como uma estrutura relacional ordenada de dados. Os elementos relacionais de uma árvore podem ser interpretados em:
+- Pré Ordem: Raiz -> Subárvore Esquerda -> Subárvore Direita ([[Heap Binária|Heap Binária]])
+- Pós Ordem: Subárvore Esquerda -> Subárvore Direita -> Raiz 
+- In Ordem: Subárvore Esquerda -> Raiz -> Subárvore direita ([[Árvore Binária de Busca|ABB]])
+
 
 ## Árvore de Decisão
 
@@ -33,8 +38,9 @@ De forma geral, para um determinado vértice, cada arco do seu respectivo [[Digr
 ## Estruturas Complementares
 
 ### Árvore Enraizada
-A [[Digrafo#Árvore Enraizada|árvore enraizada]] é um digrafo acíclico fracamente conexo qual existe alguma raiz a qual existe um único caminho da raiz até qualquer outro vértice no digrafo.
+A [[Digrafo#Árvore Enraizada|árvore enraizada]] é um digrafo acíclico fracamente conexo qual existe alguma raiz a qual pode existe um caminho da raiz até todos os demais vértices no digrafo.
 
 ## Floresta
+// TODO
 
 [^1]: Ou um [[digrafo]].

@@ -65,7 +65,7 @@ void main(){
 }
 ```
 
-Temos que, embora o número de operações seja parecido, o uso de memória da nossa implementação recursiva é da ordem de $O(n)$ enquanto a implementação iterativa é da ordem de $O(1)$.
+Temos que, embora o número de operações seja parecido, o uso de memória da nossa implementação recursiva é da ordem de $\large O(n)$ enquanto a implementação iterativa é da ordem de $\large O(1)$.
 ## Backtracking
 
 //TODO

@@ -29,10 +29,10 @@ Cada _token_ tem um tipo específico o qual o analisador léxico deve identifica
 
 Sequências de caracteres válidas são expressas por meio de expressões regulares, por exemplo, um literal de float pode ser expresso por meio da expressão regular
 ```regex
-(\d(\.\d*)(F|f)?|\.?\d+(F|f)?)
+(\d*(\.\d*)(F|f)?|\.?\d+(F|f)?)
 ```
-Esse padrão compila as literais
-```c
+que compila as literais
+```d
 {0.2, .2f, 1.F, 1F, 3, 3.5f, 2.f, .3, .2f}
 ```
 ## Erro Léxico

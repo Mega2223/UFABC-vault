@@ -90,4 +90,4 @@ Ou seja, o valor é o _floor_ do lado decimal de $\large kA$.
 //TODO
 
 
-[^1]: Não vou provar isso mkkkkkkk, veja o Cormen.
+[^1]: Não vou provar isso kkkkkkk, veja o Cormen.

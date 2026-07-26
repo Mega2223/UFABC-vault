@@ -3,3 +3,45 @@ tags:
   - computação
   - incompleto
 ---
+## Definição
+
+A análise léxica é a primeira etapa na execução de um compilador, é a análise necessária para identificar aspectos da [[gramática]] da língua de programação, o e reconhecimento de _tokens_ da língua.
+
+De forma geral, um analisador léxico lê as palavras de um programa e as separa em _tokens_, um _token_ é um objeto que representa os atributos de determinado trecho de texto, por exemplo, uma declaração
+
+```c
+int x = 2;
+```
+
+Possui
+- Um token de tipo (`int`)
+- Um token de identificador (`x`)
+- Um token de atribuição (`=`)
+- Um token de literal numérico (`2`)
+- Um token de fim de sentença (`;`)
+
+Cada _token_ tem um tipo específico o qual o analisador léxico deve identificar, cabe ao [[Análise Sintática|analisador sintático]] combinar os tokens e verificar a coerência das sentenças apresentadas (verificação de sintaxe). De forma geral, o analisador sintático encontra tokens das categorias
+
+- Palavras-chave reservadas pela língua (`int`, `char`, `void`...).
+- Comentários.
+- Literais de número e texto.
+- Identificadores, que representam nomes dado pelo usuário.
+
+Sequências de caracteres válidas são expressas por meio de expressões regulares, por exemplo, um literal de float pode ser expresso por meio da expressão regular
+```regex
+(\d(\.\d*)(F|f)?|\.?\d+(F|f)?)
+```
+Esse padrão compila as literais
+```c
+{0.2, .2f, 1.F, 1F, 3, 3.5f, 2.f, .3, .2f}
+```
+## Erro Léxico
+
+Um erro léxico é quando um determinado símbolo não pertence ao conjunto de símbolos terminais da linguagem, de forma que o analisador léxico não possa implicar seu tipo, como por exemplo um número mal formado: `x = 2v1;`.
+
+Erros léxicos podem constituir:
+- Identificadores muito longos.
+- Identificadores mal-formados.
+- String não acabada.
+- Comentário não acabado.
+

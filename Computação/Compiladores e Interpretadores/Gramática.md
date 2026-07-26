@@ -24,3 +24,7 @@ Uma determinada regra de produção de uma gramática pode, por meio do
 ## Linguagem
 
 A linguagem é o conjunto de todas as cadeias alcançáveis a partir de uma determinada gramática.
+
+## Cabeça
+
+Seja $\large A \in P$ uma regra de produção, a cabeça $\large \beta$, dada por $\large \beta =  \text{head}(A)$, 

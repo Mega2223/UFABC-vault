@@ -1,5 +1,5 @@
 echo TODOS:
-grep -rnw . -e '// *TODO' | grep --invert-match \.obsidian
+grep -rnw . -e '// *[Tt][Oo][Dd][Oo]' | grep --invert-match \.obsidian
 
 echo INCOMPLETOS:
 grep -rnw . -e 'incompleto'

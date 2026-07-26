@@ -27,4 +27,4 @@ A linguagem é o conjunto de todas as cadeias alcançáveis a partir de uma dete
 
 ## Cabeça
 
-Seja $\large A \in P$ uma regra de produção, a cabeça $\large \beta$, dada por $\large \beta =  \text{head}(A)$, 
+Seja $\large A \in P$ uma regra de produção, a cabeça $\large \beta$, dada por $\large \beta =  \text{head}(A)$, //TODO 

@@ -27,7 +27,8 @@ Cada _token_ tem um tipo específico o qual o analisador léxico deve identifica
 - Literais de número e texto.
 - Identificadores, que representam nomes dado pelo usuário.
 
-Sequências de caracteres válidas são expressas por meio de expressões regulares, por exemplo, um literal de float pode ser expresso por meio da expressão regular
+Cabe ao analisador léxico então ler os símbolos presentes no texto e retornar os _tokens_ ao analisador sintático, ou ignorar aspectos que são irrelevantes, com comentários, espaços e códigos de nova linha. Sequências de caracteres válidas são especificadas por meio de expressões regulares, por exemplo, um literal de float pode ser expresso por meio da expressão regular,
+
 ```regex
 (\d*(\.\d*)(F|f)?|\.?\d+(F|f)?)
 ```
@@ -35,6 +36,8 @@ que compila as literais
 ```d
 {0.2, .2f, 1.F, 1F, 3, 3.5f, 2.f, .3, .2f}
 ```
+
+Como toda expressão regular é um [[Autômato Finito Determinístico|autômato finito determinístico]], a análise sintática deve então encontrar um estado final a partir de um estado inicial com os caracteres encontrados, caso a sequência não acate em um estado terminal, o analisador léxico deve sinalizar um [[#erro léxico]].
 ## Erro Léxico
 
 Um erro léxico é quando um determinado símbolo não pertence ao conjunto de símbolos terminais da linguagem, de forma que o analisador léxico não possa implicar seu tipo, como por exemplo um número mal formado: `x = 2v1;`.

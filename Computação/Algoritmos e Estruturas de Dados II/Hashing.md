@@ -64,6 +64,8 @@ Para inserção, ela é $\large O(1)$ presumindo que saibamos que $\large x$ nã
 
 No pior caso, todos os elementos alocados estão no mesmo índice, forçando todas as buscas a serem no mínimo $\large O(n)$, o caso médio depende da distribuição de elementos entre índices, idealmente a tabela de hash possui uma distribuição completamente simétrica de chaves entre seus índices.
 
-Dada uma hash table encadeada, com $\large m = |U|$ _slots_ e $\large n = |K|$ elementos, definimos um fator de carregamento $\large \alpha = n / m$, que nos diz o número médio de elementos em cada _slot_. 
+Dada uma hash table encadeada, com $\large m$ _slots_ e $\large n$ elementos, definimos um fator de carregamento $\large \alpha = n / m$, que nos diz o número médio de elementos em cada _slot_. 
 
 Uma busca de um elemento que não está em $\large T$ tem complexidade de tempo média de $\large \Theta (1 +\alpha)$ quando as chaves são simetricamente uniformemente distribuídas em $\large T$, ainda, o caso médio de busca para um elemento que está em $\large T$ também é da ordem $\large \Theta (1 + \alpha)$.
+
+Se o número de elementos é proporcional ao número de slots, $\large \alpha = n/m \in O(1)$, e a pesquisa tem complexidade constante.

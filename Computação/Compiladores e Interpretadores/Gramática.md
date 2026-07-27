@@ -39,6 +39,8 @@ E \to E + E|0|1
 \end{gather}
 $$
 Compõe todas as expressões binárias aditivas, por exemplo $\large 0 + 1 + 0 + 0$
+### Derivação de Sentenças
+// TODO: Introduction to Compilers and Language Design p.37
 ### Ambiguidade
 Uma gramática é diga ambígua quando sua linguagem produzida possui uma única sequência que pode ser derivada de formas diferentes, por exemplo, a gramática
 $$\large\begin{gather}

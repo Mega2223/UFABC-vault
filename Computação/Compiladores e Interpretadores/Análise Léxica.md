@@ -30,7 +30,7 @@ Cada _token_ tem um tipo específico o qual o analisador léxico deve identifica
 Cabe ao analisador léxico então ler os símbolos presentes no texto e retornar os _tokens_ ao analisador sintático, ou ignorar aspectos que são irrelevantes, com comentários, espaços e códigos de nova linha. Sequências de caracteres válidas são especificadas por meio de expressões regulares, por exemplo, um literal de float pode ser expresso por meio da expressão regular,
 
 ```regex
-((\d+\.\d*)|(\.\d+)|(\d+)|)[fF]?
+((\d+(\.\d*)?)|(\.\d+))[fF]?
 ```
 que compila as literais
 ```d

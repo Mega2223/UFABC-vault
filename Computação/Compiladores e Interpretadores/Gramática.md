@@ -39,8 +39,19 @@ E \to E + E|0|1
 \end{gather}
 $$
 Compõe todas as expressões binárias aditivas, por exemplo $\large 0 + 1 + 0 + 0$
-
 ### Ambiguidade
+Uma gramática é diga ambígua quando sua linguagem produzida possui uma única sequência que pode ser derivada de formas diferentes, por exemplo, a gramática
+$$\large\begin{gather}
+E \to E.E | e
+\end{gather}$$
+Pode produzir a sentença $\large e.e.e.e$ da de várias formas:
+$$\large\begin{gather}
+E & E \\
+E.E & E.E \\
+E .E.e & E.E.E.E \\
+e .  E.E.e & e.e.e.e \\
+e.e.e.e
+\end{gather}$$
 ## Cabeça
 
 Seja $\large A \in P$ uma regra de produção, a cabeça $\large \beta$, dada por $\large \beta =  \text{head}(A)$, //TODO 

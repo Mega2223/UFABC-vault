@@ -38,6 +38,9 @@ que compila as literais
 ```
 
 Como toda expressão regular é um [[Autômato Finito Determinístico|autômato finito determinístico]], a análise sintática deve então encontrar um estado final a partir de um estado inicial com os caracteres encontrados, caso a sequência não acate em um estado terminal, o analisador léxico deve sinalizar um [[#erro léxico]].
+## Palavras Reservadas
+
+São sentenças de texto específicas de uma língua, já conhecidas pelo compilador durante todo o tempo de compilação, precisam ser reconhecidas de forma eficiente, idealmente são postas em uma [[Hashing#Hash Table|tabela de hash]] sem colisões. 
 ## Erro Léxico
 
 Um erro léxico é quando um determinado símbolo não pertence ao conjunto de símbolos terminais da linguagem, de forma que o analisador léxico não possa implicar seu tipo, como por exemplo um número mal formado: `x = 2v1;`.
@@ -48,3 +51,4 @@ Erros léxicos podem constituir:
 - String não acabada.
 - Comentário não acabado.
 
+Tipicamente um erro léxico fatal deve reportar com base em qual estado ele estava, por exemplo, um erro léxico que está lendo um valor número deve reportar um número mal-formado para o compilador.

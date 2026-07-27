@@ -19,12 +19,28 @@ Toda gramática produz um conjunto de sentenças válidas, que é denominada uma
 ### Comprimento
 O comprimento de uma cadeia de símbolos é o número total de símbolos que a compõem.
 $$\large ||aaa|| = 3$$
-### Divergência
-Uma determinada regra de produção de uma gramática pode, por meio do // TODO
+### Denominador Comum
+Se várias regras de derivação tem o mesmo lado esquerdo, é comum condensar essas regras em uma única notação com o operador de expressão _or_, por exemplo, as regras
+$$\large \begin{gather}
+A \to x & A \to y & A \to Az
+\end{gather}$$
+podem ser descritas da forma
+$$\large A \to x|y|Az$$
 ## Linguagem
 
 A linguagem é o conjunto de todas as cadeias alcançáveis a partir de uma determinada gramática, uma linguagem pode possuir somente símbolos terminais de sua gramática geradora.
-// TODO
+
+Por exemplo, a gramática para as operações binárias aditivas
+$$\large \begin{gather}
+\large G := \langle N, \Sigma, P, S \rangle \\
+N = \{ S,E \}, \Sigma = \{ +, 1,0 \} \\
+S \to E \\
+E \to E + E|0|1
+\end{gather}
+$$
+Compõe todas as expressões binárias aditivas, por exemplo $\large 0 + 1 + 0 + 0$
+
+### Ambiguidade
 ## Cabeça
 
 Seja $\large A \in P$ uma regra de produção, a cabeça $\large \beta$, dada por $\large \beta =  \text{head}(A)$, //TODO 

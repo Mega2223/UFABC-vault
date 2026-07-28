@@ -28,4 +28,4 @@ A codificação visa diminuir / otimizar o tamanho da sequência binária final,
 
 $$\large \text C(T) := \sum_{i=1}^n f_i l_i$$
 
-Para o funcionamento do algoritmo é necessária que a árvore de codificação também seja compilada e transmitida ou armazenada como parte da mensagem. De forma geral, 
+Para o funcionamento do algoritmo é necessária que a árvore de codificação também seja compilada e transmitida ou armazenada como parte da mensagem. De forma geral, //TODO 

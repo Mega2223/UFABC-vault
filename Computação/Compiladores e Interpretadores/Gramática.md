@@ -50,6 +50,9 @@ $$\large S \to E \to E + E \to 1+ E\to 1 + E + E \to 1 + 1+1$$
 
 Uma sentença pode ser derivada por um [[Análise Sintática|analisador sintático]], que visa encontrar uma cadeia de derivação para uma determinada sentença, ou determinar de forma definitiva se existe ou não uma cadeia de derivação para uma sentença.
 
+Dizemos que, se uma sentença $\large B$ pode ser formada a partir da aplicação de regras de produção em uma outra sentença $\large A$, que $\large A$ _produz_ $\large B$, em notação:
+$$\large A \Rightarrow B$$
+
 // TODO: Introduction to Compilers and Language Design p.37 p.40
 ### Ambiguidade
 Uma gramática é diga ambígua quando sua linguagem produzida possui uma única sequência que pode ser derivada de formas diferentes, por exemplo, a gramática
@@ -64,10 +67,17 @@ E .E.e & E.E.E.E \\
 e .  E.E.e & e.e.e.e \\
 e.e.e.e
 \end{gather}$$
-## Conjuntos $\textbf{FIRST}$ e $\textbf{FOLLOW}$
-
-
-## Cabeça
+## Cabeça e Cauda
 
 Seja $\large A \in N$ um determinado caractere não-terminal, a cabeça de $\large A$, $\large \text{head}(A)$, é o conjunto de todos os caracteres iniciais das regras de produção que iniciam em $\large A$:
-$$\large \text{head}(A) := \{\beta\ |\ \beta \gamma \in P , \beta \in (N \cup \Sigma),  \gamma \in (N \cup \Sigma)^*\}$$
+$$\large \text{head}(A) := \{\beta\ |\  (A \to\beta \gamma) \in P , \beta \in (N \cup \Sigma),  \gamma \in (N \cup \Sigma)^*\}$$
+De forma análoga, a cauda de $\large A$ é o conjunto de todos os últimos caracteres em regras de produção que vem de $\large A$
+$$\large \text{tail}(A) := \{\beta\ |\  (A \to \gamma \beta) \in P , \beta \in (N \cup \Sigma),  \gamma \in (N \cup \Sigma)^*\}$$
+## Conjuntos $\textbf{FIRST}$ e $\textbf{FOLLOW}$
+
+Seja $\large A \in N$ qualquer caractere não terminal, o conjunto $\large \textbf{FIRST}(A)$ é o conjunto de todos os caracteres terminais $\large \alpha \in \Sigma$ tais que $\large$$\large \alpha$ é [[#Cabeça e Cauda|cabeça]] de uma sentença [[#Derivação de Sentenças|produzida]] por $\large A$:
+$$\large \textbf{FIRST}(A) := \{ \alpha\ |\ A \Rightarrow  \alpha \gamma, \alpha \in \Sigma ,\gamma \in (N \cup \Sigma)^* \}$$
+
+O conjunto $\large \textbf{FOLLOW}(A)$ é o conjunto de símbolos que podem seguir $\large A$ em qualquer sentença produzida pela língua
+
+$$\large\textbf{FOLLOW}(A) := \{ \alpha\ |\alpha \in \Sigma, \exists (x,y \in (N \cup \Sigma)^*): S \Rightarrow xA\alpha y \}$$

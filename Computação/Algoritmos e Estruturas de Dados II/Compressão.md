@@ -33,6 +33,10 @@ Para o funcionamento do algoritmo é necessária que a árvore de codificação 
 ### Construção da Árvore de Huffman
 A Árvore de Huffman é construída por meio de um [[Algoritmos Gulosos|algoritmo guloso]], como passo inicial, é criado um nó para cada símbolo, ou seja, para cada folha. Após a criação, temos uma floresta formada por várias árvores, o algoritmo procura a melhor fusão possível de árvores até que só exista uma única árvore. Seja $\large T'$ uma árvore de prefixo qualquer, a frequência de $\large T'$, dada por $\large f(T')$ é a soma de todas as frequências das folhas de $\large T'$.
 
-Em cada passo, as duas árvores de menor frequência são fundidas em uma árvore por meio de criação de um nó pai para ambas as subárvores, os objetos de maior frequência então terão um lugar mais alto na árvore final.
+Em cada passo, as duas árvores de menor frequência, $\large T_1$ e $\large T_2$ são fundidas em uma árvore por meio de criação de um nó pai para ambas as subárvores, onde esse nó conecta para as raízes $\large r(T_1)\ r(T_2)$ das árvores, os objetos de maior frequência então terão um lugar mais alto na árvore final.
 
-$$\large $$
+$$\large \begin{gather}
+G' = (V', E') \\
+V' = V \cup\{ e'\}\\
+E' = E \cup \{(e',r(T_1)),(e',r(T_2))\}
+\end{gather}$$

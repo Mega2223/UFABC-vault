@@ -68,7 +68,7 @@ Dada uma hash table encadeada, com $\large m$ _slots_ e $\large n$ elementos, de
 
 Uma busca de um elemento que não está em $\large T$ tem complexidade de tempo média de $\large \Theta (1 +\alpha)$ quando as chaves são uniformemente distribuídas em $\large T$, ainda, o caso médio de busca para um elemento que está em $\large T$ também é da ordem $\large \Theta (1 + \alpha)$[^1].
 
-Se o número de elementos é proporcional ao número de slots, $\large \alpha = n/m \in O(1)$, e a pesquisa tem complexidade constante.
+Se o número de elementos é proporcional ao número de slots, $\large \alpha = n/m \in O(1)$, a pesquisa tem complexidade constante.
 
 ## Funções Hash
 

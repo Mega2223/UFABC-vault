@@ -10,10 +10,10 @@ aliases:
 ## Definição
 
 O digrafo / grafo direcionado é uma estrutura relacional de dados finitos, em contramão ao [[grafo]], o digrafo permite relações assimétricas entre vértices, essas relações são denominadas de arcos.
-$$\Large \text{G} =\{\text{V},\text{E}\}$$
+$$\Large {G} =\{{V},{E}\}$$
 
-- $\text{V}$ é o conjunto de vértices
-- $\text{E}$ é o conjunto de arcos
+- $\large{V}$ é o conjunto de vértices
+- $\large{E}$ é o conjunto de arcos
 
 Onde temos dois mapas $\large s,t: E \to V$ onde $\large s(e)$ é a fonte de $\large e$ e $\large t(e)$ é o alvo de $\large  e$. O digrafo por definição permite um arco começar e acabar no mesmo vértice. Normalmente temos que $\large e$ é um par ordenado de vértices, $\large e = (a,b)\ \ a,b \in V(G)$, onde $\large s(e) = a, t(e) = b$.
 

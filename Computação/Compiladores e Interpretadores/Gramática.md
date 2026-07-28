@@ -16,9 +16,6 @@ Onde
 - $\large S$ é o símbolo inicial da gramática.
 
 Toda gramática produz um conjunto de sentenças válidas, que é denominada uma [[#linguagem]], os símbolos válidos da linguagem só podem ser símbolos terminais da gramática, enquanto. Enquanto $\large N, \large \Sigma$ e $\large S$ são conjuntos de símbolos arbitrários (alfabetos), $\large P$ é um conjunto de [[Função|mapas]].
-### Comprimento
-O comprimento de uma cadeia de símbolos é o número total de símbolos que a compõem.
-$$\large ||aaa|| = 3$$
 ### Denominador Comum
 Se várias regras de derivação tem o mesmo lado esquerdo, é comum condensar essas regras em uma única notação com o operador de expressão _or_, por exemplo, as regras
 $$\large \begin{gather}
@@ -39,6 +36,9 @@ E \to E + E|0|1
 \end{gather}
 $$
 Compõe todas as expressões binárias aditivas, por exemplo $\large 0 + 1 + 0 + 0$
+### Comprimento
+O comprimento de uma cadeia de símbolos é o número total de símbolos que a compõem.
+$$\large ||aaa|| = 3$$
 ## Derivação de Sentenças
 
 Uma cadeia de derivação é uma sequência de passos para chegar em uma sentença da gramática a partir do caractere inicial, citando todas as ocorrências de regras de reprodução utilizadas, por exemplo, na gramática
@@ -64,6 +64,10 @@ E .E.e & E.E.E.E \\
 e .  E.E.e & e.e.e.e \\
 e.e.e.e
 \end{gather}$$
+## Conjuntos $\textbf{FIRST}$ e $\textbf{FOLLOW}$
+
+
 ## Cabeça
 
-Seja $\large A \in P$ uma regra de produção, a cabeça $\large \beta$, dada por $\large \beta =  \text{head}(A)$, //TODO 
+Seja $\large A \in N$ um determinado caractere não-terminal, a cabeça de $\large A$, $\large \text{head}(A)$, é o conjunto de todos os caracteres iniciais das regras de produção que iniciam em $\large A$:
+$$\large \text{head}(A) := \{\beta\ |\ \beta \gamma \in P , \beta \in (N \cup \Sigma),  \gamma \in (N \cup \Sigma)^*\}$$

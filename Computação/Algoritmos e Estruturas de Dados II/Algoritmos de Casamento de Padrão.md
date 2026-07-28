@@ -6,6 +6,4 @@ tags:
   - incompleto
 authors: Júlio César
 ---
-## Preâmbulo
-
 ## Definição

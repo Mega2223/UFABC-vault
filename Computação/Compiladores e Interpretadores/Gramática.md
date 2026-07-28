@@ -39,8 +39,18 @@ E \to E + E|0|1
 \end{gather}
 $$
 Compõe todas as expressões binárias aditivas, por exemplo $\large 0 + 1 + 0 + 0$
-### Derivação de Sentenças
-// TODO: Introduction to Compilers and Language Design p.37
+## Derivação de Sentenças
+
+Uma cadeia de derivação é uma sequência de passos para chegar em uma sentença da gramática a partir do caractere inicial, citando todas as ocorrências de regras de reprodução utilizadas, por exemplo, na gramática
+$$\large S \to E, E\to E+E | 1$$
+a sentença
+$$\large 1 + 1 + 1$$
+possui uma cadeia de derivação
+$$\large S \to E \to E + E \to 1+ E\to 1 + E + E \to 1 + 1+1$$
+
+Uma sentença pode ser derivada por um [[Análise Sintática|analisador sintático]], que visa encontrar uma cadeia de derivação para uma determinada sentença, ou determinar de forma definitiva se existe ou não uma cadeia de derivação para uma sentença.
+
+// TODO: Introduction to Compilers and Language Design p.37 p.40
 ### Ambiguidade
 Uma gramática é diga ambígua quando sua linguagem produzida possui uma única sequência que pode ser derivada de formas diferentes, por exemplo, a gramática
 $$\large\begin{gather}

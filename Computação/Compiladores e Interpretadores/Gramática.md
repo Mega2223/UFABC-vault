@@ -25,7 +25,7 @@ podem ser descritas da forma
 $$\large A \to x|y|Az$$
 ## Linguagem
 
-Uma sentença é uma cadeia de símbolos terminais de uma gramática que pode ser alcançada a partir de um número finito de regras de produção a partir de $\large S$. Uma linguagem é o conjunto de todas as sentenças de uma determinada gramática, uma linguagem pode possuir somente símbolos terminais de sua gramática geradora.
+Uma forma sentencial é uma cadeia de símbolos de uma gramática que pode ser alcançada a partir de um número finito de regras de produção a partir de $\large S$, uma sentença de $\large S$ é uma forma sentencial que não possui caracteres terminais. Uma linguagem é o conjunto de todas as sentenças de uma determinada gramática, uma linguagem pode possuir somente símbolos terminais de sua gramática geradora.
 
 $$\large \pmb L (G) := \bigg\{ w \in \Sigma^* \bigg | S \xRightarrow[G]{*} w\bigg\}$$
 

@@ -25,8 +25,9 @@ podem ser descritas da forma
 $$\large A \to x|y|Az$$
 ## Linguagem
 
-A linguagem é o conjunto de todas as cadeias alcançáveis a partir de uma determinada gramática, uma linguagem pode possuir somente símbolos terminais de sua gramática geradora.
+Uma sentença é uma cadeia de símbolos terminais de uma gramática que pode ser alcançada a partir de um número finito de regras de produção a partir de $\large S$. Uma linguagem é o conjunto de todas as sentenças de uma determinada gramática, uma linguagem pode possuir somente símbolos terminais de sua gramática geradora.
 
+$$\large \pmb L (G) := \bigg\{ w \in (N \cup \Sigma)^* \bigg | S \xRightarrow[G]{*} w\bigg\}$$
 Por exemplo, a gramática para as operações binárias aditivas
 $$\large \begin{gather}
 \large G := \langle N, \Sigma, P, S \rangle \\
@@ -35,7 +36,7 @@ S \to E \\
 E \to E + E|0|1
 \end{gather}
 $$
-Compõe todas as expressões binárias aditivas, por exemplo $\large 0 + 1 + 0 + 0$
+Compõe todas as expressões binárias aditivas, como $\large 0 + 1 + 0 + 0$
 ### Comprimento
 O comprimento de uma cadeia de símbolos é o número total de símbolos que a compõem.
 $$\large ||aaa|| = 3$$
@@ -81,3 +82,5 @@ $$\large \textbf{FIRST}(A) := \{ \alpha\ |\ A \Rightarrow  \alpha \gamma, \alpha
 O conjunto $\large \textbf{FOLLOW}(A)$ é o conjunto de símbolos que podem seguir $\large A$ em qualquer sentença produzida pela língua
 
 $$\large\textbf{FOLLOW}(A) := \{ \alpha\ |\alpha \in \Sigma, \exists (x,y \in (N \cup \Sigma)^*): S \Rightarrow xA\alpha y \}$$
+
+Tipicamente se usa $\large \$$ para determinar o final de uma sentença, fazendo com que o conjunto follow de um símbolo que produz uma cadeia vazia deve incluir o símbolo de cadeia terminal.

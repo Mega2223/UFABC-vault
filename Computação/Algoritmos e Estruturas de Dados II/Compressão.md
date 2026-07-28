@@ -1,7 +1,7 @@
 ---
 tags:
   - computação
-  - incompleto
+  - algoritmo
 authors: Júlio César
 ---
 ## Modelo Geral
@@ -40,3 +40,5 @@ G' = (V', E') \\
 V' = V \cup\{ e'\}\\
 E' = E \cup \{(e',r(T_1)),(e',r(T_2))\}
 \end{gather}$$
+
+Essa árvore equivale a um [[Heap Binária|heap mínimo]], onde o valor de cada folha é sua frequência e o valor de cada nó é a soma das frequências de suas subárvores, a árvore pode então ser implementada em uma [[Lista em Array|lista de array]].

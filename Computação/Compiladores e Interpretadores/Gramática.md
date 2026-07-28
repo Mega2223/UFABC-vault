@@ -27,7 +27,8 @@ $$\large A \to x|y|Az$$
 
 Uma sentença é uma cadeia de símbolos terminais de uma gramática que pode ser alcançada a partir de um número finito de regras de produção a partir de $\large S$. Uma linguagem é o conjunto de todas as sentenças de uma determinada gramática, uma linguagem pode possuir somente símbolos terminais de sua gramática geradora.
 
-$$\large \pmb L (G) := \bigg\{ w \in (N \cup \Sigma)^* \bigg | S \xRightarrow[G]{*} w\bigg\}$$
+$$\large \pmb L (G) := \bigg\{ w \in \Sigma^* \bigg | S \xRightarrow[G]{*} w\bigg\}$$
+
 Por exemplo, a gramática para as operações binárias aditivas
 $$\large \begin{gather}
 \large G := \langle N, \Sigma, P, S \rangle \\

@@ -44,7 +44,7 @@ $$\large ||aaa|| = 3$$
 ## Derivação de Sentenças
 
 Uma cadeia de derivação é uma sequência de passos para chegar em uma sentença da gramática a partir do caractere inicial, citando todas as ocorrências de regras de reprodução utilizadas, por exemplo, na gramática
-$$\large S \to E, E\to E+E | 1$$
+$$\large S \to E,\ E\to E+E | 1$$
 a sentença
 $$\large 1 + 1 + 1$$
 possui uma cadeia de derivação

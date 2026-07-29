@@ -31,6 +31,11 @@ Consiste em uma derivação _top-down_ da árvore de derivação, o algoritmo ge
 O algoritmo falha quando todas as subárvores da raiz foram esgotadas de regras, efetivamente esse algoritmo circula por todas possíveis cadeias até encontrar a correta. 
 
 Uma gramática recursiva a esquerda não pode ser executada com o ASD Com Retrocesso, caso contrário o mesmo entra em um loop infinito.
+## Predict
+
+Para analisadores sintáticos de tipo _[[#Análise Sintática Descendente|top-down]]_, é necessário saber qual regra de produção priorizar, a função $\large \text {PREDICT}$ determina qual regra aplicar durante o parsing em um analisador, de forma geral // TODO sla
+$$\large \textbf{PREDICT}(X \to w \in P ) := \textbf{FIRST}(w) $$
+
 ## Gramáticas Livres de Contexto
 
 O conjunto de formas de sentenças válidas em uma gramática é dito uma Gramática Livre Livre Contexto / _Context Free Grammar (CFG)_. Uma CFG nem sempre pode ser representada em termos de uma expressão regular pois ela pode exigir padrões de [[Recursão|recursão]], então costumam estas ser mais abrangentes que _Regexps_.
@@ -51,8 +56,9 @@ Gramáticas de tipo $\large\textbf{LL}(1)$ são gramáticas [[#Gramáticas Livre
 $$\large \begin{gather}
 A \to B \beta  & B \Rightarrow A \gamma
 \end{gather}$$
-$\large\textbf{LL}(1)$ gramáticas que podem ser valoradas somente em termo da regra atual e a próxima _token_ em um fluxo de caracteres Uma gramática $\large\textbf{LL}(1)$ pode ser interpretada com um Analisador Sintático Preditivo, cujo principal diferencial é que ele não requer [[Recursão#Backtracking|backtracking]] em sua implementação.
+Gramáticas $\large\textbf{LL}(1)$ podem ser valoradas somente em termo da regra atual e a próxima _token_ em um fluxo de caracteres Uma gramática $\large\textbf{LL}(1)$ pode ser interpretada com um Analisador Sintático Preditivo, cujo principal diferencial é que ele não requer [[Recursão#Backtracking|backtracking]] em sua implementação.
 ### Conjuntos $\textbf{FIRST}$ e $\textbf{FOLLOW}$
+Para uma gramática $\large\textbf{LL}(1)$,
 
 
 ## Gramáticas LR(1)

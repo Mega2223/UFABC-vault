@@ -11,4 +11,4 @@ Uma tabela de símbolos precisa implementar operações de inserção, remoção
 
 ## Escopo
 
-Toda variável possuí um escopo válido, podendo múltiplas 
+Toda variável possuí um escopo válido, podendo múltiplas variáveis de mesmo nome existirem em um programa em escopos diferentes, cabe ao analisador sintático reconhecer o escopo de cada variável e a identificar unicamente no programa.

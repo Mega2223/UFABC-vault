@@ -7,7 +7,20 @@ authors: Júlio César
 ---
 ## Definição
 
-Árvores de tipo Adelson-Velsky e Landis (AVL) são [[Árvore Binária de Busca]] que implementa operações de modificação da topologia da árvore de forma a manter o balanceamento da árvore a fim de manter a altura na escala $\large O(\log n)$, garantindo o custo assintótico mínimo da operação de busca.
+Árvores de tipo Adelson-Velsky e Landis (AVL) são [[Árvore Binária de Busca]] que implementa operações de modificação da topologia da árvore de forma a manter o balanceamento da árvore a fim de manter a altura na escala $\large O(\log n)$, garantindo o custo assintótico mínimo da operação de busca. A AVL é o melhor caso para uma árvore onde todo nó tem a mesma probabilidade de ser buscado, caso haja uma assimetria idealmente queremos que os nós mais buscados estejam [[Árvore de Difusão|mais perto da raiz da árvore]].
+## Operações
+
+### Busca
+A busca em AVL é a mesma busca que [[Árvore Binária de Busca#Operações|em qualquer ABB]], possui custo de tempo $\large O (\log n)$ garantido pela propriedade de balanceamento da árvore.
+### Inserção
+A inserção em uma AVL pode causar um desbalanceamento na árvore, afim de manter a altura mínima é necessário recalcular o [[#Balanceamento|balanceamento]] de todos os nós da folha até a raiz, e caso haja um desbalanceamento, [[#Balanceamento e Rotações|rotações]] para rebalancear a árvore.
+
+São necessárias $\large h$ verificações e no máximo $\large h$ rotações, cada rotação possui um número fixo de instruções, fazendo a operação de inserção ter um custo assintótico de pior caso $\large O(\log n)$. Como a implementação de inserção é um algoritmo [[Recursão|recursivo]] essa implementação custa $\large O(\log n)$ no espaço.
+### Remoção
+Caso o nó removido tenha um único filho, pode-se ligar o seu único filho diretamente ao seu pai, essa operação pode gerar desbalanceamento, então todo nó acima do filho deve ser rebalanceado caso necessário.
+
+Para um nó com dois filhos, é necessária uma busca 
+
 ## Balanceamento e Rotações
 
 A árvore binária de busca representa uma lista ordenada de elementos, embora sua estrutura não seja linear, ela é ordenável e indexável, para implementações típicas de lista, queremos suporte a operações de remoção e adição em um tempo razoável. 
@@ -29,5 +42,3 @@ Quando um nó $\large v$ possui desbalanceamento na esquerda e seu componente es
 
 ### Rotação RL
 
-##
-## Ordenação

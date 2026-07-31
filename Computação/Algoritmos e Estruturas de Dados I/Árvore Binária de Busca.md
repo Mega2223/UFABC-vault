@@ -31,8 +31,16 @@ Cada membro da lista ocupa um único nó, como toda [[árvore]] conexa possui ex
 
 ### Busca
 Uma busca é o processo de procurar algum determinado elemento partindo da raiz, ou, afirmar com certeza que o elemento não está na árvore. Presumindo a ordenação dos elementos, a busca precisa simplesmente, para cada nível de altura, comparar os filhos do nó atual com o valor desejado e se manter na faixa de tolerância, de forma similar a uma [[Árvore de Decisão|árvore de decisão]].
-### Inserção e Remoção
-Existem várias implementações de inserção e remoção para árvores binárias, a inserção trivial vai descendo a árvore até encontrar uma folha em que o nó pode ser inserido como filho. Essa implementação torna a topologia da árvore indeterminada e possivelmente o pior caso, para manter um tempo de pesquisa razoável é necessário usar um algoritmo de [[#Balanceamento|balanceamento]]. A remoção de um nó de dois filhos exige // TODO
+### Inserção
+Existem várias implementações de inserção e remoção para árvores binárias, a inserção trivial vai descendo a árvore até encontrar uma folha em que o nó pode ser inserido como filho. Essa implementação torna a topologia da árvore indeterminada e possivelmente o pior caso, para manter um tempo de pesquisa razoável é necessário usar um algoritmo de [[#Balanceamento|balanceamento]] após a inserção.
+### Remoção
+A remoção de um nó pode acatar em três casos, dependendo do número de filhos do nó a ser removido. Se o nó a ser removido não tem filhos, ele é uma folha e pode ser removido sem gerar uma desconexão na árvore. 
+
+Caso o nó removido tenha um único filho, deve-se criar um arco do pai do nó ao filho do nó, de forma que o nó seja isolado da topologia para ser removido.
+
+Caso o nó removido tenha dois filhos, deve-se fazer uma busca na árvore afim de encontrar um possível local
+
+![[graph 1.png|center|100]]
 
 ## Balanceamento
 

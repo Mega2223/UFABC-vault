@@ -13,7 +13,7 @@ authors: Júlio César
 ### Busca
 A busca em AVL é a mesma busca que [[Árvore Binária de Busca#Operações|em qualquer ABB]], possui custo de tempo $\large O (\log n)$ garantido pela propriedade de balanceamento da árvore.
 ### Inserção
-A inserção em uma AVL pode causar um desbalanceamento na árvore, afim de manter a altura mínima é necessário recalcular o [[#Balanceamento|balanceamento]] de todos os nós da folha até a raiz, e caso haja um desbalanceamento, [[#Balanceamento e Rotações|rotações]] para rebalancear a árvore.
+A inserção em uma AVL pode causar um desbalanceamento na árvore, afim de manter a altura mínima é necessário recalcular o [[#Balanceamento|balanceamento]] de todos os nós da folha até a raiz, e caso haja um desbalanceamento, [[#Balanceamento|rotações]] para rebalancear a árvore.
 
 São necessárias $\large h$ verificações e no máximo $\large h$ rotações, cada rotação possui um número fixo de instruções, fazendo a operação de inserção ter um custo assintótico de pior caso $\large O(\log n)$. Como a implementação de inserção é um algoritmo [[Recursão|recursivo]] essa implementação custa $\large O(\log n)$ no espaço.
 ### Remoção
@@ -21,7 +21,7 @@ Caso o nó removido tenha um único filho, pode-se ligar o seu único filho dire
 
 Para um nó com dois filhos, é necessária uma busca 
 
-## Balanceamento e Rotações
+## Balanceamento
 
 A árvore binária de busca representa uma lista ordenada de elementos, embora sua estrutura não seja linear, ela é ordenável e indexável, para implementações típicas de lista, queremos suporte a operações de remoção e adição em um tempo razoável. 
 
@@ -34,11 +34,25 @@ $$
 Existem quatro tipos de desbalanceamento em uma árvore, Left-Left (LL), Left-Right (LR), Right-Left (RL), Right Right (RR). Esses desbalanceamentos são de referência à subárvore do nó desbalanceado, um desbalanceamento LL é quando a sua subárvore esquerda possui um desbalanceamento na esquerda, um LR é quando sua subárvore direita possui desbalanceamento na direita, RL é quando sua subárvore direita possui desbalanceamento a esquerda e RR é quando sua subárvore direita possui desbalanceamento a direita.
 
 A rotação é uma manobra de balanceamento que preserva a ordenação da árvore, o nó que é [[#Balanceamento|desbalanceado]] é denominado o nó critico, e uma rotação em relação a esse nó é aplicada. A rotação sempre é aplicada o nó crítico de menor altura na árvore.
-### Rotação R e  L
+
+
+<div>
+<center>
+<img src ="Assets/G1.png " height=200><p>Desbalanceamento de tipo LL</p>
+<img src ="Assets/G2.png " height=200><p>Desbalanceamento de tipo RR</p>
+<img src ="Assets/G3.png " height=200><p>Desbalanceamento de tipo RL</p>
+<img src ="Assets/G4.png " height=200><p>Desbalanceamento de tipo LR</p>
+</center>
+</div>
+
+## Rotações
+
+Rotações são operações locais em um determinado nó de uma [[Árvore Binária de Busca|ABB]] que preservam a ordenação da árvore mas mudam a topologia de forma que o balanceamento da árvore muda, rotações são usadas em AVLs para corrigir [[#Balanceamento|desbalanceamentos]].
+### Rotação R
 Quando um nó $\large v$ possui desbalanceamento na esquerda e seu componente esquerdo $\large v_\leftarrow$ também possui desbalanceamento na esquerda, a operação visa, afim de manter a ordenação, colocar $\large v_\leftarrow$ acima dos demais nós da subárvore, onde $\large v_\leftarrow$ aponta para $\large v$ na direita e para seu lado desbalanceado na esquerda, o lado direito que antes era de $\large v_\leftarrow$ agora fica como lado esquerdo de $\large v$ .
 
-// TODO
+### Rotação L
+
 ### Rotação LR
 
 ### Rotação RL
-

@@ -42,6 +42,18 @@ Caso o nó removido tenha dois filhos, deve-se fazer uma busca na árvore afim d
 
 ![[graph 1.png|center|100]]
 
+
+## ABB Ótima
+
+Uma ABB ótima é a ABB que minimiza o custo de busca dada uma determinada distribuição de frequência de acesso, aquela que minimiza o número de comparações necessárias para chegar em algum determinado elemento dado um mapa de frequências de acesso.
+
+Seja $\large T$ uma abb qualquer, seu custo de acesso se dá por
+$$\large c(T):= \sum_{k=1}^n f_k l_k + \sum_{k=0}^n f' _k(l_k'-1)$$
+Onde
+- $\large f_k$ é a frequência de acesso da chave $\large k$.
+- $\large f'_k$ é a frequência de acesso de uma chave $\large k$ que não pertence à ABB.
+
+Presumindo $\large f_i = f_j\ \forall i,j \in \{0,\dots,n\}$, a ABB ótima é a [[Árvore AVL|árvore AVL]].
 ## Balanceamento
 
 Como a [[#busca]] só visita cada nível da árvore uma vez, a complexidade em função do tempo do algoritmo é $\large O(h)$, que no pior caso é $\large O(n)$, se a árvore é completa, o custo de busca é $\large O( \log n)$, ou seja, para manter uma otimalidade de tempo de acesso é necessário minimizar a altura da árvore, os algoritmos balanceadores de árvore são ditos algoritmos de balanceamento, são esses:

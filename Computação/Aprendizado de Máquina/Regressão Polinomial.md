@@ -51,3 +51,4 @@ h <- ggplot(t) +
 show(h)
 
 ```
+// TODO eu to literalmente só chamando uma biblioteca, acho isso meio irrelevante

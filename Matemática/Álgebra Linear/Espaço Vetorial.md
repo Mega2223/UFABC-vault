@@ -18,7 +18,7 @@ $$
 \forall (\mathbf u,\mathbf v,\mathbf w) \in V &&\forall(\alpha,\beta) \in \mathbb R\\
 \mathbf v +\mathbf  w =\mathbf  w +\mathbf  v &&(\alpha \beta) \mathbf u = \alpha (\beta \mathbf u) \\
 (\mathbf u+\mathbf v)+\mathbf w = \mathbf  u+(\mathbf v+\mathbf w) &&(\alpha + \beta)\mathbf  u = \alpha \mathbf u + \beta\mathbf  u \\
-\exists \mathbf 0 \in V\ | \  \mathbf v + \mathbf 0 = \mathbf v && (\mathbf u+\mathbf v)\alpha = \alpha \mathbf  u + \alpha \mathbf v\\
+\exists \mathbf 0 \in V\ \forall \mathbf v \in V | \  \mathbf v + \mathbf 0 = \mathbf v && (\mathbf u+\mathbf v)\alpha = \alpha \mathbf  u + \alpha \mathbf v\\
 \exists (-\mathbf v\in V)\ |\ \mathbf v + (-\mathbf v) = \mathbf 0 &&1\mathbf u = \mathbf u \\
 \end {gather}
 $$
@@ -62,7 +62,7 @@ A intersecção de dois subespaços também é um subespaço, no caso de interse
 Qualquer conjunto $\large \mathbb R ^d$ para qualquer $\large d \in \mathbb N$ é um espaço vetorial válido, e todas as [[Vetor|operações padrão]] do $\large \mathbb R^3$ são coerentes com a definição de espaço vetorial. Tipicamente para o $\large \mathbb R^d$, denominamos o conjunto de vetores [[Produto Interno e Norma#Angulo, Ortogonalidade e Normalidade|ortonormais]] onde só há um elemento 1 de base canônica do $\large \mathbb R ^d$. Em $\large \mathbb R ^3$ notamos a base canônica como $\large\{\hat i, \hat j, \hat k\}$.
 
 ### Funções
-Dado um intervalo contínuo $U$ e um conjunto de funções $f: U \to \mathbb R$, temos que, sejam $f$, $g$ e $h$ quaisquer funções definidas em todo $U$
+Dado um intervalo contínuo $U$ e um conjunto de funções $\large f: U \to \mathbb R$, temos que, sejam $\large f$, $\large g$ e $\large h$ quaisquer funções definidas em todo $U$
 $$
 \large \begin{gather}
 f(x) + g(x) = g(x) + f(x) \\
@@ -75,7 +75,7 @@ k \cdot j \cdot f(x) = k (j \cdot f(x))
 $$
 Logo, o conjunto de funções contínuas em $U$ constituem um espaço vetorial válido. Como não pode ser descrito em uma sequência finita de combinações lineares, este espaço é considerado infinitamente dimensional.
 ### Matrizes
-Sejam $\large (A,B) \in \mathbb R ^ {d_1 \times d_2}$ [[matriz|matrizes]] de mesma dimensão, temos que a [[Matriz#Operações|a soma matricial e a multiplicação por escalar]] são o suficiente para qualificar o espaço $\large \mathbb R^{d_1 \times d_2}$ como um espaço vetorial.
+Sejam $\large A,B \in \mathbb R ^ {d_1 \times d_2}$ [[matriz|matrizes]] de mesma dimensão, temos que a [[Matriz#Operações|a soma matricial e a multiplicação por escalar]] são o suficiente para qualificar o espaço $\large \mathbb R^{d_1 \times d_2}$ como um espaço vetorial.
 ### Polinômios
 O espaço de todas as equações polinomiais de grau $\large n$ formam um espaço com $\large n + 1$ dimensões.
 $$\large \mathcal P_n(\mathbb R) = \{\alpha_1+\alpha_2x+\alpha_3 x^2 + \cdots + \alpha_{n+1}x^n| \alpha_i \in \mathbb R\}$$

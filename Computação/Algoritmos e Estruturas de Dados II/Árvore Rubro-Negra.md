@@ -14,4 +14,8 @@ A árvore Rubro-Negra (RN) é uma [[Árvore Binária de Busca|ABB]] balanceada o
 
 Em uma árvore RN, qualquer caminho da raíz até um nó externo é no máximo duas vezes maior que qualquer outro caminho entre outro nó e um nó externo, ou ainda, pra uma árvore RN de $\large n$ nós, possui uma altura de no máximo $\large 2 \log (n+1)$
 
+## Rotações
+
+
+
 // TODO ja sabe né senhor diagramas

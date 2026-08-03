@@ -15,9 +15,9 @@ $$\Large {G} =\{{V},{E}\}$$
 - $\large{V}$ é o conjunto de vértices
 - $\large{E}$ é o conjunto de arcos
 
-Onde temos dois mapas $\large s,t: E \to V$ onde $\large s(e)$ é a fonte de $\large e$ e $\large t(e)$ é o alvo de $\large  e$. O digrafo por definição permite um arco começar e acabar no mesmo vértice. Normalmente temos que $\large e$ é um par ordenado de vértices, $\large e = (a,b)\ \ a,b \in V(G)$, onde $\large s(e) = a, t(e) = b$.
+Onde temos dois mapas $\large s,t: E \to V$ onde $\large s(e)$ é a fonte de $\large e$ e $\large t(e)$ é o alvo de $\large  e$. O digrafo por definição permite um arco começar e acabar no mesmo vértice, esse tipo de arco é denominado um laço. Normalmente temos que $\large e$ é um par ordenado de vértices, $\large e = \langle a,b\rangle \ \ a,b \in V(G)$, onde $\large s(e) = a, t(e) = b$.
 
-Se $\large (a,b) \in E(G)$ dizemos que $b$ é um sucessor direto de $\large a$ e $\large a$ é um predecessor direto de $\large b$. Se existe algum [[#caminho]] de $\large a$ até $\large b$ dizemos que $\large b$ é um sucessor de $\large a$ e $\large a$ é um predecessor de $b$, em notação:
+Se $\large \langle a,b \rangle \in E(G)$ dizemos que $\large b$ é um sucessor direto de $\large a$ e $\large a$ é um predecessor direto de $\large b$. Se existe algum [[#caminho]] de $\large a$ até $\large b$ dizemos que $\large b$ é um sucessor de $\large a$ e $\large a$ é um predecessor de $\large b$, em notação:
 
 $$\large \begin{gather}
 a \to b := (a,b) \in E(G) \\ \\
@@ -42,7 +42,7 @@ $$\large P = \{V',E'\} \begin{gather}
 & V' = (v_1, ..., v_n) & v_i \to v_{i+1} \forall i \in (1,2,...,n-1) \\
 &  E = ((v_1,v_2),...,(v_{n-1},v_n))
 \end{gather}$$
-- É denotado $P^n$ um caminho com $n$ vértices.
+- É denotado $\large P^n$ um caminho com $n$ vértices.
 - $\large v_0$ e $\large v_k$ são ditos extremos do caminho. Os demais são ditos como vértices internos.
 
 ### Distância e Caminho Mínimo
@@ -70,11 +70,11 @@ O caminho ótimo entre dois vértices $\large v,w$ é o caminho de menor custo e
 $$\large \delta (v,w) := \min(w(p): u \stackrel p \leadsto v)$$
 Se não existe $\large p$ entre os vértices, $\large \delta (u,v) = + \infty$. Caso existam custos negativos, existe a possibilidade de existência de infinitos caminhos onde indutivamente um é menos caro que o outro (ou seja, há algum circuito com custo negativo), assim não há verdadeiramente um caminho ótimo, nesse caso podemos dizer que $\large \delta(v,w) = -\infty$.
 
-Para digrafos com caminhos de custos positivos, o caminho ótimo pode ser encontrado em tempo linear $\large O(|V| + |E|)$ pelo [[algoritmo de dijkstra]].
+Para digrafos com caminhos de custos não-negativos, o caminho ótimo pode ser encontrado em tempo linear $\large O(|V| + |E|)$ pelo [[algoritmo de dijkstra]].
 
 //TODO caminhos com custos negativos
 ### Capacidade e Fluxo
-Redes de fluxo simulam o transporte contínuo de material de uma fonte até um sorvedouro. De forma geral queremos maximizar o fluxo de material.
+Redes de fluxo simulam o transporte contínuo de material de uma fonte até um sorvedouro. De forma geral queremos maximizar o fluxo de material dos nós de saída até os nós de destino.
 - [[Controle de Fluxo]]
 ## Propriedades
 

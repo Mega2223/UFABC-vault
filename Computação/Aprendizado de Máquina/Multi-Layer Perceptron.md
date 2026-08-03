@@ -35,7 +35,7 @@ z^l =  W^l a^{l-1} + b^l \in \mathbb R ^{N_l}
 && \rightarrow &&
 \Large a^l = \sigma(z^l) \in \mathbb R^{N_l}
 \end{align}$$
-Procuramos encontrar um conjunto $W$ de matrizes de hiperparâmetro que minimizem o [[Função de Perda#Risco Empírico|risco empírico]] do nosso conjunto de treinamento $D_m$
+Procuramos encontrar um conjunto $\large W$ de matrizes de hiperparâmetro que minimizem o [[Função de Perda#Risco Empírico|risco empírico]] do nosso conjunto de treinamento $\large D_m$
 $$\Large
 \begin{gather}
 \hat y_i = \hat f_{(W,b)} (x_i) \\ \\
@@ -56,11 +56,11 @@ $$
 
 Geralmente queremos otimizar a rede neural por meio de um [[Algoritmos Gulosos|algoritmo guloso]] que visa seguir um determinado gradiente a fim de minimizar nosso erro, assim, a [[Perceptron#Função de Perda|função de perda]] $\large \ell_{\text{pct}}$ não é ideal pois esta não é diferenciável em nenhum ponto[^2].
 $$\large (W^*,b^*) = (W,b) - \eta \nabla (W,b) $$
-Dizemos que $\eta$ é a nossa taxa de aprendizado. 
+Dizemos que $\large \eta$ é a nossa taxa de aprendizado. 
 
 ## Funções de Ativação
 
-Procuramos uma função não-linear [^3]$\large \sigma$ que aumente junto com o risco empírico e seja diferenciável em todo seu domínio.
+Procuramos uma função não-linear[^3] $\large \sigma$ que aumente junto com o risco empírico e seja diferenciável em todo seu domínio.
 ### Tangente Hiperbólica
 $$\large\sigma(z) = \tanh (z)$$
 Tem um formato semelhante à função logística / sigmoide, é limitada e diferenciável em todo seu domínio. Para graus muito altos de $z$ o gradiente é muito baixo.
@@ -75,4 +75,4 @@ Onde $\alpha$ é um valor pequeno
 
 [^2]: Tecnicamente ela é diferenciável, mas a derivada é sempre 0, você entendeu o que eu quis dizer não seja pedante >:(
 
-[^3]: Se a função de ativação é linear, a saída do MPL é meramente uma combinação linear da entrada.
+[^3]: Se a função de ativação é linear, a saída do MPL é meramente uma combinação linear da entrada e se esse é o caso oq estamos fazendo aqui né amg

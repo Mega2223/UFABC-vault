@@ -25,6 +25,7 @@ $$\large
 \begin{gather}
 V(G') = V(G) \cup \{s,t\} \\ \\c(s,s_i)=\infty \\ c(t_i,t) = \infty
 \end{gather}$$
+// TODO grafo vc sabe fazer
 ### Remoção de Arcos Complementares
 A definição da estrutura não aceita a existência de arcos complementares, pode-se aplicar um morfismo em um digrafo com um par de arcos complementares para tornar o digrafo uma rede, para algum $\large (v_1,v_2) \in E(G)$ cujo complementar $\large(v_2,v_1)$ também está em $\large G$, no lugar de $\large(v_1,v_2)$ pode-se adicionar um novo vértice $\large v^*$ tal que
 $$\large 

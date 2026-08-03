@@ -13,14 +13,14 @@ $$\large Y = f(X) + \epsilon$$
 Onde $\epsilon$ é o termo de erro, que possui média zero (geralmente, a distribuição de termos de $\epsilon$ se dá em uma [[Léxico de Distribuições de Probabilidade#Distribuição Normal|distribuição normal]]).
 ## Predição
 
-Nas situações onde há um grande número de variáveis em $X$ mas não em $Y$, temos a predição do modelo
+Nas situações onde há um grande número de variáveis em $\large X$ mas não em $\large Y$, temos a predição do modelo
 $$\large\hat{Y} = \hat{f}(X)$$
-Onde $\hat{f}$ é a estimativa de $f$, cujo objetivo é gerar o $\hat{Y}$ de maior acurácia. ($\epsilon$ ausente pois têm média nula).
+Onde $\hat{f}$ é a estimativa de $f$, cujo objetivo é gerar o $\hat{Y}$ de maior acurácia. ($\large \epsilon$ ausente pois têm média nula).
 ## Acurácia
 
-São considerados dois tipos de erro para a avaliação da acurácia, erro reduzível e erro não reduzível, o erro reduzível é o erro que pode ser eliminado com uma $\hat{f}$ de melhor precisão, enquanto o erro não reduzível é derivado de $\epsilon$ e têm média $0$. Dado um determinado $\hat{f}$, temos:
+São considerados dois tipos de erro para a avaliação da acurácia, erro reduzível e erro não reduzível, o erro reduzível é o erro que pode ser eliminado com uma $\hat{f}$ de melhor precisão, enquanto o erro não reduzível é derivado de $\epsilon$ e têm média $0$. Dado um determinado $\large\hat{f}$, temos:
 $$\large E(Y-\hat{Y})^2 = [f(X) - \hat{f}(x)]^2 + \text{Var}(\epsilon)$$
-Onde $E(Y-\hat{Y})^2$ é o quadrado do [[Axiomas da probabilidade#Valor esperado|valor esperado]] do erro de $Y$ e a predição de $Y$.
+Onde $\large E(Y-\hat{Y})^2$ é o quadrado do [[Axiomas da probabilidade#Valor esperado|valor esperado]] do erro de $Y$ e a predição de $Y$.
 
 ## Medindo a acurácia de um modelo
 

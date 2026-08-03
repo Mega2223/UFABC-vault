@@ -11,7 +11,7 @@ authors: Júlio César
 
 É um método de [[regressão]] não-linear que visa em sua maior parte retificar problemas relacionados à [[regressão polinomial]], que é muito variável em graus altos e muito simples em graus baixos. A regressão em splines visa dividir o domínio dos preditores em várias funções de grau semelhante e transacionar entre essas funções de forma natural. Ou seja, a regressão em splines divide o domínio de $f$ em setores visa replicar o efeito de uma regressão polinomial simples enquanto mantêm a coerência da função entre os setores.
 
-Dados pontos $\xi_1, \xi_2, \cdots, \xi_K$, uma função $S_p : [a,b] \to \mathbb{R}$ é um _spline_ de grau $p$ se
+Dados pontos $\large\xi_1, \xi_2, \cdots, \xi_K$, uma função $\large S_p : [a,b] \to \mathbb{R}$ é um _spline_ de grau $p$ se
 
 $$\large
 \begin{gather}
@@ -26,4 +26,4 @@ s_k(x) \text{ é polinômio de grau } p \\ \\
 S_p \in C^{p-1}[a,b] \text{ (p-1 derivadas contínuas) }
 \end{gather}
 $$
-Em geral queremos o spline que minimize a [[Função de Perda#Função de Perda Quadrática|função de perda quadrática]] em cada intervalo, e que também seja duplamente [[Derivada#Definição|diferenciável]] em $\xi_k \forall k \in {0,\dots,K}$.
+Em geral queremos o spline que minimize a [[Função de Perda#Função de Perda Quadrática|função de perda quadrática]] em cada intervalo, e que também seja duplamente [[Derivada#Definição|diferenciável]] em $\large \xi_k \forall k \in {0,\dots,K}$.

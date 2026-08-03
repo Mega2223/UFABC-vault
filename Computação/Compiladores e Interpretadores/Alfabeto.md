@@ -39,4 +39,6 @@ Adicionalmente são comuns as anotações:
 - $\large[a-d]$ é uma convenção para um intervalo caracteres ordenados $\large (a,b,c,d)$.
 - $\large[\lnot a-d]$ denota $\large L \setminus [a-d]$.
 
-Uma expressão regular representa uma [[Gramática|gramática]] e forma uma [[Gramática#Linguagem|linguagem]], de forma geral toda expressão regular representa um [[Autômato Finito Determinístico|autômato finito]].
+Uma expressão regular representa uma [[Gramática|gramática]][^1] e forma uma [[Gramática#Linguagem|linguagem]], de forma geral toda expressão regular representa um [[Autômato Finito Determinístico|autômato finito]].
+
+[^1]: Mas nem toda gramática é representável em um _regex_, particularmente pois este não viabiliza gramáticas recursivas.

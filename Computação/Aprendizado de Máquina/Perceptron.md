@@ -19,7 +19,7 @@ $$
 Onde $\large w$ e $\large b$ são os hiperparâmetros do [[hiperplano#Definição|hiperplano]] que forma a fronteira de decisão do algoritmo.
 ## Função de Perda
 
-O perceptron usa a [[função de perda]]
+A tunagem do perceptron usa a [[função de perda]]
 $$\large \ell_{\text{pct}}(y,\hat y) = \max \{0,-y \cdot \hat y\}$$
 Que é 0 caso não haja erro de classificação, mas aumenta linearmente caso exista erro de classificação. A ideia é reduzir a distância entre cada categoria e sua fronteira de decisão respectiva. Assim, buscamos minimizar
 $$\large 
@@ -39,13 +39,14 @@ O classificador de máxima margem visa maximizar a distância total da fronteira
 $$\large 
 \gamma = \min_{i = 1, \dots, m} \frac{|w^Tx_i+b|}{||w||} 
 $$
-O classificador então visa maximizar $\large \gamma$ pelos hiperparâmetros $w$ e $b$
+O classificador então visa maximizar $\large \gamma$ pelos hiperparâmetros $\large w$ e $\large b$.
 ## Perceptron em Rede
 
 Podemos organizar um conjunto de perceptrons em uma rede, onde nós de entrada se conectam a determinados perceptrons que se reorganizam entre si e uma determinada camada que se conecta à saída do algoritmo, é a preposição por trás das [[Rede Neural|redes neurais]].
 
 ## Máquinas de Vetores de Suporte
 
+// TODO
 
 ## Desempenho
 

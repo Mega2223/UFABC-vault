@@ -15,7 +15,7 @@ $$\large y'' = f(x,y,y')$$
 Dada uma EDO de segunda ordem, $\large y_1(x)$ e $\large y_2(x)$ duas soluções da EDO, o Wronskiano da equação se dá pela [[Matriz#Determinante|determinante]]
 $$\large \begin{bmatrix}
 y_1(x) & y_2(x) \\
-y_1'(x) 
+y_1'(x) & y_2'(x)
 \end{bmatrix}$$
 ## Problema do Valor Inicial
 

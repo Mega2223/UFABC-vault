@@ -40,4 +40,4 @@ $$\large
 
 O operador de igualdade é um predicado binário que relaciona algum individuo com ele mesmo e nenhum outro, ou seja, só valora positivamente quando ambos seus indivíduos são o mesmo. A notação do predicado é diferente dos demais, tipicamente colocamos cada individuo de um lado
 $$\Large{ =_{xy} \over x=y}$$
-Embora em tese seja um predicado como qualquer outro, o fato de conhecermos a propriedade da identidade possibilita fazer [[Tablôs Semânticos#CQC|deduções]] sobre o comportamento deste predicado, notoriamente que para um grupo de fórmulas $\large A_x, B_y, x=y$ então $\large B_x$.
+Embora em tese seja um predicado como qualquer outro, o fato de conhecermos a propriedade da identidade possibilita fazer [[Tablôs Semânticos#CQC|deduções]] sobre o comportamento deste predicado, notoriamente que para um grupo de fórmulas $\large A_x, B_y$, se $\large x=y$ então $\large B_x$.

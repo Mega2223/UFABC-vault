@@ -12,6 +12,7 @@ authors: Júlio César
 
 De forma geral, o sistema semântico parte da premissa que, seja $\large \Gamma$ um conjunto de fórmulas, para qualquer $\large \Gamma \vDash A, \lnot\Gamma \cup A$ não é satisfazível. 
 
+//TODO faz em latex
 ## Algoritmo
 
 ### Ramo Fechado

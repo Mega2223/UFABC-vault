@@ -1,7 +1,7 @@
 ---
 tags:
   - matemática
-  - incompleto
+  - cálculo
 aliases:
 authors: Júlio César
 ---

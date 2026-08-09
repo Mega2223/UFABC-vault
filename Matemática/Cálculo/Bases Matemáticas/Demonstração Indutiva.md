@@ -35,4 +35,4 @@ $$\large \begin{align}
 & =2 \cdot 2^{k+1} - 1 \\
 & =2 ^{k+2}-1
 \end{align}$$
-Essa propriedade é muito importante pois ela garante que a altura de uma [[Árvore Binária de Busca|ABB]] é logarítmica.
+Essa propriedade é importante pois ela garante que a altura de uma [[Árvore Binária de Busca#ABB Ótima|ABB ótima]] possui altura de ordem logarítmica.

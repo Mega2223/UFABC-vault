@@ -8,6 +8,7 @@ authors: Júlio César
 ## Definição
 
 Um functor é um [[Função|mapeamento]] entre [[Categoria|categorias]], preservando domínios, contradomínios, identidades e composições. Formalmente, sejam $\large C$ e $\large D$ categorias, um functor é uma transformação $\large F: C \to D$ tal que para qualquer morfismo $\large f: A \to B$
+// TODO categorias não deveriam ter contraste mathbf??
 
 $$\large \begin{gather}
 F(f: A \to B) = F(f): F(A) \to F(B) \\ \\
@@ -43,5 +44,7 @@ De forma geral, temos que functores são morfismos que mapeiam morfismos e objet
 Uma transformação natural é um [[Função|mapeamento]] entre [[Functor|functores]] que respeita todas as composições entre morfismos aplicados no functor. Isso é, sejam $\large F: \textbf A \to \textbf B$ e $\large G: \textbf A \to \textbf B$ functores entre as categorias $\large \textbf A$ e $\large \textbf B$, uma transformação natural $\large \eta : F \to G$ é uma família de [[Categoria#Morfismo|morfismos]] do tipo $\large \eta _X: F(X) \to G(X)$ para todo objeto $\large X$ em $\large \textbf A$.
 
 Os componentes da transformação $\large \eta$ devem preservar as identidades e composições dos morfismos a qual ela opera, para todo morfismo do tipo $\large f: X \to Y$ é necessário que $\large G(f) \circ \eta_X = \eta_Y \circ F(f)$.
+
+// TODO isso provavelmente tem um diagrama comutativo
 
 [^1]: Ou seja, ele mapeia para a mesma categoria, não necessariamente é um functor identidade, ex: [[Transformação Linear#Definição|operadores lineares]].

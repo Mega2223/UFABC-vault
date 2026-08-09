@@ -10,5 +10,5 @@ authors: Júlio César
 $$\large \int f(x) g'(x) + f'(x)g(x)\ dx= f(x)g(x)$$
 Então
 $$\large \int f(x) g'(x)\ dx = f(x)g(x) - \int g(x)f'(x)\ dx$$
-Essa integral é útil se $\int g'$ é conhecida ou facilmente calculável, por exemplo
+Essa integral é útil se $\large \int g' dx$ é conhecida ou facilmente calculável, por exemplo
 $$\large \int x \sin x\ dx= -x \cos x - \int \cos (x) 1\ dx = -x \cos x +\sin x + C$$

@@ -12,15 +12,15 @@ Um conjunto é uma coleção de objetos. Um objeto, de forma geral, ou pertence 
 ## Subconjunto e Superconjunto
 
 Sejam $A$ e $B$ conjuntos, dizemos que $B \subseteq A$ se todos os elementos de $B$ estiverem presentes em $A$, de forma análoga, $A$ é superconjunto de $B$.
-$$\large A \subseteq B \iff (x \in A \implies x \in B)$$
+$$\large A \subseteq B : (x \in A \implies x \in B)$$
 ## Igualdade
 
 Temos que dois conjuntos $A$ e $B$ são iguais (por consequência, o mesmo conjunto) se e somente se todos os elementos de $A$ estiverem presentes em $B$ e vice-versa.
-$$\large A = B \iff A \subseteq B\ \land B \subseteq A $$
+$$\large A = B : (A \subseteq B\ \land B \subseteq A )$$
 ## Conjunto Vazio
 
 Só existe um conjunto com nenhum elemento, o conjunto vazio
-$$\large \emptyset = \{\}$$
+$$\large \not \text O = \{\}$$
 Por definição, o conjunto vazio é um [[#Subconjunto e Superconjunto|subconjunto]] de todo e qualquer conjunto.
 ## União e Intersecção
 
@@ -43,13 +43,16 @@ Uma sequência ordenada é um conjunto que define uma relação de ordem entre t
 
 $$\large \langle a,b,c \rangle := \langle a,\langle b,c \rangle \rangle$$
 
+Um membro do [[#produto cartesiano]] entre $\large n$ conjuntos é dito uma $\large n$-tupla ordenada.
 ## Produto Cartesiano
 
 O produto cartesiano entre dois conjuntos $\large A$ e $\large B$ se dá pelo conjunto de todos os [[#Par Ordenado e Sequência Ordenada|pares ordenados]] com um elemento de $\large A$ e um elemento de $\large B$
 $$\large A \times B := \{\langle x,y \rangle | x \in A, y \in B\} $$
-Essa definição pode ser estendida para cobrir uma sequência ordenada qualquer
+Essa definição pode ser estendida para cobrir uma sequência ordenada de qualquer tamanho
 $$\large A \times B \times C := \{ \langle x,y,z \rangle | x \in A, y \in B, z \in C \}$$
 A convenção é que o produto de $\large n$ vezes o mesmo conjunto $\large A$, dada por $\large A \times A$ se abrevia como $\large A^n$.
 
 ## Conjunto das Partes
-//TODO
+
+Seja $\large A$ um conjunto qualquer, o conjunto das partes de $\large A$ é o conjunto de todos os [[#Subconjunto e Superconjunto|subconjuntos]] de $\large A$
+$$\large P(A) := \{B\ |\ B \subseteq A\}$$

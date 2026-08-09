@@ -32,8 +32,19 @@ Logicamente essas operações são comutativas e associativas, também seguem as
 - $\large A \cap (B \cup C) = (A\cap B) \cup (A\cap C)$
 - $\large A \cup (B \cap C) = (A\cup B) \cap (A\cup C)$
 ## Cardinalidade
-//TODO
 
+A cardinalidade de um determinado conjunto $\large A$, dito $\large |A|$, e a propriedade referente ao tamanho do conjunto, se um conjunto possui $\large n$ elementos, sua cardinalidade é $\large n$ e ele é dito finito. Caso o conjunto não possua um número finito de elementos, ele é dito infinito. Sejam $\large A,B$ conjuntos finitos, $\large |A \cup B| = |A| + |B| - |A \cap B|$.
+
+Dois conjuntos $\large A,B$ possuem a mesma cardinalidade quando existe uma [[Função#Injetividade e Sobrejetividade|bijeção]] $\large f: A \to B$ entre eles, caso só exista uma injeção de $\large A \to B$, é dito que a cardinalidade de $\large A$ é superior a de $\large B$. 
+
+Sabe-se que emora $\large \mathbb N \subseteq \mathbb Z$, temos que $\large |\mathbb N| = |\mathbb Z|$ pela existência da função bijetora $\large f: \mathbb N \to \mathbb Z$ onde
+
+$$\large f(x) := \begin{cases}
+x / 2  & x \text{ é par} \\
+-(x+1)/2 & x\text{ é ímpar}
+\end{cases}$$
+
+Todo conjunto que possui cardinalidade com $\large \mathbb N$ é dito um conjunto enumerável, dito da ordem de $\large \aleph _0$, são contáveis os conjuntos $\large \mathbb Z$ e $\large \mathbb Q$[^1]. Não existe bijeção entre $\large \mathbb R$ e $\large \mathbb N$, fazendo com que os números reais sejam infinitos e inumeráveis.
 ## Par Ordenado e Sequência Ordenada
 
 Um par ordenado é um conjunto que dá uma relação de ordem entre dois elementos de forma que $\large \langle a,b \rangle \ne \langle b,a \rangle$, um par ordenado pode ser definido em termos de um conjunto, onde
@@ -55,4 +66,16 @@ A convenção é que o produto de $\large n$ vezes o mesmo conjunto $\large A$, 
 ## Conjunto das Partes
 
 Seja $\large A$ um conjunto qualquer, o conjunto das partes de $\large A$ é o conjunto de todos os [[#Subconjunto e Superconjunto|subconjuntos]] de $\large A$
-$$\large P(A) := \{B\ |\ B \subseteq A\}$$
+$$\large \mathcal P(A) := \{B\ |\ B \subseteq A\}$$
+
+## Conjunto Universo e Conjunto Complementar
+
+O conjunto universo $\large U$ é o conjunto de todos os possíveis elementos em um determinado contexto, a presença de um conjunto universo permite poder presumir membros que estão fora de algum outro determinado conjunto. Seja $\large A$ um conjunto, seu conjunto complementar é definido como
+
+$$\large A^c := \{x\ |\ x\in U, x \not\in A \}$$
+
+Pelas [[Álgebra Booleana#Teoremas de De Morgan|leis de De Morgan]]:
+- $\large (S \cup T)^c= S^c \cap T^c$
+- $\large (S \cap T)^c= S^c \cup T^c$
+
+[^1]: Pela famosa bijeção das setinhas.

@@ -6,7 +6,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Uma equação diferencial separável é uma EDO que pode ser escrita na forma
+Uma equação diferencial separável é uma [[Equação Diferencial Ordinária de Primeira Ordem|EDO de primeira ordem]] que pode ser escrita na forma
 $$\large \frac {dy}{dx} = g(x)f(y)$$
 Sendo $\large y$ uma variável dependente de $\large x$ e $\large f,g$ duas funções, seja $\large h = 1/f$, podemos escrever uma equação separável na forma
 $$\large \frac {dy}{dx} = \frac {g(x)}{h(y)}$$

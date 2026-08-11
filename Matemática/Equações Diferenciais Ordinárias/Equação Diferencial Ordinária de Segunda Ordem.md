@@ -10,6 +10,8 @@ Uma Equação Diferencial Ordinária de Segunda Ordem é uma [[Equação Diferen
 $$\large F(x,y,y',y'') = 0$$
 Tipicamente representada em sua forma normal
 $$\large y'' = f(x,y,y')$$
+### Problema do Valor Inicial
+
 
 ### Wronskiano
 Dada uma EDO de segunda ordem, $\large y_1(x)$ e $\large y_2(x)$ duas soluções da EDO, o Wronskiano da equação se dá pela [[Matriz#Determinante|determinante]]
@@ -17,7 +19,6 @@ $$\large \begin{bmatrix}
 y_1(x) & y_2(x) \\
 y_1'(x) & y_2'(x)
 \end{bmatrix}$$
-## Problema do Valor Inicial
 
 
 ## EDO Linear de Segunda Ordem
@@ -25,7 +26,7 @@ y_1'(x) & y_2'(x)
 Uma Equação Diferencial Ordinária Linear de Segunda Ordem é uma equação do tipo
 $$\large P(x) \frac{d^2y}{dx^2} + Q(x)\frac{dy}{dx} + R(x)y = G(x)$$
 
-Onde $\large P,Q,R,S$ são funções reais [[Limite#Continuidade|continuas]]. Para $\large G(x) = 0$, dizemos que a EDO Linear de Segunda Ordem é [[Equação Diferencial Ordinária#EDO Homogênea|homogênea]], em sua forma geral
+Onde $\large P,Q,R,S$ são funções reais [[Limite#Continuidade|continuas]], a equação é dita linear pois ela é linear com respeito a $\large y$ e suas derivadas. Para $\large G(x) = 0$, dizemos que a EDO Linear de Segunda Ordem é [[Equação Diferencial Ordinária#EDO Homogênea|homogênea]], a EDO linear em sua forma geral é dada como
 $$\large a_2(x) y'' + a_1(x)y' + a_0(x)y =G(x)$$
 
 ### Caso Homogêneo
@@ -41,6 +42,6 @@ $$\large y = y_h + y_p$$
 - $\large y_h$ é a solução da equação homogênea.
 - $\large y_p$ é a solução particular da equação.
 ## EDO Diferencial Ordinária Não Homogênea
-## Problema do Valor Inicial
+### Problema do Valor Inicial
 
 ## Problema de Valor de Contorno

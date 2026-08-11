@@ -7,11 +7,11 @@ aliases:
 ---
 ## Definição
 
-A derivada é a taxa de mudança instantânea de uma variável dependente em relação à uma variável independente. A derivada é comumente usada em sistemas de função, onde $x$ é a variável independente e $f(x)$ ou $y$ é a variável dependente de $x$.
+A derivada é a taxa de mudança instantânea de uma variável dependente em relação à uma variável independente. A derivada é comumente usada em sistemas de função, onde $\large x$ é a variável independente e $\large f(x)$ ou $\large y$ é a variável dependente de $\large x$.
 
 A derivada é definida por um [[limite]], onde:
 $$\large f'(x) = \lim_{h\to 0}{\frac{f(x+h)-f(x)}{h}}$$
-Como $h \to 0$, é necessário entender a função para descobrir este limite. O número resultante do limite é o coeficiente angular da reta paralela ao ponto $x$ na função $f$.
+Como $\large h \to 0$, é necessário entender a função para descobrir este limite. O número resultante do limite é o coeficiente angular da reta paralela ao ponto $\large x$ na função $\large f$.
 
 
 <div>
@@ -41,16 +41,17 @@ $$\frac{d}{dx} f(x) = \frac {dy}{dx} = f'(x) = y' = Df(x) = f^{(1)}(x)$$
 
 ## Regra de Cadeia
 
-Sejam $\large f$ e $\large g$ funções diferenciáveis,
+Sejam $\large f$ e $\large g$ funções diferenciáveis, a [[Função#Composição|composição]] entre as funções possui a derivada
 $$\large (f\circ g)'(x) = f'(g(x))\ g'(x)$$
-Se $\large y = f(u), u = g(x)$
+Ou seja, se $\large y = f(u), u = g(x)$
 $$\large \frac{dy}{dx} = \frac{dy}{du}\frac{du}{dx} $$
-## Regra de L'Hospital
+## Regra de L'Hopital
 
-Sejam $f$ e $g$ funções diferenciáveis (exceto possivelmente em $\large c$), $\large c \in \mathbb{R}$, $g'(c) \ne 0$, se $\large f(c) = 0$ e $\large g(c) = 0$
+Sejam $\large f$ e $\large g$ funções diferenciáveis (exceto possivelmente em $\large c$), $\large c \in \mathbb{R}$, $g'(c) \ne 0$, se $\large f(c) = 0$ e $\large g(c) = 0$
 $$\large \lim_{x\to c}\frac{f(x)}{g(x)} =\lim_{x\to c} \frac{f'(x)}{g'(x)}$$
 
 ## Propagação de Derivadas
+
 As derivadas de funções compostas podem ser presumidas a partir das derivadas de seus componentes, as propagações mais comuns são:
 
 | $h(x)$           | $h'(x)$                                         |

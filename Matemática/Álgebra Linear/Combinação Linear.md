@@ -25,9 +25,9 @@ Um conjunto de $\large \mathbf v_n \in V$ vetores não nulos pode formar um [[Es
 
 Seja $\large S \subseteq V$ um conjunto finito de vetores do espaço vetorial, temos que $[\ S \ ]$ é o subespaço vetorial gerado por $\large S$, que é o conjunto de todas as combinações lineares possíveis de elementos de $\large S$. Caso $\large S$ seja linearmente dependente, o conjunto pode ser reduzido sem que $\large [\ S\ ]$ sofra de alguma alteração.
 
-$$\Large \big[S\big ] = \{\mathbf s=\sum_{i=1}^n x_i\mathbf v_i\ |\ x_i \in \mathbb R, \mathbf v_i \in S, n = |S| \}$$
+$$\large \big[S\big ] := \{\mathbf s=\sum_{i=1}^n x_i\mathbf v_i\ |\ x_i \in \mathbb R, \mathbf v_i \in S, n \in \mathbb \{1,2,\dots\}\ \}$$
 
-Se $\large \big[S\big] = V$ e todos os vetores de $S$ são linearmente independentes, dizemos que $\large S$ é uma base de $\large V$.
+Se $\large \big[S\big] = V$ e todos os vetores de $\large S$ são linearmente independentes, dizemos que $\large S$ é uma base de $\large V$.
 ### Teoremas
 Sejam $\large S, U$ quaisquer subconjuntos não vazios finitos de $\large V$:
 - $\large S \subseteq [S]$

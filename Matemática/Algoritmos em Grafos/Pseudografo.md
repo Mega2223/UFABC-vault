@@ -29,6 +29,6 @@ $$\Large \text{G} =\{\text{V},\text{E},\phi\}$$
 - $\large \text{V}$ é o conjunto de vértices
 - $\large \text{E}$ é o conjunto de arestas
 - $\large s: E \to V$ é uma função que mapeia cada aresta a um vértice onde começa o arco
-- $\large t: E \to V$ é uma função que mapeia cada aresta a um vértice onde termina o arco
+- $\large t: E \to V$ é uma função que mapeia cada aresta a um vértice onde termina o arco.
 
-Ainda, $\large \phi$ não é [[Função#Injetividade e Sobrejetividade|injetora]], ou seja, temos que para membros diferentes de $\large E$ podemos ter o mesmo par ordenado $\large \langle v,w \rangle$ de vértices.
+Ainda, tendo $\large \phi (e) := \langle s(e),t(e) \rangle$, temos que $\large \phi$ não é uma [[Função#Injetividade e Sobrejetividade|bijeção]], ou seja, membros diferentes de $\large E$ podem ter o mesmo par ordenado $\large \langle v,w \rangle$ de vértices.

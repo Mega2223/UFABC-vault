@@ -40,8 +40,6 @@ São determinados subespaços triviais aqueles que pode-se razoavelmente assumir
 $$\Large \begin{gather}
  V &\{\mathbf0\}
 \end{gather}$$
-### Propriedades
-- Espaços de [[Matemática/Álgebra Linear/Combinação Linear#Dimensão|dimensões diferentes]] nunca são isomórficos entre si.
 ## Soma de Espaços Vetoriais
 
 Sejam $\large U$ e $\large W$ [[#Subespaço Vetorial|subespaços]] de $\large V$, a soma dos espaços vetoriais, dada por $\large U + W$, é o espaço de todos os vetores que podem ser construídos a partir de [[Matemática/Álgebra Linear/Combinação Linear|combinações lineares]] de elementos dos subespaços.

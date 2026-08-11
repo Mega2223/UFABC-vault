@@ -15,7 +15,7 @@ Uma categoria é uma coleção de dois tipos de objetos: os objetos da categoria
 - Para qualquer objeto $A$ existe um morfismo identidade $1_A: A \to A$ onde para qualquer outro functor $f: A \to B$ temos que $f \circ 1_A = 1_B \circ f = f$ 
 
 São exemplos válidos de categoria:
-- [[Função|Funções]] em [[conjunto|conjuntos]]
+- [[Função|Funções]] e [[conjunto|conjuntos]]
 - [[Espaço Vetorial|Espaços vetoriais]] e [[Transformação Linear|transformações lineares]]
 - [[Grafo|Grafos]], [[digrafo|digrafos]] e [[pseudografo|pseudografos]], com seus vértices como objetos e arcos como morfismos
 - Subconjuntos contínuos de $\large \mathbb R$ e funções reais
@@ -47,7 +47,7 @@ A \arrow[r, "f", LA] \arrow[LA, rd, "g \circ f", bend right] & B \arrow[LA, d, "
 \end{document}
 ```
 ### Comutatividade
-Dizemos que um [[#diagrama]] comuta quando entre quaisquer dois caminhos entre um par de categorias, o resultado da composição dos morfismos neste caminho é o mesmo.
+Dizemos que um [[#diagrama]] comuta quando entre quaisquer dois caminhos entre um par de categorias, o resultado da composição dos morfismos nestes caminhos é o mesmo.
 ### Isomorfismo e Inversão
 Um morfismo $f: A \to B$ é dito um isomorfismo quando existe algum morfismo $g: B \to A$ em $\mathcal C$ tal que
 $$\large g \circ f = 1_A\ \land f \circ g = 1_B$$
@@ -88,10 +88,10 @@ O objeto terminal é o dual do objeto inicial, $\large A$ é dito o objeto termi
 
 Para qualquer par de objetos iniciais ou finais em uma categoria deve existir um [[Categoria#Isomorfismo e Inversão|isomorfismo]] entre eles.
 
-Na [[Léxico de Categorias Comuns#Categoria dos Conjuntos|categoria dos conjuntos]] ($\large \text{Set}$), o objeto inicial da categoria é o [[Conjunto#Conjunto Vazio|conjunto vazio]], enquanto qualquer conjunto de um elemento (_singleton_) é um objeto terminal. É trivial que entre qualquer par de _singletons_ existe um único mapa de um para outro, que é isomórfico.
+Na [[Léxico de Categorias Comuns#Categoria dos Conjuntos|categoria dos conjuntos]] $\large \text{Set}$, o objeto inicial da categoria é o [[Conjunto#Conjunto Vazio|conjunto vazio]], enquanto qualquer conjunto de um elemento (_singleton_) é um objeto terminal. É trivial que entre qualquer par de _singletons_ existe um único mapa de um para outro, que é isomórfico.
 ## Produto Categórico
 
-Sejam $\large \textbf A$ e $\large \textbf B$ [[Categoria|categorias]], o produto categórico $\large \textbf A \times \textbf B$ tem as propriedades do [[Conjunto#Produto Cartesiano|produto cartesiano]] entre os objetos e morfismos das categorias. O produto é uma categoria que tem duplas de objetos e morfismos do tipo $\large (f,g):(A,B) \to (A',B')$ para morfismos do tipo $\large f: A \to A'$ e $\large g: B \to B'$  nas categorias originais $\large (A,A')\in \textbf A$,$\large (B,B')\in \textbf B$.
+Sejam $\large \textbf A$ e $\large \textbf B$ [[Categoria|categorias]], o produto categórico $\large \textbf A \times \textbf B$ tem as propriedades do [[Conjunto#Produto Cartesiano|produto cartesiano]] entre os objetos e morfismos das categorias. O produto categórico é uma categoria que tem duplas de objetos e morfismos do tipo $\large (f,g):(A,B) \to (A',B')$ para morfismos do tipo $\large f: A \to A'$ e $\large g: B \to B'$  nas categorias originais $\large (A,A')\in \textbf A$,$\large (B,B')\in \textbf B$.
 
 Logicamente, existem projeções para essas duplas da forma
 $$\large

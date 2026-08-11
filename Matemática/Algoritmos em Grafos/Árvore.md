@@ -20,7 +20,7 @@ O caminho entre dois vértices de uma árvore não-orientada é sempre único, o
 Uma árvore não orientada sempre terá $\large |V| - 1$ arestas, que é o mínimo possível de arestas necessárias para manter um grafo conexo.
 ## Árvore Binária
 
-Uma árvore binária é uma [[#Árvore Enraizada|árvore enraizada]] [[Digrafo|direcionada]] onde cada nó é hierarquicamente superior a, no máximo, dois outros nós, o conjunto de um nó e todos os nós alcançáveis a partir de algum nó é uma subárvore que também é uma árvore binária. A raiz de uma árvore binária sempre é o único nó que não possui nó pai.
+Uma árvore binária é uma [[#Árvore Enraizada|árvore enraizada]] [[Digrafo|direcionada]] onde cada nó é diretamente hierarquicamente superior a, no máximo, dois outros nós, o conjunto de um nó e todos os nós alcançáveis a partir de algum nó é uma subárvore que também é uma árvore binária. A raiz de uma árvore binária sempre é o único nó que não possui nó pai.
 
 A árvore binária é comumente usada como uma estrutura relacional ordenada de dados. Os elementos relacionais de uma árvore normalmente são interpretados em:
 - Pré Ordem: Raiz > Subárvore Esquerda > Subárvore Direita ([[Heap Binária|Heap Binária]])
@@ -36,6 +36,7 @@ De forma geral, para um determinado vértice, cada arco do seu respectivo [[Digr
 Árvores de decisão podem ser criada como modelos de aprendizado estatístico (normalmente modelos de [[Classificação|classificação]]) por meio de métodos de [[boosting]].
 
 ## Árvore Enraizada
+
 A [[Digrafo#Árvore Enraizada|árvore enraizada]] é um digrafo acíclico fracamente conexo qual existe alguma raiz a qual pode existe um caminho da raiz até todos os demais vértices no digrafo. De forma geral, a árvore enraízada é uma árvore onde cada nó possui no máximo um nó que aponta para si, definido como pai, e algum número de nós para qual ele aponta, esses nós são definidos como filhos.
 
 Em implementações da árvore enraízada é comum um filho conhecer o seu nó pai por questões de desempenho, a caracterísitca determinante da árvore enraízada é a hierarquia entre o pai e seus filhos. A subárvore formada por todos os nós alcançáveis a partir de determinado nó é dita a subárvore do vértice, essas subárvores são particularmente úteis para algoritmos de busca recursivos ou algoritmos de decisão.

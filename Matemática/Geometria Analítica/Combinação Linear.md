@@ -8,7 +8,7 @@ authors: Júlio César
 
 Uma combinação linear é um somatório de [[vetor]] ponderados. Seja $\lambda_i \in \mathbb{R}$ qualquer escalar:
 $$\Large\vec{\omega} = \sum_{i =1}^{n} \vec{v_i} \lambda_i$$
-Dizemos que $\vec{\omega}$ é combinação linear dos vetores $\{\vec{v_1},\ ...,\ \vec{v_i}\}$.
+Dizemos que $\vec{\omega}$ é combinação linear dos vetores $\large\{\vec{v_1},\ ...,\ \vec{v_i}\}$.
 ## Dependência Linear
 
 Um grupo de vetores é considerado linearmente dependente ($\text{LD}$) se somente se houver como escrever um vetor do grupo como combinação linear dos demais, caso contrário, este grupo de vetores é determinado linearmente independente ($\text{LI}$). Quaisquer vetores não nulos e não paralelos são linearmente independente. Podemos assumir que:

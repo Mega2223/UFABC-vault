@@ -2,7 +2,6 @@
 tags:
   - matemática
   - cálculo
-  - incompleto
 ---
 ## Definição
 
@@ -21,14 +20,22 @@ x \frac{dz}{dx} + z = F(z) \implies
 que é [[Equação Diferencial Separável|separável]]. Por exemplo, para a EDO$$\large \frac{dy}{dx} = \frac{x+y}{x-y}$$
 Temos que ela é homogênea de grau 0:
 $$\large \frac{\lambda x- \lambda y}{\lambda x + \lambda y} = \frac{\lambda (x-y)}{\lambda(x+y)} = \frac{x-y}{x+y}$$
-Fazendo as substituições $\large y = zx$ e $\large dy/dx = x\ dz/dx$:
+Fazendo as substituições $\large y = zx$ e $\large dy/dx = x\ dz/dx + z$:
 $$\large 
 \begin{gather}
-x\frac{dz}{dx} + z =\frac{x-zx}{x+zx} = \frac{1-z}{1+z} \\
-\frac{dz}{dx}  = \frac 1 x \bigg [\frac{1-z}{1+z} -z \bigg ]\\
+
+
 \end{gather}$$
 Que é separável
-$$\large \begin{gather} 
- \frac 1x dx = 
+
+$$\large \begin{gather}
+\frac{dy}{dx} = \frac{1+\frac{y}{x}}{1-\frac{y}{x}} \implies x \frac{dz}{dx} +z = \frac{1+z}{1-z} \\
+\frac{dz}{dx} = \frac 1 x \bigg[ \frac{1+z}{1-z} -z\bigg ] \implies
+\frac{dz}{dx}  = \frac 1 x \frac{1+z^{2}}{1-z}
 \end{gather}$$
-// TODO Pg 65 - que 
+Que é separável
+$$\large
+\begin{gather}
+ \int\frac{1-z}{1+z^{2}} dz = \int \frac1 x dx  \implies \arctan z - \frac 1 2 \ln(1+z²) = \ln x + C \\
+  \arctan \frac y x - \frac 1 2 \ln(1+\bigg(\frac y x\bigg)^2) = \ln x + C 
+\end{gather}$$

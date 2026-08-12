@@ -25,10 +25,10 @@ Fazendo as substituições $\large y = zx$ e $\large dy/dx = x\ dz/dx$:
 $$\large 
 \begin{gather}
 x\frac{dz}{dx} + z =\frac{x-zx}{x+zx} = \frac{1-z}{1+z} \\
-\frac{dz}{dx} = \frac 1 x \frac{1-z}{1+z}- z =
+\frac{dz}{dx}  = \frac 1 x \bigg [\frac{1-z}{1+z} -z \bigg ]\\
 \end{gather}$$
 Que é separável
 $$\large \begin{gather} 
- dz  = dx
+ \frac 1x dx = 
 \end{gather}$$
 // TODO Pg 65 - que 

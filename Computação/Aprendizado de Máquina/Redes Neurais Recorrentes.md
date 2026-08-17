@@ -1,0 +1,6 @@
+---
+tags:
+  - algoritmo
+  - incompleto
+  - computação
+---

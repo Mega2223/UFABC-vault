@@ -32,3 +32,4 @@ Pode ser resolvida pela integração de cada fator, veja [[Equação Diferencial
 Uma função $\large f(x,y)$ é dita homogênea de grau $\large n$ quando $\large \forall \lambda \in \mathbb R$
 $$\large f(\lambda x, \lambda y) =\lambda^nf(x,y)$$
 Por exemplo, a função $\large x^2 + xy + y^2$ é homogênea de segundo grau.
+

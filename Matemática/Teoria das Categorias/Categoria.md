@@ -15,7 +15,7 @@ Uma categoria é uma coleção de dois tipos de objetos: os objetos da categoria
 - Para qualquer objeto $A$ existe um morfismo identidade $1_A: A \to A$ onde para qualquer outro functor $f: A \to B$ temos que $f \circ 1_A = 1_B \circ f = f$ 
 
 São exemplos válidos de categoria:
-- [[Função|Funções]] e [[conjunto|conjuntos]]
+- [[Função|Funções]] e [[Conjunto|conjuntos]]
 - [[Espaço Vetorial|Espaços vetoriais]] e [[Transformação Linear|transformações lineares]]
 - [[Grafo|Grafos]], [[digrafo|digrafos]] e [[pseudografo|pseudografos]], com seus vértices como objetos e arcos como morfismos
 - Subconjuntos contínuos de $\large \mathbb R$ e funções reais

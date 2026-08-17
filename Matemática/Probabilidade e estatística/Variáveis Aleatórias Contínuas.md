@@ -8,7 +8,7 @@ authors: Júlio César
 
 ## Definição
 
-Em certos casos, estamos estudando probabilidades em espaços contínuos, onde a distribuição se dá em uma função ponderada de $x$ e $P(x)$, para esses casos, cada valor $x$ tem probabilidade 0, então só se pode calcular intervalos de probabilidade por meio da [[integral]]:
+Em certos casos, estamos estudando probabilidades em espaços contínuos, onde a distribuição se dá em uma função ponderada de $x$ e $P(x)$, para esses casos, cada valor $x$ tem probabilidade 0, então só se pode calcular intervalos de probabilidade por meio da [[Integral]]:
 
 $$\Large P(a<x<b) = \int_a^bf(x)dx$$
 

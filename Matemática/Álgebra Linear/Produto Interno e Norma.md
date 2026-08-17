@@ -6,7 +6,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Seja $\large V$ um [[espaço vetorial]] qualquer, $\large (u,v,w) \in V$ quaisquer vetores, o produto interno $\large \langle \ \ , \ \ \rangle: V \to \mathbb R$ é uma [[função]] onde
+Seja $\large V$ um [[espaço vetorial]] qualquer, $\large (u,v,w) \in V$ quaisquer vetores, o produto interno $\large \langle \ \ , \ \ \rangle: V \to \mathbb R$ é uma [[Função]] onde
 $$\Large
 \begin{gather}
 \langle v,w \rangle = \langle w,v \rangle \\
@@ -42,5 +42,5 @@ Em $\large \mathbb R^{m\times n}$ o produto interno pode ser definido como o pro
 $$\large \langle A,B \rangle := \sum_i^m \sum_j^n a_{ij} b_{ij}$$
 
 ### Funções Contínuas
-Sejam $\large f,g \in V$ funções reais contínuas no intervalo $\large (a,b) \subseteq \mathbb R$, o produto interno pode ser dado de acordo com a [[integral]] da função no intervalo:
+Sejam $\large f,g \in V$ funções reais contínuas no intervalo $\large (a,b) \subseteq \mathbb R$, o produto interno pode ser dado de acordo com a [[Integral]] da função no intervalo:
 $$\large \langle f,g \rangle := \int_a^b f(x) g(x) dx $$

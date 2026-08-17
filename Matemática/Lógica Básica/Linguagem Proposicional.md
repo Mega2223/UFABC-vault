@@ -74,7 +74,7 @@ $$
 
 ## Valoração
 
-A [[função]] de valoração é uma função que mapeia cada expressão proposicional para um valor verdade
+A [[Função]] de valoração é uma função que mapeia cada expressão proposicional para um valor verdade
 $$\large
 \begin{gather}
 V: \mathcal L_\text{LP} \to \{0,1\} \\ \\

@@ -9,7 +9,7 @@ authors: Júlio César
 
 Uma Equação Diferencial Ordinária (EDO) é uma [[equação diferencial]] com uma única variável independente. De forma geral, uma EDO é uma equação que pode ser dada como
 $$\large F(x,y,y',\cdots,y^{(n)}) = 0$$
-Onde $\large y$ é uma variável dependente de (uma [[função]] em) $\large x$, da forma $\large y = y(x)$. Essa equação é dita uma equação diferencial da $\large n$-ésima ordem, por exemplo
+Onde $\large y$ é uma variável dependente de (uma [[Função]] em) $\large x$, da forma $\large y = y(x)$. Essa equação é dita uma equação diferencial da $\large n$-ésima ordem, por exemplo
 $$\large e^x = 6y\ y' - y''$$
 É uma EDO da segunda ordem.
 ### Forma Normal

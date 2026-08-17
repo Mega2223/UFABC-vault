@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Em teoria de sinais, ondas sinusoides são [[sinal|sinais]] analógicos em [[funções trigonométricas]] na forma
+Em teoria de sinais, ondas sinusoides são [[sinal|sinais]] analógicos em [[Funções Trigonométricas]] na forma
 $$\large x(t) = A \cos(2 \pi \cdot f \cdot t + \phi)$$
 
 Onde

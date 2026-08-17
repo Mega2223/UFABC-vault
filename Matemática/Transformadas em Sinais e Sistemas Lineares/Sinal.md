@@ -8,11 +8,11 @@ tags:
 
 Um sinal é uma medida de informação sobre algum fenômeno em relação algum [[Função|domínio]], que normalmente é o tempo.
 ### Sinal Discreto
-É um sinal que pode ser representado em termos de uma [[função]] discreta, é dada a notação
+É um sinal que pode ser representado em termos de uma [[Função]] discreta, é dada a notação
 $$\large x[n]$$
 para representar o valor do sinal $\large x$ no quadro $\large n$.
 ### Sinal Contínuo
-É um sinal que pode ser representado em termos de uma [[função]] [[Limite#Continuidade|contínua]], é dada a notação
+É um sinal que pode ser representado em termos de uma [[Função]] [[Limite#Continuidade|contínua]], é dada a notação
 $$\large x(t)$$
 para representar a magnitude do sinal $\large x$ no instante $\large t$ (que normalmente é medido em segundos). Sinais podem representar vários fenômenos físicos, em telecomunicações são tipos comuns de sinais de domínio temporal:
 - Ondas de rádio

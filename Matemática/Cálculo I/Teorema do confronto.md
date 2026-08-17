@@ -4,7 +4,7 @@ tags:
   - cálculo
   - "#matemática"
 ---
-O teorema do confronto é um teorema que nos ajuda a encontrar o [[limite]] de uma função com uma indefinição em onde estamos tentando a analisar.
+O teorema do confronto é um teorema que nos ajuda a encontrar o [[Limite]] de uma função com uma indefinição em onde estamos tentando a analisar.
 
 O teorema implica que, sejam $a$, $b$ e $f$ funções, e $a$ e $b$ contínuas em $x \in \mathbb{R}$ e
 

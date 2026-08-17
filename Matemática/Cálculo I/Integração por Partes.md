@@ -6,7 +6,7 @@ authors: Júlio César
 ---
 ## Definição
 
-É uma técnica de cálculo da integral de produtos, é a regra inversa a [[Derivada#Propriedades|regra do produto]] da [[derivada]], podemos chegar na seguinte propriedade das [[Integral#Integral indefinida|integrais indefinidas]], se nossa integral é do tipo
+É uma técnica de cálculo da integral de produtos, é a regra inversa a [[Derivada#Propriedades|regra do produto]] da [[Derivada]], podemos chegar na seguinte propriedade das [[Integral#Integral indefinida|integrais indefinidas]], se nossa integral é do tipo
 $$\large \int f(x) g'(x) + f'(x)g(x)\ dx= f(x)g(x)$$
 Então
 $$\large \int f(x) g'(x)\ dx = f(x)g(x) - \int g(x)f'(x)\ dx$$

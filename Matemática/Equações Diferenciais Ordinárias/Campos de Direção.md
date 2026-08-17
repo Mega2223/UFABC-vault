@@ -18,7 +18,7 @@ $$\large \begin{gather}
 \frac  1 2 \ln|y| = \frac{3x^2}{2} + C \\ 
 \ln|y| = 3x^2 + C \\ 
 |y| = e^{3x^2 + C} \\
-y = e^{3x^2}e^C \to y=e^{3x^2}A,\ A \in \mathbb R^+
+y = e^{3x^2}e^C \leftrightarrow y=e^{3x^2}A,\ A \in \mathbb R^+
 \end{gather}$$
 Que tem um campo de direção
 

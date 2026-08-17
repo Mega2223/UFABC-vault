@@ -7,7 +7,7 @@ authors: Júlio César
 ---
 ## Definição
 
-Um monoide é um [[conjunto]] $\large M$ com uma única operação binária $\large \cdot : M \times M \to M$ e algum determinado elemento 'unitário' $\large u \in M$ tal que
+Um monoide é um [[Conjunto]] $\large M$ com uma única operação binária $\large \cdot : M \times M \to M$ e algum determinado elemento 'unitário' $\large u \in M$ tal que
 
 $$\large\begin{gather}
 \forall [x,y,z] \in M: (x \cdot y) \cdot z = x \cdot (y \cdot z) \\ \\

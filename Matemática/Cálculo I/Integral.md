@@ -31,8 +31,8 @@ A integral indefinida é o conjunto de funções que informam sobre o comportame
 $$\large F(x) + C =\int f(x) dx \iff \int_a^b f(x)dx =  F(x) \bigg|^b_a \ \forall (a,b)\in I \subseteq \mathbb{R}$$
 
 onde $C$ é qualquer constante. De forma geral, $\large F(x) + C$ é a coleção de todas as funções cuja a derivada é $\large f(x)$.
-### Relação com a [[derivada]]
-A função $\large F$ é uma anti[[derivada]] de $\large f$, ou seja, $\large f' = F$, assim, a integral definida de uma determinada função é a família de antiderivadas da função, segue que:
+### Relação com a [[Derivada]]
+A função $\large F$ é uma anti[[Derivada]] de $\large f$, ou seja, $\large f' = F$, assim, a integral definida de uma determinada função é a família de antiderivadas da função, segue que:
 $$\large \frac{d}{dx}\int f(x)\ dx= f(x)$$
 
 ## Propriedades da integral

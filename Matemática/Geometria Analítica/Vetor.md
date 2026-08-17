@@ -16,7 +16,7 @@ Vetor é uma representação com módulo, direção e sentido de uma grandeza f�
 
 O vetor é utilizado para quantificar quantidades que não podem ser expressadas por um número real, ele é considerado um tensor de primeira ordem.
 
-A [[derivada]] de um vetor também é um vetor, no cálculo vetorial pode ser notada de várias formas.
+A [[Derivada]] de um vetor também é um vetor, no cálculo vetorial pode ser notada de várias formas.
 
 No #cálculo e na #geometria-analitica, as notações $d/dx$ e $x"$ tendem a ser mais comuns, enquanto na #física a notação convencional da derivada de um vetor é $\dot{x}$ ou até mesmo $\nabla x$.
 

@@ -9,7 +9,7 @@ aliases:
 
 A derivada é a taxa de mudança instantânea de uma variável dependente em relação à uma variável independente. A derivada é comumente usada em sistemas de função, onde $\large x$ é a variável independente e $\large f(x)$ ou $\large y$ é a variável dependente de $\large x$.
 
-A derivada é definida por um [[limite]], onde:
+A derivada é definida por um [[Limite]], onde:
 $$\large f'(x) = \lim_{h\to 0}{\frac{f(x+h)-f(x)}{h}}$$
 Como $\large h \to 0$, é necessário entender a função para descobrir este limite. O número resultante do limite é o coeficiente angular da reta paralela ao ponto $\large x$ na função $\large f$.
 

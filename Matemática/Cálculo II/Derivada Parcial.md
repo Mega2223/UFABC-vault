@@ -13,7 +13,7 @@ Temos que se o ponto é diferenciável, temos potencialmente $\large n$ derivada
 $$\large \frac{\partial f(x_1,\dots,x_n)}{\partial x_i}$$
 Ela é encontrada fixando as demais variáveis como constantes e a derivando como uma função de uma variável, por exemplo, para uma função de tipo
 $$\large f(x,y,z) = 3x^2-y  \sin z$$
-Para um determinado ponto $\large (x_i,y_i,z_i)$, suas derivadas parciais são dadas por
+tem suas derivadas parciais são dadas por
 $$\large
 \begin{gather}
 \frac{\partial f}{\partial x} = 6x \\\\ 

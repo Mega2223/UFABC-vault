@@ -7,7 +7,9 @@ tags:
 
 Um Multi-Layer Perceptron (MLP) é uma [[rede neural]] que é constituída de um encadeamento de camadas de [[Perceptron|perceptrons]] e funções de ativação, de forma que o valor-saída calculado do perceptron na $\large n$-ésima camada se dá pela soma dos valores da camada $\large n-1$ passados por alguma determinada [[#Funções de Ativação|função de ativação]].
 
-O MLP é um modelo que é constituído de uma camada de entrada, uma camada de saída e algum número de camadas internas, que são ditas camadas ocultas, cada camada possui uma determinada função de ativação não linear.
+O MLP é um modelo que é constituído de uma camada de entrada, uma camada de saída e algum número de camadas internas, que são ditas camadas ocultas, cada camada possui uma determinada função de ativação não linear. Por exemplo, uma topologia de um MLP de tipo $\large f: \mathbb R^3 \to \mathbb R^2$ pode se dar por:
+
+![[Pasted image 20260822223313.png|center|400]]
 
 A rede neural é dividida em um determinado número de $\large L$ camadas, onde um perceptron de uma determinada camada $\large l$ comuta todos os perceptrons da camada anterior com seus pesos locais. Tendo $\large N_l$ o número de perceptrons na camada $\large l$, temos que existem $\large N_{l-1}$ vetores de pesos para cada perceptron em $l$, podemos representar essa relação em duas matrizes, onde a camada $\large l$ é representada pela matriz $\large W^l \in \mathbb R ^{N_l \times N_{l-1}}$ e a matriz $\large b^l \in \mathbb R^{N_l}$:
 $$\large 

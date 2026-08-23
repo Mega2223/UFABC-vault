@@ -67,12 +67,14 @@ a \lor (b \land c) = (a \lor b) \land (a \lor c)
 
 São teoremas [[Linguagem Proposicional|proposicionais]] que são utilizados na álgebra booleana.
 $$
+\large
 \begin{gather}
 \lnot (P \land Q) \iff \lnot (\lnot P \lor \lnot Q) \\
 \lnot (P \lor Q) \iff \lnot (\lnot P \land \lnot Q)
 \end{gather}$$
 Traduzidos para sua forma algébrica, ficam
 $$
+\large
 \begin{gather}
 \overline {(P \land Q)} = \overline {(\overline P \lor \overline Q)} \\
 \overline {(P \lor Q)} = \overline {(\overline P \land \overline Q)}

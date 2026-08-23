@@ -31,15 +31,17 @@ $$
 
 Temos que a saída do nó $\large n$ na camada $\large l$ antes da [[#Funções de Ativação|ativação]] se dá por
 $$\Large z_n^l = \sum^{N_{l-1}}_{k=1}w_{nk}^la_k^{l-1} + b^l_n$$
-O valor de todas as saídas da camada é dada pelo vetor $\large z^l$ em forma da operação matricial:
+A saída pós ativação desse mesmo nó se dá por
+$$\Large a^l_n = \sigma(z^l_n)$$
+O valor de todas as saídas pré-ativação da camada é dada pelo vetor $\large z^l$ em forma da operação matricial:
 $$
-\large
+\Large
 \begin{align}
 z^l \in \mathbb R^{N_l} :=  W^l a^{l-1} + b^l 
 \end{align}$$
 E a da camada $\large l$ dada uma determinada função de ativação $\large \sigma: \mathbb R \to \mathbb R$ é dada por $\large a^{l}$, de forma que
-$$\large a^l \in \mathbb R^{N_l} := \sigma(z^l)$$
-Notavelmente isso só funciona caso $\large 2 \le l \le L$, para $\large l=1$ estamos em uma camada de entrada, os valores são dados pelos dados do modelo, o resultado de $\large a^L$ é o nosso vetor de saída.
+$$\Large a^l \in \mathbb R^{N_l} := \sigma(z^l)$$
+Notavelmente isso só funciona caso $\large 2 \le l \le L$, para $\large l=1$ estamos em uma camada de entrada, os valores são dados pelos dados do modelo, o resultado de $\large a^l$ é o nosso vetor de saída.
 ## Treinamento
 
 Os hiperparâmetros de um MLP são os valores escalares das matrizes $\large W= \{W_1,W_2,\dots,W_L\}$ e dos vieses $\large b= \{b^2,\dots,b^L\}$, visamos encontrar um conjunto de hiperparâmetros que minimizem o [[Função de Perda#Risco Empírico|risco empírico]] do nosso conjunto de treinamento $\large D_m$
@@ -51,7 +53,7 @@ J(W,b) = \frac{1}{m} \sum_{i=1}^m
 \end{gather}
 $$
 - Para problemas de [[regressão]] e [[classificação]] tipicamente se usa a [[Função de Perda#Função de Perda Quadrática|função de perda quadrática]] em $\large \ell$
-- // cross entropy todo
+- // TODO: cross entropy
 
 ### Taxa de Aprendizado e Backpropagation
 Geralmente queremos otimizar a rede neural por meio de um [[Algoritmos Gulosos|algoritmo guloso]] que visa seguir um determinado gradiente a fim de minimizar nosso erro, assim, a [[Perceptron#Função de Perda|função de perda]] $\large \ell_{\text{pct}}$ não é ideal pois esta não é diferenciável em nenhum ponto[^2]. De forma geral, uma fase de treinamento é da forma
@@ -59,7 +61,7 @@ $$\large (W^*,b^*) = (W,b) - \eta \nabla (W,b) $$
 Dizemos que $\large \eta$ é a nossa taxa de aprendizado. O gradiente $\large \nabla (W,b)$ é calculado por meio de retro-propagação, ou backpropagation, de forma geral, observamos algum determinado ponto $\large (x_i,y_i)$, considerando o uso da função de perda quadrática, temos que
 $$\large j_i(W,b) = \sum^{N_l}_{s=1} \bigg( \overline
 y - f_s(x_i) \bigg) ^2$$
-O gradiente calculado para cada um dos elementos é dado por
+O [[Vetor Gradiente|gradiente]] calculado para cada um dos elementos é dado por
 $$\large \frac{\partial}{\partial\ w^l_{nk}} j_i (W,b)$$
 // todo termina isso
 // eu acho melhor generalizar a jacobiana para qualquer função de ativação em vez de fazer igual o saul fez, até pq me parece q a ReLU é mais comum
@@ -75,7 +77,7 @@ Tem um formato semelhante à função logística / sigmoide, é limitada e difer
 $$\large \sigma(z) = \max\{0,z\}$$
 Extremamente rápida, todavia para $z \lt 0$ temos um gradiente nulo, e o neurônio efetivamente morre e nunca é reativado, para retificar este problema pode-se usar a função Leaky ReLU
 $$\large \sigma(z) = \max\{\alpha z,z \}$$
-Onde $\alpha$ é um valor pequeno
+Onde $\large \alpha$ é um valor pequeno
 
 ## Todo lol
 // TODO explica o que é tunagem

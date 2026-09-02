@@ -17,3 +17,4 @@ $$\large \begin{gather}
 f: \mathbb R^n \to \mathbb R^m \\
 f(x_1, \dots,x_n)= \langle f_1 (x_1, \dots,x_n) ,\ \dots ,\ f_m(x_1, \dots,x_n) \rangle
 \end{gather}$$
+O que é particularmente útil para encontrar a [[jacobiana]] de uma matriz.

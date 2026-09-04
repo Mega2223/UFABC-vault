@@ -22,6 +22,6 @@ O que é particularmente útil para encontrar a [[jacobiana]] de uma matriz.
 ## Limite e Continuidade
 
 Seja $\large f : U \subseteq \mathbb R^n \to \mathbb R$ uma função, o [[limite]] de $\large f$ em um determinado ponto $\large \mathbf x_0$ é para ondem tende qualquer caminho de pontos arbitrários em seu domínio, temos que
-$$\begin{gather}\Large \lim_{(x_1,\ \dots,\ x_n) \to (a_1,\ \dots,\ a_n)} f(x_1,\dots,x_n) = L  \\ {\Huge\Updownarrow} \\
+$$\begin{gather}\Large \lim_{\mathbf x \to \mathbf x_0 } f(\mathbf x ) = L  \\ {\Huge\Updownarrow} \\
  \large \forall \epsilon > 0\ \exists \delta > 0\ \forall \mathbf x \in U: 0\lt  ||\mathbf x - \mathbf x_0|| \lt \epsilon \implies f(\mathbf x) - L \lt \delta 
 \end{gather}$$

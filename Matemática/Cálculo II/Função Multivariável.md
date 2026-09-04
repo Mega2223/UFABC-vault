@@ -25,3 +25,4 @@ Seja $\large f : U \subseteq \mathbb R^n \to \mathbb R$ uma função, o [[limite
 $$\begin{gather}\Large \lim_{\mathbf x \to \mathbf x_0 } f(\mathbf x ) = L  \\ {\Huge\Updownarrow} \\
  \large \forall \epsilon > 0\ \exists \delta > 0\ \forall \mathbf x \in U: 0\lt  ||\mathbf x - \mathbf x_0|| \lt \epsilon \implies f(\mathbf x) - L \lt \delta 
 \end{gather}$$
+De forma análoga ao limite em $\large \mathbb R$, uma função multivariável é contínua em $\large \mathbf x_0$ se e somente se $\large \lim_{\mathbf x \to \mathbf x_0} = \mathbf x_0$.

@@ -104,7 +104,7 @@ Para qualquer conjunto de vetores temos que o conjunto é linearmente independen
 $$\large\begin{gather}
 {\Large\sum_{i=1}^n a_i\mathbf v_i} =\textbf 0 \end{gather}$$
 é o grupo $\large a_i = 0\ \forall i \in \{1,...,n \}$, caso exista algum outro grupo que também satisfaça essa equação, dizemos que $\large S$ é linearmente dependente (**LD**).
-### Propriedade
+### Propriedades
 - O vetor nulo pode ser construído com qualquer vetor, $\large \textbf 0 = 0\textbf v$, ou seja, todo conjunto com vetor nulo é LD.
 - Se $\large S = \{\textbf v\}$ e $\large \textbf v \ne \textbf 0$ , então $\large S$ é LI
 ## Relacionado

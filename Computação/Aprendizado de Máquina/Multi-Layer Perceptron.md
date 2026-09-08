@@ -61,8 +61,34 @@ $$\large (W^*,b^*) = (W,b) - \eta \nabla (W,b) $$
 Dizemos que $\large \eta$ é a nossa taxa de aprendizado. O gradiente $\large \nabla (W,b)$ é calculado por meio de retro-propagação, ou backpropagation, de forma geral, observamos algum determinado ponto $\large (x_i,y_i)$, considerando o uso da função de perda quadrática, temos que
 $$\large j_i(W,b) = \sum^{N_l}_{s=1} \bigg( \overline
 y - f_s(x_i) \bigg) ^2$$
-O [[Vetor Gradiente|gradiente]] calculado para cada um dos elementos é dado por
-$$\large \frac{\partial}{\partial\ w^l_{nk}} j_i (W,b)$$
+Cada elemento de $\large (W^l,b^l)$ tem seu gradiente calculado de acordo com a regra de cadeia, de forma geral, para a camada $\large L$, temos que
+$$\large \begin{gather} 
+\ell = \sum_i (y_i - a^L_i)^2  \\
+\end{gather}
+$$
+Onde
+
+$$\large \begin{gather}
+z^L = W^La^{L-1} + b^L \\
+z^L_n = w_{n1} a_1^{L-1} +  w_{n2} a_2^{L-1} + \dots w_{n{N_{L-1}}} a_{N_{L-1}}^{L-1} \\
+a^L =  \sigma^L(z^L) \\
+a^L_i = \sigma^L(z^L_i)
+\end{gather}$$
+A derivada parcial de $\large w^L_{nk}$ se dá por
+$$\large\begin{gather}
+\frac{\partial \ell}{\partial w^L_{nk}} =
+\frac{\partial z^L_{n} }{\partial w^L_{nk}} \frac{\partial\ell}{\partial z^L_{n}} =
+\frac{\partial z^L_{n} }{\partial w^L_{nk}} \frac{\partial a^L_n}{\partial z^L_{n}} \frac{\partial \ell }{a^L_{n}} \\\\ 
+\end{gather}$$
+Onde
+$$\large \begin{gather}
+\frac{\partial z^L_{n} }{\partial w^L_{nk}}  = \frac{ \partial}{\partial w^L_{nk}}  \sum_{i=1}^{N_{l-1}} a^{L-1}_i w^L_{n i} = a^{L-1}_k  \\\\
+\frac{\partial a^L_n}{\partial z^L_{n}} = (\sigma^L)' (z^L_n) \\\\
+\frac{\partial \ell }{a^L_{n}} = \frac{\partial}{\partial a_n^L} \sum_i (y_i - a^L_n)^2 = \frac\partial{\partial a^L_n} (y_n - a^L_n)^2 = 2y_n - 2a^L_n \\
+\end{gather}$$
+
+
+
 // todo termina isso
 // eu acho melhor generalizar a jacobiana para qualquer função de ativação em vez de fazer igual o saul fez, até pq me parece q a ReLU é mais comum
 

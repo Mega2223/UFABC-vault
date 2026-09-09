@@ -67,14 +67,13 @@ $$\large \begin{gather}
 \end{gather}
 $$
 Onde
-
 $$\large \begin{gather}
 z^L = W^La^{L-1} + b^L \\
 z^L_n = w_{n1} a_1^{L-1} +  w_{n2} a_2^{L-1} + \dots w_{n{N_{L-1}}} a_{N_{L-1}}^{L-1} \\
 a^L =  \sigma^L(z^L) \\
 a^L_i = \sigma^L(z^L_i)
 \end{gather}$$
-A derivada parcial de $\large w^L_{nk}$ se dá por
+A derivada parcial de um peso $\large w^L_{nk}$ se dá por
 $$\large\begin{gather}
 \frac{\partial \ell}{\partial w^L_{nk}} =
 \frac{\partial z^L_{n} }{\partial w^L_{nk}} \frac{\partial\ell}{\partial z^L_{n}} =
@@ -86,8 +85,36 @@ $$\large \begin{gather}
 \frac{\partial a^L_n}{\partial z^L_{n}} = (\sigma^L)' (z^L_n) \\\\
 \frac{\partial \ell }{a^L_{n}} = \frac{\partial}{\partial a_n^L} \sum_i (y_i - a^L_n)^2 = \frac\partial{\partial a^L_n} (y_n - a^L_n)^2 = 2y_n - 2a^L_n \\
 \end{gather}$$
-
-
+Para camadas $\large 2 \le l \lt L$, temos que
+$$\large
+\begin{gather}
+\frac{\partial \ell}{\partial w_{nk}^l} = 
+\frac{\partial z_n^l}{\partial w_{nk}^l}
+\frac{\partial a_n^l}{\partial z_n^l}
+\frac{\partial \ell}{\partial a_n^l} \\
+\end{gather}
+$$
+Onde
+$$\large \begin{gather}
+\frac{\partial z^l_{n} }{\partial w^l_{nk}} = a^{l-1}_k
+\\\\
+\frac{\partial a^l_n}{\partial z^l_{n}} = (\sigma^l)'(z^l_n)
+\\\\
+\frac{\partial \ell }{a^l_{n}} = 
+\frac{\partial z^{l+1} }{\partial a^l_{n}}
+\frac{\partial \ell }{\partial z^{l+1}} =
+\begin{bmatrix}
+\partial z^{l+1}_1 / \partial a^l_n \\
+\partial z^{l+1}_2 / \partial a^l_n \\
+\vdots \\
+\partial z^{l+1}_{N_{l+1}} / \partial a^l_n
+\end{bmatrix} \frac{\partial \ell }{\partial z^{l+1}} =
+\begin{bmatrix}
+w^{l-1}_{11} 
+\text{//TODO parei aaq}
+\end{bmatrix}
+\\
+\end{gather}$$
 
 // todo termina isso
 // eu acho melhor generalizar a jacobiana para qualquer função de ativação em vez de fazer igual o saul fez, até pq me parece q a ReLU é mais comum

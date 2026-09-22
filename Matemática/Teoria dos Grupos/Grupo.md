@@ -45,6 +45,9 @@ Dois grupos $\large (G,*), (G',*')$ são isomórficos se existe uma bijeção $\
 $$\large f(a*b) = f(a) *' f(b)$$
 ### Comutação
 Se $\large *$ é comutativa, ou seja, se $\large  \forall b,a \in G: a*b = b*a$, temos que $\large G$ é dito um grupo abeliano.
+
+### Palavra
+Uma palavra em um grupo é a escrita de qualquer sequência de produtos sob o grupo.
 ## Produto Direto
 
 Sejam $\large (G,*), (G',*')$ grupos, o produto direto entre eles é o grupo resultante [[Conjunto#Produto Cartesiano|produto cartesiano]] entre seus conjuntos: $\large G \times G'$, onde a multiplicação se dá por

@@ -97,23 +97,18 @@ $$
 Onde
 $$\large \begin{gather}
 \frac{\partial z^l_{n} }{\partial w^l_{nk}} = a^{l-1}_k
-\\\\
-\frac{\partial a^l_n}{\partial z^l_{n}} = (\sigma^l)'(z^l_n)
-\\\\
+,&
+\frac{\partial a^l_n}{\partial z^l_{n}} = (\sigma^l)'(z^l_n) 
+,&
 \frac{\partial \ell }{a^l_{n}} = 
 \frac{\partial z^{l+1} }{\partial a^l_{n}}
-\frac{\partial \ell }{\partial z^{l+1}} =
-\begin{bmatrix}
-\partial z^{l+1}_1 / \partial a^l_n \\
-\partial z^{l+1}_2 / \partial a^l_n \\
+\frac{\partial \ell }{\partial z^{l+1}} \\ \\
+&z^{l+1} = A^{l+1}a^l+b^{l+1} \\ \\
+& \frac\partial{\partial a_n^l} \begin{bmatrix}
+A^{l+1}_{11} a^l_1 + A^{l+1}_{12} a^l_2 + \dots + A^{l+1}_{1N_l} a^l_{N_l} \\
 \vdots \\
-\partial z^{l+1}_{N_{l+1}} / \partial a^l_n
-\end{bmatrix} \frac{\partial \ell }{\partial z^{l+1}} =
-\begin{bmatrix}
-w^{l-1}_{11} 
-\text{//TODO parei aaq}
-\end{bmatrix}
-\\
+A^{l+1}_{N_{l+1}1} a^l_1 + A^{l+1}_{N_{l+1}2} a^l_1 + \dots + A^{l+1}_{N_{l+1}1 N_l} a^l_1
+\end{bmatrix} =
 \end{gather}$$
 
 // todo termina isso

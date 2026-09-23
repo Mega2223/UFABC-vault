@@ -40,14 +40,21 @@ a^na^m = a^{n+m} \\
 \end{gather}$$
 ### Ordem
 A ordem $\large |G|$ de um grupo é a [[Conjunto#Cardinalidade|cardinalidade]] de seu conjunto $\large G$, um grupo finito cuja cardinalidade é uma potência de um número primo $\large p$ é dito um $\large p$-grupo.
+### Homomorfismo
+Dado dois grupos $\large (G,*), (G',*')$, um homomorfismo de $\large G$ para $\large G'$ é uma função do tipo $\large f: G \to G'$ onde
+$$\large \forall (a,b) \in G: f(a * b) = f(a) *' f(b)$$
+A partir dessa propriedade pode-se presumir que a identidade de $\large G$ é mapeada para a identidade de $\large G'$, e que
+$$\large \forall a \in G: f(a^{-1}) = f(a)^{-1}$$
+Se o homomorfismo $\large f$ for injetivo, ele é um monomorfismo entre os grupos, se ele for uma bijeção, ele é um [[#isomorfismo]] entre os grupos. Um morfismo de mesmo domínio e contradomínio é dito um [[Categoria#Isomorfismo e Inversão|endomorfismo]] de grupos, e um endomorfismo bijetivo é dito um automorfismo de grupos.
 ### Isomorfismo
-Dois grupos $\large (G,*), (G',*')$ são isomórficos se existe uma bijeção $\large f: G \to G'$ entre eles tal que
-$$\large f(a*b) = f(a) *' f(b)$$
+Um isomorfismo entre grupos $\large (G,*), (G',*')$ é uma bijeção $\large f: G \to G'$ entre eles tal que
+$$\large \forall (a,b) \in G: f(a*b) = f(a) *' f(b)$$
+Caso essa bijeção exista, dizemos que os grupos são isomórficos entre si, $\large G \cong G'$.
 ### Comutação
-Se $\large *$ é comutativa, ou seja, se $\large  \forall b,a \in G: a*b = b*a$, temos que $\large G$ é dito um grupo abeliano.
+Se $\large *$ é comutativa, ou seja, se $\large  \forall b,a \in G: a*b = b*a$, $\large G$ é dito um grupo abeliano.
 
 ### Palavra
-Uma palavra em um grupo é a escrita de qualquer sequência de produtos sob o grupo.
+Uma palavra em um grupo é a escrita de qualquer sequência de produtos sob o grupo, uma palavra sob um conjunto de símbolos é uma sequência de símbolos onde todos seus elementos são elementos do conjunto ou seus respectivos inversos.
 ## Produto Direto
 
 Sejam $\large (G,*), (G',*')$ grupos, o produto direto entre eles é o grupo resultante [[Conjunto#Produto Cartesiano|produto cartesiano]] entre seus conjuntos: $\large G \times G'$, onde a multiplicação se dá por

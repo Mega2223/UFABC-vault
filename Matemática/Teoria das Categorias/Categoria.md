@@ -51,7 +51,7 @@ Dizemos que um [[#diagrama]] comuta quando entre quaisquer dois caminhos entre u
 ### Isomorfismo e Inversão
 Um morfismo $f: A \to B$ é dito um isomorfismo quando existe algum morfismo $g: B \to A$ em $\mathcal C$ tal que
 $$\large g \circ f = 1_A\ \land f \circ g = 1_B$$
-Dizemos que $g$ é o inverso de $f$, denotado por $f^{-1}$. Caso exista um isomorfismo entre os objetos $A$ e $B$, dizemos que o objeto $A$ é isomórfico a $B$, notado por
+Dizemos que $\large g$ é o inverso de $\large f$, denotado por $\large f^{-1}$. Caso exista um isomorfismo entre os objetos $\large A$ e $\large B$, dizemos que o objeto $\large A$ é isomórfico a $\large B$, notado por
 $$\huge A \cong B$$
 ## Produto Entre Objetos
 

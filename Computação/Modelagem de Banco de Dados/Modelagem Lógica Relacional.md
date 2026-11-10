@@ -1,0 +1,8 @@
+---
+tags:
+  - incompleto
+  - computação
+---
+## Definição
+
+

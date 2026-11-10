@@ -27,3 +27,25 @@ Todo funcionário registrado na base de dados pertence a esse universo, de forma
 
 ### Atributo-Chave
 Um atributo chave é um atributo que unicamente identifica um determinado objeto (por exemplo, uma placa de carro ou um CPF), ou seja, segue uma regra de exclusividade. Uma entidade pode possuir diversos atributos-chave.
+
+## Relacionamento
+
+Um relacionamento é uma referência entre entidades, que podem ser de tipos distintos, um relacionamento é similar a um tipo de forma que cada relacionamento pertence a um tipo-relacionamento que descreve relacionamentos de estruturas comuns entre si. De forma geral, um tipo-relacionamento $\large R$ entre $\large n$ tipos-entidade é um conjunto de instâncias de relacionamento, onde cada instância pertence ao produto cartesiano dos conjuntos de entidade que participam do relacionamento.
+
+$$\begin{gather}
+\Large R := E_1 \times E_2 \times \dots \times E_n \\\\
+\Large r \in R = (e_1,e_2, \dots, e_n)
+\end{gather}$$
+Cada entidade $\large E_i$ é dita uma participante de $\large R$.
+### Grau de Relação
+O grau de relação é o número de entidades que participam de um determinado relacionamento, se $\large r = (e_1,\dots,e_n)$, o grau de relação do relacionamento é $\large n$.
+### Relacionamentos Como Atributos
+Para relacionamentos binários, um determinado relacionamento pode ser descrito como um atributo de um determinado objeto, onde o atributo guarda uma [[#Atributo-Chave|chave primária]] que aponta para outro objeto.
+### Cardinalidade
+A cardinalidade representa um determinado limite de instâncias de cada participante em uma determinada relação, por exemplo, um relacionamento EMPREGADO/DEPARTAMENTO teria cardinalidade máxima $\large (\infty,1)$, pois cada empregado só trabalha para um único departamento, enquanto um relacionamento EMPREGADO/PROJETO possui cardinalidade $\large (\infty, \infty)$.
+### Atributos
+Relacionamentos também podem ter atributos, por exemplo um relacionamento EMPREGADO/PROJETO pode ter um atributo `horas_trabalhadas` para cada projeto.
+
+## Entidades Fracas e Chaves Parciais
+
+Entidades fracas são entidades que são unicamente identificadas a partir de da combinação de uma entidade relacionada e uma chave, que pode não ser única no universo da entidade. A entidade fraca que é definida por outra entidade é dita a entidade dependente da entidade forte. Duas entidades fracas devem ser unicamente identificáveis se elas pertencem a uma mesma entidade forte, esse identificador é dito uma chave parcial.

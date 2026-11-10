@@ -36,7 +36,7 @@ $$\begin{gather}
 \Large R := E_1 \times E_2 \times \dots \times E_n \\\\
 \Large r \in R = (e_1,e_2, \dots, e_n)
 \end{gather}$$
-Cada entidade $\large E_i$ é dita uma participante de $\large R$.
+Cada entidade $\large e \in E_i$ é dita uma participante de $\large R$.
 ### Grau de Relação
 O grau de relação é o número de entidades que participam de um determinado relacionamento, se $\large r = (e_1,\dots,e_n)$, o grau de relação do relacionamento é $\large n$.
 ### Relacionamentos Como Atributos
